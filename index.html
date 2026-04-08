@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GSIF REIT Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <div class="page">
+
+    <header class="header">
+      <div class="header-left">
+        <div class="header-dot"></div>
+        <div>
+          <h1 class="site-title">GSIF REIT Portfolio</h1>
+          <p class="site-subtitle">CTRE &middot; MAC &middot; XHR &middot; EPRT &middot; MRP &middot; TRNO &middot; SBAC</p>
+        </div>
+      </div>
+      <div class="header-right">
+        <p class="market-date" id="marketDate">—</p>
+        <p class="last-updated" id="lastUpdated">Loading&hellip;</p>
+        <button class="theme-toggle" id="themeToggle" title="Toggle light/dark mode">
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div id="alertBanner" class="alert-banner hidden"></div>
+
+    <nav class="tab-nav" id="tabNav">
+      <button class="tab-btn active" data-tab="overview">Portfolio <span class="tab-badge">Overview</span></button>
+      <button class="tab-btn" data-tab="brief">Today's Brief <span class="tab-badge">New</span></button>
+      <button class="tab-btn" data-tab="CTRE">CTRE <span class="tab-badge sector-badge healthcare">Healthcare</span></button>
+      <button class="tab-btn" data-tab="MAC">MAC <span class="tab-badge sector-badge retail">Retail</span></button>
+      <button class="tab-btn" data-tab="XHR">XHR <span class="tab-badge sector-badge hospitality">Hotel</span></button>
+      <button class="tab-btn" data-tab="EPRT">EPRT <span class="tab-badge sector-badge netlease">Net Lease</span></button>
+      <button class="tab-btn" data-tab="MRP">MRP <span class="tab-badge sector-badge land">Land</span></button>
+      <button class="tab-btn" data-tab="TRNO">TRNO <span class="tab-badge sector-badge industrial">Industrial</span></button>
+      <button class="tab-btn" data-tab="SBAC">SBAC <span class="tab-badge sector-badge tower">Tower</span></button>
+      <button class="tab-btn" data-tab="news">News</button>
+      <button class="tab-btn" data-tab="weekly">End of Week <span class="tab-badge">Sunday</span></button>
+    </nav>
+
+    <!-- PORTFOLIO OVERVIEW TAB -->
+    <div id="tab-overview" class="tab-panel">
+      <div id="portfolioOverview"></div>
+    </div>
+
+    <!-- TODAY'S BRIEF TAB -->
+    <div id="tab-brief" class="tab-panel hidden">
+      <div id="todaysBrief"></div>
+    </div>
+
+    <!-- HOLDING TABS (rendered dynamically) -->
+    <div id="tab-CTRE"  class="tab-panel hidden"><div class="holding-panel" data-ticker="CTRE"></div></div>
+    <div id="tab-MAC"   class="tab-panel hidden"><div class="holding-panel" data-ticker="MAC"></div></div>
+    <div id="tab-XHR"   class="tab-panel hidden"><div class="holding-panel" data-ticker="XHR"></div></div>
+    <div id="tab-EPRT"  class="tab-panel hidden"><div class="holding-panel" data-ticker="EPRT"></div></div>
+    <div id="tab-MRP"   class="tab-panel hidden"><div class="holding-panel" data-ticker="MRP"></div></div>
+    <div id="tab-TRNO"  class="tab-panel hidden"><div class="holding-panel" data-ticker="TRNO"></div></div>
+    <div id="tab-SBAC"  class="tab-panel hidden"><div class="holding-panel" data-ticker="SBAC"></div></div>
+
+    <!-- NEWS TAB -->
+    <div id="tab-news" class="tab-panel hidden">
+      <div class="section">
+        <div class="news-controls">
+          <div class="cat-filters" id="newsCatFilters">
+            <button class="cat-btn active" data-hcat="all">All</button>
+            <button class="cat-btn" data-hcat="portfolio">Portfolio</button>
+            <button class="cat-btn" data-hcat="filing">SEC Filings</button>
+            <button class="cat-btn" data-hcat="signal">Signals</button>
+            <button class="cat-btn" data-hcat="healthcare">Healthcare</button>
+            <button class="cat-btn" data-hcat="retail">Retail</button>
+            <button class="cat-btn" data-hcat="industrial">Industrial</button>
+            <button class="cat-btn" data-hcat="hospitality">Hospitality</button>
+            <button class="cat-btn" data-hcat="towers">Towers</button>
+            <button class="cat-btn" data-hcat="housing">Housing</button>
+          </div>
+        </div>
+        <div id="newsGrid"></div>
+      </div>
+    </div>
+
+    <!-- END OF WEEK TAB -->
+    <div id="tab-weekly" class="tab-panel hidden">
+      <div id="weeklyReport"></div>
+    </div>
+
+    <footer class="footer">
+      <p>Updates automatically after market close Mon&ndash;Fri &amp; Sunday via GitHub Actions &mdash; not investment advice.</p>
+    </footer>
+
+  </div>
+  <script src="assets/app.js"></script>
+</body>
+</html>
