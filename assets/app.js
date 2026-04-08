@@ -651,6 +651,46 @@ function renderBrief(sData) {
     </div>`;
 }
 
+// ── Sector Dropdown ───────────────────────────────────────────
+const SECTOR_DISPLAY_NAMES = {
+  healthcare: 'Healthcare', housing: 'Housing', industrial: 'Industrial',
+  retail: 'Retail / Mall', hospitality: 'Hospitality', netlease: 'Net Lease', tower: 'Tower',
+};
+
+function initSectorDropdown() {
+  const btn  = document.getElementById('sectorDropdownBtn');
+  const menu = document.getElementById('sectorDropdownMenu');
+
+  // Sync initial state
+  document.getElementById('sectorDropdownLabel').textContent = SECTOR_DISPLAY_NAMES[currentSector] || currentSector;
+  document.querySelectorAll('.sector-option').forEach(o => {
+    o.classList.toggle('active', o.dataset.sector === currentSector);
+  });
+
+  btn.addEventListener('click', e => {
+    e.stopPropagation();
+    const opening = menu.classList.contains('hidden');
+    menu.classList.toggle('hidden', !opening);
+    btn.classList.toggle('open', opening);
+  });
+
+  document.querySelectorAll('.sector-option').forEach(li => {
+    li.addEventListener('click', e => {
+      e.stopPropagation();
+      const key = li.dataset.sector;
+      switchSector(key);
+      menu.classList.add('hidden');
+      btn.classList.remove('open');
+    });
+  });
+
+  // Close on outside click
+  document.addEventListener('click', () => {
+    menu.classList.add('hidden');
+    btn.classList.remove('open');
+  });
+}
+
 // ── Sector Switcher ───────────────────────────────────────────
 function switchSector(key) {
   if (!SECTOR_CONFIG[key]) return;
@@ -659,6 +699,14 @@ function switchSector(key) {
   localStorage.setItem('sector', key);
 
   const cfg = SECTOR_CONFIG[key];
+
+  // Sync dropdown label + active option
+  const labelEl = document.getElementById('sectorDropdownLabel');
+  if (labelEl) labelEl.textContent = SECTOR_DISPLAY_NAMES[key] || key;
+  document.querySelectorAll('.sector-option').forEach(o => {
+    o.classList.toggle('active', o.dataset.sector === key);
+  });
+
   document.getElementById('siteTitle').textContent        = cfg.label;
   document.getElementById('siteSubtitle').textContent     = cfg.subtitle;
   document.getElementById('focusTabBtn').innerHTML        = `${cfg.focus} <span class="tab-badge">Focus</span>`;
@@ -716,9 +764,7 @@ async function init() {
     }
 
     // Set up sector dropdown
-    const select = document.getElementById('sectorSelect');
-    select.value = currentSector;
-    select.addEventListener('change', () => switchSector(select.value));
+    initSectorDropdown();
 
     // Initial render
     switchSector(currentSector);
