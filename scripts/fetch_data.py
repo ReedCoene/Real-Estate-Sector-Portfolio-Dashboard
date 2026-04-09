@@ -144,24 +144,34 @@ BROAD_FEEDS = [
     {"source": "Modern Healthcare",   "url": "https://www.modernhealthcare.com/section/rss",               "category": "healthcare"},
     {"source": "CMS Newsroom",        "url": "https://www.cms.gov/newsroom/rss",                           "category": "healthcare"},
     {"source": "STAT News",           "url": "https://www.statnews.com/feed/",                             "category": "healthcare"},
-    # Industrial / Logistics
+    # Industrial / Logistics — REIT + macro (e-commerce, tariffs, reshoring)
     {"source": "Supply Chain Dive",   "url": "https://www.supplychaindive.com/feeds/news/",                "category": "industrial"},
     {"source": "DC Velocity",         "url": "https://www.dcvelocity.com/rss/",                           "category": "industrial"},
     {"source": "FreightWaves",        "url": "https://www.freightwaves.com/news/feed",                     "category": "industrial"},
-    # Housing / Land
+    {"source": "The Loadstar",        "url": "https://theloadstar.com/feed/",                              "category": "industrial"},
+    {"source": "GlobeSt Industrial",  "url": "https://www.globest.com/category/industrial/feed/",          "category": "industrial"},
+    # Housing / Land — REIT + macro (affordability, permits, homebuilding)
     {"source": "HousingWire",         "url": "https://www.housingwire.com/feed/",                          "category": "housing"},
-    # Hospitality
+    {"source": "Calculated Risk",     "url": "https://www.calculatedriskblog.com/feeds/posts/default",     "category": "housing"},
+    {"source": "Multifamily Exec",    "url": "https://www.multifamilyexecutive.com/rss/",                  "category": "housing"},
+    {"source": "GlobeSt Multifamily", "url": "https://www.globest.com/category/multifamily/feed/",         "category": "housing"},
+    # Hospitality — REIT + macro (travel demand, RevPAR, group bookings)
     {"source": "Hotel News Now",      "url": "https://www.hotelnewsnow.com/rss",                           "category": "hospitality"},
-    # Telecom / Towers
-    {"source": "Fierce Wireless",     "url": "https://www.fiercewireless.com/rss/xml",                     "category": "towers"},
-    {"source": "RCR Wireless",        "url": "https://www.rcrwireless.com/feed",                           "category": "towers"},
-    # Retail
+    {"source": "Hotel Management",    "url": "https://www.hotelmanagement.net/rss.xml",                    "category": "hospitality"},
+    {"source": "Skift",               "url": "https://skift.com/feed/",                                    "category": "hospitality"},
+    {"source": "Travel Weekly",       "url": "https://www.travelweekly.com/RSS/News",                      "category": "hospitality"},
+    # Retail — REIT + macro (consumer spending, e-commerce, store openings/closings)
     {"source": "ICSC",                "url": "https://www.icsc.com/news-and-views/rss",                    "category": "retail"},
     {"source": "GlobeSt Retail",      "url": "https://www.globest.com/category/retail/feed/",              "category": "retail"},
-    # Net Lease
+    {"source": "Retail Dive",         "url": "https://www.retaildive.com/feeds/news/",                     "category": "retail"},
+    {"source": "Chain Store Age",     "url": "https://chainstoreage.com/rss.xml",                          "category": "retail"},
+    # Net Lease — macro (cap rates, interest rates, sale-leaseback activity)
     {"source": "GlobeSt Net Lease",   "url": "https://www.globest.com/category/net-lease/feed/",           "category": "netlease"},
-    # Hospitality
-    {"source": "Hotel Management",    "url": "https://www.hotelmanagement.net/rss.xml",                    "category": "hospitality"},
+    {"source": "Connect CRE",         "url": "https://www.connectcre.com/feed/",                           "category": "netlease"},
+    # Towers / Telecom — macro (5G buildout, spectrum, carrier capex)
+    {"source": "Fierce Wireless",     "url": "https://www.fiercewireless.com/rss/xml",                     "category": "towers"},
+    {"source": "RCR Wireless",        "url": "https://www.rcrwireless.com/feed",                           "category": "towers"},
+    {"source": "Light Reading",       "url": "https://www.lightreading.com/rss.xml",                       "category": "towers"},
 ]
 
 SIGNAL_KEYWORDS = [
