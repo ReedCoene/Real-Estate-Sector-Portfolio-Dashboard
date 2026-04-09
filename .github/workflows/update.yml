@@ -45,7 +45,11 @@ jobs:
           git add data/market_data.json assets/env.js
           git diff --staged --quiet && echo "No changes to commit" || \
             git commit -m "chore: update market data $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && break
+            echo "Push attempt $i failed, retrying..."
+            sleep 5
+          done
 
       - name: Send daily email brief
         run: python scripts/send_email.py
