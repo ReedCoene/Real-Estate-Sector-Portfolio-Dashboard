@@ -135,9 +135,15 @@ BROAD_FEEDS = [
     {"source": "MarketWatch RE",      "url": "https://feeds.content.dowjones.io/public/rss/mw_realestate", "category": "broad"},
     {"source": "The Real Deal",       "url": "https://therealdeal.com/feed/",                              "category": "broad"},
     {"source": "GlobeSt",             "url": "https://www.globest.com/feed/",                              "category": "broad"},
-    # Healthcare
+    # Healthcare — REIT-specific
     {"source": "Becker's Hospital",   "url": "https://www.beckershospitalreview.com/rss/news.xml",         "category": "healthcare"},
     {"source": "McKnight's LTC",      "url": "https://www.mcknights.com/news/feed/",                       "category": "healthcare"},
+    # Healthcare — general / macro (aging, policy, labor)
+    {"source": "Skilled Nursing News","url": "https://skillednursingnews.com/feed/",                       "category": "healthcare"},
+    {"source": "McKnight's Senior",   "url": "https://www.mcknightsseniorliving.com/feed/",                "category": "healthcare"},
+    {"source": "Modern Healthcare",   "url": "https://www.modernhealthcare.com/section/rss",               "category": "healthcare"},
+    {"source": "CMS Newsroom",        "url": "https://www.cms.gov/newsroom/rss",                           "category": "healthcare"},
+    {"source": "STAT News",           "url": "https://www.statnews.com/feed/",                             "category": "healthcare"},
     # Industrial / Logistics
     {"source": "Supply Chain Dive",   "url": "https://www.supplychaindive.com/feeds/news/",                "category": "industrial"},
     {"source": "DC Velocity",         "url": "https://www.dcvelocity.com/rss/",                           "category": "industrial"},

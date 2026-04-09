@@ -128,11 +128,28 @@
       <div id="weeklyReport"></div>
     </div>
 
+    <!-- SUBSCRIBE BAR -->
+    <div class="subscribe-bar" id="subscribeBar">
+      <div class="subscribe-inner">
+        <div class="subscribe-copy">
+          <div class="subscribe-title">Daily REIT Brief</div>
+          <div class="subscribe-desc">Biggest movers &amp; key signals in your inbox at 5:30 PM ET — <span id="subscribeForSector">Healthcare</span> edition.</div>
+        </div>
+        <form class="subscribe-form" id="subscribeForm" novalidate>
+          <input class="subscribe-input" id="subscribeEmail" type="email" placeholder="your@email.com" required />
+          <button class="subscribe-btn" id="subscribeBtn" type="submit">Subscribe</button>
+        </form>
+        <p class="subscribe-success hidden" id="subscribeSuccess"></p>
+        <p class="subscribe-error hidden" id="subscribeError"></p>
+      </div>
+    </div>
+
     <footer class="footer">
       <p>Updates automatically after market close Mon&ndash;Fri &amp; Sunday via GitHub Actions &mdash; not investment advice.</p>
     </footer>
 
   </div>
+  <script src="assets/env.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>
