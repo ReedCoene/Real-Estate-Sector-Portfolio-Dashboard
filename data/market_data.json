@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09T05:39:45.020500+00:00",
+  "last_updated": "2026-04-09T05:57:47.335302+00:00",
   "market_date": "April 09, 2026",
   "sectors": {
     "healthcare": {
@@ -1012,6 +1012,171 @@
           "link": "https://www.reit.com/news/videos/despite-rising-rates-reits-took-more-debt-2013",
           "published": "Thu, 16 Jan 2014 12:00:00 +0000",
           "summary": "<div class=\"paragraph paragraph--image paragraph--image--teaser paragraph--type--image paragraph--id--11915 paragraph--view-mode--teaser\">\n            \n\n  \n  \n      \n  <div class=\"field field--name-field-media-image field--type-image field--label-visually_hidden\">\n    <div class=\"field__label visual\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Construction Giants' Bet On Tech Startups Paying Off On Their Jobsites",
+          "link": "https://www.bisnow.com/national/news/construction-development/construction-firms-provide-funds-workspace-for-startup-construction-tech-134044",
+          "published": "Wed, 08 Apr 2026 17:48:42 -0400",
+          "summary": "If you walked through the right construction site in the Bay Area five years ago, you had the chance to spy one of the first robots being used to paint interior layouts.\nDusty Robotics, founded in 2018, developed these robots and deployed them across\u00a0DPR...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Data Center Opponents Urge County To Let 2,100-Acre Project Die After Court Ruling",
+          "link": "https://www.bisnow.com/national/news/data-center-community-relations/digital-gateway-plans-may-close-for-good-134038",
+          "published": "Wed, 08 Apr 2026 16:56:08 -0400",
+          "summary": "A Virginia appeals court has put one of the world\u2019s largest data center development efforts on life support. Now, opponents of the project are calling on\u00a0local lawmakers to pull the plug.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Rewriting The ABCs Of Education Facilities, From Sandbox To Lecture Hall",
+          "link": "https://www.bisnow.com/national/news/construction-development/colliers-engineering-design-education-studiob-133679",
+          "published": "Mon, 16 Mar 2026 17:23:30 -0400",
+          "summary": "The education industry still has a lot to learn, at least when it comes to facilities construction and maintenance.\nAs public policy, demography and technological advancements reshape the education sector, organizations ranging from early childhood care...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Kevin Durant-Led Group Buying 515-Acre Former Six Flags In Maryland",
+          "link": "https://www.bisnow.com/washington-dc/news/economic-development/kevin-durant-company-buys-six-flags-maryland-134041",
+          "published": "Wed, 08 Apr 2026 16:46:33 -0400",
+          "summary": "NBA superstar Kevin Durant is leading a\u00a0team of investors to buy and redevelop the shuttered Six Flags amusement park in the county where he grew up.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Architect Admits To Killing 8 Women In Gilgo Beach Serial Murders",
+          "link": "https://www.bisnow.com/new-york/news/commercial-real-estate/architect-admits-to-killing-8-women-in-gilgo-beach-serial-murders-134024",
+          "published": "Wed, 08 Apr 2026 12:32:06 -0400",
+          "summary": "New York City architect Rex Heuermann pleaded guilty to the murder of seven women and admitted to killing an eighth nearly three years after being arrested as the suspected Gilgo Beach serial killer.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skilled Nursing News",
+          "category": "healthcare",
+          "title": "Nursing Homes in State Owed Almost $500M in Medicaid Back Payments Due to Managed Care Transition Delays",
+          "link": "https://skillednursingnews.com/2026/04/nursing-homes-in-state-owed-almost-500m-in-medicaid-back-payments-due-to-managed-care-transition-delays/",
+          "published": "Wed, 08 Apr 2026 22:02:05 +0000",
+          "summary": "<p>Indiana nursing homes are owed $462 million in back payments under the state\u2019s Medicaid program due to delays caused by the transition to managed care, which has created administrative complexities. The issues stem from changes to the PathWays for Aging program, which shifted long-term services i\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skilled Nursing News",
+          "category": "healthcare",
+          "title": "\u2018It\u2019s Not Logical\u2019: State-Level Nursing Home Staffing Mandates and Policy Pressures Clash With Workforce Gains in 2026",
+          "link": "https://skillednursingnews.com/2026/04/its-not-logical-state-level-nursing-home-staffing-mandates-and-policy-pressures-clash-with-workforce-gains-in-2025/",
+          "published": "Wed, 08 Apr 2026 22:00:00 +0000",
+          "summary": "<p>After years of workforce instability, skilled nursing operators are finally seeing signs of progress in staffing \u2013 yet new policy developments and ongoing state level mandates threaten to complicate that recovery in 2026. Sector leaders say declining agency use, stronger hiring pipelines, and exp\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skilled Nursing News",
+          "category": "healthcare",
+          "title": "CareTrust Announces $119M in New Investments, Including Deal Tied to 5 Nursing Homes",
+          "link": "https://skillednursingnews.com/2026/04/caretrust-announces-119m-in-new-investments-including-deal-tied-to-5-nursing-homes/",
+          "published": "Tue, 07 Apr 2026 22:00:00 +0000",
+          "summary": "<p>CareTrust REIT (NYSE: CTRE) announced Tuesday that it has closed two new investments totaling $119 million, including the acquisition of a portfolio of five skilled nursing facilities (SNFs). The deal with five SNFs is located in the Midwest with a combined 506 licensed beds. CareTrust originated\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skilled Nursing News",
+          "category": "healthcare",
+          "title": "Same Services, Sicker Individuals, Less Time: Daily Frustrations with Medicare Advantage as Acuity Rises in Nursing Homes",
+          "link": "https://skillednursingnews.com/2026/04/same-services-sicker-individuals-less-time-daily-frustrations-with-medicare-advantage-as-acuity-rises-in-nursing-homes/",
+          "published": "Tue, 07 Apr 2026 21:30:13 +0000",
+          "summary": "<p>Maintaining quality of care with slim resources, while seeing patient acuity continue to rise, keeps nursing home clinicians up at night \u2013 and these challenges are compounded by insurance pressures, particularly from Medicare Advantage (MA) plans. Varion Walton, VP of clinical services at Texas-b\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skilled Nursing News",
+          "category": "healthcare",
+          "title": "Clock Is Ticking: CMS LEAD Applications Due May 17 for Nursing Homes, but Complexity Demands Careful Review",
+          "link": "https://skillednursingnews.com/2026/04/clock-is-ticking-cms-lead-applications-due-may-17-for-nursing-homes-but-complexity-demands-careful-review/",
+          "published": "Mon, 06 Apr 2026 22:00:00 +0000",
+          "summary": "<p>The Centers for Medicare and Medicaid Services (CMS) recently opened applications for the Long-Term Enhanced ACO Design model (LEAD) and posted more guidance for prospective participants. The highly anticipated model replaces ACO REACH, which will be discontinued at the end of this year. While LE\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
+          "title": "STAT+: Which U.S. metros have the highest health spending? The answer might surprise you",
+          "link": "https://www.statnews.com/2026/04/09/us-metros-with-highest-health-spending-charleston-west-virginia-new-york/?utm_campaign=rss",
+          "published": "Thu, 09 Apr 2026 04:01:00 +0000",
+          "summary": "There's not a consistent theme among the 10 highest and lowest spending metros, which highlights the \u201cirrationality\u201d of U.S. health care spending, experts say.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
+          "title": "Team approach to lowering high blood pressure worked even in \u2018a tough landscape\u2019",
+          "link": "https://www.statnews.com/2026/04/08/hypertension-control-community-team-approach/?utm_campaign=rss",
+          "published": "Wed, 08 Apr 2026 21:00:00 +0000",
+          "summary": "A study is called \u201creally, really important\u201d in showing how teams can induce patients to get their blood pressure under control.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
+          "title": "STAT+: Influential Democratic think tank pushes plan for government to lower health care costs",
+          "link": "https://www.statnews.com/2026/04/08/cap-report-lower-health-care-costs-affordability-hospitals-prior-authorization/?utm_campaign=rss",
+          "published": "Wed, 08 Apr 2026 20:07:02 +0000",
+          "summary": "Democrats are honing in on health care affordability as a key issue ahead of the midterm elections.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
+          "title": "STAT+: Trump administration drops court fight to cap NIH payments for research overhead costs",
+          "link": "https://www.statnews.com/2026/04/08/trump-administration-drops-nih-indirect-costs-court-challenge/?utm_campaign=rss",
+          "published": "Wed, 08 Apr 2026 19:49:56 +0000",
+          "summary": "The Trump administration will not be asking the Supreme Court to take up its fight to slash NIH support for research indirect costs",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
+          "title": "Smart contact lens monitors eye pressure and delivers glaucoma drugs in early tests",
+          "link": "https://www.statnews.com/2026/04/08/glaucoma-smart-contact-lens-combines-monitoring-drug-delivery/?utm_campaign=rss",
+          "published": "Wed, 08 Apr 2026 18:00:00 +0000",
+          "summary": "A smart contact lens described in a research paper on Wednesday combines therapeutic and diagnostic capabilities for glaucoma patients.",
           "is_signal": false
         },
         {
@@ -2672,6 +2837,61 @@
         {
           "ticker": null,
           "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Construction Giants' Bet On Tech Startups Paying Off On Their Jobsites",
+          "link": "https://www.bisnow.com/national/news/construction-development/construction-firms-provide-funds-workspace-for-startup-construction-tech-134044",
+          "published": "Wed, 08 Apr 2026 17:48:42 -0400",
+          "summary": "If you walked through the right construction site in the Bay Area five years ago, you had the chance to spy one of the first robots being used to paint interior layouts.\nDusty Robotics, founded in 2018, developed these robots and deployed them across\u00a0DPR...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Data Center Opponents Urge County To Let 2,100-Acre Project Die After Court Ruling",
+          "link": "https://www.bisnow.com/national/news/data-center-community-relations/digital-gateway-plans-may-close-for-good-134038",
+          "published": "Wed, 08 Apr 2026 16:56:08 -0400",
+          "summary": "A Virginia appeals court has put one of the world\u2019s largest data center development efforts on life support. Now, opponents of the project are calling on\u00a0local lawmakers to pull the plug.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Rewriting The ABCs Of Education Facilities, From Sandbox To Lecture Hall",
+          "link": "https://www.bisnow.com/national/news/construction-development/colliers-engineering-design-education-studiob-133679",
+          "published": "Mon, 16 Mar 2026 17:23:30 -0400",
+          "summary": "The education industry still has a lot to learn, at least when it comes to facilities construction and maintenance.\nAs public policy, demography and technological advancements reshape the education sector, organizations ranging from early childhood care...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Kevin Durant-Led Group Buying 515-Acre Former Six Flags In Maryland",
+          "link": "https://www.bisnow.com/washington-dc/news/economic-development/kevin-durant-company-buys-six-flags-maryland-134041",
+          "published": "Wed, 08 Apr 2026 16:46:33 -0400",
+          "summary": "NBA superstar Kevin Durant is leading a\u00a0team of investors to buy and redevelop the shuttered Six Flags amusement park in the county where he grew up.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Architect Admits To Killing 8 Women In Gilgo Beach Serial Murders",
+          "link": "https://www.bisnow.com/new-york/news/commercial-real-estate/architect-admits-to-killing-8-women-in-gilgo-beach-serial-murders-134024",
+          "published": "Wed, 08 Apr 2026 12:32:06 -0400",
+          "summary": "New York City architect Rex Heuermann pleaded guilty to the murder of seven women and admitted to killing an eighth nearly three years after being arrested as the suspected Gilgo Beach serial killer.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
           "source": "HousingWire",
           "category": "housing",
           "title": "Minimum residential lot size dispute heats up in a Texas county",
@@ -2723,6 +2943,61 @@
           "published": "Wed, 08 Apr 2026 19:15:29 +0000",
           "summary": "AI makes agent content easy to produce, so visibility signals less and consumers weigh pricing, negotiation and outcomes.",
           "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Calculated Risk",
+          "category": "housing",
+          "title": "This is the End and a New Beginning",
+          "link": "http://www.calculatedriskblog.com/2026/01/this-is-end-and-new-beginning.html",
+          "published": "2026-01-12T08:21:00.005-05:00",
+          "summary": "I've been thinking about this for some time.<div><br /></div><div>After 21 years of writing this blog almost daily, I've decided to stop writing the daily updates on the blog.<div><br /></div><div>However, the economic data \"IV\" is still in my arm, and <b>I'll be writing a weekly economic summary at\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Calculated Risk",
+          "category": "housing",
+          "title": "Sunday Night Futures",
+          "link": "http://www.calculatedriskblog.com/2026/01/sunday-night-futures_11.html",
+          "published": "2026-01-11T19:50:00.001-05:00",
+          "summary": "Weekend:<br />\n\u2022 <a href=\"https://www.calculatedriskblog.com/2026/01/schedule-for-week-of-january-11-2026.html\">Schedule for Week of January 11, 2026</a><br />\n<br />\nMonday:<br />\n\u2022 No major economic releases scheduled.<br />\n<br />\nFrom CNBC: <a href=\"http://www.cnbc.com/pre-markets/\">Pre-Market D\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Calculated Risk",
+          "category": "housing",
+          "title": "Hotels: Occupancy Rate Increased 4.4% Year-over-year",
+          "link": "http://www.calculatedriskblog.com/2026/01/hotels-occupancy-rate-increased-44-year.html",
+          "published": "2026-01-11T08:12:00.005-05:00",
+          "summary": "Hotel occupancy was weak in 2025. &nbsp; It is difficult to tell early in the year because travel is always weak in early January.&nbsp;<br />\n<br />\n<div>From STR: <a href=\"https://www.costar.com/products/benchmark/resources/press-releases/us-hotel-results-week-ending-3-january\">U.S. hotel results \u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Calculated Risk",
+          "category": "housing",
+          "title": "Real Estate Newsletter Articles this Week:Housing Starts Decreased to 1.246 million Annual Rate",
+          "link": "http://www.calculatedriskblog.com/2026/01/real-estate-newsletter-articles-this_050832638.html",
+          "published": "2026-01-10T14:11:00.001-05:00",
+          "summary": "At the Calculated Risk Real Estate Newsletter this week:<br />\n<br />\n<a href=\"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKiUDTX4ntLbqrVXrDl0BpMgZep4l_NftVOJ6X2Q84WlHhaxi0nPbse6ccxXyXKnv2J0n9M7MzwzZ29WRDvOB1vH7itJSCL5bR40-nd3anDtZ_BELRisrDfOMcWyE8z6_vRaPy91dQxqX9hr1OfMPXZdKZKkO_Ud4V\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Calculated Risk",
+          "category": "housing",
+          "title": "Schedule for Week of January 11, 2026",
+          "link": "http://www.calculatedriskblog.com/2026/01/schedule-for-week-of-january-11-2026.html",
+          "published": "2026-01-10T08:11:00.050-05:00",
+          "summary": "The key reports this week are December CPI, Existing Home Sales and November Retail Sales.  Also, New Home Sales for September and October will be released.<br />\n<br />\nFor manufacturing, the December Industrial Production report and the January New York and Philly Fed manufacturing surveys will be\u2026",
+          "is_signal": true
         },
         {
           "ticker": null,
@@ -3983,6 +4258,61 @@
         {
           "ticker": null,
           "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Construction Giants' Bet On Tech Startups Paying Off On Their Jobsites",
+          "link": "https://www.bisnow.com/national/news/construction-development/construction-firms-provide-funds-workspace-for-startup-construction-tech-134044",
+          "published": "Wed, 08 Apr 2026 17:48:42 -0400",
+          "summary": "If you walked through the right construction site in the Bay Area five years ago, you had the chance to spy one of the first robots being used to paint interior layouts.\nDusty Robotics, founded in 2018, developed these robots and deployed them across\u00a0DPR...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Data Center Opponents Urge County To Let 2,100-Acre Project Die After Court Ruling",
+          "link": "https://www.bisnow.com/national/news/data-center-community-relations/digital-gateway-plans-may-close-for-good-134038",
+          "published": "Wed, 08 Apr 2026 16:56:08 -0400",
+          "summary": "A Virginia appeals court has put one of the world\u2019s largest data center development efforts on life support. Now, opponents of the project are calling on\u00a0local lawmakers to pull the plug.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Rewriting The ABCs Of Education Facilities, From Sandbox To Lecture Hall",
+          "link": "https://www.bisnow.com/national/news/construction-development/colliers-engineering-design-education-studiob-133679",
+          "published": "Mon, 16 Mar 2026 17:23:30 -0400",
+          "summary": "The education industry still has a lot to learn, at least when it comes to facilities construction and maintenance.\nAs public policy, demography and technological advancements reshape the education sector, organizations ranging from early childhood care...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Kevin Durant-Led Group Buying 515-Acre Former Six Flags In Maryland",
+          "link": "https://www.bisnow.com/washington-dc/news/economic-development/kevin-durant-company-buys-six-flags-maryland-134041",
+          "published": "Wed, 08 Apr 2026 16:46:33 -0400",
+          "summary": "NBA superstar Kevin Durant is leading a\u00a0team of investors to buy and redevelop the shuttered Six Flags amusement park in the county where he grew up.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Architect Admits To Killing 8 Women In Gilgo Beach Serial Murders",
+          "link": "https://www.bisnow.com/new-york/news/commercial-real-estate/architect-admits-to-killing-8-women-in-gilgo-beach-serial-murders-134024",
+          "published": "Wed, 08 Apr 2026 12:32:06 -0400",
+          "summary": "New York City architect Rex Heuermann pleaded guilty to the murder of seven women and admitted to killing an eighth nearly three years after being arrested as the suspected Gilgo Beach serial killer.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
           "source": "Supply Chain Dive",
           "category": "industrial",
           "title": "Transpacific ocean rates rise, demand softens",
@@ -4033,6 +4363,61 @@
           "link": "https://www.supplychaindive.com/news/walmart-layoffs-illinois-fulfillment-center-nextgen/816491/",
           "published": "Tue, 07 Apr 2026 12:58:00 -0400",
           "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/2HsbHnd4I_sde3pgQzKnMaBl7RkoOFeBv207HFHuU4k/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9LbmFwcC1XYWxtYXJ0LUFzc29jaWF0ZS1XaXRoLUJveGVzLnBuZw==.webp\" /></div></figure><p>Operations at the Matteson facility will be relocated to \u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "DC Velocity",
+          "category": "industrial",
+          "title": "Report: Robot density surges in Europe, Asia, and the Americas",
+          "link": "https://www.dcvelocity.com/editorial/featured/report-robot-density-surges-in-europe-asia-and-the-americas",
+          "published": "Wed, 08 Apr 2026 22:29:32 +0000",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/image.jpg?id=65494770&amp;width=1245&amp;height=700&amp;coordinates=0%2C1%2C0%2C1\" /><br /><br /><h3></h3><br /><p>Companies around the world are racing to integrate factory robots as a way to boost productivity\u2014and those in Western Europe are ahead\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "DC Velocity",
+          "category": "industrial",
+          "title": "3PL turns a pain point into a selling point",
+          "link": "https://www.dcvelocity.com/technology/3pl-turns-a-pain-point-into-a-selling-point",
+          "published": "Wed, 08 Apr 2026 12:00:02 +0000",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/trucks-going-through-border-crossings.jpg?id=65475864&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p>The asset-based third-party logistics service specialist (3PL) and freight broker <a href=\"https://rjlogistics.com/\" \u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "DC Velocity",
+          "category": "industrial",
+          "title": "Truckstop.com acquires heavy haul rating specialist Wize Load",
+          "link": "https://www.dcvelocity.com/supply-chain/non-asset-3pl/freight-brokers/truckstop-com-acquires-heavy-haul-rating-specialist-wize-load",
+          "published": "Tue, 07 Apr 2026 20:25:27 +0000",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/photo-of-a-truck-hauling-an-oversized-load.png?id=65488149&amp;width=1245&amp;height=700&amp;coordinates=0%2C132%2C0%2C133\" /><br /><br /><h3></h3><br /><p>The freight matching and transportation tech firm <a href=\"https://truckstop.com/press-releas\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "DC Velocity",
+          "category": "industrial",
+          "title": "Gartner: AI-assistant software soon to enter fast growth phase",
+          "link": "https://www.dcvelocity.com/technology/artificial-intelligence/gartner-ai-assistant-software-soon-to-enter-fast-growth-phase",
+          "published": "Tue, 07 Apr 2026 20:23:01 +0000",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/chart-of-ai-agent-sales.png?id=65488141&amp;width=1245&amp;height=700&amp;coordinates=0%2C71%2C0%2C71\" /><br /><br /><h3></h3><br /><p>As the adoption of artificial intelligence (AI) chatbots levels off, supply chain management (SCM) software with a\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "DC Velocity",
+          "category": "industrial",
+          "title": "Tariffs on steel and aluminum hit European machine producers",
+          "link": "https://www.dcvelocity.com/transportation/regulation-government/tariffs-on-steel-and-aluminum-hit-european-machine-producers",
+          "published": "Tue, 07 Apr 2026 20:20:24 +0000",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/photo-of-robotic-welding-arms-at-work.jpg?id=65488126&amp;width=1245&amp;height=700&amp;coordinates=237%2C0%2C237%2C0\" /><br /><br /><h3></h3><br /><p>As new Trump Administration tariffs on steel and aluminum began to bite this week, European machin\u2026",
           "is_signal": true
         },
         {
@@ -4089,6 +4474,61 @@
           "published": "Sun, 27 Jun 2021 18:00:00 +0000",
           "summary": "<p>This week\u2019s DHL Supply Chain Pricing Power Index: 75 (Carriers) Last week\u2019s DHL Supply Chain Pricing Power Index: 70 (Carriers)&#160; Three-month DHL Supply Chain Pricing Power Index Outlook: 70 (Carriers) The DHL Supply Chain Pricing Power Index uses the analytics and data in FreightWaves SONAR \u2026",
           "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "The Loadstar",
+          "category": "industrial",
+          "title": "The dog that didn\u2019t bark \u2013 why PPC is suing M\u00e6rsk but not MSC",
+          "link": "https://theloadstar.com/the-dog-that-didnt-bark-why-ppc-is-suing-maersk-but-not-msc/",
+          "published": "Wed, 08 Apr 2026 13:41:42 +0000",
+          "summary": "<p>In a nutshell: CK Hutchison\u2019s Panama unit has launched London arbitration against M\u00e6rsk over Balboa, but the conspicuous absence of any claim against MSC\u2019s TiL at Cristobal tells us as much about the $22.8bn ports deal agreed in principle a year ago as it does about the Canal.<br />\nPanama Ports \u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "The Loadstar",
+          "category": "industrial",
+          "title": "Kremlin plotting ban on major box carriers entering Russian ports",
+          "link": "https://theloadstar.com/kremlin-plotting-ban-on-major-box-carriers-entering-russian-ports/",
+          "published": "Wed, 08 Apr 2026 12:31:26 +0000",
+          "summary": "<p>Ukrainian intelligence has released a report claiming that the Kremlin is set to pass a new law restricting foreign-owned and operated boxships from accessing Russian ports.<br />\nThe move has prompted a wave of questions \u2013 not least, why OOCL has been included on the list of carriers specificall\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "The Loadstar",
+          "category": "industrial",
+          "title": "Non-operating shipowners regain their taste for modern box ship tonnage",
+          "link": "https://theloadstar.com/non-operating-shipowners-regain-their-taste-for-modern-box-ship-tonnage/",
+          "published": "Wed, 08 Apr 2026 12:13:27 +0000",
+          "summary": "<p>The combined orderbook of non-operating shipowners (NOOs) has trebled over the past year, as they finally returned to the newbuilding market after a prolonged multi-year fire sale of their fleets to carriers.<br />\nAccording to this week\u2019s Alphaliner report, NOOs had a combined 1.8m teu of capaci\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "The Loadstar",
+          "category": "industrial",
+          "title": "CNBC: JP Morgan CEO Jamie Dimon flags risks in geopolitics, AI and private markets",
+          "link": "https://theloadstar.com/cnbc-jpmorgan-ceo-jamie-dimon-flags-risks-in-geopolitics-ai-and-private-markets/",
+          "published": "Wed, 08 Apr 2026 11:37:32 +0000",
+          "summary": "<p>CNBC reports:<br />\nJP Morgan CEO Jamie Dimon is calling for a broad recommitment to American ideals as his bank navigates geopolitical uncertainty, a teetering economy and the revolutionary impact of artificial intelligence.<br />\nDimon\u00a0in his annual letter to shareholders,\u00a0published Monday, not\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "The Loadstar",
+          "category": "industrial",
+          "title": "TSA budget cut could lead to air cargo security privatisation",
+          "link": "https://theloadstar.com/tsa-budget-cut-could-lead-to-air-cargo-security-privatisation/",
+          "published": "Wed, 08 Apr 2026 11:32:36 +0000",
+          "summary": "<p>The Trump administration is looking to slash more than $1.5bn from the Transportation Security Administration (TSA) and trim its ranks by more than 9,400 employees.<br />\nThis could be the first step to turning cargo and passenger screening from government agency to the private sector.<br />\nThes\u2026",
+          "is_signal": false
         },
         {
           "ticker": null,
@@ -5316,6 +5756,116 @@
         {
           "ticker": null,
           "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Construction Giants' Bet On Tech Startups Paying Off On Their Jobsites",
+          "link": "https://www.bisnow.com/national/news/construction-development/construction-firms-provide-funds-workspace-for-startup-construction-tech-134044",
+          "published": "Wed, 08 Apr 2026 17:48:42 -0400",
+          "summary": "If you walked through the right construction site in the Bay Area five years ago, you had the chance to spy one of the first robots being used to paint interior layouts.\nDusty Robotics, founded in 2018, developed these robots and deployed them across\u00a0DPR...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Data Center Opponents Urge County To Let 2,100-Acre Project Die After Court Ruling",
+          "link": "https://www.bisnow.com/national/news/data-center-community-relations/digital-gateway-plans-may-close-for-good-134038",
+          "published": "Wed, 08 Apr 2026 16:56:08 -0400",
+          "summary": "A Virginia appeals court has put one of the world\u2019s largest data center development efforts on life support. Now, opponents of the project are calling on\u00a0local lawmakers to pull the plug.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Rewriting The ABCs Of Education Facilities, From Sandbox To Lecture Hall",
+          "link": "https://www.bisnow.com/national/news/construction-development/colliers-engineering-design-education-studiob-133679",
+          "published": "Mon, 16 Mar 2026 17:23:30 -0400",
+          "summary": "The education industry still has a lot to learn, at least when it comes to facilities construction and maintenance.\nAs public policy, demography and technological advancements reshape the education sector, organizations ranging from early childhood care...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Kevin Durant-Led Group Buying 515-Acre Former Six Flags In Maryland",
+          "link": "https://www.bisnow.com/washington-dc/news/economic-development/kevin-durant-company-buys-six-flags-maryland-134041",
+          "published": "Wed, 08 Apr 2026 16:46:33 -0400",
+          "summary": "NBA superstar Kevin Durant is leading a\u00a0team of investors to buy and redevelop the shuttered Six Flags amusement park in the county where he grew up.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Architect Admits To Killing 8 Women In Gilgo Beach Serial Murders",
+          "link": "https://www.bisnow.com/new-york/news/commercial-real-estate/architect-admits-to-killing-8-women-in-gilgo-beach-serial-murders-134024",
+          "published": "Wed, 08 Apr 2026 12:32:06 -0400",
+          "summary": "New York City architect Rex Heuermann pleaded guilty to the murder of seven women and admitted to killing an eighth nearly three years after being arrested as the suspected Gilgo Beach serial killer.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Retail Dive",
+          "category": "retail",
+          "title": "Surprise wholesale strength lifts Levi\u2019s in Q1",
+          "link": "https://www.retaildive.com/news/surprise-wholesale-strength-lifts-levis-q1/816924/",
+          "published": "Wed, 08 Apr 2026 12:19:00 -0400",
+          "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/QkMuwCrV0RR3BmlHFy8eLl-ZkKufEU85rKEQvgD9GS0/g:nowe:44:27/c:2455:1387/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8wODI1LXVveGxldmlzX2NmaXNoZXItNi5qcGc=.webp\" /></div></figure><p>Sales and margins beat expectations, thanks to growth\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Retail Dive",
+          "category": "retail",
+          "title": "Bed Bath & Beyond to acquire Cabinets To Go, Lumber Liquidators owner",
+          "link": "https://www.retaildive.com/news/bed-bath-beyond-acquires-cabinets-to-go-lumber-liquidators-owner/816954/",
+          "published": "Wed, 08 Apr 2026 12:04:00 -0400",
+          "summary": "<p>The retailer intends to purchase most of F9 Brands' assets for about $150 million, which would help it develop a home services and improvement portfolio.</p>",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Retail Dive",
+          "category": "retail",
+          "title": "Mattel chief commercial officer to exit",
+          "link": "https://www.retaildive.com/news/mattel-chief-commercial-officer-exits/816884/",
+          "published": "Wed, 08 Apr 2026 11:42:00 -0400",
+          "summary": "<p>Steve Totzke will stay with the company through the end of the year in an advisory role. Meanwhile, Sanjay Luthra has been appointed to his position.&nbsp;</p>",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Retail Dive",
+          "category": "retail",
+          "title": "Foot Locker partners with DoorDash for on-demand delivery",
+          "link": "https://www.retaildive.com/news/foot-locker-doordash-on-demand-delivery/816928/",
+          "published": "Wed, 08 Apr 2026 11:41:00 -0400",
+          "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/4n_P9Ls__ucufylko0zrmUV7Bvgwxiy0aXvVEeB-Srg/g:nowe:42:154/c:1230:694/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS8yXzNUbjdaVDEuanBlZw==.webp\" /></div></figure><p>The deal is among the latest between a retailer and the delivery plat\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Retail Dive",
+          "category": "retail",
+          "title": "Brooks chief marketer on shaping a global brand vision, with help from Cynthia Erivo",
+          "link": "https://www.retaildive.com/news/brooks-chief-marketing-officer-cynthia-erivo-campaign-global-brand-vision/816845/",
+          "published": "Wed, 08 Apr 2026 10:01:00 -0400",
+          "summary": "<p>The &ldquo;Wicked&rdquo; and &ldquo;Dracula&rdquo; star anchors a new campaign tied to her training for the London Marathon, which is part of a larger global push from Brooks.&nbsp;</p>",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
           "source": "Ibtimes.com.au",
           "category": "broad",
           "title": "National Storage Affiliates Trust Shares Surge on Public Storage Acquisition Deal Announcement",
@@ -6537,6 +7087,61 @@
         {
           "ticker": null,
           "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Construction Giants' Bet On Tech Startups Paying Off On Their Jobsites",
+          "link": "https://www.bisnow.com/national/news/construction-development/construction-firms-provide-funds-workspace-for-startup-construction-tech-134044",
+          "published": "Wed, 08 Apr 2026 17:48:42 -0400",
+          "summary": "If you walked through the right construction site in the Bay Area five years ago, you had the chance to spy one of the first robots being used to paint interior layouts.\nDusty Robotics, founded in 2018, developed these robots and deployed them across\u00a0DPR...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Data Center Opponents Urge County To Let 2,100-Acre Project Die After Court Ruling",
+          "link": "https://www.bisnow.com/national/news/data-center-community-relations/digital-gateway-plans-may-close-for-good-134038",
+          "published": "Wed, 08 Apr 2026 16:56:08 -0400",
+          "summary": "A Virginia appeals court has put one of the world\u2019s largest data center development efforts on life support. Now, opponents of the project are calling on\u00a0local lawmakers to pull the plug.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Rewriting The ABCs Of Education Facilities, From Sandbox To Lecture Hall",
+          "link": "https://www.bisnow.com/national/news/construction-development/colliers-engineering-design-education-studiob-133679",
+          "published": "Mon, 16 Mar 2026 17:23:30 -0400",
+          "summary": "The education industry still has a lot to learn, at least when it comes to facilities construction and maintenance.\nAs public policy, demography and technological advancements reshape the education sector, organizations ranging from early childhood care...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Kevin Durant-Led Group Buying 515-Acre Former Six Flags In Maryland",
+          "link": "https://www.bisnow.com/washington-dc/news/economic-development/kevin-durant-company-buys-six-flags-maryland-134041",
+          "published": "Wed, 08 Apr 2026 16:46:33 -0400",
+          "summary": "NBA superstar Kevin Durant is leading a\u00a0team of investors to buy and redevelop the shuttered Six Flags amusement park in the county where he grew up.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Architect Admits To Killing 8 Women In Gilgo Beach Serial Murders",
+          "link": "https://www.bisnow.com/new-york/news/commercial-real-estate/architect-admits-to-killing-8-women-in-gilgo-beach-serial-murders-134024",
+          "published": "Wed, 08 Apr 2026 12:32:06 -0400",
+          "summary": "New York City architect Rex Heuermann pleaded guilty to the murder of seven women and admitted to killing an eighth nearly three years after being arrested as the suspected Gilgo Beach serial killer.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
           "source": "Hotel Management",
           "category": "hospitality",
           "title": "AI in Hospitality: The Shift From Exploration to Execution",
@@ -6587,6 +7192,61 @@
           "link": "https://www.hotelmanagement.net/resource/top-list-hm-2026-top-third-party-management-companies",
           "published": "Wed, 18 Feb 2026 15:51:18 +0000",
           "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Top List: HM 2026 Top Third-Party Management Companies</span>\n\n            <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Sponsored by Entegra an\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "How Meta\u2019s New AI Model Could Change Travel",
+          "link": "https://skift.com/2026/04/08/meta-ai-muse-spark-travel/",
+          "published": "Wed, 08 Apr 2026 20:13:47 +0000",
+          "summary": "Meta is building AI that could know travelers&apos; social history and see their surroundings in real time. Google isn&apos;t there yet.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "What Countries Are Telling Travelers About Visiting the U.S. Right Now",
+          "link": "https://skift.com/2026/04/08/international-travel-guidance-us/",
+          "published": "Wed, 08 Apr 2026 19:44:40 +0000",
+          "summary": "Other countries aren&apos;t raising their U.S. travel risk ratings, but they are adding footnotes.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "GMH Hotels: Is $7 Billion in Hotel Points a Problem?",
+          "link": "https://skift.com/2026/04/08/gmh-hotels-is-7-billion-in-hotel-points-a-problem/",
+          "published": "Wed, 08 Apr 2026 14:39:00 +0000",
+          "summary": "On this week\u2019s \u2060Good Morning Hospitality, A Skift Podcast\u2060: Hotels Edition, \u2060Sarah Dandashy\u2060 and \u2060Steve Turk\u2060 break down the growing loyalty balance at \u2060Marriott Hotels\u2060 and \u2060Hilton\u2060, and what nearly $7 billion in outstanding points really means for the industry. Is it a liability or one of the most\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "Radisson\u2019s Growth Plan: Loyal Owners and Asian Ambitions",
+          "link": "https://skift.com/2026/04/08/radissons-growth-plan-loyal-owners-asian-ambitions/",
+          "published": "Wed, 08 Apr 2026 16:47:05 +0000",
+          "summary": "Rather than competing on sheer scale, Radisson is pitching owners on speed, flexibility, and a more focused brand lineup, with Asia central to its growth ambitions.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "What Happens to America\u2019s Best Airlines When Their CEOs Leave?",
+          "link": "https://skift.com/2026/04/08/what-happens-to-americas-best-airlines-when-their-ceos-leave/",
+          "published": "Wed, 08 Apr 2026 14:23:11 +0000",
+          "summary": "The best airlines in America are also the most personality-dependent. The premium era is flattering both boards into thinking succession is a problem for later. It isn\u2019t.",
           "is_signal": false
         },
         {
@@ -7692,6 +8352,116 @@
         {
           "ticker": null,
           "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Construction Giants' Bet On Tech Startups Paying Off On Their Jobsites",
+          "link": "https://www.bisnow.com/national/news/construction-development/construction-firms-provide-funds-workspace-for-startup-construction-tech-134044",
+          "published": "Wed, 08 Apr 2026 17:48:42 -0400",
+          "summary": "If you walked through the right construction site in the Bay Area five years ago, you had the chance to spy one of the first robots being used to paint interior layouts.\nDusty Robotics, founded in 2018, developed these robots and deployed them across\u00a0DPR...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Data Center Opponents Urge County To Let 2,100-Acre Project Die After Court Ruling",
+          "link": "https://www.bisnow.com/national/news/data-center-community-relations/digital-gateway-plans-may-close-for-good-134038",
+          "published": "Wed, 08 Apr 2026 16:56:08 -0400",
+          "summary": "A Virginia appeals court has put one of the world\u2019s largest data center development efforts on life support. Now, opponents of the project are calling on\u00a0local lawmakers to pull the plug.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Rewriting The ABCs Of Education Facilities, From Sandbox To Lecture Hall",
+          "link": "https://www.bisnow.com/national/news/construction-development/colliers-engineering-design-education-studiob-133679",
+          "published": "Mon, 16 Mar 2026 17:23:30 -0400",
+          "summary": "The education industry still has a lot to learn, at least when it comes to facilities construction and maintenance.\nAs public policy, demography and technological advancements reshape the education sector, organizations ranging from early childhood care...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Kevin Durant-Led Group Buying 515-Acre Former Six Flags In Maryland",
+          "link": "https://www.bisnow.com/washington-dc/news/economic-development/kevin-durant-company-buys-six-flags-maryland-134041",
+          "published": "Wed, 08 Apr 2026 16:46:33 -0400",
+          "summary": "NBA superstar Kevin Durant is leading a\u00a0team of investors to buy and redevelop the shuttered Six Flags amusement park in the county where he grew up.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Architect Admits To Killing 8 Women In Gilgo Beach Serial Murders",
+          "link": "https://www.bisnow.com/new-york/news/commercial-real-estate/architect-admits-to-killing-8-women-in-gilgo-beach-serial-murders-134024",
+          "published": "Wed, 08 Apr 2026 12:32:06 -0400",
+          "summary": "New York City architect Rex Heuermann pleaded guilty to the murder of seven women and admitted to killing an eighth nearly three years after being arrested as the suspected Gilgo Beach serial killer.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Connect CRE",
+          "category": "netlease",
+          "title": "Kurv Pays Nearly $220M for Pompano Beach Industrial Park",
+          "link": "https://www.connectcre.com/stories/kurv-pays-nearly-220m-for-pompano-beach-industrial-park/",
+          "published": "Wed, 08 Apr 2026 23:00:19 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/04/Kurv-Pompano.png\" /></p>\n<p>Kurv Industrial acquired the East Pompano Industrial Center for $219.7 million. Kurv says that makes it South Florida\u2019s largest industrial deal of the year.\u00a0The seller was QuadReal Property Group. This acq\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Connect CRE",
+          "category": "netlease",
+          "title": "1M-SF AI Automated Warehouse Opens Outside Atlanta",
+          "link": "https://www.connectcre.com/stories/1m-sf-ai-automated-warehouse-opens-outside-atlanta/",
+          "published": "Wed, 08 Apr 2026 21:49:38 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/04/Exol.png\" /></p>\n<p>Exol (formerly GreenBox Systems) opened its first physical AI-powered U.S. facility, marking the commercial debut of a new logistics category: robotic fulfillment-as-a-service. A new 1 million-square-foot Atlanta-\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Connect CRE",
+          "category": "netlease",
+          "title": "Venture Capital Firm Signs SoHo Lease for NYC Headquarters",
+          "link": "https://www.connectcre.com/stories/venture-capital-firm-signs-soho-lease-for-nyc-headquarters/",
+          "published": "Wed, 08 Apr 2026 21:48:07 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/04/NY-96-Spring-Street-SoHo.jpg\" /></p>\n<p>Midwood Investment &#38; Development has secured a 10-year, 7,415-square-foot lease with venture capital firm TQ Ventures at\u00a096 Spring St. in SoHo. Comprising the entire seventh floor of the bu\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Connect CRE",
+          "category": "netlease",
+          "title": "S3 Provides Construction Loan for Crown Heights Multifamily",
+          "link": "https://www.connectcre.com/stories/s3-provides-construction-loan-for-crown-heights-multifamily/",
+          "published": "Wed, 08 Apr 2026 21:31:27 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/04/NY-1530-Bergen-Street-Brooklyn.jpg\" /></p>\n<p>Arrow Real Estate Advisors arranged an $8,800,000 construction loan from S3 for the development of a new multifamily property located at 1532 Bergen St. in Crown Heights, Brooklyn. The tr\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Connect CRE",
+          "category": "netlease",
+          "title": "DoveHill Acquires Connecticut Luxury Hotel and Spa",
+          "link": "https://www.connectcre.com/stories/dovehill-acquires-connecticut-luxury-hotel-and-spa/",
+          "published": "Wed, 08 Apr 2026 21:08:18 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/04/BOS-Mayflower-Inn-Spa-Washington-CT.jpg\" /></p>\n<p>Fort Lauderdale, FL-based DoveHill has acquired Mayflower Inn &#38; Spa, Auberge Collection at 118 Woodbury Rd. in Washington, CT. Although the buyer did not disclose the acquisition\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
           "source": "Ibtimes.com.au",
           "category": "broad",
           "title": "National Storage Affiliates Trust Shares Surge on Public Storage Acquisition Deal Announcement",
@@ -8457,6 +9227,61 @@
         {
           "ticker": null,
           "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Construction Giants' Bet On Tech Startups Paying Off On Their Jobsites",
+          "link": "https://www.bisnow.com/national/news/construction-development/construction-firms-provide-funds-workspace-for-startup-construction-tech-134044",
+          "published": "Wed, 08 Apr 2026 17:48:42 -0400",
+          "summary": "If you walked through the right construction site in the Bay Area five years ago, you had the chance to spy one of the first robots being used to paint interior layouts.\nDusty Robotics, founded in 2018, developed these robots and deployed them across\u00a0DPR...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Data Center Opponents Urge County To Let 2,100-Acre Project Die After Court Ruling",
+          "link": "https://www.bisnow.com/national/news/data-center-community-relations/digital-gateway-plans-may-close-for-good-134038",
+          "published": "Wed, 08 Apr 2026 16:56:08 -0400",
+          "summary": "A Virginia appeals court has put one of the world\u2019s largest data center development efforts on life support. Now, opponents of the project are calling on\u00a0local lawmakers to pull the plug.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Rewriting The ABCs Of Education Facilities, From Sandbox To Lecture Hall",
+          "link": "https://www.bisnow.com/national/news/construction-development/colliers-engineering-design-education-studiob-133679",
+          "published": "Mon, 16 Mar 2026 17:23:30 -0400",
+          "summary": "The education industry still has a lot to learn, at least when it comes to facilities construction and maintenance.\nAs public policy, demography and technological advancements reshape the education sector, organizations ranging from early childhood care...",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Kevin Durant-Led Group Buying 515-Acre Former Six Flags In Maryland",
+          "link": "https://www.bisnow.com/washington-dc/news/economic-development/kevin-durant-company-buys-six-flags-maryland-134041",
+          "published": "Wed, 08 Apr 2026 16:46:33 -0400",
+          "summary": "NBA superstar Kevin Durant is leading a\u00a0team of investors to buy and redevelop the shuttered Six Flags amusement park in the county where he grew up.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow",
+          "category": "broad",
+          "title": "Architect Admits To Killing 8 Women In Gilgo Beach Serial Murders",
+          "link": "https://www.bisnow.com/new-york/news/commercial-real-estate/architect-admits-to-killing-8-women-in-gilgo-beach-serial-murders-134024",
+          "published": "Wed, 08 Apr 2026 12:32:06 -0400",
+          "summary": "New York City architect Rex Heuermann pleaded guilty to the murder of seven women and admitted to killing an eighth nearly three years after being arrested as the suspected Gilgo Beach serial killer.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
           "source": "Fierce Wireless",
           "category": "towers",
           "title": "<a href=\"https://www.fierce-network.com/wireless/prepaid-mvno-us-mobile-teases-ultimate-bundle-starlink\" hreflang=\"en\">Prepaid MVNO US Mobile teases ultimate bundle with Starlink</a>",
@@ -8562,6 +9387,61 @@
           "link": "https://www.rcrwireless.com/20260408/internet-of-things/att-ai-edge-nvidia-cisco-microsoft",
           "published": "Wed, 08 Apr 2026 14:29:18 +0000",
           "summary": "AT&#38;T has clarified its emerging AI \u201cgrid\u201d and IoT strategy, combining regional inference, cloud platforms, and private 5G to target enterprise use cases while testing where edge AI delivers most value. In sum \u2013 what to know: Regional edge \u2013&#8230;",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "AI viewed as 'great equalizer' for small, midsized broadband operators",
+          "link": "https://www.lightreading.com/ai-machine-learning/ai-viewed-as-great-equalizer-for-small-midsized-broadband-operators",
+          "published": "Wed, 08 Apr 2026 20:19:11 GMT",
+          "summary": "AI is leveling the playing field and changing how smaller operators compete against larger rivals, says Cable One COO Ken Johnson. Operators of all sizes are evaluating the technology but moving at their own pace.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "FCC preps vote to modernize satellite spectrum-sharing rules",
+          "link": "https://www.lightreading.com/regulatory-politics/fcc-preps-vote-to-modernize-satellite-spectrum-sharing-rules",
+          "published": "Wed, 08 Apr 2026 18:40:29 GMT",
+          "summary": "The FCC said it will vote on an order that aims to improve and modernize satellite spectrum-sharing rules, claiming it could 'unlock more than $2 billion in economic benefits. #pressrelease",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "Ad watchdog sides with Verizon in complaint raised by T-Mobile",
+          "link": "https://www.lightreading.com/5g/ad-watchdog-sides-with-verizon-in-complaint-raised-by-t-mobile",
+          "published": "Wed, 08 Apr 2026 18:25:13 GMT",
+          "summary": "The National Advertising Division said it determined that Verizon provided adequate disclosure of a future price increase linked to its 'four lines for $25/line' offer. #pressrelease",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "Apple's smartphone stranglehold just got tighter",
+          "link": "https://www.lightreading.com/smartphones-devices/apple-s-smartphone-stranglehold-just-got-tighter",
+          "published": "Wed, 08 Apr 2026 15:00:00 GMT",
+          "summary": "Recon Analytics reports that new consumer survey data reveals a market tilting fast toward Apple, a Samsung brand identity crisis, and Google renting share rather than owning it.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "Globalstar bets on industrial automation and AI for private 5G",
+          "link": "https://www.lightreading.com/private-networks/globalstar-bets-on-industrial-automation-and-ai-for-private-5g",
+          "published": "Wed, 08 Apr 2026 14:51:40 GMT",
+          "summary": "Globalstar expands XCOM RAN private 5G offering aimed at industrial automation and physical AI, amid speculation that the satellite company might be sold.",
           "is_signal": true
         },
         {
