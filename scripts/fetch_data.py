@@ -13,11 +13,11 @@ NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
 # ── Sector configs ─────────────────────────────────────────────
 SECTOR_CONFIGS = {
     # FTSE Nareit Health Care sector (18 constituents as of 2025)
-    "healthcare":  {"focus": "CTRE", "peers": ["WELL", "VTR", "DOC", "AHR", "ARE", "HR", "SBRA", "NHI", "OHI", "LTC", "DHC", "MPW", "CHCT", "UHT", "SILA", "GMRE", "STRW"], "news_cat": "healthcare"},
+    "healthcare":  {"focus": "CTRE", "peers": ["WELL", "VTR", "DOC", "AHR", "ARE", "HR", "SBRA", "NHI", "OHI", "LTC", "DHC", "CHCT", "UHT", "SILA", "GMRE", "STRW"], "news_cat": "healthcare"},
     # FTSE Nareit Residential sector — Apartments + Manufactured Homes + SFR + land banking
     "housing":     {"focus": "MRP",  "peers": ["EQR", "AVB", "ESS", "MAA", "UDR", "CPT", "IRT", "ELME", "CSR", "AIV", "NXRT", "AMH", "INVH", "SUI", "ELS", "UMH", "LEN", "FPH"], "news_cat": "housing"},
     # FTSE Nareit Industrial sector (12 constituents as of 2025)
-    "industrial":  {"focus": "TRNO", "peers": ["PLD", "EGP", "REXR", "LINE", "FR", "STAG", "COLD", "LXP", "IIPR", "PLYM", "ILPT", "MDV"],                                       "news_cat": "industrial"},
+    "industrial":  {"focus": "TRNO", "peers": ["PLD", "EGP", "REXR", "LINE", "FR", "STAG", "COLD", "LXP", "IIPR", "ILPT", "MDV"],                                            "news_cat": "industrial"},
     # FTSE Nareit Retail sector — Shopping Centers + Regional Malls (excl. Free Standing / net lease)
     "retail":      {"focus": "MAC",  "peers": ["SPG", "CBL", "KIM", "REG", "FRT", "BRX", "KRG", "PECO", "SKT", "AKR", "CURB", "UE", "IVT"],                                      "news_cat": "retail"},
     # FTSE Nareit Lodging/Resorts sector (14 constituents as of 2024)
@@ -43,7 +43,6 @@ TICKER_NAMES = {
     "OHI":  "Omega Healthcare Investors",
     "LTC":  "LTC Properties",
     "DHC":  "Diversified Healthcare Trust",
-    "MPW":  "Medical Properties Trust",
     "CHCT": "Community Healthcare Trust",
     "UHT":  "Universal Health Realty Income Trust",
     "SILA": "Sila Realty Trust",
@@ -80,7 +79,6 @@ TICKER_NAMES = {
     "COLD": "Americold Realty Trust",
     "LXP":  "LXP Industrial Trust",
     "IIPR": "Innovative Industrial Properties",
-    "PLYM": "Plymouth Industrial REIT",
     "ILPT": "Industrial Logistics Properties Trust",
     "MDV":  "Modiv Industrial",
     # ── Retail (FTSE Nareit Shopping Centers + Regional Malls) ────
