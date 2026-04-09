@@ -995,3 +995,77 @@ body.light .icon-moon { display: block; }
   font-size: 13px;
   color: var(--dn);
 }
+
+/* ════════════════════════════════════
+   MOBILE  (≤ 768px)
+════════════════════════════════════ */
+@media (max-width: 768px) {
+  .page { padding: 0 14px 60px; }
+
+  /* Header */
+  .header { padding: 14px 0 12px; gap: 10px; }
+  .site-title { font-size: 15px; }
+  .site-subtitle { font-size: 11px; }
+  .header-dot { width: 8px; height: 8px; }
+  .market-date, .last-updated { display: none; }
+  .header-right { gap: 8px; }
+
+  /* Sector dropdown full-width feel */
+  .sector-dropdown-btn { font-size: 12px; padding: 6px 10px; }
+
+  /* Tabs — horizontal scroll */
+  .tab-nav {
+    display: flex;
+    overflow-x: auto;
+    gap: 4px;
+    padding-bottom: 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .tab-nav::-webkit-scrollbar { display: none; }
+  .tab-btn { font-size: 11px; padding: 7px 10px; white-space: nowrap; flex-shrink: 0; }
+  .tab-badge { font-size: 9px; padding: 1px 4px; }
+
+  /* Sections */
+  .section { padding: 14px; border-radius: var(--r); margin-bottom: 10px; }
+  .section-header { margin-bottom: 10px; }
+  .section-header h2 { font-size: 12px; }
+
+  /* Brief cards — stack vertically */
+  .brief-grid,
+  .movers-row { flex-direction: column; gap: 8px; }
+  .brief-card, .mover-card { min-width: unset; width: 100%; }
+
+  /* Focus grid — single column */
+  .ctre-grid { grid-template-columns: 1fr; gap: 10px; }
+
+  /* Table — horizontal scroll, hide less important columns */
+  .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .col-name, .col-range { display: none; }
+  .reit-table th, .reit-table td { font-size: 11px; padding: 8px 6px; }
+
+  /* News grid — single column */
+  .news-grid-layout { grid-template-columns: 1fr !important; gap: 8px; }
+  .news-card { font-size: 12px; }
+  .card-title { font-size: 12px; }
+
+  /* Cat filters — scrollable */
+  .cat-filters {
+    display: flex;
+    overflow-x: auto;
+    gap: 6px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .cat-filters::-webkit-scrollbar { display: none; }
+  .cat-btn { white-space: nowrap; flex-shrink: 0; font-size: 11px; padding: 5px 10px; }
+
+  /* Subscribe bar — stack vertically */
+  .subscribe-inner { flex-direction: column; gap: 14px; }
+  .subscribe-form { flex-direction: column; width: 100%; }
+  .subscribe-input { width: 100%; }
+  .subscribe-btn { width: 100%; }
+
+  /* Footer */
+  .footer { font-size: 10px; padding: 16px 0; }
+}
