@@ -41,8 +41,8 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add data/market_data.json assets/env.js
+          git pull --rebase origin main
           git diff --staged --quiet && echo "No changes to commit" || \
             git commit -m "chore: update market data $(date -u +'%Y-%m-%d %H:%M UTC')"
           for i in 1 2 3; do
