@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09T05:19:45.932483+00:00",
+  "last_updated": "2026-04-09T05:39:45.020500+00:00",
   "market_date": "April 09, 2026",
   "sectors": {
     "healthcare": {
@@ -14,7 +14,7 @@
           "market_cap": 8654907392,
           "dividend_yield": 4.02,
           "fifty_two_week_high": 41.72,
-          "fifty_two_week_low": 27.02,
+          "fifty_two_week_low": 25.82,
           "next_earnings": "2026-04-30"
         },
         "WELL": {
@@ -26,7 +26,7 @@
           "market_cap": 142829944832,
           "dividend_yield": 1.45,
           "fifty_two_week_high": 216.43,
-          "fifty_two_week_low": 138.05,
+          "fifty_two_week_low": 130.29,
           "next_earnings": "2026-04-28"
         },
         "VTR": {
@@ -38,7 +38,7 @@
           "market_cap": 39962681344,
           "dividend_yield": 2.47,
           "fifty_two_week_high": 88.37,
-          "fifty_two_week_low": 61.76,
+          "fifty_two_week_low": 60.15,
           "next_earnings": "2026-04-27"
         },
         "DOC": {
@@ -62,7 +62,7 @@
           "market_cap": 9100581888,
           "dividend_yield": 2.07,
           "fifty_two_week_high": 54.67,
-          "fifty_two_week_low": 27.94,
+          "fifty_two_week_low": 26.48,
           "next_earnings": "2026-05-07"
         },
         "ARE": {
@@ -98,7 +98,7 @@
           "market_cap": 5063086080,
           "dividend_yield": 5.97,
           "fifty_two_week_high": 21.07,
-          "fifty_two_week_low": 16.73,
+          "fifty_two_week_low": 15.75,
           "next_earnings": "2026-05-04"
         },
         "NHI": {
@@ -108,9 +108,9 @@
           "prev_close": 83.01,
           "pct_change": 1.63,
           "market_cap": 4106446848,
-          "dividend_yield": 4.32,
+          "dividend_yield": 4.34,
           "fifty_two_week_high": 91.38,
-          "fifty_two_week_low": 68.8,
+          "fifty_two_week_low": 66.41,
           "next_earnings": "2026-05-04"
         },
         "OHI": {
@@ -122,7 +122,7 @@
           "market_cap": 13794650112,
           "dividend_yield": 5.9,
           "fifty_two_week_high": 49.14,
-          "fifty_two_week_low": 35.09,
+          "fifty_two_week_low": 35.04,
           "next_earnings": "2026-04-28"
         },
         "LTC": {
@@ -134,7 +134,7 @@
           "market_cap": 1893821056,
           "dividend_yield": 5.84,
           "fifty_two_week_high": 40.8,
-          "fifty_two_week_low": 33.2,
+          "fifty_two_week_low": 31.7,
           "next_earnings": "2026-05-04"
         },
         "DHC": {
@@ -206,7 +206,7 @@
           "market_cap": 716520768,
           "dividend_yield": 4.82,
           "fifty_two_week_high": 14.0,
-          "fifty_two_week_low": 9.457,
+          "fifty_two_week_low": 8.7,
           "next_earnings": "2026-05-07"
         }
       },
@@ -1557,7 +1557,7 @@
           "market_cap": 4787540992,
           "dividend_yield": 10.54,
           "fifty_two_week_high": 36.0,
-          "fifty_two_week_low": 22.205,
+          "fifty_two_week_low": 21.635,
           "next_earnings": "2026-05-13"
         },
         "EQR": {
@@ -1615,7 +1615,7 @@
           "prev_close": 34.78,
           "pct_change": -0.2,
           "market_cap": 13184647168,
-          "dividend_yield": 4.97,
+          "dividend_yield": 5.01,
           "fifty_two_week_high": 43.92,
           "fifty_two_week_low": 32.94,
           "next_earnings": "2026-04-29"
@@ -1627,7 +1627,7 @@
           "prev_close": 101.09,
           "pct_change": -0.26,
           "market_cap": 10710379520,
-          "dividend_yield": 4.15,
+          "dividend_yield": 4.21,
           "fifty_two_week_high": 121.33,
           "fifty_two_week_low": 96.53,
           "next_earnings": "2026-04-30"
@@ -1723,9 +1723,9 @@
           "prev_close": 127.84,
           "pct_change": -0.7,
           "market_cap": 16445215744,
-          "dividend_yield": 3.3,
+          "dividend_yield": 3.34,
           "fifty_two_week_high": 137.85,
-          "fifty_two_week_low": 115.5,
+          "fifty_two_week_low": 109.22,
           "next_earnings": "2026-05-04"
         },
         "ELS": {
@@ -1773,7 +1773,7 @@
           "market_cap": 735467392,
           "dividend_yield": 0,
           "fifty_two_week_high": 6.64,
-          "fifty_two_week_low": 4.61,
+          "fifty_two_week_low": 4.58,
           "next_earnings": "2026-04-23"
         }
       },
@@ -3260,7 +3260,7 @@
           "market_cap": 6806787584,
           "dividend_yield": 3.25,
           "fifty_two_week_high": 66.74,
-          "fifty_two_week_low": 52.3,
+          "fifty_two_week_low": 48.18,
           "next_earnings": "2026-05-06"
         },
         "PLD": {
@@ -3272,7 +3272,7 @@
           "market_cap": 128097820672,
           "dividend_yield": 3.11,
           "fifty_two_week_high": 143.95,
-          "fifty_two_week_low": 92.52,
+          "fifty_two_week_low": 85.35,
           "next_earnings": "2026-04-16"
         },
         "EGP": {
@@ -3284,7 +3284,7 @@
           "market_cap": 10299518976,
           "dividend_yield": 3.21,
           "fifty_two_week_high": 197.95,
-          "fifty_two_week_low": 149.15,
+          "fifty_two_week_low": 137.67,
           "next_earnings": "2026-04-22"
         },
         "REXR": {
@@ -3296,7 +3296,7 @@
           "market_cap": 8162810880,
           "dividend_yield": 5.08,
           "fifty_two_week_high": 44.38,
-          "fifty_two_week_low": 30.83,
+          "fifty_two_week_low": 29.68,
           "next_earnings": "2026-04-23"
         },
         "LINE": {
@@ -3320,7 +3320,7 @@
           "market_cap": 8229240320,
           "dividend_yield": 3.32,
           "fifty_two_week_high": 64.01,
-          "fifty_two_week_low": 43.64,
+          "fifty_two_week_low": 40.31,
           "next_earnings": "2026-04-22"
         },
         "STAG": {
@@ -3332,7 +3332,7 @@
           "market_cap": 7410587136,
           "dividend_yield": 4.08,
           "fifty_two_week_high": 39.98,
-          "fifty_two_week_low": 29.95,
+          "fifty_two_week_low": 28.61,
           "next_earnings": "2026-04-28"
         },
         "COLD": {
@@ -3356,7 +3356,7 @@
           "market_cap": 2924313344,
           "dividend_yield": 5.56,
           "fifty_two_week_high": 52.52,
-          "fifty_two_week_low": 36.15,
+          "fifty_two_week_low": 34.25,
           "next_earnings": "2026-04-29"
         },
         "IIPR": {
@@ -3397,6 +3397,50 @@
         }
       },
       "news": [
+        {
+          "ticker": "TRNO",
+          "company": "Terreno Realty",
+          "source": "TRNO",
+          "category": "reit",
+          "title": "Terreno Realty Corporation Announces Quarterly Operating, Investment and Capital Markets Activity",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/terreno-realty-corporation-announces-quarterly-200500448.html?.tsrc=rss",
+          "published": "Wed, 08 Apr 2026 20:05:00 +0000",
+          "summary": "BELLEVUE, Wash., April 08, 2026--Terreno Realty Corporation Announces Quarterly Operating, Investment and Capital Markets Activity",
+          "is_signal": true
+        },
+        {
+          "ticker": "TRNO",
+          "company": "Terreno Realty",
+          "source": "TRNO",
+          "category": "reit",
+          "title": "Terreno Realty Corporation Sells Property in Torrance, CA for $31.1 Million",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/terreno-realty-corporation-sells-property-131500539.html?.tsrc=rss",
+          "published": "Wed, 08 Apr 2026 13:15:00 +0000",
+          "summary": "BELLEVUE, Wash., April 08, 2026--Terreno Realty Corporation Sells Property in Torrance, CA for $31.1 Million",
+          "is_signal": false
+        },
+        {
+          "ticker": "TRNO",
+          "company": "Terreno Realty",
+          "source": "TRNO",
+          "category": "reit",
+          "title": "Ventas Stock Rallies 23.6% in Six Months: Will the Trend Continue?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/ventas-stock-rallies-23-6-123200832.html?.tsrc=rss",
+          "published": "Wed, 08 Apr 2026 12:32:00 +0000",
+          "summary": "VTR rides on senior housing demand and strategic investments, fueling strong stock gains as favorable demographics and portfolio growth support its outlook.",
+          "is_signal": true
+        },
+        {
+          "ticker": "TRNO",
+          "company": "Terreno Realty",
+          "source": "TRNO",
+          "category": "reit",
+          "title": "5 Reasons to Add Prologis Stock to Your Portfolio Right Now",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/5-reasons-add-prologis-stock-154200298.html?.tsrc=rss",
+          "published": "Tue, 07 Apr 2026 15:42:00 +0000",
+          "summary": "Strong leasing, $1.6B JV push and data center expansion highlight why PLD remains a compelling REIT pick with solid growth momentum.",
+          "is_signal": true
+        },
         {
           "ticker": "PLD",
           "company": "Prologis",
@@ -3994,61 +4038,6 @@
         {
           "ticker": null,
           "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "Report: Robot density surges in Europe, Asia, and the Americas",
-          "link": "https://www.dcvelocity.com/editorial/featured/report-robot-density-surges-in-europe-asia-and-the-americas",
-          "published": "Wed, 08 Apr 2026 22:29:32 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/image.jpg?id=65494770&amp;width=1245&amp;height=700&amp;coordinates=0%2C1%2C0%2C1\" /><br /><br /><h3></h3><br /><p>Companies around the world are racing to integrate factory robots as a way to boost productivity\u2014and those in Western Europe are ahead\u2026",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "3PL turns a pain point into a selling point",
-          "link": "https://www.dcvelocity.com/technology/3pl-turns-a-pain-point-into-a-selling-point",
-          "published": "Wed, 08 Apr 2026 12:00:02 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/trucks-going-through-border-crossings.jpg?id=65475864&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><p>The asset-based third-party logistics service specialist (3PL) and freight broker <a href=\"https://rjlogistics.com/\" \u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "Truckstop.com acquires heavy haul rating specialist Wize Load",
-          "link": "https://www.dcvelocity.com/supply-chain/non-asset-3pl/freight-brokers/truckstop-com-acquires-heavy-haul-rating-specialist-wize-load",
-          "published": "Tue, 07 Apr 2026 20:25:27 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/photo-of-a-truck-hauling-an-oversized-load.png?id=65488149&amp;width=1245&amp;height=700&amp;coordinates=0%2C132%2C0%2C133\" /><br /><br /><h3></h3><br /><p>The freight matching and transportation tech firm <a href=\"https://truckstop.com/press-releas\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "Gartner: AI-assistant software soon to enter fast growth phase",
-          "link": "https://www.dcvelocity.com/technology/artificial-intelligence/gartner-ai-assistant-software-soon-to-enter-fast-growth-phase",
-          "published": "Tue, 07 Apr 2026 20:23:01 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/chart-of-ai-agent-sales.png?id=65488141&amp;width=1245&amp;height=700&amp;coordinates=0%2C71%2C0%2C71\" /><br /><br /><h3></h3><br /><p>As the adoption of artificial intelligence (AI) chatbots levels off, supply chain management (SCM) software with a\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "Tariffs on steel and aluminum hit European machine producers",
-          "link": "https://www.dcvelocity.com/transportation/regulation-government/tariffs-on-steel-and-aluminum-hit-european-machine-producers",
-          "published": "Tue, 07 Apr 2026 20:20:24 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/photo-of-robotic-welding-arms-at-work.jpg?id=65488126&amp;width=1245&amp;height=700&amp;coordinates=237%2C0%2C237%2C0\" /><br /><br /><h3></h3><br /><p>As new Trump Administration tariffs on steel and aluminum began to bite this week, European machin\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
           "source": "FreightWaves",
           "category": "industrial",
           "title": "The \u2018ingenious strategy\u2019 behind most truckers\u2019 least favorite week of the year: International Roadcheck",
@@ -4492,7 +4481,7 @@
           "market_cap": 5571410432,
           "dividend_yield": 3.29,
           "fifty_two_week_high": 20.93,
-          "fifty_two_week_low": 13.4,
+          "fifty_two_week_low": 12.48,
           "next_earnings": "2026-05-06"
         },
         "SPG": {
@@ -4504,7 +4493,7 @@
           "market_cap": 73859956736,
           "dividend_yield": 4.46,
           "fifty_two_week_high": 205.12,
-          "fifty_two_week_low": 142.3,
+          "fifty_two_week_low": 136.34,
           "next_earnings": "2026-05-11"
         },
         "CBL": {
@@ -4516,7 +4505,7 @@
           "market_cap": 1290455552,
           "dividend_yield": 4.32,
           "fifty_two_week_high": 42.15,
-          "fifty_two_week_low": 22.17,
+          "fifty_two_week_low": 21.1,
           "next_earnings": "2026-05-04"
         },
         "KIM": {
@@ -4528,7 +4517,7 @@
           "market_cap": 15288720384,
           "dividend_yield": 4.59,
           "fifty_two_week_high": 23.91,
-          "fifty_two_week_low": 19.19,
+          "fifty_two_week_low": 17.93,
           "next_earnings": "2026-04-30"
         },
         "REG": {
@@ -4540,7 +4529,7 @@
           "market_cap": 14553712640,
           "dividend_yield": 3.88,
           "fifty_two_week_high": 79.9,
-          "fifty_two_week_low": 66.68,
+          "fifty_two_week_low": 63.44,
           "next_earnings": "2026-04-29"
         },
         "FRT": {
@@ -4552,7 +4541,7 @@
           "market_cap": 9334062080,
           "dividend_yield": 4.18,
           "fifty_two_week_high": 110.89,
-          "fifty_two_week_low": 86.65,
+          "fifty_two_week_low": 80.65,
           "next_earnings": "2026-05-01"
         },
         "BRX": {
@@ -4564,7 +4553,7 @@
           "market_cap": 9011781632,
           "dividend_yield": 4.05,
           "fifty_two_week_high": 30.71,
-          "fifty_two_week_low": 23.38,
+          "fifty_two_week_low": 22.29,
           "next_earnings": "2026-04-27"
         },
         "KRG": {
@@ -4576,7 +4565,7 @@
           "market_cap": 5320677888,
           "dividend_yield": 4.61,
           "fifty_two_week_high": 26.38,
-          "fifty_two_week_low": 19.61,
+          "fifty_two_week_low": 18.52,
           "next_earnings": "2026-04-29"
         },
         "PECO": {
@@ -4588,7 +4577,7 @@
           "market_cap": 5277170688,
           "dividend_yield": 3.42,
           "fifty_two_week_high": 40.06,
-          "fifty_two_week_low": 32.84,
+          "fifty_two_week_low": 32.4,
           "next_earnings": "2026-04-23"
         },
         "SKT": {
@@ -4612,7 +4601,7 @@
           "market_cap": 2857058816,
           "dividend_yield": 3.97,
           "fifty_two_week_high": 22.36,
-          "fifty_two_week_low": 17.98,
+          "fifty_two_week_low": 16.98,
           "next_earnings": "2026-04-28"
         },
         "CURB": {
@@ -4624,7 +4613,7 @@
           "market_cap": 2887529984,
           "dividend_yield": 2.49,
           "fifty_two_week_high": 28.645,
-          "fifty_two_week_low": 21.215,
+          "fifty_two_week_low": 20.91,
           "next_earnings": "2026-04-23"
         },
         "UE": {
@@ -4636,7 +4625,7 @@
           "market_cap": 2884872960,
           "dividend_yield": 4.07,
           "fifty_two_week_high": 21.87,
-          "fifty_two_week_low": 16.5,
+          "fifty_two_week_low": 15.66,
           "next_earnings": "2026-04-29"
         },
         "IVT": {
@@ -4648,7 +4637,7 @@
           "market_cap": 2432763136,
           "dividend_yield": 3.08,
           "fifty_two_week_high": 32.63,
-          "fifty_two_week_low": 25.77,
+          "fifty_two_week_low": 25.21,
           "next_earnings": "2026-04-28"
         }
       },
@@ -5881,7 +5870,7 @@
           "market_cap": 1483845632,
           "dividend_yield": 3.69,
           "fifty_two_week_high": 16.48,
-          "fifty_two_week_low": 9.38,
+          "fifty_two_week_low": 8.55,
           "next_earnings": "2026-05-01"
         },
         "HST": {
@@ -5893,7 +5882,7 @@
           "market_cap": 13731742720,
           "dividend_yield": 4.06,
           "fifty_two_week_high": 21.0,
-          "fifty_two_week_low": 13.05,
+          "fifty_two_week_low": 12.33,
           "next_earnings": "2026-05-06"
         },
         "RHP": {
@@ -5905,7 +5894,7 @@
           "market_cap": 6112133120,
           "dividend_yield": 4.85,
           "fifty_two_week_high": 105.75,
-          "fifty_two_week_low": 81.05,
+          "fifty_two_week_low": 76.27,
           "next_earnings": "2026-04-30"
         },
         "APLE": {
@@ -5917,7 +5906,7 @@
           "market_cap": 2837269248,
           "dividend_yield": 7.99,
           "fifty_two_week_high": 13.27,
-          "fifty_two_week_low": 10.85,
+          "fifty_two_week_low": 10.44,
           "next_earnings": "2026-05-04"
         },
         "PK": {
@@ -5929,7 +5918,7 @@
           "market_cap": 2189200896,
           "dividend_yield": 9.2,
           "fifty_two_week_high": 12.39,
-          "fifty_two_week_low": 8.91,
+          "fifty_two_week_low": 8.27,
           "next_earnings": "2026-04-30"
         },
         "DRH": {
@@ -5941,7 +5930,7 @@
           "market_cap": 2009370624,
           "dividend_yield": 3.69,
           "fifty_two_week_high": 10.67,
-          "fifty_two_week_low": 6.73,
+          "fifty_two_week_low": 6.19,
           "next_earnings": "2026-04-30"
         },
         "SHO": {
@@ -5953,7 +5942,7 @@
           "market_cap": 1747369728,
           "dividend_yield": 3.9,
           "fifty_two_week_high": 10.27,
-          "fifty_two_week_low": 7.94,
+          "fifty_two_week_low": 7.45,
           "next_earnings": "2026-05-05"
         },
         "PEB": {
@@ -5965,7 +5954,7 @@
           "market_cap": 1522220416,
           "dividend_yield": 30.0,
           "fifty_two_week_high": 13.405,
-          "fifty_two_week_low": 8.14,
+          "fifty_two_week_low": 7.41,
           "next_earnings": "2026-04-28"
         },
         "RLJ": {
@@ -5977,7 +5966,7 @@
           "market_cap": 1175708160,
           "dividend_yield": 7.79,
           "fifty_two_week_high": 8.63,
-          "fifty_two_week_low": 6.51,
+          "fifty_two_week_low": 6.16,
           "next_earnings": "2026-05-04"
         },
         "INN": {
@@ -5989,7 +5978,7 @@
           "market_cap": 489594112,
           "dividend_yield": 7.11,
           "fifty_two_week_high": 6.0,
-          "fifty_two_week_low": 3.72,
+          "fifty_two_week_low": 3.57,
           "next_earnings": "2026-04-30"
         },
         "CLDT": {
@@ -6001,7 +5990,7 @@
           "market_cap": 410398048,
           "dividend_yield": 4.82,
           "fifty_two_week_high": 8.45,
-          "fifty_two_week_low": 6.08,
+          "fifty_two_week_low": 5.83,
           "next_earnings": "2026-05-06"
         }
       },
@@ -7092,7 +7081,7 @@
           "market_cap": 6680718336,
           "dividend_yield": 3.91,
           "fifty_two_week_high": 34.73,
-          "fifty_two_week_low": 28.95,
+          "fifty_two_week_low": 27.44,
           "next_earnings": "2026-04-22"
         },
         "O": {
@@ -7104,7 +7093,7 @@
           "market_cap": 58548576256,
           "dividend_yield": 5.15,
           "fifty_two_week_high": 67.94,
-          "fifty_two_week_low": 52.61,
+          "fifty_two_week_low": 50.71,
           "next_earnings": "2026-05-04"
         },
         "NNN": {
@@ -7114,9 +7103,9 @@
           "prev_close": 42.5,
           "pct_change": 1.79,
           "market_cap": 8285622272,
-          "dividend_yield": 5.51,
+          "dividend_yield": 5.55,
           "fifty_two_week_high": 46.03,
-          "fifty_two_week_low": 38.15,
+          "fifty_two_week_low": 35.8,
           "next_earnings": "2026-04-30"
         },
         "ADC": {
@@ -7128,7 +7117,7 @@
           "market_cap": 9245842432,
           "dividend_yield": 4.05,
           "fifty_two_week_high": 82.08,
-          "fifty_two_week_low": 69.56,
+          "fifty_two_week_low": 68.98,
           "next_earnings": "2026-04-21"
         },
         "FCPT": {
@@ -7164,7 +7153,7 @@
           "market_cap": 2176934400,
           "dividend_yield": 4.45,
           "fifty_two_week_high": 21.3,
-          "fifty_two_week_low": 14.74,
+          "fifty_two_week_low": 14.0,
           "next_earnings": "2026-04-20"
         },
         "WPC": {
@@ -7176,7 +7165,7 @@
           "market_cap": 15661575168,
           "dividend_yield": 5.21,
           "fifty_two_week_high": 75.69,
-          "fifty_two_week_low": 55.65,
+          "fifty_two_week_low": 54.24,
           "next_earnings": "2026-04-28"
         },
         "VICI": {
