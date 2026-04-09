@@ -24,6 +24,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Write frontend config
+        run: |
+          echo "window.SUPABASE_URL='$SUPABASE_URL';" > assets/env.js
+          echo "window.SUPABASE_ANON_KEY='$SUPABASE_ANON_KEY';" >> assets/env.js
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+
       - name: Fetch market data
         run: python scripts/fetch_data.py
         env:
@@ -33,7 +41,16 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/market_data.json
+          git add data/market_data.json assets/env.js
           git diff --staged --quiet && echo "No changes to commit" || \
             git commit -m "chore: update market data $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
+
+      - name: Send daily email brief
+        run: python scripts/send_email.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM: ${{ secrets.RESEND_FROM }}
+          GITHUB_REPOSITORY: ${{ github.repository }}

@@ -421,14 +421,14 @@ function renderSectorNewsTab(news) {
   const cfg         = SECTOR_CONFIG[currentSector];
   const newsCategory = cfg.newsCategory;
 
-  // Include industry-level news (no ticker) and SEC filings (ticker + category='filing')
-  let filtered = news.filter(n => n.ticker == null || n.category === 'filing');
+  // Default: show all sector-filtered news (tickers + industry + filings)
+  let filtered = [...news];
 
-  if (sectorCat === 'broad')  filtered = filtered.filter(n => n.category === 'broad');
+  if (sectorCat === 'broad')  filtered = news.filter(n => n.category === 'broad');
   if (sectorCat === 'sector') filtered = newsCategory
-    ? filtered.filter(n => n.category === newsCategory)
-    : [];
-  if (sectorCat === 'signal') filtered = filtered.filter(n => n.is_signal);
+    ? news.filter(n => n.category === newsCategory || (n.ticker != null && n.category !== 'filing' && n.category !== 'broad'))
+    : news.filter(n => n.ticker != null && n.category !== 'filing' && n.category !== 'broad');
+  if (sectorCat === 'signal') filtered = news.filter(n => n.is_signal);
   if (sectorCat === 'filing') filtered = news.filter(n => n.category === 'filing');
 
   const el = document.getElementById('sectorNewsGrid');
@@ -700,6 +700,9 @@ function switchSector(key) {
 
   const cfg = SECTOR_CONFIG[key];
 
+  const sectorLabel = document.getElementById('subscribeForSector');
+  if (sectorLabel) sectorLabel.textContent = SECTOR_DISPLAY_NAMES[key] || key;
+
   // Sync dropdown label + active option
   const labelEl = document.getElementById('sectorDropdownLabel');
   if (labelEl) labelEl.textContent = SECTOR_DISPLAY_NAMES[key] || key;
@@ -741,6 +744,85 @@ function switchSector(key) {
   renderWeeklyReport(sData);
 }
 
+// ── Subscribe Form ────────────────────────────────────────────
+function initSubscribeForm() {
+  const form    = document.getElementById('subscribeForm');
+  const input   = document.getElementById('subscribeEmail');
+  const btn     = document.getElementById('subscribeBtn');
+  const success = document.getElementById('subscribeSuccess');
+  const error   = document.getElementById('subscribeError');
+
+  if (!form) return;
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const email = input.value.trim();
+    if (!email) return;
+
+    if (!window.SUPABASE_URL || !window.SUPABASE_ANON_KEY) {
+      error.textContent = 'Subscription not configured yet — check back after next workflow run.';
+      error.classList.remove('hidden');
+      return;
+    }
+
+    btn.disabled = true;
+    btn.textContent = 'Subscribing…';
+    error.classList.add('hidden');
+
+    try {
+      const resp = await fetch(`${window.SUPABASE_URL}/rest/v1/subscribers`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': window.SUPABASE_ANON_KEY,
+          'Authorization': `Bearer ${window.SUPABASE_ANON_KEY}`,
+          'Prefer': 'return=minimal',
+        },
+        body: JSON.stringify({ email, sector: currentSector }),
+      });
+
+      if (resp.ok) {
+        form.classList.add('hidden');
+        const label = SECTOR_DISPLAY_NAMES[currentSector] || currentSector;
+        success.textContent = `✓ Subscribed — you'll receive the ${label} brief at 5:30 PM ET weekdays.`;
+        success.classList.remove('hidden');
+      } else if (resp.status === 409) {
+        form.classList.add('hidden');
+        success.textContent = '✓ You\'re already subscribed.';
+        success.classList.remove('hidden');
+      } else {
+        throw new Error(`${resp.status}`);
+      }
+    } catch (err) {
+      btn.disabled = false;
+      btn.textContent = 'Subscribe';
+      error.textContent = 'Something went wrong — please try again.';
+      error.classList.remove('hidden');
+    }
+  });
+}
+
+// ── Unsubscribe ───────────────────────────────────────────────
+async function handleUnsubscribe() {
+  const token = new URLSearchParams(location.search).get('unsub');
+  if (!token || !window.SUPABASE_URL || !window.SUPABASE_ANON_KEY) return;
+
+  try {
+    await fetch(`${window.SUPABASE_URL}/rest/v1/rpc/unsubscribe_by_token`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'apikey': window.SUPABASE_ANON_KEY,
+        'Authorization': `Bearer ${window.SUPABASE_ANON_KEY}`,
+      },
+      body: JSON.stringify({ p_token: token }),
+    });
+  } catch(_) {}
+
+  const bar = document.getElementById('subscribeBar');
+  if (bar) bar.innerHTML = '<div class="subscribe-inner"><p style="color:var(--t3);font-size:13px">✓ You\'ve been unsubscribed.</p></div>';
+}
+
 // ── Bootstrap ────────────────────────────────────────────────
 async function init() {
   try {
@@ -772,6 +854,8 @@ async function init() {
     initTabs();
     attachTableSort();
     initSectorCatFilters();
+    initSubscribeForm();
+    handleUnsubscribe();
 
   } catch (err) {
     console.error(err);

@@ -12,42 +12,120 @@ NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
 
 # ── Sector configs ─────────────────────────────────────────────
 SECTOR_CONFIGS = {
-    "healthcare":  {"focus": "CTRE", "peers": ["WELL", "VTR", "OHI"],           "news_cat": "healthcare"},
-    "housing":     {"focus": "MRP",  "peers": ["LEN", "FPH"],                   "news_cat": "housing"},
-    "industrial":  {"focus": "TRNO", "peers": ["PLD", "EGP", "REXR", "STAG"],  "news_cat": "industrial"},
-    "retail":      {"focus": "MAC",  "peers": ["SPG", "SKT"],                   "news_cat": "retail"},
-    "hospitality": {"focus": "XHR",  "peers": ["PK", "HST"],                    "news_cat": "hospitality"},
-    "netlease":    {"focus": "EPRT", "peers": ["O", "NNN", "ADC"],             "news_cat": None},
-    "tower":       {"focus": "SBAC", "peers": ["AMT", "CCI"],                   "news_cat": "towers"},
+    # FTSE Nareit Health Care sector (18 constituents as of 2025)
+    "healthcare":  {"focus": "CTRE", "peers": ["WELL", "VTR", "DOC", "AHR", "ARE", "HR", "SBRA", "NHI", "OHI", "LTC", "DHC", "MPW", "CHCT", "UHT", "SILA", "GMRE", "STRW"], "news_cat": "healthcare"},
+    # FTSE Nareit Residential sector — Apartments + Manufactured Homes + SFR + land banking
+    "housing":     {"focus": "MRP",  "peers": ["EQR", "AVB", "ESS", "MAA", "UDR", "CPT", "IRT", "ELME", "CSR", "AIV", "NXRT", "AMH", "INVH", "SUI", "ELS", "UMH", "LEN", "FPH"], "news_cat": "housing"},
+    # FTSE Nareit Industrial sector (12 constituents as of 2025)
+    "industrial":  {"focus": "TRNO", "peers": ["PLD", "EGP", "REXR", "LINE", "FR", "STAG", "COLD", "LXP", "IIPR", "PLYM", "ILPT", "MDV"],                                       "news_cat": "industrial"},
+    # FTSE Nareit Retail sector — Shopping Centers + Regional Malls (excl. Free Standing / net lease)
+    "retail":      {"focus": "MAC",  "peers": ["SPG", "CBL", "KIM", "REG", "FRT", "BRX", "KRG", "PECO", "SKT", "AKR", "CURB", "UE", "IVT"],                                      "news_cat": "retail"},
+    # FTSE Nareit Lodging/Resorts sector (14 constituents as of 2024)
+    "hospitality": {"focus": "XHR",  "peers": ["HST", "RHP", "APLE", "PK", "DRH", "SHO", "PEB", "RLJ", "INN", "CLDT"],                                                           "news_cat": "hospitality"},
+    # FTSE Nareit Free Standing subsector + Gaming REITs (net lease comps)
+    "netlease":    {"focus": "EPRT", "peers": ["O", "NNN", "ADC", "FCPT", "GTY", "NTST", "WPC", "VICI", "GLPI"],                                                                   "news_cat": "netlease"},
+    # FTSE Nareit Telecommunications sector (3–4 constituents)
+    "tower":       {"focus": "SBAC", "peers": ["AMT", "CCI", "UNIT"],                                                                                                               "news_cat": "towers"},
 }
 
 # ── All ticker names ───────────────────────────────────────────
 TICKER_NAMES = {
+    # ── Healthcare (FTSE Nareit Health Care, 18 constituents) ──────
     "CTRE": "CareTrust REIT",
     "WELL": "Welltower",
     "VTR":  "Ventas",
-    "OHI":  "Omega Healthcare",
+    "DOC":  "Healthpeak Properties",
+    "AHR":  "American Healthcare REIT",
+    "ARE":  "Alexandria Real Estate Equities",
+    "HR":   "Healthcare Realty Trust",
+    "SBRA": "Sabra Health Care REIT",
+    "NHI":  "National Health Investors",
+    "OHI":  "Omega Healthcare Investors",
+    "LTC":  "LTC Properties",
+    "DHC":  "Diversified Healthcare Trust",
+    "MPW":  "Medical Properties Trust",
+    "CHCT": "Community Healthcare Trust",
+    "UHT":  "Universal Health Realty Income Trust",
+    "SILA": "Sila Realty Trust",
+    "GMRE": "Global Medical REIT",
+    "STRW": "Strawberry Fields REIT",
+    # ── Housing / Residential (FTSE Nareit Residential) ───────────
     "MRP":  "Millrose Properties",
+    "EQR":  "Equity Residential",
+    "AVB":  "AvalonBay Communities",
+    "ESS":  "Essex Property Trust",
+    "MAA":  "Mid-America Apartment Communities",
+    "UDR":  "UDR Inc",
+    "CPT":  "Camden Property Trust",
+    "IRT":  "Independence Realty Trust",
+    "ELME": "Elme Communities",
+    "CSR":  "Centerspace",
+    "AIV":  "Apartment Investment and Management",
+    "NXRT": "NexPoint Residential Trust",
+    "AMH":  "American Homes 4 Rent",
+    "INVH": "Invitation Homes",
+    "SUI":  "Sun Communities",
+    "ELS":  "Equity LifeStyle Properties",
+    "UMH":  "UMH Properties",
     "LEN":  "Lennar",
     "FPH":  "Five Point Holdings",
+    # ── Industrial (FTSE Nareit Industrial, 12 constituents) ──────
     "TRNO": "Terreno Realty",
     "PLD":  "Prologis",
     "EGP":  "EastGroup Properties",
     "REXR": "Rexford Industrial",
+    "LINE": "Lineage Inc",
+    "FR":   "First Industrial Realty Trust",
     "STAG": "STAG Industrial",
+    "COLD": "Americold Realty Trust",
+    "LXP":  "LXP Industrial Trust",
+    "IIPR": "Innovative Industrial Properties",
+    "PLYM": "Plymouth Industrial REIT",
+    "ILPT": "Industrial Logistics Properties Trust",
+    "MDV":  "Modiv Industrial",
+    # ── Retail (FTSE Nareit Shopping Centers + Regional Malls) ────
     "MAC":  "Macerich",
     "SPG":  "Simon Property Group",
-    "SKT":  "Tanger Outlets",
+    "CBL":  "CBL Properties",
+    "KIM":  "Kimco Realty",
+    "REG":  "Regency Centers",
+    "FRT":  "Federal Realty Investment Trust",
+    "BRX":  "Brixmor Property Group",
+    "KRG":  "Kite Realty Group Trust",
+    "PECO": "Phillips Edison & Company",
+    "SKT":  "Tanger Inc",
+    "AKR":  "Acadia Realty Trust",
+    "CURB": "Curbline Properties",
+    "UE":   "Urban Edge Properties",
+    "IVT":  "InvenTrust Properties",
+    # ── Hospitality (FTSE Nareit Lodging/Resorts, 14 constituents) ─
     "XHR":  "Xenia Hotels & Resorts",
-    "PK":   "Park Hotels & Resorts",
     "HST":  "Host Hotels & Resorts",
+    "RHP":  "Ryman Hospitality Properties",
+    "APLE": "Apple Hospitality REIT",
+    "PK":   "Park Hotels & Resorts",
+    "DRH":  "DiamondRock Hospitality",
+    "SHO":  "Sunstone Hotel Investors",
+    "PEB":  "Pebblebrook Hotel Trust",
+    "RLJ":  "RLJ Lodging Trust",
+    "INN":  "Summit Hotel Properties",
+    "CLDT": "Chatham Lodging Trust",
+    # ── Net Lease (FTSE Nareit Free Standing subsector) ───────────
     "EPRT": "Essential Properties Realty Trust",
     "O":    "Realty Income",
     "NNN":  "NNN REIT",
     "ADC":  "Agree Realty",
+    "FCPT": "Four Corners Property Trust",
+    "GTY":  "Getty Realty",
+    "NTST": "NETSTREIT Corp",
+    "WPC":  "W. P. Carey",
+    "VICI": "VICI Properties",
+    "GLPI": "Gaming and Leisure Properties",
+    # ── Tower (FTSE Nareit Telecommunications, 3–4 constituents) ──
     "SBAC": "SBA Communications",
     "AMT":  "American Tower",
     "CCI":  "Crown Castle",
+    "UNIT": "Uniti Group",
 }
 
 # Derived sets
@@ -75,6 +153,11 @@ BROAD_FEEDS = [
     {"source": "RCR Wireless",        "url": "https://www.rcrwireless.com/feed",                           "category": "towers"},
     # Retail
     {"source": "ICSC",                "url": "https://www.icsc.com/news-and-views/rss",                    "category": "retail"},
+    {"source": "GlobeSt Retail",      "url": "https://www.globest.com/category/retail/feed/",              "category": "retail"},
+    # Net Lease
+    {"source": "GlobeSt Net Lease",   "url": "https://www.globest.com/category/net-lease/feed/",           "category": "netlease"},
+    # Hospitality
+    {"source": "Hotel Management",    "url": "https://www.hotelmanagement.net/rss.xml",                    "category": "hospitality"},
 ]
 
 SIGNAL_KEYWORDS = [
