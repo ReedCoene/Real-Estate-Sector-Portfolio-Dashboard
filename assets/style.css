@@ -173,6 +173,7 @@ body.light .icon-moon { display: block; }
   font-weight: 600;
   color: var(--warn);
 }
+.hidden { display: none !important; }
 .alert-banner.hidden { display: none; }
 
 /* ════════════════════════════════════
