@@ -135,6 +135,7 @@ BROAD_FEEDS = [
     {"source": "MarketWatch RE",      "url": "https://feeds.content.dowjones.io/public/rss/mw_realestate", "category": "broad"},
     {"source": "The Real Deal",       "url": "https://therealdeal.com/feed/",                              "category": "broad"},
     {"source": "GlobeSt",             "url": "https://www.globest.com/feed/",                              "category": "broad"},
+    {"source": "Bisnow",              "url": "https://www.bisnow.com/rss",                                 "category": "broad"},
     # Healthcare — REIT-specific
     {"source": "Becker's Hospital",   "url": "https://www.beckershospitalreview.com/rss/news.xml",         "category": "healthcare"},
     {"source": "McKnight's LTC",      "url": "https://www.mcknights.com/news/feed/",                       "category": "healthcare"},
