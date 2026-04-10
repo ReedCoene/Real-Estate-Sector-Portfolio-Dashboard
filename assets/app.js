@@ -1169,7 +1169,7 @@ async function listSectorPdfs(sector) {
   });
   if (!res.ok) return [];
   const items = await res.json();
-  return (items || []).map(f => ({
+  return (items || []).filter(f => f.name && f.name.endsWith('.pdf')).map(f => ({
     name: f.name,
     date: f.name.replace('.pdf', ''),
     url:  `${pdfStorageBase()}/${sector}/${f.name}`,
