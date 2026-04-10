@@ -376,93 +376,62 @@ def _render_overview_pdf(buf, sdata, market_date, total_pages):
         c.drawImage(ImageReader(chart_buf), 0.5*inch, y - chart_h, width=chart_w, height=chart_h)
         y -= chart_h + 0.3*inch
 
-    # ── Top Gainers / Losers ──────────────────────────────────────
-    def draw_movers_table(title, movers, start_y):
+    # ── Top Gainers / Losers — full-width stacked tables ─────────
+    COL_TICKER = 0.55*inch
+    COL_NAME   = 1.25*inch
+    COL_PRICE  = 4.55*inch
+    COL_CHANGE = 5.75*inch
+    TABLE_W    = W - inch
+
+    def draw_movers_table_full(title, movers, start_y, accent_color):
         cy = start_y
         c.setFillColor(rgb(C_TEXT))
         c.setFont('Helvetica-Bold', 11)
         c.drawString(0.5*inch, cy, title)
         cy -= 0.08*inch
-        c.setFillColor(rgb(C_ACCENT))
+        c.setFillColor(rgb(accent_color))
         c.rect(0.5*inch, cy, 1.2*inch, 0.02*inch, fill=1, stroke=0)
         cy -= 0.25*inch
 
+        # Header
         c.setFillColor(rgb(C_LIGHT))
-        c.rect(0.5*inch, cy - 0.05*inch, (W/2 - 0.6*inch), 0.25*inch, fill=1, stroke=0)
+        c.rect(0.5*inch, cy - 0.05*inch, TABLE_W, 0.27*inch, fill=1, stroke=0)
         c.setFillColor(rgb(C_MUTED))
-        c.setFont('Helvetica-Bold', 7)
-        c.drawString(0.55*inch, cy + 0.08*inch, 'TICKER')
-        c.drawString(1.1*inch,  cy + 0.08*inch, 'NAME')
-        c.drawString(2.6*inch,  cy + 0.08*inch, 'PRICE')
-        c.drawString(3.1*inch,  cy + 0.08*inch, 'DAY %')
+        c.setFont('Helvetica-Bold', 8)
+        c.drawString(COL_TICKER, cy + 0.09*inch, 'TICKER')
+        c.drawString(COL_NAME,   cy + 0.09*inch, 'COMPANY')
+        c.drawString(COL_PRICE,  cy + 0.09*inch, 'PRICE')
+        c.drawString(COL_CHANGE, cy + 0.09*inch, 'DAY %')
         cy -= 0.05*inch
 
         for idx, s in enumerate(movers[:5]):
             pct = s.get('pct_change') or 0
             row_bg = (1, 1, 1) if idx % 2 == 0 else C_LIGHT
             c.setFillColor(rgb(row_bg))
-            c.rect(0.5*inch, cy - 0.1*inch, (W/2 - 0.6*inch), 0.28*inch, fill=1, stroke=0)
-            c.setFillColor(rgb(C_ACCENT))
-            c.setFont('Helvetica-Bold', 8)
-            c.drawString(0.55*inch, cy + 0.05*inch, s.get('ticker', ''))
+            c.rect(0.5*inch, cy - 0.1*inch, TABLE_W, 0.29*inch, fill=1, stroke=0)
+
+            c.setFillColor(rgb(accent_color))
+            c.setFont('Helvetica-Bold', 9)
+            c.drawString(COL_TICKER, cy + 0.06*inch, s.get('ticker', ''))
+
             c.setFillColor(rgb(C_TEXT))
-            c.setFont('Helvetica', 8)
+            c.setFont('Helvetica', 9)
             name = s.get('name', '')
-            if len(name) > 22: name = name[:20] + '…'
-            c.drawString(1.1*inch, cy + 0.05*inch, name)
-            c.drawString(2.6*inch, cy + 0.05*inch, fp(s.get('price')))
+            if len(name) > 42: name = name[:40] + '…'
+            c.drawString(COL_NAME, cy + 0.06*inch, name)
+            c.drawString(COL_PRICE, cy + 0.06*inch, fp(s.get('price')))
+
             pct_color = C_UP if pct > 0 else C_DOWN if pct < 0 else C_MUTED
             c.setFillColor(rgb(pct_color))
-            c.setFont('Helvetica-Bold', 8)
-            c.drawString(3.1*inch, cy + 0.05*inch, fpct(pct))
-            cy -= 0.27*inch
+            c.setFont('Helvetica-Bold', 9)
+            c.drawString(COL_CHANGE, cy + 0.06*inch, fpct(pct))
+            cy -= 0.28*inch
         return cy
 
-    def draw_movers_table_right(title, movers, start_y, x_off):
-        cy = start_y
-        c.setFillColor(rgb(C_TEXT))
-        c.setFont('Helvetica-Bold', 11)
-        c.drawString(x_off, cy, title)
-        cy -= 0.08*inch
-        c.setFillColor(rgb(C_DOWN))
-        c.rect(x_off, cy, 1.2*inch, 0.02*inch, fill=1, stroke=0)
-        cy -= 0.25*inch
-
-        c.setFillColor(rgb(C_LIGHT))
-        c.rect(x_off, cy - 0.05*inch, (W/2 - 0.6*inch), 0.25*inch, fill=1, stroke=0)
-        c.setFillColor(rgb(C_MUTED))
-        c.setFont('Helvetica-Bold', 7)
-        c.drawString(x_off + 0.05*inch, cy + 0.08*inch, 'TICKER')
-        c.drawString(x_off + 0.6*inch,  cy + 0.08*inch, 'NAME')
-        c.drawString(x_off + 2.1*inch,  cy + 0.08*inch, 'PRICE')
-        c.drawString(x_off + 2.6*inch,  cy + 0.08*inch, 'DAY %')
-        cy -= 0.05*inch
-
-        for idx, s in enumerate(movers[:5]):
-            pct = s.get('pct_change') or 0
-            row_bg = (1, 1, 1) if idx % 2 == 0 else C_LIGHT
-            c.setFillColor(rgb(row_bg))
-            c.rect(x_off, cy - 0.1*inch, (W/2 - 0.6*inch), 0.28*inch, fill=1, stroke=0)
-            c.setFillColor(rgb(C_DOWN))
-            c.setFont('Helvetica-Bold', 8)
-            c.drawString(x_off + 0.05*inch, cy + 0.05*inch, s.get('ticker', ''))
-            c.setFillColor(rgb(C_TEXT))
-            c.setFont('Helvetica', 8)
-            name = s.get('name', '')
-            if len(name) > 22: name = name[:20] + '…'
-            c.drawString(x_off + 0.6*inch, cy + 0.05*inch, name)
-            c.drawString(x_off + 2.1*inch, cy + 0.05*inch, fp(s.get('price')))
-            pct_color = C_UP if pct > 0 else C_DOWN if pct < 0 else C_MUTED
-            c.setFillColor(rgb(pct_color))
-            c.setFont('Helvetica-Bold', 8)
-            c.drawString(x_off + 2.6*inch, cy + 0.05*inch, fpct(pct))
-            cy -= 0.27*inch
-        return cy
-
-    col2_x = W/2 + 0.1*inch
-    gainers_end_y = draw_movers_table('Top 5 Gainers', top_gainers, y)
-    draw_movers_table_right('Top 5 Losers', top_losers, y, col2_x)
-    y = gainers_end_y - 0.3*inch
+    y = draw_movers_table_full('Top 5 Gainers', top_gainers, y, C_UP)
+    y -= 0.35*inch
+    y = draw_movers_table_full('Top 5 Losers',  top_losers,  y, C_DOWN)
+    y -= 0.3*inch
 
     # End of page 1 — footer + page break
     advance_page()
@@ -480,11 +449,39 @@ def _render_overview_pdf(buf, sdata, market_date, total_pages):
         c.rect(0.5*inch, y2, 1.9*inch, 0.025*inch, fill=1, stroke=0)
         y2 -= 0.25*inch
 
-        words = narrative.split()
-        lines_est = max(4, len(words) // 10 + 2)
-        box_h = lines_est * 0.18 * inch + 0.3*inch
+        # Split narrative into two paragraphs at a sentence boundary near midpoint
+        mid = len(narrative) // 2
+        split_idx = narrative.find('. ', max(0, mid - 120), mid + 200)
+        if split_idx != -1:
+            paragraphs = [narrative[:split_idx + 1].strip(),
+                          narrative[split_idx + 2:].strip()]
+        else:
+            paragraphs = [narrative]
 
-        # Subtle shadow (offset down-right, light gray)
+        # Pre-wrap all lines so we can size the box accurately
+        LINE_H   = 0.175*inch
+        PARA_GAP = 0.10*inch
+        line_w   = 90
+        wrapped  = []   # list of str; '' marks paragraph break
+        for pi, para in enumerate(paragraphs):
+            words = para.split()
+            line  = ''
+            for word in words:
+                test = (line + ' ' + word).strip()
+                if len(test) <= line_w:
+                    line = test
+                else:
+                    wrapped.append(line)
+                    line = word
+            if line:
+                wrapped.append(line)
+            if pi < len(paragraphs) - 1:
+                wrapped.append('')   # paragraph separator
+
+        box_h = (sum(LINE_H if l else PARA_GAP for l in wrapped)
+                 + 0.30*inch)
+
+        # Subtle shadow
         c.setFillColor(Color(0.80, 0.82, 0.86))
         c.roundRect(0.5*inch + 0.035*inch, y2 - box_h - 0.035*inch,
                     W - inch, box_h, 6, fill=1, stroke=0)
@@ -493,27 +490,20 @@ def _render_overview_pdf(buf, sdata, market_date, total_pages):
         c.setFillColor(rgb(C_WHITE))
         c.roundRect(0.5*inch, y2 - box_h, W - inch, box_h, 6, fill=1, stroke=0)
 
-        # Left blue accent border (~4.5 pt wide)
+        # Left blue accent border
         c.setFillColor(rgb(C_ACCENT))
         c.rect(0.5*inch, y2 - box_h, 0.045*inch, box_h, fill=1, stroke=0)
 
-        # Narrative text (inset from the blue border)
+        # Draw wrapped text
         c.setFillColor(rgb(C_TEXT))
-        c.setFont('Helvetica', 9)
-        line_w = 88
-        ty = y2 - 0.15*inch
-        line = ''
-        for word in words:
-            test = (line + ' ' + word).strip()
-            if len(test) <= line_w:
-                line = test
+        c.setFont('Helvetica', 9.5)
+        ty = y2 - 0.17*inch
+        for line_text in wrapped:
+            if line_text == '':
+                ty -= PARA_GAP
             else:
-                if ty > 0.8*inch:
-                    c.drawString(0.65*inch, ty, line)
-                ty -= 0.17*inch
-                line = word
-        if line and ty > 0.8*inch:
-            c.drawString(0.65*inch, ty, line)
+                c.drawString(0.65*inch, ty, line_text)
+                ty -= LINE_H
 
         y2 = y2 - box_h - 0.3*inch
 
