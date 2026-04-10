@@ -1008,23 +1008,28 @@ let weeklyPdfArchiveOpen   = false;
 let weeklyPdfSelectedUrls  = new Set();
 
 async function listWeeklyPdfs(sector) {
-  const url = `${window.SUPABASE_URL}/storage/v1/object/list/sector-reports/${sector}/weekly`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'apikey': window.SUPABASE_ANON_KEY,
-      'Authorization': `Bearer ${window.SUPABASE_ANON_KEY}`,
-    },
-    body: JSON.stringify({ limit: 200, offset: 0, sortBy: { column: 'name', order: 'desc' } }),
-  });
-  if (!res.ok) return [];
-  const items = await res.json();
-  return (items || []).filter(f => f.name && f.name.endsWith('.pdf')).map(f => ({
-    name: f.name,
-    date: f.name.replace('.pdf', ''),
-    url:  `${pdfStorageBase()}/${sector}/weekly/${f.name}`,
-  }));
+  const base  = pdfStorageBase();
+  const today = new Date();
+  const checks = [];
+  // Check every Friday for the past 16 weeks (~4 months)
+  for (let i = 0; i < 16; i++) {
+    const d = new Date(today);
+    d.setDate(today.getDate() - i * 7);
+    // Find the most recent Friday on or before d
+    const dayOfWeek = d.getDay(); // 0=Sun … 5=Fri
+    d.setDate(d.getDate() - ((dayOfWeek + 2) % 7 === 0 ? 0 : (dayOfWeek - 5 + 7) % 7));
+    const dateStr = d.toISOString().split('T')[0];
+    const url = `${base}/${sector}/weekly/${dateStr}.pdf`;
+    checks.push(
+      fetch(url, { method: 'HEAD' })
+        .then(res => res.ok ? { name: `${dateStr}.pdf`, date: dateStr, url } : null)
+        .catch(() => null)
+    );
+  }
+  const results = await Promise.all(checks);
+  // Deduplicate by date, keep newest first
+  const seen = new Set();
+  return results.filter(r => r && !seen.has(r.date) && seen.add(r.date));
 }
 
 function renderWeeklyPdfArchive() {
@@ -1157,23 +1162,23 @@ function pdfStorageBase() {
 }
 
 async function listSectorPdfs(sector) {
-  const url = `${window.SUPABASE_URL}/storage/v1/object/list/sector-reports/${sector}`;
-  const res = await fetch(url, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'apikey': window.SUPABASE_ANON_KEY,
-      'Authorization': `Bearer ${window.SUPABASE_ANON_KEY}`,
-    },
-    body: JSON.stringify({ limit: 200, offset: 0, sortBy: { column: 'name', order: 'desc' } }),
-  });
-  if (!res.ok) return [];
-  const items = await res.json();
-  return (items || []).filter(f => f.name && f.name.endsWith('.pdf')).map(f => ({
-    name: f.name,
-    date: f.name.replace('.pdf', ''),
-    url:  `${pdfStorageBase()}/${sector}/${f.name}`,
-  }));
+  const base  = pdfStorageBase();
+  const today = new Date();
+  const checks = [];
+  // Check the last 30 calendar days
+  for (let i = 0; i < 30; i++) {
+    const d = new Date(today);
+    d.setDate(today.getDate() - i);
+    const dateStr = d.toISOString().split('T')[0];
+    const url = `${base}/${sector}/${dateStr}.pdf`;
+    checks.push(
+      fetch(url, { method: 'HEAD' })
+        .then(res => res.ok ? { name: `${dateStr}.pdf`, date: dateStr, url } : null)
+        .catch(() => null)
+    );
+  }
+  const results = await Promise.all(checks);
+  return results.filter(Boolean); // newest first (i=0 is today)
 }
 
 function downloadSelected() {
