@@ -2,13 +2,15 @@
 REIT Daily Email Brief — sends personalized sector digests to subscribers.
 Runs after fetch_data.py in GitHub Actions.
 """
-import json, os, sys, requests
+import json, os, sys, requests, smtplib
 from datetime import datetime
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 
 SUPABASE_URL     = os.environ.get('SUPABASE_URL', '')
 SUPABASE_SERVICE = os.environ.get('SUPABASE_SERVICE_KEY', '')
-RESEND_API_KEY   = os.environ.get('RESEND_API_KEY', '')
-RESEND_FROM      = os.environ.get('RESEND_FROM', 'onboarding@resend.dev')
+GMAIL_USER       = os.environ.get('GMAIL_USER', '')
+GMAIL_APP_PASS   = os.environ.get('GMAIL_APP_PASS', '')
 
 _repo = os.environ.get('GITHUB_REPOSITORY', 'ReedCoene/Real-Estate-Sector-Portfolio-Dashboard')
 _owner, _name = (_repo.split('/', 1) + [''])[:2]
@@ -159,19 +161,20 @@ def build_html(sector_key, sdata, unsub_url):
 </html>'''
 
 
-def send_via_resend(to, subject, html):
-    r = requests.post(
-        'https://api.resend.com/emails',
-        headers={'Authorization': f'Bearer {RESEND_API_KEY}', 'Content-Type': 'application/json'},
-        json={'from': RESEND_FROM, 'to': [to], 'subject': subject, 'html': html},
-        timeout=15,
-    )
-    return r.status_code, r.text
+def send_via_gmail(to, subject, html):
+    msg = MIMEMultipart('alternative')
+    msg['Subject'] = subject
+    msg['From']    = f'REIT Dashboard <{GMAIL_USER}>'
+    msg['To']      = to
+    msg.attach(MIMEText(html, 'html'))
+    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
+        server.login(GMAIL_USER, GMAIL_APP_PASS)
+        server.sendmail(GMAIL_USER, to, msg.as_string())
 
 
 def main():
     print("=== REIT Daily Email Brief ===")
-    if not all([SUPABASE_URL, SUPABASE_SERVICE, RESEND_API_KEY]):
+    if not all([SUPABASE_URL, SUPABASE_SERVICE, GMAIL_USER, GMAIL_APP_PASS]):
         print("Missing env vars — skipping.")
         return
 
@@ -209,13 +212,9 @@ def main():
         html      = build_html(sector, sdata, unsub_url)
 
         try:
-            status, body = send_via_resend(email, subject, html)
-            if status in (200, 201):
-                print(f"  ✓ {email} ({label})")
-                sent += 1
-            else:
-                print(f"  ✗ {email}: {status} {body}", file=sys.stderr)
-                failed += 1
+            send_via_gmail(email, subject, html)
+            print(f"  ✓ {email} ({label})")
+            sent += 1
         except Exception as e:
             print(f"  ✗ {email}: {e}", file=sys.stderr)
             failed += 1
