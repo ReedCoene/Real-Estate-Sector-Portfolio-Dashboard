@@ -61,7 +61,7 @@ const SECTOR_CONFIG = {
     coverageNote: 'Tower REITs \u2014 click column headers to sort',
   },
   office: {
-    focus: 'BXP', label: 'Office REIT Dashboard',
+    focus: null, label: 'Office REIT Dashboard',
     subtitle: 'CBD \u00b7 Suburban \u00b7 Life Science \u00b7 Government',
     sectorName: 'office', newsCategory: 'office',
     newsTabLabel: 'Office News', sectorCatLabel: 'Office',
@@ -719,10 +719,22 @@ function switchSector(key) {
 
   document.getElementById('siteTitle').textContent        = cfg.label;
   document.getElementById('siteSubtitle').textContent     = cfg.subtitle;
-  document.getElementById('focusTabBtn').innerHTML        = `${cfg.focus} <span class="tab-badge">Focus</span>`;
+  const focusTabBtn = document.getElementById('focusTabBtn');
+  if (cfg.focus) {
+    focusTabBtn.innerHTML = `${cfg.focus} <span class="tab-badge">Focus</span>`;
+    focusTabBtn.classList.remove('hidden');
+  } else {
+    focusTabBtn.classList.add('hidden');
+    if (focusTabBtn.classList.contains('active')) {
+      focusTabBtn.classList.remove('active');
+      document.getElementById('tab-focus').classList.add('hidden');
+      document.querySelector('.tab-btn[data-tab="brief"]').classList.add('active');
+      document.getElementById('tab-brief').classList.remove('hidden');
+    }
+  }
   document.getElementById('sectorNewsTabBtn').textContent = cfg.newsTabLabel;
   document.getElementById('sectorCatBtn').textContent     = cfg.sectorCatLabel;
-  document.getElementById('focusNewsHeader').textContent  = `${cfg.focus} News`;
+  document.getElementById('focusNewsHeader').textContent  = cfg.focus ? `${cfg.focus} News` : 'Focus News';
   document.getElementById('coverageNote').textContent     = cfg.coverageNote;
   document.title = cfg.label;
 
