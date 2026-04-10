@@ -9013,6 +9013,168 @@
         ]
       },
       "weekly_report": null
+    },
+    "office": {
+      "focus_ticker": "BXP",
+      "stocks": {
+        "BXP": {
+          "ticker": "BXP",
+          "name": "BXP",
+          "price": 52.48,
+          "pct_change": -10.65,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "BDN": {
+          "ticker": "BDN",
+          "name": "Brandywine Realty Trust",
+          "price": 2.65,
+          "pct_change": -21.39,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "CDP": {
+          "ticker": "CDP",
+          "name": "COPT Defense Properties",
+          "price": 31.89,
+          "pct_change": 29.56,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "CUZ": {
+          "ticker": "CUZ",
+          "name": "Cousins Properties",
+          "price": 22.26,
+          "pct_change": -13.27,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "DEA": {
+          "ticker": "DEA",
+          "name": "Easterly Government Properties",
+          "price": 22.74,
+          "pct_change": 3.73,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "ESRT": {
+          "ticker": "ESRT",
+          "name": "Empire State Realty Trust",
+          "price": 5.17,
+          "pct_change": -27.03,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "FSP": {
+          "ticker": "FSP",
+          "name": "Franklin Street Properties Corp.",
+          "price": 0.66,
+          "pct_change": -56.73,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "HIW": {
+          "ticker": "HIW",
+          "name": "Highwoods Properties",
+          "price": 21.81,
+          "pct_change": -12.85,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "HPP": {
+          "ticker": "HPP",
+          "name": "Hudson Pacific Properties",
+          "price": 5.88,
+          "pct_change": -64.56,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "KRC": {
+          "ticker": "KRC",
+          "name": "Kilroy Realty Corporation",
+          "price": 27.72,
+          "pct_change": -4.59,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "ONL": {
+          "ticker": "ONL",
+          "name": "Orion Properties Inc.",
+          "price": 2.24,
+          "pct_change": 32.53,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "PKST": {
+          "ticker": "PKST",
+          "name": "Peakstone Realty Trust",
+          "price": 20.91,
+          "pct_change": 83.64,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "PDM": {
+          "ticker": "PDM",
+          "name": "Piedmont Realty Trust",
+          "price": 6.74,
+          "pct_change": 2.9,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        },
+        "SLG": {
+          "ticker": "SLG",
+          "name": "SL Green Realty Corp.",
+          "price": 37.74,
+          "pct_change": -23.49,
+          "market_cap": null,
+          "dividend_yield": null,
+          "fifty_two_week_low": null,
+          "fifty_two_week_high": null,
+          "next_earnings": null
+        }
+      },
+      "news": [],
+      "focus_details": null,
+      "weekly_report": null
     }
   }
 }

@@ -19,11 +19,11 @@ const SECTOR_CONFIG = {
     coverageNote: 'Healthcare REITs \u2014 click column headers to sort',
   },
   housing: {
-    focus: 'MRP', label: 'Housing REIT Dashboard',
+    focus: 'MRP', label: 'Residential REIT Dashboard',
     subtitle: 'Land Banking \u00b7 Homebuilders \u00b7 Residential',
     sectorName: 'housing', newsCategory: 'housing',
-    newsTabLabel: 'Housing News', sectorCatLabel: 'Housing',
-    coverageNote: 'Housing & Land REITs \u2014 click column headers to sort',
+    newsTabLabel: 'Residential News', sectorCatLabel: 'Residential',
+    coverageNote: 'Residential REITs \u2014 click column headers to sort',
   },
   industrial: {
     focus: 'TRNO', label: 'Industrial REIT Dashboard',
@@ -59,6 +59,13 @@ const SECTOR_CONFIG = {
     sectorName: 'tower', newsCategory: 'towers',
     newsTabLabel: 'Tower News', sectorCatLabel: 'Towers / 5G',
     coverageNote: 'Tower REITs \u2014 click column headers to sort',
+  },
+  office: {
+    focus: 'BXP', label: 'Office REIT Dashboard',
+    subtitle: 'CBD \u00b7 Suburban \u00b7 Life Science \u00b7 Government',
+    sectorName: 'office', newsCategory: 'office',
+    newsTabLabel: 'Office News', sectorCatLabel: 'Office',
+    coverageNote: 'Office REITs \u2014 click column headers to sort',
   },
 };
 
@@ -653,8 +660,8 @@ function renderBrief(sData) {
 
 // ── Sector Dropdown ───────────────────────────────────────────
 const SECTOR_DISPLAY_NAMES = {
-  healthcare: 'Healthcare', housing: 'Housing', industrial: 'Industrial',
-  retail: 'Retail / Mall', hospitality: 'Hospitality', netlease: 'Net Lease', tower: 'Tower',
+  healthcare: 'Healthcare', housing: 'Residential', industrial: 'Industrial',
+  retail: 'Retail / Mall', hospitality: 'Hospitality', netlease: 'Net Lease', tower: 'Tower', office: 'Office',
 };
 
 function initSectorDropdown() {

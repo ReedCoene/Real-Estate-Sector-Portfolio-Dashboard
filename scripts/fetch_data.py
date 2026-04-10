@@ -1,6 +1,6 @@
 """
 GSIF REIT Portfolio Dashboard — Multi-Sector Daily Data Fetcher
-Sectors: Healthcare, Housing, Industrial, Retail, Hospitality, Net Lease, Tower
+Sectors: Healthcare, Housing, Industrial, Retail, Hospitality, Net Lease, Tower, Office
 Runs via GitHub Actions after market close Mon–Fri.
 """
 
@@ -26,6 +26,8 @@ SECTOR_CONFIGS = {
     "netlease":    {"focus": "EPRT", "peers": ["O", "NNN", "ADC", "FCPT", "GTY", "NTST", "WPC", "VICI", "GLPI"],                                                                   "news_cat": "netlease"},
     # FTSE Nareit Telecommunications sector (3–4 constituents)
     "tower":       {"focus": "SBAC", "peers": ["AMT", "CCI", "UNIT"],                                                                                                               "news_cat": "towers"},
+    # FTSE Nareit Office sector
+    "office":      {"focus": "BXP",  "peers": ["BDN", "CDP", "CUZ", "DEA", "ESRT", "FSP", "HIW", "HPP", "KRC", "ONL", "PKST", "PDM", "SLG"],                                    "news_cat": "office"},
 }
 
 # ── All ticker names ───────────────────────────────────────────
@@ -124,6 +126,21 @@ TICKER_NAMES = {
     "AMT":  "American Tower",
     "CCI":  "Crown Castle",
     "UNIT": "Uniti Group",
+    # ── Office (FTSE Nareit Office sector) ────────────────────────
+    "BXP":  "BXP",
+    "BDN":  "Brandywine Realty Trust",
+    "CDP":  "COPT Defense Properties",
+    "CUZ":  "Cousins Properties",
+    "DEA":  "Easterly Government Properties",
+    "ESRT": "Empire State Realty Trust",
+    "FSP":  "Franklin Street Properties Corp.",
+    "HIW":  "Highwoods Properties",
+    "HPP":  "Hudson Pacific Properties",
+    "KRC":  "Kilroy Realty Corporation",
+    "ONL":  "Orion Properties Inc.",
+    "PKST": "Peakstone Realty Trust",
+    "PDM":  "Piedmont Realty Trust",
+    "SLG":  "SL Green Realty Corp.",
 }
 
 # Derived sets
@@ -168,6 +185,10 @@ BROAD_FEEDS = [
     {"source": "Fierce Wireless",     "url": "https://www.fiercewireless.com/rss/xml",                     "category": "towers"},
     {"source": "RCR Wireless",        "url": "https://www.rcrwireless.com/feed",                           "category": "towers"},
     {"source": "Light Reading",       "url": "https://www.lightreading.com/rss.xml",                       "category": "towers"},
+    # Office — macro (return-to-office, vacancy, leasing activity, sublease supply)
+    {"source": "GlobeSt Office",      "url": "https://www.globest.com/category/office/feed/",               "category": "office"},
+    {"source": "The Real Deal",       "url": "https://therealdeal.com/feed/",                               "category": "office"},
+    {"source": "Bisnow CRE",          "url": "https://www.bisnow.com/rss",                                  "category": "office"},
 ]
 
 SIGNAL_KEYWORDS = [
@@ -744,7 +765,7 @@ def main():
     total_stocks = len(all_stocks)
     total_news   = len(all_news)
     total_signals = sum(1 for n in all_news if n.get("is_signal"))
-    print(f"\nDone. {total_stocks} tickers | {total_news} news items | {total_signals} signals | 7 sectors written.")
+    print(f"\nDone. {total_stocks} tickers | {total_news} news items | {total_signals} signals | 8 sectors written.")
 
 
 if __name__ == "__main__":
