@@ -803,8 +803,16 @@ function initSubscribeForm() {
       if (resp.ok) {
         form.classList.add('hidden');
         const label = SECTOR_DISPLAY_NAMES[currentSector] || currentSector;
-        success.textContent = `✓ Subscribed — you'll receive the ${label} brief at 5:30 PM ET weekdays.`;
+        success.textContent = `✓ Subscribed — you'll receive the ${label} brief at around 4:30 PM ET weekdays.`;
         success.classList.remove('hidden');
+        fetch(`${window.SUPABASE_URL}/functions/v1/send-welcome`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${window.SUPABASE_ANON_KEY}`,
+          },
+          body: JSON.stringify({ email, sector: currentSector }),
+        }).catch(() => {});
       } else if (resp.status === 409) {
         form.classList.add('hidden');
         success.textContent = '✓ You\'re already subscribed.';
