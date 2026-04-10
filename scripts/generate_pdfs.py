@@ -599,7 +599,11 @@ def main():
 
     sectors     = market_data.get('sectors', {})
     market_date = market_data.get('market_date', datetime.now().strftime('%Y-%m-%d'))
-    date_str    = market_date  # YYYY-MM-DD
+    # market_date may be "April 10, 2026" — normalise to YYYY-MM-DD for file paths
+    try:
+        date_str = datetime.strptime(market_date, '%B %d, %Y').strftime('%Y-%m-%d')
+    except ValueError:
+        date_str = market_date
 
     try:
         import reportlab
