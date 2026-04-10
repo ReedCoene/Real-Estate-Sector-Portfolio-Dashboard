@@ -895,9 +895,11 @@ async function init() {
 init();
 
 // ── PDF Report Tab ────────────────────────────────────────────
-const PDF_PAGE_SIZE = 10;
-let pdfArchivePage  = 1;
-let pdfArchiveList  = [];
+const PDF_PAGE_SIZE  = 10;
+let pdfArchivePage   = 1;
+let pdfArchiveList   = [];
+let pdfArchiveOpen   = false;
+let pdfSelectedUrls  = new Set();
 
 function pdfStorageBase() {
   return `${window.SUPABASE_URL}/storage/v1/object/public/sector-reports`;
@@ -923,62 +925,117 @@ async function listSectorPdfs(sector) {
   }));
 }
 
-function renderPdfArchive() {
-  const wrap   = document.getElementById('pdfArchiveWrap');
-  const total  = pdfArchiveList.length;
-  const pages  = Math.max(1, Math.ceil(total / PDF_PAGE_SIZE));
-  const start  = (pdfArchivePage - 1) * PDF_PAGE_SIZE;
-  const slice  = pdfArchiveList.slice(start, start + PDF_PAGE_SIZE);
+function downloadSelected() {
+  pdfSelectedUrls.forEach(url => {
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = url.split('/').pop();
+    a.target = '_blank';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  });
+}
+
+function renderPdfArchiveDropdown() {
+  const wrap  = document.getElementById('pdfArchiveDropdown');
+  const total = pdfArchiveList.length;
+  const pages = Math.max(1, Math.ceil(total / PDF_PAGE_SIZE));
+  const start = (pdfArchivePage - 1) * PDF_PAGE_SIZE;
+  const slice = pdfArchiveList.slice(start, start + PDF_PAGE_SIZE);
 
   if (!total) {
-    wrap.innerHTML = '<p class="section-note">No archived reports yet — check back after the next daily run.</p>';
+    wrap.innerHTML = '<p class="section-note" style="padding:16px">No archived reports yet — check back after the next daily run.</p>';
     return;
   }
 
-  const rows = slice.map(f => `
-    <a class="pdf-archive-row" href="${f.url}" target="_blank" rel="noopener">
-      <span class="pdf-archive-date">${f.date}</span>
-      <span class="pdf-archive-dl">Download PDF ↓</span>
-    </a>`).join('');
+  const pageUrls    = slice.map(f => f.url);
+  const allChecked  = pageUrls.every(u => pdfSelectedUrls.has(u));
+  const anySelected = pdfSelectedUrls.size > 0;
 
-  const pagerBtns = pages > 1 ? `
+  const rows = slice.map(f => `
+    <label class="pdf-archive-row">
+      <input type="checkbox" class="pdf-cb" data-url="${f.url}" ${pdfSelectedUrls.has(f.url) ? 'checked' : ''}>
+      <span class="pdf-archive-date">${f.date}</span>
+      <a class="pdf-archive-dl" href="${f.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open ↗</a>
+    </label>`).join('');
+
+  wrap.innerHTML = `
+    <div class="pdf-archive-toolbar">
+      <label class="pdf-select-all">
+        <input type="checkbox" id="pdfSelectAll" ${allChecked ? 'checked' : ''}>
+        <span>Select all on page</span>
+      </label>
+      ${anySelected ? `<button class="btn-primary pdf-dl-btn" id="pdfDownloadBtn">Download selected (${pdfSelectedUrls.size})</button>` : ''}
+    </div>
+    <div class="pdf-archive-list">${rows}</div>
     <div class="pdf-pager">
       <button class="pdf-pager-btn" id="pdfPrevBtn" ${pdfArchivePage === 1 ? 'disabled' : ''}>← Prev</button>
       <span class="pdf-pager-info">Page ${pdfArchivePage} / ${pages}</span>
       <button class="pdf-pager-btn" id="pdfNextBtn" ${pdfArchivePage === pages ? 'disabled' : ''}>Next →</button>
-    </div>` : '';
+    </div>`;
 
-  wrap.innerHTML = `<div class="pdf-archive-list">${rows}</div>${pagerBtns}`;
-
-  document.getElementById('pdfPrevBtn')?.addEventListener('click', () => {
-    if (pdfArchivePage > 1) { pdfArchivePage--; renderPdfArchive(); }
+  // Checkboxes
+  wrap.querySelectorAll('.pdf-cb').forEach(cb => {
+    cb.addEventListener('change', () => {
+      cb.checked ? pdfSelectedUrls.add(cb.dataset.url) : pdfSelectedUrls.delete(cb.dataset.url);
+      renderPdfArchiveDropdown();
+    });
   });
-  document.getElementById('pdfNextBtn')?.addEventListener('click', () => {
-    if (pdfArchivePage < pages) { pdfArchivePage++; renderPdfArchive(); }
+
+  document.getElementById('pdfSelectAll').addEventListener('change', e => {
+    pageUrls.forEach(u => e.target.checked ? pdfSelectedUrls.add(u) : pdfSelectedUrls.delete(u));
+    renderPdfArchiveDropdown();
+  });
+
+  document.getElementById('pdfDownloadBtn')?.addEventListener('click', downloadSelected);
+
+  document.getElementById('pdfPrevBtn').addEventListener('click', () => {
+    if (pdfArchivePage > 1) { pdfArchivePage--; renderPdfArchiveDropdown(); }
+  });
+  document.getElementById('pdfNextBtn').addEventListener('click', () => {
+    if (pdfArchivePage < pages) { pdfArchivePage++; renderPdfArchiveDropdown(); }
   });
 }
 
+function toggleArchive() {
+  pdfArchiveOpen = !pdfArchiveOpen;
+  const dropdown = document.getElementById('pdfArchiveDropdown');
+  const btn      = document.getElementById('pdfArchiveToggleBtn');
+  if (pdfArchiveOpen) {
+    dropdown.classList.remove('hidden');
+    btn.textContent = 'Archive ▲';
+    renderPdfArchiveDropdown();
+  } else {
+    dropdown.classList.add('hidden');
+    btn.textContent = 'Archive ▼';
+  }
+}
+
 async function loadPdfTab(sector) {
-  const todayWrap  = document.getElementById('pdfTodayWrap');
-  const titleEl    = document.getElementById('pdfReportTitle');
-  const dateEl     = document.getElementById('pdfReportDate');
-  const archiveWrap= document.getElementById('pdfArchiveWrap');
-  const label      = SECTOR_DISPLAY_NAMES[sector] || sector;
+  const todayWrap = document.getElementById('pdfTodayWrap');
+  const titleEl   = document.getElementById('pdfReportTitle');
+  const dateEl    = document.getElementById('pdfReportDate');
+  const archiveEl = document.getElementById('pdfArchiveSection');
+  const label     = SECTOR_DISPLAY_NAMES[sector] || sector;
+
+  // Reset state
+  pdfArchiveOpen  = false;
+  pdfArchivePage  = 1;
+  pdfSelectedUrls = new Set();
 
   titleEl.textContent = `${label} — Today's Sector Report`;
   todayWrap.innerHTML = '<div class="loading-msg">Loading PDF…</div>';
-  archiveWrap.innerHTML = '<div class="loading-msg">Loading archive…</div>';
+  archiveEl.innerHTML = '';
 
   const files = await listSectorPdfs(sector);
 
   if (!files.length) {
-    const msg = '<p class="section-note">No PDF reports yet — they generate daily after market close.</p>';
-    todayWrap.innerHTML  = msg;
-    archiveWrap.innerHTML = msg;
+    todayWrap.innerHTML = '<p class="section-note">No PDF reports yet — they generate daily after market close.</p>';
     return;
   }
 
-  // Most recent = today's
+  // Today's PDF
   const today = files[0];
   dateEl.textContent = today.date;
   todayWrap.innerHTML = `
@@ -990,25 +1047,24 @@ async function loadPdfTab(sector) {
       <iframe class="pdf-iframe" src="${today.url}" title="${label} Sector Report ${today.date}"></iframe>
     </div>`;
 
-  // Archive = everything except today
+  // Archive toggle — only show if there are past reports
   pdfArchiveList = files.slice(1);
-  pdfArchivePage = 1;
-  renderPdfArchive();
+  if (pdfArchiveList.length) {
+    archiveEl.innerHTML = `
+      <button class="pdf-archive-toggle-btn" id="pdfArchiveToggleBtn">Archive ▼</button>
+      <div class="pdf-archive-dropdown hidden" id="pdfArchiveDropdown"></div>`;
+    document.getElementById('pdfArchiveToggleBtn').addEventListener('click', toggleArchive);
+  }
 }
 
 function initPdfTab() {
-  // Load when tab is clicked
   document.querySelectorAll('.tab-btn').forEach(btn => {
     if (btn.dataset.tab === 'pdf-report') {
       btn.addEventListener('click', () => loadPdfTab(currentSector));
     }
   });
-  // Also reload when sector changes while tab is active
-  const origSwitch = window._switchSectorHook;
   window._onSectorChange = (key) => {
     const activeTab = document.querySelector('.tab-btn.active');
-    if (activeTab && activeTab.dataset.tab === 'pdf-report') {
-      loadPdfTab(key);
-    }
+    if (activeTab && activeTab.dataset.tab === 'pdf-report') loadPdfTab(key);
   };
 }
