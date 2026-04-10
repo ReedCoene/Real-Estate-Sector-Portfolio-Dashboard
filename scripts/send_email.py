@@ -47,12 +47,14 @@ def pcol(v):
     return '#00c087' if v > 0 else '#f6465d'
 
 def build_html(sector_key, sdata, unsub_url):
-    label   = SECTOR_LABELS.get(sector_key, sector_key.title())
-    focus   = sdata.get('focus_ticker', '')
-    stocks  = sdata.get('stocks', {})
-    news    = sdata.get('news', [])
-    fd      = sdata.get('focus_details', {})
+    label    = SECTOR_LABELS.get(sector_key, sector_key.title())
+    focus    = sdata.get('focus_ticker', '')
+    stocks   = sdata.get('stocks', {})
+    news     = sdata.get('news', [])
+    fd       = sdata.get('focus_details', {})
     date_str = datetime.now().strftime('%B %d, %Y')
+    market_date = sdata.get('market_date') or datetime.now().strftime('%Y-%m-%d')
+    pdf_url  = f"{SUPABASE_URL}/storage/v1/object/public/sector-reports/{sector_key}/{market_date}.pdf"
 
     vals      = list(stocks.values())
     advancing = sum(1 for s in vals if s.get('pct_change', 0) > 0)
@@ -149,7 +151,13 @@ def build_html(sector_key, sdata, unsub_url):
 
   {'<div style="background:#fff;border-radius:12px;padding:20px 24px;margin-bottom:12px;border:1px solid #eaecf2"><div style="font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:#6b7280;margin-bottom:14px">Key Signals</div>' + sig_rows + '</div>' if sig_rows else ''}
 
-  <div style="text-align:center;padding:20px 0 4px">
+  <div style="background:#fff;border-radius:12px;padding:18px 24px;margin-bottom:12px;border:1px solid #eaecf2;text-align:center">
+    <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.7px;color:#6b7280;margin-bottom:12px">Today's Full Report</div>
+    <a href="{pdf_url}" style="display:inline-block;background:#0052ff;color:#fff;text-decoration:none;font-size:13px;font-weight:600;padding:11px 24px;border-radius:8px;margin-bottom:8px">View Today's PDF Report ↓</a>
+    <div style="font-size:11px;color:#9ca3af;margin-top:6px">Includes full movers table, signals &amp; sector analysis</div>
+  </div>
+
+  <div style="text-align:center;padding:16px 0 4px">
     <a href="{SITE_URL}" style="color:#0052ff;text-decoration:none;font-size:13px;font-weight:600">View Full Dashboard</a>
     <span style="color:#d1d5db;margin:0 10px">·</span>
     <a href="{unsub_url}" style="color:#9ca3af;text-decoration:none;font-size:12px">Unsubscribe</a>
