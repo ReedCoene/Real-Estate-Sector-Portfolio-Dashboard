@@ -2,3 +2,5 @@ yfinance>=0.2.40
 feedparser>=6.0.11
 requests>=2.32.0
 reportlab>=4.2.0
+anthropic>=0.40.0
+matplotlib>=3.9.0

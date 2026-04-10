@@ -1151,3 +1151,59 @@ body.light .icon-moon { display: block; }
 .pdf-pager-btn:hover:not(:disabled) { background: var(--s4); }
 .pdf-pager-btn:disabled { opacity: 0.4; cursor: default; }
 .pdf-pager-info { font-size: 13px; color: var(--t3); }
+
+/* ── Overview Landing Page ─────────────────────────────────── */
+.overview-scorecard {
+  display: flex; flex-direction: column; gap: 6px;
+  background: var(--s2); border-radius: 10px; padding: 14px 16px;
+}
+.overview-scorecard-row {
+  display: grid; grid-template-columns: 90px 1fr 56px;
+  align-items: center; gap: 8px;
+}
+.overview-scorecard-name {
+  font-size: 12px; font-weight: 600; color: var(--t2);
+}
+.overview-scorecard-track {
+  height: 10px; background: var(--s4); border-radius: 4px;
+  position: relative; overflow: visible;
+}
+.overview-scorecard-bar {
+  position: absolute; height: 100%; border-radius: 4px;
+  top: 0;
+}
+.overview-scorecard-pct {
+  font-size: 12px; font-weight: 700; font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+.overview-narrative {
+  background: var(--s2); border-radius: 10px; padding: 16px 18px;
+  font-size: 13px; color: var(--t2); line-height: 1.75;
+  border-left: 3px solid var(--blue);
+}
+.overview-movers-grid {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+}
+.overview-movers-label {
+  font-size: 10px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .6px; margin-bottom: 8px;
+}
+.overview-movers-label.up   { color: var(--green); }
+.overview-movers-label.down { color: var(--red); }
+.overview-mover-card {
+  display: flex; flex-direction: column; gap: 2px;
+  padding: 8px 10px; border-radius: 8px;
+  background: var(--s2); margin-bottom: 6px;
+}
+.overview-mover-card.gain { border-left: 3px solid var(--green); }
+.overview-mover-card.loss { border-left: 3px solid var(--red); }
+.overview-mover-ticker {
+  font-family: monospace; font-size: 12px; font-weight: 700; color: var(--t1);
+}
+.overview-mover-name {
+  font-size: 10px; color: var(--t3);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.overview-mover-pct {
+  font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums;
+}

@@ -11,6 +11,7 @@ SUPABASE_SERVICE = os.environ.get('SUPABASE_SERVICE_KEY', '')
 BUCKET           = 'sector-reports'
 
 SECTOR_LABELS = {
+    'overview':    'Overview',
     'healthcare':  'Healthcare',
     'housing':     'Residential',
     'industrial':  'Industrial',
@@ -260,6 +261,277 @@ def generate_pdf(sector_key, sdata, market_date):
     return buf.read()
 
 
+def generate_overview_pdf(sdata, market_date):
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    import matplotlib.patches as mpatches
+    from reportlab.lib.pagesizes import letter
+    from reportlab.lib.units import inch
+    from reportlab.pdfgen import canvas
+    from reportlab.lib.colors import Color
+    from reportlab.lib.utils import ImageReader
+
+    sector_perf = sdata.get('sector_performance', {})
+    top_gainers = sdata.get('top_gainers', [])
+    top_losers  = sdata.get('top_losers', [])
+    narrative   = sdata.get('narrative', '')
+    news        = sdata.get('news', [])
+
+    buf = io.BytesIO()
+    W, H = letter
+    c = canvas.Canvas(buf, pagesize=letter)
+
+    def rgb(t): return Color(t[0], t[1], t[2])
+
+    # ── PAGE 1 ────────────────────────────────────────────────────
+
+    # Header bar
+    c.setFillColor(rgb(C_BG))
+    c.rect(0, H - 1.4*inch, W, 1.4*inch, fill=1, stroke=0)
+
+    c.setFillColor(rgb(C_ACCENT))
+    c.setFont('Helvetica-Bold', 8)
+    c.drawString(0.5*inch, H - 0.45*inch, 'REIT DASHBOARD  ·  DAILY SECTOR REPORT')
+
+    c.setFillColor(rgb(C_WHITE))
+    c.setFont('Helvetica-Bold', 22)
+    c.drawString(0.5*inch, H - 0.82*inch, 'REIT SECTOR OVERVIEW — DAILY REPORT')
+
+    c.setFillColor(rgb(C_MUTED))
+    c.setFont('Helvetica', 10)
+    c.drawString(0.5*inch, H - 1.05*inch, f'Market date: {market_date}  ·  Generated {datetime.now(timezone.utc).strftime("%B %d, %Y")}')
+
+    c.setFillColor(rgb(C_ACCENT))
+    c.rect(0, H - 1.42*inch, W, 0.04*inch, fill=1, stroke=0)
+
+    y = H - 1.7*inch
+
+    # ── Sector Scorecard bar chart ────────────────────────────────
+    if sector_perf:
+        sorted_sectors = sorted(sector_perf.items(), key=lambda x: x[1]['avg_change'])
+        names  = [k.title() for k, _ in sorted_sectors]
+        values = [v['avg_change'] for _, v in sorted_sectors]
+        colors = ['#00c087' if v >= 0 else '#f6465d' for v in values]
+
+        fig, ax = plt.subplots(figsize=(6.5, max(2.5, len(names) * 0.38)))
+        fig.patch.set_facecolor('#f7f8fa')
+        ax.set_facecolor('#f7f8fa')
+        bars = ax.barh(names, values, color=colors, height=0.6)
+        ax.axvline(0, color='#b0b8c8', linewidth=0.8)
+        ax.set_xlabel('Avg % Change', fontsize=8, color='#6b7280')
+        ax.tick_params(axis='both', labelsize=8, colors='#2e3340')
+        ax.spines[['top', 'right', 'left']].set_visible(False)
+        ax.spines['bottom'].set_color('#d1d5db')
+        for bar, val in zip(bars, values):
+            label = f'{val:+.2f}%'
+            xpos = val + (0.05 if val >= 0 else -0.05)
+            ha   = 'left' if val >= 0 else 'right'
+            ax.text(xpos, bar.get_y() + bar.get_height()/2, label,
+                    va='center', ha=ha, fontsize=7, color='#2e3340')
+        plt.tight_layout(pad=0.5)
+
+        chart_buf = io.BytesIO()
+        plt.savefig(chart_buf, format='png', dpi=150, bbox_inches='tight')
+        plt.close(fig)
+        chart_buf.seek(0)
+
+        chart_h = 2.0*inch
+        chart_w = W - inch
+        c.setFillColor(rgb(C_TEXT))
+        c.setFont('Helvetica-Bold', 13)
+        c.drawString(0.5*inch, y, 'Sector Scorecard')
+        y -= 0.08*inch
+        c.setFillColor(rgb(C_ACCENT))
+        c.rect(0.5*inch, y, 1.4*inch, 0.025*inch, fill=1, stroke=0)
+        y -= 0.2*inch
+        c.drawImage(ImageReader(chart_buf), 0.5*inch, y - chart_h, width=chart_w, height=chart_h)
+        y -= chart_h + 0.3*inch
+
+    # ── Top Gainers ────────────────────────────────────────────────
+    def draw_movers_table(title, movers, start_y):
+        cy = start_y
+        c.setFillColor(rgb(C_TEXT))
+        c.setFont('Helvetica-Bold', 11)
+        c.drawString(0.5*inch, cy, title)
+        cy -= 0.08*inch
+        c.setFillColor(rgb(C_ACCENT))
+        c.rect(0.5*inch, cy, 1.2*inch, 0.02*inch, fill=1, stroke=0)
+        cy -= 0.25*inch
+
+        c.setFillColor(rgb(C_LIGHT))
+        c.rect(0.5*inch, cy - 0.05*inch, (W/2 - 0.6*inch), 0.25*inch, fill=1, stroke=0)
+        c.setFillColor(rgb(C_MUTED))
+        c.setFont('Helvetica-Bold', 7)
+        c.drawString(0.55*inch, cy + 0.08*inch, 'TICKER')
+        c.drawString(1.1*inch, cy + 0.08*inch, 'NAME')
+        c.drawString(2.6*inch, cy + 0.08*inch, 'PRICE')
+        c.drawString(3.1*inch, cy + 0.08*inch, 'DAY %')
+        cy -= 0.05*inch
+
+        for idx, s in enumerate(movers[:5]):
+            pct = s.get('pct_change') or 0
+            row_bg = (1, 1, 1) if idx % 2 == 0 else C_LIGHT
+            c.setFillColor(rgb(row_bg))
+            c.rect(0.5*inch, cy - 0.1*inch, (W/2 - 0.6*inch), 0.28*inch, fill=1, stroke=0)
+            c.setFillColor(rgb(C_ACCENT))
+            c.setFont('Helvetica-Bold', 8)
+            c.drawString(0.55*inch, cy + 0.05*inch, s.get('ticker', ''))
+            c.setFillColor(rgb(C_TEXT))
+            c.setFont('Helvetica', 8)
+            name = s.get('name', '')
+            if len(name) > 22: name = name[:20] + '…'
+            c.drawString(1.1*inch, cy + 0.05*inch, name)
+            c.drawString(2.6*inch, cy + 0.05*inch, fp(s.get('price')))
+            pct_color = C_UP if pct > 0 else C_DOWN if pct < 0 else C_MUTED
+            c.setFillColor(rgb(pct_color))
+            c.setFont('Helvetica-Bold', 8)
+            c.drawString(3.1*inch, cy + 0.05*inch, fpct(pct))
+            cy -= 0.27*inch
+        return cy
+
+    col2_x = W/2 + 0.1*inch
+    gainers_end_y = draw_movers_table('Top 5 Gainers', top_gainers, y)
+
+    # Losers in right column at same y
+    def draw_movers_table_right(title, movers, start_y, x_off):
+        cy = start_y
+        c.setFillColor(rgb(C_TEXT))
+        c.setFont('Helvetica-Bold', 11)
+        c.drawString(x_off, cy, title)
+        cy -= 0.08*inch
+        c.setFillColor(rgb(C_DOWN))
+        c.rect(x_off, cy, 1.2*inch, 0.02*inch, fill=1, stroke=0)
+        cy -= 0.25*inch
+
+        c.setFillColor(rgb(C_LIGHT))
+        c.rect(x_off, cy - 0.05*inch, (W/2 - 0.6*inch), 0.25*inch, fill=1, stroke=0)
+        c.setFillColor(rgb(C_MUTED))
+        c.setFont('Helvetica-Bold', 7)
+        c.drawString(x_off + 0.05*inch, cy + 0.08*inch, 'TICKER')
+        c.drawString(x_off + 0.6*inch,  cy + 0.08*inch, 'NAME')
+        c.drawString(x_off + 2.1*inch,  cy + 0.08*inch, 'PRICE')
+        c.drawString(x_off + 2.6*inch,  cy + 0.08*inch, 'DAY %')
+        cy -= 0.05*inch
+
+        for idx, s in enumerate(movers[:5]):
+            pct = s.get('pct_change') or 0
+            row_bg = (1, 1, 1) if idx % 2 == 0 else C_LIGHT
+            c.setFillColor(rgb(row_bg))
+            c.rect(x_off, cy - 0.1*inch, (W/2 - 0.6*inch), 0.28*inch, fill=1, stroke=0)
+            c.setFillColor(rgb(C_DOWN))
+            c.setFont('Helvetica-Bold', 8)
+            c.drawString(x_off + 0.05*inch, cy + 0.05*inch, s.get('ticker', ''))
+            c.setFillColor(rgb(C_TEXT))
+            c.setFont('Helvetica', 8)
+            name = s.get('name', '')
+            if len(name) > 22: name = name[:20] + '…'
+            c.drawString(x_off + 0.6*inch, cy + 0.05*inch, name)
+            c.drawString(x_off + 2.1*inch, cy + 0.05*inch, fp(s.get('price')))
+            pct_color = C_UP if pct > 0 else C_DOWN if pct < 0 else C_MUTED
+            c.setFillColor(rgb(pct_color))
+            c.setFont('Helvetica-Bold', 8)
+            c.drawString(x_off + 2.6*inch, cy + 0.05*inch, fpct(pct))
+            cy -= 0.27*inch
+        return cy
+
+    draw_movers_table_right('Top 5 Losers', top_losers, y, col2_x)
+    y = gainers_end_y - 0.3*inch
+
+    # ── Footer page 1 ─────────────────────────────────────────────
+    c.setFillColor(rgb(C_BG))
+    c.rect(0, 0, W, 0.5*inch, fill=1, stroke=0)
+    c.setFillColor(rgb(C_MUTED))
+    c.setFont('Helvetica', 8)
+    c.drawString(0.5*inch, 0.18*inch, 'Not investment advice  ·  Data via yfinance & public feeds  ·  REIT Dashboard')
+    c.drawRightString(W - 0.5*inch, 0.18*inch, market_date)
+
+    # ── PAGE 2 ────────────────────────────────────────────────────
+    c.showPage()
+    y2 = H - 0.8*inch
+
+    # AI Narrative
+    if narrative:
+        c.setFillColor(rgb(C_TEXT))
+        c.setFont('Helvetica-Bold', 13)
+        c.drawString(0.5*inch, y2, 'AI Market Brief')
+        y2 -= 0.08*inch
+        c.setFillColor(rgb(C_ACCENT))
+        c.rect(0.5*inch, y2, 1.2*inch, 0.025*inch, fill=1, stroke=0)
+        y2 -= 0.25*inch
+
+        c.setFillColor(rgb(C_LIGHT))
+        # Estimate box height from narrative length
+        words = narrative.split()
+        lines_est = max(4, len(words) // 10 + 2)
+        box_h = lines_est * 0.18 * inch + 0.2*inch
+        c.roundRect(0.5*inch, y2 - box_h, W - inch, box_h, 6, fill=1, stroke=0)
+
+        c.setFillColor(rgb(C_TEXT))
+        c.setFont('Helvetica', 9)
+        # Word-wrap narrative
+        line_w = 90
+        words_left = list(words)
+        ty = y2 - 0.15*inch
+        line = ''
+        for word in words_left:
+            test = (line + ' ' + word).strip()
+            if len(test) <= line_w:
+                line = test
+            else:
+                if ty > 0.8*inch:
+                    c.drawString(0.65*inch, ty, line)
+                ty -= 0.17*inch
+                line = word
+        if line and ty > 0.8*inch:
+            c.drawString(0.65*inch, ty, line)
+
+        y2 = y2 - box_h - 0.3*inch
+
+    # Headlines
+    if news:
+        if y2 < 2*inch:
+            c.showPage()
+            y2 = H - inch
+
+        c.setFillColor(rgb(C_TEXT))
+        c.setFont('Helvetica-Bold', 13)
+        c.drawString(0.5*inch, y2, 'Top REIT Headlines')
+        y2 -= 0.08*inch
+        c.setFillColor(rgb(C_ACCENT))
+        c.rect(0.5*inch, y2, 1.5*inch, 0.025*inch, fill=1, stroke=0)
+        y2 -= 0.28*inch
+
+        for n in news[:8]:
+            if y2 < inch:
+                c.showPage()
+                y2 = H - inch
+            src   = n.get('source', '')
+            title = n.get('title', '')
+            if len(title) > 80: title = title[:78] + '…'
+            c.setFillColor(rgb(C_ACCENT))
+            c.setFont('Helvetica-Bold', 8)
+            c.drawString(0.5*inch, y2, f'[{src}]')
+            c.setFillColor(rgb(C_TEXT))
+            c.setFont('Helvetica', 9)
+            c.drawString(0.5*inch + 0.9*inch, y2, title)
+            c.setFillColor(rgb(C_BORDER))
+            c.rect(0.5*inch, y2 - 0.08*inch, W - inch, 0.01*inch, fill=1, stroke=0)
+            y2 -= 0.28*inch
+
+    # Footer page 2
+    c.setFillColor(rgb(C_BG))
+    c.rect(0, 0, W, 0.5*inch, fill=1, stroke=0)
+    c.setFillColor(rgb(C_MUTED))
+    c.setFont('Helvetica', 8)
+    c.drawString(0.5*inch, 0.18*inch, 'Not investment advice  ·  Data via yfinance & public feeds  ·  REIT Dashboard')
+    c.drawRightString(W - 0.5*inch, 0.18*inch, market_date)
+
+    c.save()
+    buf.seek(0)
+    return buf.read()
+
+
 def upload_pdf(sector_key, pdf_bytes, date_str):
     path = f'{sector_key}/{date_str}.pdf'
     url  = f'{SUPABASE_URL}/storage/v1/object/{BUCKET}/{path}'
@@ -307,7 +579,10 @@ def main():
             continue
         try:
             print(f'  Generating {sector_key}…', end=' ')
-            pdf_bytes  = generate_pdf(sector_key, sdata, market_date)
+            if sector_key == 'overview':
+                pdf_bytes = generate_overview_pdf(sdata, market_date)
+            else:
+                pdf_bytes  = generate_pdf(sector_key, sdata, market_date)
             public_url = upload_pdf(sector_key, pdf_bytes, date_str)
             print(f'✓  {public_url}')
             generated += 1

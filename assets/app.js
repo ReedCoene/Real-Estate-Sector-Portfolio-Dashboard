@@ -11,6 +11,13 @@ initTheme();
 
 // ── Sector Config ─────────────────────────────────────────────
 const SECTOR_CONFIG = {
+  overview: {
+    focus: null, label: 'REIT Sector Overview',
+    subtitle: 'All Sectors \u00b7 Daily Market Snapshot',
+    sectorName: 'overview', newsCategory: 'broad',
+    newsTabLabel: 'REIT News', sectorCatLabel: 'All REIT',
+    coverageNote: 'All REITs \u2014 click column headers to sort',
+  },
   healthcare:  {
     focus: 'CTRE', label: 'Healthcare REIT Dashboard',
     subtitle: 'Skilled Nursing \u00b7 Assisted Living \u00b7 Medical',
@@ -70,7 +77,7 @@ const SECTOR_CONFIG = {
 };
 
 const BIG_MOVE = 2.5;
-let currentSector = localStorage.getItem('sector') || 'healthcare';
+let currentSector = localStorage.getItem('sector') || 'overview';
 let TRACKED = new Set([SECTOR_CONFIG[currentSector].focus]);
 
 // ── Formatters ───────────────────────────────────────────────
@@ -658,8 +665,101 @@ function renderBrief(sData) {
     </div>`;
 }
 
+// ── Overview Render ───────────────────────────────────────────
+function renderOverview(sData) {
+  const sectorPerf = sData.sector_performance || {};
+  const topGainers = sData.top_gainers || [];
+  const topLosers  = sData.top_losers  || [];
+  const narrative  = sData.narrative   || '';
+  const news       = (sData.news || []).slice(0, 8);
+
+  // Sector scorecard bars
+  const sorted = Object.entries(sectorPerf).sort((a, b) => (b[1].avg_change || 0) - (a[1].avg_change || 0));
+  const maxAbs = Math.max(...sorted.map(([, v]) => Math.abs(v.avg_change || 0)), 0.1);
+
+  const scorecardRows = sorted.map(([key, v]) => {
+    const pct     = v.avg_change || 0;
+    const barPct  = Math.min(100, (Math.abs(pct) / maxAbs) * 100);
+    const color   = pct >= 0 ? 'var(--green)' : 'var(--red)';
+    const sign    = pct >= 0 ? '+' : '';
+    const barDir  = pct >= 0 ? 'margin-left:50%' : `margin-left:${(50 - barPct/2).toFixed(1)}%`;
+    return `<div class="overview-scorecard-row">
+      <div class="overview-scorecard-name">${key.charAt(0).toUpperCase() + key.slice(1)}</div>
+      <div class="overview-scorecard-track">
+        <div class="overview-scorecard-bar" style="width:${(barPct/2).toFixed(1)}%;background:${color};${barDir}"></div>
+      </div>
+      <div class="overview-scorecard-pct" style="color:${color}">${sign}${pct.toFixed(2)}%</div>
+    </div>`;
+  }).join('');
+
+  // Mover cards
+  const moverCard = (s, cls) => {
+    const { text } = fmtChange(s.pct_change);
+    return `<div class="overview-mover-card ${cls}">
+      <span class="overview-mover-ticker">${s.ticker}</span>
+      <span class="overview-mover-name">${s.name || ''}</span>
+      <span class="overview-mover-pct ${cls === 'gain' ? 'up' : 'down'}">${text}</span>
+    </div>`;
+  };
+
+  // Headline items
+  const headlineItems = news.map(n => {
+    const link = n.link
+      ? `<a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>`
+      : n.title;
+    return `<div class="brief-item">
+      <span class="brief-item-tag broad">${n.source || 'News'}</span>
+      <span class="brief-item-text">${link}</span>
+    </div>`;
+  }).join('');
+
+  document.getElementById('todaysBrief').innerHTML = `
+    <div class="brief-wrap">
+
+      <div class="brief-hero">
+        <div class="brief-date">${sData.market_date || '\u2014'}</div>
+        <h2 class="brief-headline">REIT Sector Overview</h2>
+        <div class="brief-breadth" style="color:var(--t3)">All Sectors &nbsp;&middot;&nbsp; Daily Market Snapshot</div>
+      </div>
+
+      <div class="brief-sections">
+
+        <div class="brief-section">
+          <div class="brief-section-label">Sector Scorecard</div>
+          <div class="overview-scorecard">${scorecardRows || '<p class="empty-msg">No data.</p>'}</div>
+        </div>
+
+        ${narrative ? `<div class="brief-section">
+          <div class="brief-section-label">AI Market Brief</div>
+          <div class="overview-narrative">${narrative}</div>
+        </div>` : ''}
+
+        <div class="brief-section">
+          <div class="brief-section-label">Top Movers</div>
+          <div class="overview-movers-grid">
+            <div>
+              <div class="overview-movers-label up">Top Gainers</div>
+              ${topGainers.slice(0, 5).map(s => moverCard(s, 'gain')).join('') || '<p class="empty-msg">—</p>'}
+            </div>
+            <div>
+              <div class="overview-movers-label down">Top Losers</div>
+              ${topLosers.slice(0, 5).map(s => moverCard(s, 'loss')).join('') || '<p class="empty-msg">—</p>'}
+            </div>
+          </div>
+        </div>
+
+        ${news.length ? `<div class="brief-section">
+          <div class="brief-section-label">Broad Headlines</div>
+          <div class="brief-list">${headlineItems}</div>
+        </div>` : ''}
+
+      </div>
+    </div>`;
+}
+
 // ── Sector Dropdown ───────────────────────────────────────────
 const SECTOR_DISPLAY_NAMES = {
+  overview: 'Overview',
   healthcare: 'Healthcare', housing: 'Residential', industrial: 'Industrial',
   retail: 'Retail / Mall', hospitality: 'Hospitality', netlease: 'Net Lease', tower: 'Tower', office: 'Office',
 };
@@ -752,7 +852,11 @@ function switchSector(key) {
   if (!sData.market_date) sData.market_date = window._data.market_date;
 
   renderAlert(sData.stocks);
-  renderBrief(sData);
+  if (key === 'overview') {
+    renderOverview(sData);
+  } else {
+    renderBrief(sData);
+  }
   renderFocusSummary(sData);
   renderFocus(sData);
   renderREITsSummary(sData);

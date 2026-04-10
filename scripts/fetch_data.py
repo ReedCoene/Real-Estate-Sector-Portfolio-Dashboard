@@ -8,7 +8,13 @@ import json, os, sys
 from datetime import datetime, timezone, timedelta
 import feedparser, requests, yfinance as yf
 
-NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
+try:
+    import anthropic as _anthropic_module
+except ImportError:
+    _anthropic_module = None
+
+NEWS_API_KEY     = os.environ.get("NEWS_API_KEY")
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 
 # ── Sector configs ─────────────────────────────────────────────
 SECTOR_CONFIGS = {
@@ -189,6 +195,11 @@ BROAD_FEEDS = [
     {"source": "GlobeSt Office",      "url": "https://www.globest.com/category/office/feed/",               "category": "office"},
     {"source": "The Real Deal",       "url": "https://therealdeal.com/feed/",                               "category": "office"},
     {"source": "Bisnow CRE",          "url": "https://www.bisnow.com/rss",                                  "category": "office"},
+    # Broad / Overview — all-REIT and CRE market-wide
+    {"source": "WSJ Markets",         "url": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",               "category": "broad"},
+    {"source": "Nareit",              "url": "https://www.reit.com/rss.xml",                                 "category": "broad"},
+    {"source": "GlobeSt All CRE",     "url": "https://www.globest.com/feed/",                               "category": "broad"},
+    {"source": "CoStar",              "url": "https://www.costar.com/rss",                                   "category": "broad"},
 ]
 
 SIGNAL_KEYWORDS = [
@@ -683,6 +694,127 @@ def build_sector_news(all_news: list, sector_key: str, sector_cfg: dict) -> list
     return result
 
 
+def generate_overview_narrative(sector_perf, top_gainers, top_losers, market_date, api_key):
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=api_key)
+
+        sectors_text = "\n".join([
+            f"- {k.title()}: avg {v['avg_change']:+.2f}% (best: {v['best']['ticker']} {v['best']['pct']:+.2f}%, worst: {v['worst']['ticker']} {v['worst']['pct']:+.2f}%)"
+            for k, v in sorted(sector_perf.items(), key=lambda x: x[1]['avg_change'], reverse=True)
+            if v.get('avg_change') is not None
+        ])
+        gainers_text = ", ".join([f"{s['ticker']} {s['pct_change']:+.2f}%" for s in top_gainers[:3]])
+        losers_text  = ", ".join([f"{s['ticker']} {s['pct_change']:+.2f}%" for s in top_losers[:3]])
+
+        prompt = f"""You are a REIT sector analyst writing a 3-paragraph morning brief for {market_date}.
+
+Sector performance today:
+{sectors_text}
+
+Top gainers: {gainers_text}
+Top losers: {losers_text}
+
+Write exactly 3 tight paragraphs (no headers, no bullet points):
+1. Lead: what led/lagged and what drove it (macro context if relevant)
+2. Key divergences or themes worth watching
+3. Forward-looking angle: what this means for positioning next session
+
+Write in the style of a sell-side morning note. Be specific with numbers. Max 200 words total."""
+
+        msg = client.messages.create(
+            model="claude-opus-4-6",
+            max_tokens=400,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        return msg.content[0].text.strip()
+    except Exception as e:
+        print(f"  Claude narrative failed: {e}")
+        return None
+
+
+def generate_macro_context(sector_perf, market_date, api_key):
+    try:
+        import anthropic
+        client = anthropic.Anthropic(api_key=api_key)
+        advancing    = sum(1 for v in sector_perf.values() if (v.get('avg_change') or 0) > 0)
+        total        = len(sector_perf)
+        best_sector  = max(sector_perf.items(), key=lambda x: x[1].get('avg_change') or -99)
+        worst_sector = min(sector_perf.items(), key=lambda x: x[1].get('avg_change') or 99)
+
+        prompt = f"""Write exactly 2 sentences of broad REIT market context for {market_date}.
+{advancing} of {total} REIT sectors advanced today. {best_sector[0].title()} led ({best_sector[1]['avg_change']:+.2f}%), {worst_sector[0].title()} lagged ({worst_sector[1]['avg_change']:+.2f}%).
+Be factual and concise. No headers. No bullet points. Just 2 sentences."""
+
+        msg = client.messages.create(
+            model="claude-haiku-4-5-20251001",
+            max_tokens=100,
+            messages=[{"role": "user", "content": prompt}]
+        )
+        return msg.content[0].text.strip()
+    except Exception as e:
+        print(f"  Macro context failed: {e}")
+        return None
+
+
+def build_overview(sectors, all_stocks, all_news, market_date):
+    # Collect all stocks deduped by ticker (sectors dict order)
+    seen_tickers = set()
+    all_stocks_deduped = {}
+    for skey, sdata in sectors.items():
+        for ticker, sobj in sdata.get("stocks", {}).items():
+            if ticker not in seen_tickers:
+                seen_tickers.add(ticker)
+                all_stocks_deduped[ticker] = sobj
+
+    # Per-sector avg pct_change
+    sector_performance = {}
+    for skey, sdata in sectors.items():
+        vals = [s for s in sdata.get("stocks", {}).values() if s.get("pct_change") is not None]
+        if not vals:
+            continue
+        avg = sum(s["pct_change"] for s in vals) / len(vals)
+        sorted_vals = sorted(vals, key=lambda s: s["pct_change"], reverse=True)
+        best  = sorted_vals[0]
+        worst = sorted_vals[-1]
+        sector_performance[skey] = {
+            "avg_change": round(avg, 2),
+            "best":  {"ticker": best["ticker"],  "pct": best["pct_change"]},
+            "worst": {"ticker": worst["ticker"], "pct": worst["pct_change"]},
+            "count": len(vals),
+        }
+
+    # Top 5 gainers and losers across ALL stocks
+    all_vals = sorted(all_stocks_deduped.values(), key=lambda s: s.get("pct_change") or 0, reverse=True)
+    top_gainers = [s for s in all_vals if (s.get("pct_change") or 0) > 0][:5]
+    top_losers  = [s for s in reversed(all_vals) if (s.get("pct_change") or 0) < 0][:5]
+
+    # Broad news (up to 10)
+    broad_news = [n for n in all_news if n.get("category") == "broad"][:10]
+
+    # Generate AI narrative
+    narrative = None
+    macro_context = None
+    if ANTHROPIC_API_KEY and sector_performance:
+        print("  Generating overview narrative...")
+        narrative = generate_overview_narrative(sector_performance, top_gainers, top_losers, market_date, ANTHROPIC_API_KEY)
+        print("  Generating macro context...")
+        macro_context = generate_macro_context(sector_performance, market_date, ANTHROPIC_API_KEY)
+
+    return {
+        "focus_ticker":       None,
+        "stocks":             all_stocks_deduped,
+        "news":               broad_news,
+        "sector_performance": sector_performance,
+        "top_gainers":        top_gainers,
+        "top_losers":         top_losers,
+        "narrative":          narrative,
+        "narrative_short":    macro_context,
+        "focus_details":      None,
+        "weekly_report":      None,
+    }
+
+
 def main():
     print("=== GSIF REIT Portfolio Dashboard — Multi-Sector Data Fetch ===")
     print(f"Run time: {datetime.now(timezone.utc).isoformat()}\n")
@@ -752,10 +884,15 @@ def main():
         signals = sum(1 for n in sector_news if n.get("is_signal"))
         print(f"  {sector_key}: {len(sector_stocks)} stocks, {len(sector_news)} news items, {signals} signals")
 
+    print("\nBuilding overview...")
+    overview = build_overview(sectors, all_stocks, all_news, datetime.now().strftime("%B %d, %Y"))
+    sectors["overview"] = overview
+
     payload = {
-        "last_updated": datetime.now(timezone.utc).isoformat(),
-        "market_date":  datetime.now().strftime("%B %d, %Y"),
-        "sectors":      sectors,
+        "last_updated":  datetime.now(timezone.utc).isoformat(),
+        "market_date":   datetime.now().strftime("%B %d, %Y"),
+        "sectors":       sectors,
+        "macro_context": overview.get("narrative_short") or "",
     }
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
@@ -765,7 +902,7 @@ def main():
     total_stocks = len(all_stocks)
     total_news   = len(all_news)
     total_signals = sum(1 for n in all_news if n.get("is_signal"))
-    print(f"\nDone. {total_stocks} tickers | {total_news} news items | {total_signals} signals | 8 sectors written.")
+    print(f"\nDone. {total_stocks} tickers | {total_news} news items | {total_signals} signals | 9 sectors (incl. overview) written.")
 
 
 if __name__ == "__main__":
