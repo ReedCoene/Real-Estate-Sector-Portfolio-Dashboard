@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-10T22:54:51.132141+00:00",
+  "last_updated": "2026-04-10T23:26:07.841659+00:00",
   "market_date": "April 10, 2026",
   "sectors": {
     "healthcare": {
@@ -9229,6 +9229,17 @@
           "company": null,
           "source": "RCR Wireless",
           "category": "towers",
+          "title": "Nvidia\u2019s AI grid and the telco dilemma",
+          "link": "https://www.rcrwireless.com/20260410/ai/nvidias-ai-grid-telco",
+          "published": "Fri, 10 Apr 2026 22:32:22 +0000",
+          "summary": "Should telcos invest billions in edge GPU infrastructure or wait for physical AI use cases to mature? In sum &#8211; what we know: ABI Research recently put out an analysis looking at Nvidia&#8217;s AI grid concept and the bigger question&#8230;",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "RCR Wireless",
+          "category": "towers",
           "title": "Viavi, Ground Control bring resilient PNT to GNSS-denied environments",
           "link": "https://www.rcrwireless.com/20260410/defense-communications/viavi-ground-control-bring-resilient-pnt-to-gnss-denied-environments",
           "published": "Fri, 10 Apr 2026 20:01:27 +0000",
@@ -9266,17 +9277,6 @@
           "link": "https://www.rcrwireless.com/20260409/network-infrastructure/fcc-to-loosen-satellite-power-limits-potentially-reducing-broadband-price",
           "published": "Fri, 10 Apr 2026 00:24:33 +0000",
           "summary": "\u201cWe could see billions of dollars in benefits for the American economy,\u201d says FCC chairman, Brendan Carr. In sum \u2014 what to know: Policy change: The Federal Communications Commission (FCC) is set to discard the power limits on satellite spectrum&#8230;",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "RCR Wireless",
-          "category": "towers",
-          "title": "ZTE\u2019s Super-N Platform boosts energy efficiency",
-          "link": "https://www.rcrwireless.com/20260409/sponsored/zte-super-n-platform",
-          "published": "Thu, 09 Apr 2026 21:37:50 +0000",
-          "summary": "5G networks are accelerating the digital transformation of society, driving inclusive economic growth and helping to bridge the digital divide. They have become strategic infrastructure for many countries and a key engine for industrial upgrading. However, as 5G networks continue&#8230;",
           "is_signal": true
         },
         {
@@ -12489,11 +12489,11 @@
           "next_earnings": "2026-04-23"
         }
       ],
-      "narrative": "Office REITs led the sector Friday, posting a robust +1.81% average gain headlined by Piedmont's +5.64% surge, as the 10-year yield pulled back and investors rotated into beaten-down rate-sensitive names. Housing (+0.90%) and Towers (+0.83%) followed, while Industrial was essentially flat at +0.05% and Healthcare lagged at +0.21%, dragged lower by Alexandria's sharp -3.14% decline that masked otherwise decent breadth in the subsector.\n\nThe PDM/ONL outperformance highlights renewed appetite for value-oriented office exposure, a notable shift after months of persistent underweighting. The ARE selloff stands out as an idiosyncratic divergence against a broadly constructive tape\u2014watch for any portfolio or tenant-related catalysts. Hospitality showed wide dispersion with RHP up +2.74% versus RLJ down -1.26%, suggesting stock-specific narratives are dominating over sector beta. GMRE's +2.99% move in an otherwise muted Healthcare group warrants attention for potential catalyst-driven momentum.\n\nPositioning into Monday, the office bid looks extended short-term but could have legs if rates cooperate. We'd be selective adding to Towers on the SBAC +2.42% strength, particularly if macro data next week reinforces the dovish rates narrative. Fade the ARE weakness cautiously\u2014dislocation of this magnitude in a quality name often attracts dip buyers. Trim hospitality on RHP strength given the mixed subsector signal.",
-      "narrative_short": "The REIT market showed broad-based strength on April 10, 2026, with all eight sectors posting gains as office REITs surged 1.81% to lead performance. Industrial REITs trailed the advance with a minimal 0.05% gain, reflecting the sector's continued weakness relative to other real estate categories.",
+      "narrative": "Office REITs led the tape Friday, posting a sector-best +1.81% average gain headlined by Piedmont's +5.64% surge, as improving return-to-office sentiment and a softer rate backdrop fueled rotation into the most beaten-down names. Housing (+0.90%) and Towers (+0.83%) provided solid follow-through, with CSR +3.03% and SBAC +2.42% leading their respective subsectors. Industrial was essentially flat at +0.05%, while Healthcare lagged at +0.21%, dragged lower by Alexandria's sharp -3.14% decline that stood in stark contrast to GMRE's +2.99% gain.\n\nThe ONL +4.91% move alongside PDM suggests speculative capital is chasing deep-value office plays aggressively\u2014a theme worth monitoring for durability versus short-squeeze dynamics. The ARE selloff is notable given its life-science focus typically commands a premium; any fundamental catalyst here warrants close attention. Within Hospitality, the 400bp spread between RHP (+2.74%) and RLJ (-1.26%) highlights diverging views on leisure versus business-travel recovery trajectories. DHC's -2.19% drop keeps the healthcare seniors housing complex under pressure.\n\nPositioning into Monday should favor continued office momentum if rate expectations remain benign, but the move is getting extended in names like PDM and ONL\u2014tighten stops accordingly. We'd look to add Tower exposure on any SBAC pullback and stay cautious on ARE until the selling pressure stabilizes.",
+      "narrative_short": "The REIT market closed broadly higher on April 10, 2026, with all eight sectors posting gains as Office REITs led the advance with a 1.81% surge. Industrial REITs, typically a defensive sector, showed the weakest performance among gainers with a modest 0.05% increase.",
       "focus_details": null,
       "weekly_report": null
     }
   },
-  "macro_context": "The REIT market showed broad-based strength on April 10, 2026, with all eight sectors posting gains as office REITs surged 1.81% to lead performance. Industrial REITs trailed the advance with a minimal 0.05% gain, reflecting the sector's continued weakness relative to other real estate categories."
+  "macro_context": "The REIT market closed broadly higher on April 10, 2026, with all eight sectors posting gains as Office REITs led the advance with a 1.81% surge. Industrial REITs, typically a defensive sector, showed the weakest performance among gainers with a modest 0.05% increase."
 }
