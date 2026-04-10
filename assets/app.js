@@ -761,6 +761,7 @@ function switchSector(key) {
   renderSectorSummary(sData);
   renderSectorNewsTab(sData.news || []);
   renderWeeklyReport(sData);
+  if (window._onSectorChange) window._onSectorChange(key);
 }
 
 // ── Subscribe Form ────────────────────────────────────────────
@@ -883,6 +884,7 @@ async function init() {
     initSectorCatFilters();
     initSubscribeForm();
     handleUnsubscribe();
+    initPdfTab();
 
   } catch (err) {
     console.error(err);
@@ -891,3 +893,122 @@ async function init() {
 }
 
 init();
+
+// ── PDF Report Tab ────────────────────────────────────────────
+const PDF_PAGE_SIZE = 10;
+let pdfArchivePage  = 1;
+let pdfArchiveList  = [];
+
+function pdfStorageBase() {
+  return `${window.SUPABASE_URL}/storage/v1/object/public/sector-reports`;
+}
+
+async function listSectorPdfs(sector) {
+  const url = `${window.SUPABASE_URL}/storage/v1/object/list/sector-reports/${sector}`;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'apikey': window.SUPABASE_ANON_KEY,
+      'Authorization': `Bearer ${window.SUPABASE_ANON_KEY}`,
+    },
+    body: JSON.stringify({ limit: 200, offset: 0, sortBy: { column: 'name', order: 'desc' } }),
+  });
+  if (!res.ok) return [];
+  const items = await res.json();
+  return (items || []).map(f => ({
+    name: f.name,
+    date: f.name.replace('.pdf', ''),
+    url:  `${pdfStorageBase()}/${sector}/${f.name}`,
+  }));
+}
+
+function renderPdfArchive() {
+  const wrap   = document.getElementById('pdfArchiveWrap');
+  const total  = pdfArchiveList.length;
+  const pages  = Math.max(1, Math.ceil(total / PDF_PAGE_SIZE));
+  const start  = (pdfArchivePage - 1) * PDF_PAGE_SIZE;
+  const slice  = pdfArchiveList.slice(start, start + PDF_PAGE_SIZE);
+
+  if (!total) {
+    wrap.innerHTML = '<p class="section-note">No archived reports yet — check back after the next daily run.</p>';
+    return;
+  }
+
+  const rows = slice.map(f => `
+    <a class="pdf-archive-row" href="${f.url}" target="_blank" rel="noopener">
+      <span class="pdf-archive-date">${f.date}</span>
+      <span class="pdf-archive-dl">Download PDF ↓</span>
+    </a>`).join('');
+
+  const pagerBtns = pages > 1 ? `
+    <div class="pdf-pager">
+      <button class="pdf-pager-btn" id="pdfPrevBtn" ${pdfArchivePage === 1 ? 'disabled' : ''}>← Prev</button>
+      <span class="pdf-pager-info">Page ${pdfArchivePage} / ${pages}</span>
+      <button class="pdf-pager-btn" id="pdfNextBtn" ${pdfArchivePage === pages ? 'disabled' : ''}>Next →</button>
+    </div>` : '';
+
+  wrap.innerHTML = `<div class="pdf-archive-list">${rows}</div>${pagerBtns}`;
+
+  document.getElementById('pdfPrevBtn')?.addEventListener('click', () => {
+    if (pdfArchivePage > 1) { pdfArchivePage--; renderPdfArchive(); }
+  });
+  document.getElementById('pdfNextBtn')?.addEventListener('click', () => {
+    if (pdfArchivePage < pages) { pdfArchivePage++; renderPdfArchive(); }
+  });
+}
+
+async function loadPdfTab(sector) {
+  const todayWrap  = document.getElementById('pdfTodayWrap');
+  const titleEl    = document.getElementById('pdfReportTitle');
+  const dateEl     = document.getElementById('pdfReportDate');
+  const archiveWrap= document.getElementById('pdfArchiveWrap');
+  const label      = SECTOR_DISPLAY_NAMES[sector] || sector;
+
+  titleEl.textContent = `${label} — Today's Sector Report`;
+  todayWrap.innerHTML = '<div class="loading-msg">Loading PDF…</div>';
+  archiveWrap.innerHTML = '<div class="loading-msg">Loading archive…</div>';
+
+  const files = await listSectorPdfs(sector);
+
+  if (!files.length) {
+    const msg = '<p class="section-note">No PDF reports yet — they generate daily after market close.</p>';
+    todayWrap.innerHTML  = msg;
+    archiveWrap.innerHTML = msg;
+    return;
+  }
+
+  // Most recent = today's
+  const today = files[0];
+  dateEl.textContent = today.date;
+  todayWrap.innerHTML = `
+    <div class="pdf-viewer-wrap">
+      <div class="pdf-viewer-actions">
+        <a class="btn-primary" href="${today.url}" target="_blank" rel="noopener">Open PDF ↗</a>
+        <a class="btn-secondary" href="${today.url}" download>Download ↓</a>
+      </div>
+      <iframe class="pdf-iframe" src="${today.url}" title="${label} Sector Report ${today.date}"></iframe>
+    </div>`;
+
+  // Archive = everything except today
+  pdfArchiveList = files.slice(1);
+  pdfArchivePage = 1;
+  renderPdfArchive();
+}
+
+function initPdfTab() {
+  // Load when tab is clicked
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    if (btn.dataset.tab === 'pdf-report') {
+      btn.addEventListener('click', () => loadPdfTab(currentSector));
+    }
+  });
+  // Also reload when sector changes while tab is active
+  const origSwitch = window._switchSectorHook;
+  window._onSectorChange = (key) => {
+    const activeTab = document.querySelector('.tab-btn.active');
+    if (activeTab && activeTab.dataset.tab === 'pdf-report') {
+      loadPdfTab(key);
+    }
+  };
+}

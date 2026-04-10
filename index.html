@@ -53,6 +53,7 @@
       <button class="tab-btn" data-tab="reits">All REITs</button>
       <button class="tab-btn" data-tab="sector-news" id="sectorNewsTabBtn">Sector News</button>
       <button class="tab-btn" data-tab="weekly">End of Week <span class="tab-badge">Sunday</span></button>
+      <button class="tab-btn" data-tab="pdf-report">PDF Report</button>
     </nav>
 
     <!-- TODAY'S BRIEF TAB -->
@@ -126,6 +127,27 @@
     <!-- END OF WEEK REPORT TAB -->
     <div id="tab-weekly" class="tab-panel hidden">
       <div id="weeklyReport"></div>
+    </div>
+
+    <!-- PDF REPORT TAB -->
+    <div id="tab-pdf-report" class="tab-panel hidden">
+      <div class="section">
+        <div class="section-header">
+          <h2 id="pdfReportTitle">Today's Sector Report</h2>
+          <span class="section-note" id="pdfReportDate"></span>
+        </div>
+        <div id="pdfTodayWrap">
+          <div class="loading-msg">Loading PDF…</div>
+        </div>
+      </div>
+      <div class="section">
+        <div class="section-header">
+          <h2>Archive</h2>
+        </div>
+        <div id="pdfArchiveWrap">
+          <div class="loading-msg">Loading archive…</div>
+        </div>
+      </div>
     </div>
 
     <!-- SUBSCRIBE BAR -->

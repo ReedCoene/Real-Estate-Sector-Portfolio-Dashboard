@@ -1068,4 +1068,52 @@ body.light .icon-moon { display: block; }
 
   /* Footer */
   .footer { font-size: 10px; padding: 16px 0; }
+
+  /* PDF tab */
+  .pdf-iframe { height: 500px; }
+  .pdf-viewer-actions { flex-direction: column; }
 }
+
+/* ── PDF Report Tab ── */
+.pdf-viewer-wrap { display: flex; flex-direction: column; gap: 12px; }
+.pdf-viewer-actions { display: flex; gap: 10px; margin-bottom: 4px; }
+.pdf-iframe {
+  width: 100%; height: 720px; border: 1px solid var(--s3);
+  border-radius: 8px; background: var(--s1);
+}
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--blue); color: #fff; text-decoration: none;
+  font-size: 13px; font-weight: 600; padding: 9px 18px;
+  border-radius: 7px; transition: background .15s;
+}
+.btn-primary:hover { background: var(--blue-d); }
+.btn-secondary {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--s2); color: var(--t2); text-decoration: none;
+  font-size: 13px; font-weight: 500; padding: 9px 18px;
+  border-radius: 7px; border: 1px solid var(--s3); transition: background .15s;
+}
+.btn-secondary:hover { background: var(--s3); }
+.pdf-archive-list { display: flex; flex-direction: column; gap: 2px; }
+.pdf-archive-row {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 11px 16px; border-radius: 7px; background: var(--s1);
+  border: 1px solid var(--s2); text-decoration: none;
+  transition: background .15s;
+}
+.pdf-archive-row:hover { background: var(--s2); }
+.pdf-archive-date { font-size: 13px; font-weight: 500; color: var(--t1); font-variant-numeric: tabular-nums; }
+.pdf-archive-dl { font-size: 12px; color: var(--blue-h); }
+.pdf-pager {
+  display: flex; align-items: center; gap: 12px; justify-content: center;
+  margin-top: 14px;
+}
+.pdf-pager-btn {
+  background: var(--s2); border: 1px solid var(--s3); color: var(--t2);
+  font-size: 13px; font-weight: 500; padding: 7px 16px; border-radius: 6px;
+  cursor: pointer; transition: background .15s;
+}
+.pdf-pager-btn:hover:not(:disabled) { background: var(--s3); }
+.pdf-pager-btn:disabled { opacity: 0.4; cursor: default; }
+.pdf-pager-info { font-size: 13px; color: var(--t3); }

@@ -54,6 +54,12 @@ jobs:
             done
           fi
 
+      - name: Generate sector PDFs
+        run: python scripts/generate_pdfs.py
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+
       - name: Send daily email brief
         run: python scripts/send_email.py
         env:
