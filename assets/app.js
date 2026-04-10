@@ -1007,8 +1007,8 @@ let weeklyPdfArchiveList   = [];
 let weeklyPdfArchiveOpen   = false;
 let weeklyPdfSelectedUrls  = new Set();
 
-async function listWeeklyPdfs() {
-  const url = `${window.SUPABASE_URL}/storage/v1/object/list/sector-reports/weekly`;
+async function listWeeklyPdfs(sector) {
+  const url = `${window.SUPABASE_URL}/storage/v1/object/list/sector-reports/${sector}/weekly`;
   const res = await fetch(url, {
     method: 'POST',
     headers: {
@@ -1023,7 +1023,7 @@ async function listWeeklyPdfs() {
   return (items || []).filter(f => f.name && f.name.endsWith('.pdf')).map(f => ({
     name: f.name,
     date: f.name.replace('.pdf', ''),
-    url:  `${pdfStorageBase()}/weekly/${f.name}`,
+    url:  `${pdfStorageBase()}/${sector}/weekly/${f.name}`,
   }));
 }
 
@@ -1105,7 +1105,7 @@ async function loadWeeklyPdfSection(containerEl) {
     <div id="weeklyPdfArchiveSection"></div>`;
   containerEl.appendChild(section);
 
-  const files = await listWeeklyPdfs();
+  const files = await listWeeklyPdfs(currentSector);
   const todayWrap  = document.getElementById('weeklyPdfTodayWrap');
   const archiveEl  = document.getElementById('weeklyPdfArchiveSection');
 
