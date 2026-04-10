@@ -566,6 +566,257 @@ def generate_overview_pdf(sdata, market_date):
     return buf.read()
 
 
+def _render_weekly_pdf(buf, sectors, week_ending, total_pages):
+    """Renders the cross-sector weekly summary PDF. Returns page count."""
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pyplot as plt
+    from reportlab.lib.pagesizes import letter
+    from reportlab.lib.units import inch
+    from reportlab.pdfgen import canvas
+    from reportlab.lib.colors import Color
+    from reportlab.lib.utils import ImageReader
+
+    # Aggregate cross-sector weekly data
+    sector_avgs = {}
+    all_gainers, all_losers = {}, {}
+    all_signals, all_highlights = [], []
+    breadth_adv = breadth_dec = breadth_tot = 0
+
+    for skey, sdata in sectors.items():
+        if skey == 'overview':
+            continue
+        wr = sdata.get('weekly_report')
+        if not wr:
+            continue
+        sector_avgs[skey] = wr.get('avg_weekly_pct', 0)
+        breadth_adv += wr.get('advancing', 0)
+        breadth_dec += wr.get('declining', 0)
+        breadth_tot += wr.get('total', 0)
+        for g in wr.get('top_gainers', []):
+            if g['ticker'] not in all_gainers:
+                all_gainers[g['ticker']] = g
+        for l in wr.get('top_losers', []):
+            if l['ticker'] not in all_losers:
+                all_losers[l['ticker']] = l
+        all_signals.extend(wr.get('key_signals', []))
+        all_highlights.extend(wr.get('broad_highlights', []))
+
+    top_gainers = sorted(all_gainers.values(), key=lambda x: x.get('weekly_pct', 0), reverse=True)[:5]
+    top_losers  = sorted(all_losers.values(),  key=lambda x: x.get('weekly_pct', 0))[:5]
+    all_signals    = list(dict.fromkeys(all_signals))[:12]
+    all_highlights = list(dict.fromkeys(all_highlights))[:8]
+
+    W, H = letter
+    c = canvas.Canvas(buf, pagesize=letter)
+    current_page = [1]
+
+    def rgb(t): return Color(t[0], t[1], t[2])
+
+    def draw_footer(pg):
+        c.setFillColor(rgb(C_BG))
+        c.rect(0, 0, W, 0.5*inch, fill=1, stroke=0)
+        c.setFillColor(rgb(C_MUTED))
+        c.setFont('Helvetica', 8)
+        c.drawString(0.5*inch, 0.18*inch,
+                     'Not investment advice  ·  Data via yfinance & public feeds  ·  REIT Dashboard')
+        if total_pages > 0:
+            c.drawCentredString(W / 2, 0.18*inch, f'Page {pg} of {total_pages}')
+        c.drawRightString(W - 0.5*inch, 0.18*inch, week_ending)
+
+    def advance_page():
+        draw_footer(current_page[0])
+        c.showPage()
+        current_page[0] += 1
+
+    # ── PAGE 1 ────────────────────────────────────────────────────
+
+    # Header
+    c.setFillColor(rgb(C_BG))
+    c.rect(0, H - 1.4*inch, W, 1.4*inch, fill=1, stroke=0)
+    c.setFillColor(rgb(C_ACCENT))
+    c.setFont('Helvetica-Bold', 8)
+    c.drawString(0.5*inch, H - 0.45*inch, 'REIT DASHBOARD  ·  WEEKLY SECTOR REPORT')
+    c.setFillColor(rgb(C_WHITE))
+    c.setFont('Helvetica-Bold', 22)
+    c.drawString(0.5*inch, H - 0.82*inch, 'REIT SECTOR WEEKLY SUMMARY')
+    c.setFillColor(rgb(C_MUTED))
+    c.setFont('Helvetica', 10)
+    c.drawString(0.5*inch, H - 1.05*inch, f'Week Ending: {week_ending}  ·  All Sectors')
+    c.setFillColor(rgb(C_ACCENT))
+    c.rect(0, H - 1.42*inch, W, 0.04*inch, fill=1, stroke=0)
+
+    y = H - 1.7*inch
+
+    # Breadth strip
+    bc = C_UP if breadth_adv >= breadth_dec else C_DOWN
+    c.setFillColor(rgb(C_LIGHT))
+    c.roundRect(0.5*inch, y - 0.55*inch, W - inch, 0.65*inch, 6, fill=1, stroke=0)
+    c.setFillColor(rgb(bc))
+    c.setFont('Helvetica-Bold', 14)
+    c.drawString(0.75*inch, y - 0.22*inch, f'{breadth_adv} Advancing')
+    c.setFillColor(rgb(C_DOWN))
+    c.drawString(0.75*inch + 1.6*inch, y - 0.22*inch, f'{breadth_dec} Declining')
+    c.setFillColor(rgb(C_MUTED))
+    c.setFont('Helvetica', 10)
+    c.drawString(0.75*inch + 3.2*inch, y - 0.22*inch, f'{breadth_tot} total across all sectors')
+    y -= 0.85*inch
+
+    # Sector scorecard chart
+    if sector_avgs:
+        sorted_sectors = sorted(sector_avgs.items(), key=lambda x: x[1])
+        names  = [SECTOR_LABELS.get(k, k.title()) for k, _ in sorted_sectors]
+        values = [v for _, v in sorted_sectors]
+        colors = ['#00c087' if v >= 0 else '#f6465d' for v in values]
+
+        fig, ax = plt.subplots(figsize=(6.8, max(2.5, len(names) * 0.45)))
+        fig.patch.set_facecolor('white')
+        ax.set_facecolor('white')
+        bars = ax.barh(names, values, color=colors, height=0.55, zorder=3)
+        ax.axvline(0, color='#9ca3af', linewidth=1.0, zorder=2)
+        ax.set_xlabel('Avg Weekly % Change', fontsize=9, color='#6b7280', labelpad=8)
+        ax.tick_params(axis='y', labelsize=9, colors='#1a1d23', pad=6)
+        ax.tick_params(axis='x', labelsize=8, colors='#6b7280')
+        rng = max(abs(min(values)), abs(max(values))) or 1
+        ax.set_xlim(-rng * 1.35, rng * 1.35)
+        ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x:+.1f}%'))
+        ax.grid(axis='x', color='#f0f0f0', linewidth=0.6, zorder=1)
+        ax.spines[['top', 'right', 'left']].set_visible(False)
+        ax.spines['bottom'].set_color('#e5e7eb')
+        for bar, val in zip(bars, values):
+            pad  = rng * 0.04
+            xpos = val + pad if val >= 0 else val - pad
+            ha   = 'left' if val >= 0 else 'right'
+            ax.text(xpos, bar.get_y() + bar.get_height()/2, f'{val:+.2f}%',
+                    va='center', ha=ha, fontsize=8, color='#111827', fontweight='bold')
+        plt.tight_layout(pad=0.8)
+        chart_buf = io.BytesIO()
+        plt.savefig(chart_buf, format='png', dpi=150, bbox_inches='tight')
+        plt.close(fig)
+        chart_buf.seek(0)
+
+        chart_h = 2.0*inch
+        c.setFillColor(rgb(C_TEXT))
+        c.setFont('Helvetica-Bold', 13)
+        c.drawString(0.5*inch, y, 'Weekly Sector Scorecard')
+        y -= 0.08*inch
+        c.setFillColor(rgb(C_ACCENT))
+        c.rect(0.5*inch, y, 1.9*inch, 0.025*inch, fill=1, stroke=0)
+        y -= 0.2*inch
+        c.drawImage(ImageReader(chart_buf), 0.5*inch, y - chart_h, width=W - inch, height=chart_h)
+        y -= chart_h + 0.3*inch
+
+    # Top Gainers / Losers tables (two columns)
+    def draw_half_table(title, movers, x_off, col_w, color):
+        cy = y
+        c.setFillColor(rgb(C_TEXT))
+        c.setFont('Helvetica-Bold', 11)
+        c.drawString(x_off, cy, title)
+        cy -= 0.08*inch
+        c.setFillColor(rgb(color))
+        c.rect(x_off, cy, 1.0*inch, 0.02*inch, fill=1, stroke=0)
+        cy -= 0.22*inch
+        c.setFillColor(rgb(C_LIGHT))
+        c.rect(x_off, cy - 0.04*inch, col_w, 0.22*inch, fill=1, stroke=0)
+        c.setFillColor(rgb(C_MUTED))
+        c.setFont('Helvetica-Bold', 7)
+        c.drawString(x_off + 0.05*inch, cy + 0.07*inch, 'TICKER')
+        c.drawString(x_off + 0.55*inch, cy + 0.07*inch, 'NAME')
+        c.drawString(x_off + col_w - 0.55*inch, cy + 0.07*inch, 'WK %')
+        cy -= 0.04*inch
+        for idx, s in enumerate(movers):
+            row_bg = (1, 1, 1) if idx % 2 == 0 else C_LIGHT
+            c.setFillColor(rgb(row_bg))
+            c.rect(x_off, cy - 0.08*inch, col_w, 0.26*inch, fill=1, stroke=0)
+            c.setFillColor(rgb(color))
+            c.setFont('Helvetica-Bold', 8)
+            c.drawString(x_off + 0.05*inch, cy + 0.05*inch, s.get('ticker', ''))
+            c.setFillColor(rgb(C_TEXT))
+            c.setFont('Helvetica', 8)
+            name = s.get('name', '')
+            if len(name) > 18: name = name[:16] + '…'
+            c.drawString(x_off + 0.55*inch, cy + 0.05*inch, name)
+            wpct = s.get('weekly_pct', 0)
+            sign = '+' if wpct > 0 else ''
+            pct_color = C_UP if wpct > 0 else C_DOWN
+            c.setFillColor(rgb(pct_color))
+            c.setFont('Helvetica-Bold', 8)
+            c.drawRightString(x_off + col_w - 0.05*inch, cy + 0.05*inch, f'{sign}{wpct:.2f}%')
+            cy -= 0.25*inch
+
+    col_w = (W - inch) / 2 - 0.1*inch
+    draw_half_table('Top 5 Weekly Gainers', top_gainers, 0.5*inch, col_w, C_UP)
+    draw_half_table('Top 5 Weekly Losers',  top_losers,  0.5*inch + col_w + 0.2*inch, col_w, C_DOWN)
+
+    advance_page()
+
+    # ── PAGE 2 ────────────────────────────────────────────────────
+    y2 = H - 0.8*inch
+
+    if all_signals:
+        c.setFillColor(rgb(C_TEXT))
+        c.setFont('Helvetica-Bold', 13)
+        c.drawString(0.5*inch, y2, 'Key Signals This Week')
+        y2 -= 0.08*inch
+        c.setFillColor(rgb(C_ACCENT))
+        c.rect(0.5*inch, y2, 1.7*inch, 0.025*inch, fill=1, stroke=0)
+        y2 -= 0.28*inch
+        for sig in all_signals:
+            if y2 < inch:
+                advance_page()
+                y2 = H - inch
+            txt = sig if len(sig) <= 85 else sig[:83] + '…'
+            c.setFillColor(rgb(C_ACCENT))
+            c.rect(0.5*inch, y2 + 0.01*inch, 0.03*inch, 0.1*inch, fill=1, stroke=0)
+            c.setFillColor(rgb(C_TEXT))
+            c.setFont('Helvetica', 9)
+            c.drawString(0.62*inch, y2 + 0.04*inch, txt)
+            c.setFillColor(rgb(C_BORDER))
+            c.rect(0.5*inch, y2 - 0.07*inch, W - inch, 0.01*inch, fill=1, stroke=0)
+            y2 -= 0.26*inch
+        y2 -= 0.15*inch
+
+    if all_highlights:
+        if y2 < 2*inch:
+            advance_page()
+            y2 = H - inch
+        c.setFillColor(rgb(C_TEXT))
+        c.setFont('Helvetica-Bold', 13)
+        c.drawString(0.5*inch, y2, 'Macro & Sector Highlights')
+        y2 -= 0.08*inch
+        c.setFillColor(rgb(C_ACCENT))
+        c.rect(0.5*inch, y2, 2.1*inch, 0.025*inch, fill=1, stroke=0)
+        y2 -= 0.28*inch
+        for hl in all_highlights:
+            if y2 < inch:
+                advance_page()
+                y2 = H - inch
+            txt = hl if len(hl) <= 85 else hl[:83] + '…'
+            c.setFillColor(rgb(C_MUTED))
+            c.setFont('Helvetica', 8)
+            c.drawString(0.5*inch, y2 + 0.04*inch, '·')
+            c.setFillColor(rgb(C_TEXT))
+            c.setFont('Helvetica', 9)
+            c.drawString(0.65*inch, y2 + 0.04*inch, txt)
+            c.setFillColor(rgb(C_BORDER))
+            c.rect(0.5*inch, y2 - 0.07*inch, W - inch, 0.01*inch, fill=1, stroke=0)
+            y2 -= 0.26*inch
+
+    draw_footer(current_page[0])
+    c.save()
+    buf.seek(0)
+    return current_page[0]
+
+
+def generate_weekly_pdf(sectors, week_ending):
+    dummy = io.BytesIO()
+    total_pages = _render_weekly_pdf(dummy, sectors, week_ending, total_pages=0)
+    buf = io.BytesIO()
+    _render_weekly_pdf(buf, sectors, week_ending, total_pages=total_pages)
+    buf.seek(0)
+    return buf.read()
+
+
 def upload_pdf(sector_key, pdf_bytes, date_str):
     path = f'{sector_key}/{date_str}.pdf'
     url  = f'{SUPABASE_URL}/storage/v1/object/{BUCKET}/{path}'
@@ -622,6 +873,27 @@ def main():
             else:
                 pdf_bytes  = generate_pdf(sector_key, sdata, market_date)
             public_url = upload_pdf(sector_key, pdf_bytes, date_str)
+            print(f'✓  {public_url}')
+            generated += 1
+        except Exception as e:
+            print(f'✗  {e}', file=sys.stderr)
+
+    # ── Weekly summary PDF (generated whenever weekly_report data exists) ──
+    first_wr = next(
+        (sdata['weekly_report'] for skey, sdata in sectors.items()
+         if skey != 'overview' and sdata.get('weekly_report')),
+        None
+    )
+    if first_wr:
+        week_ending_str = first_wr.get('week_ending', market_date)
+        try:
+            week_date_str = datetime.strptime(week_ending_str, '%B %d, %Y').strftime('%Y-%m-%d')
+        except ValueError:
+            week_date_str = date_str
+        try:
+            print(f'  Generating weekly summary…', end=' ')
+            weekly_bytes = generate_weekly_pdf(sectors, week_ending_str)
+            public_url   = upload_pdf('weekly', weekly_bytes, week_date_str)
             print(f'✓  {public_url}')
             generated += 1
         except Exception as e:

@@ -662,12 +662,15 @@ def generate_weekly_report(sector_tickers: list, all_stocks: dict, all_news: lis
         elif item.get("category") in ("broad", "healthcare", "industrial", "housing", "hospitality", "towers", "retail"):
             broad_highlights.append(item["title"])
 
+    avg_weekly_pct = round(sum(m["weekly_pct"] for m in movers) / len(movers), 2) if movers else 0
+
     return {
         "week_ending":      datetime.now().strftime("%B %d, %Y"),
         "generated_at":     datetime.now(timezone.utc).isoformat(),
         "advancing":        sum(1 for m in movers if m["weekly_pct"] > 0),
         "declining":        sum(1 for m in movers if m["weekly_pct"] < 0),
         "total":            len(movers),
+        "avg_weekly_pct":   avg_weekly_pct,
         "top_gainers":      movers[:3],
         "top_losers":       list(reversed(movers[-3:])) if len(movers) >= 3 else movers,
         "key_signals":      key_signals[:10],

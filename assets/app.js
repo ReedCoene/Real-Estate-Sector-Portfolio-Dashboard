@@ -560,6 +560,9 @@ function renderWeeklyReport(sData) {
         <ul class="weekly-list">${signalList(wr.broad_highlights)}</ul>
       </div>
     </div>` : ''}`;
+
+  // Weekly PDF section at the bottom
+  loadWeeklyPdfSection(el);
 }
 
 // ── Today's Brief ─────────────────────────────────────────────
@@ -997,6 +1000,150 @@ async function init() {
 }
 
 init();
+
+// ── Weekly PDF Section ────────────────────────────────────────
+let weeklyPdfArchivePage   = 1;
+let weeklyPdfArchiveList   = [];
+let weeklyPdfArchiveOpen   = false;
+let weeklyPdfSelectedUrls  = new Set();
+
+async function listWeeklyPdfs() {
+  const url = `${window.SUPABASE_URL}/storage/v1/object/list/sector-reports/weekly`;
+  const res = await fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'apikey': window.SUPABASE_ANON_KEY,
+      'Authorization': `Bearer ${window.SUPABASE_ANON_KEY}`,
+    },
+    body: JSON.stringify({ limit: 200, offset: 0, sortBy: { column: 'name', order: 'desc' } }),
+  });
+  if (!res.ok) return [];
+  const items = await res.json();
+  return (items || []).filter(f => f.name && f.name.endsWith('.pdf')).map(f => ({
+    name: f.name,
+    date: f.name.replace('.pdf', ''),
+    url:  `${pdfStorageBase()}/weekly/${f.name}`,
+  }));
+}
+
+function renderWeeklyPdfArchive() {
+  const wrap  = document.getElementById('weeklyPdfArchiveDropdown');
+  if (!wrap) return;
+  const total = weeklyPdfArchiveList.length;
+  const pages = Math.max(1, Math.ceil(total / PDF_PAGE_SIZE));
+  const start = (weeklyPdfArchivePage - 1) * PDF_PAGE_SIZE;
+  const slice = weeklyPdfArchiveList.slice(start, start + PDF_PAGE_SIZE);
+
+  if (!total) {
+    wrap.innerHTML = '<p class="section-note" style="padding:16px">No archived weekly reports yet.</p>';
+    return;
+  }
+
+  const pageUrls   = slice.map(f => f.url);
+  const allChecked = pageUrls.every(u => weeklyPdfSelectedUrls.has(u));
+  const anySelected = weeklyPdfSelectedUrls.size > 0;
+
+  const rows = slice.map(f => `
+    <label class="pdf-archive-row">
+      <input type="checkbox" class="weekly-pdf-cb" data-url="${f.url}" ${weeklyPdfSelectedUrls.has(f.url) ? 'checked' : ''}>
+      <span class="pdf-archive-date">${f.date}</span>
+      <a class="pdf-archive-dl" href="${f.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open ↗</a>
+    </label>`).join('');
+
+  wrap.innerHTML = `
+    <div class="pdf-archive-toolbar">
+      <label class="pdf-select-all">
+        <input type="checkbox" id="weeklyPdfSelectAll" ${allChecked ? 'checked' : ''}>
+        <span>Select all on page</span>
+      </label>
+      ${anySelected ? `<button class="btn-primary pdf-dl-btn" id="weeklyPdfDownloadBtn">Download selected (${weeklyPdfSelectedUrls.size})</button>` : ''}
+    </div>
+    <div class="pdf-archive-list">${rows}</div>
+    <div class="pdf-pager">
+      <button class="pdf-pager-btn" id="weeklyPdfPrevBtn" ${weeklyPdfArchivePage === 1 ? 'disabled' : ''}>← Prev</button>
+      <span class="pdf-pager-info">Page ${weeklyPdfArchivePage} / ${pages}</span>
+      <button class="pdf-pager-btn" id="weeklyPdfNextBtn" ${weeklyPdfArchivePage === pages ? 'disabled' : ''}>Next →</button>
+    </div>`;
+
+  wrap.querySelectorAll('.weekly-pdf-cb').forEach(cb => {
+    cb.addEventListener('change', () => {
+      cb.checked ? weeklyPdfSelectedUrls.add(cb.dataset.url) : weeklyPdfSelectedUrls.delete(cb.dataset.url);
+      renderWeeklyPdfArchive();
+    });
+  });
+  document.getElementById('weeklyPdfSelectAll').addEventListener('change', e => {
+    pageUrls.forEach(u => e.target.checked ? weeklyPdfSelectedUrls.add(u) : weeklyPdfSelectedUrls.delete(u));
+    renderWeeklyPdfArchive();
+  });
+  document.getElementById('weeklyPdfDownloadBtn')?.addEventListener('click', () => {
+    weeklyPdfSelectedUrls.forEach(url => {
+      const a = document.createElement('a');
+      a.href = url; a.download = url.split('/').pop(); a.target = '_blank';
+      document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    });
+  });
+  document.getElementById('weeklyPdfPrevBtn').addEventListener('click', () => {
+    if (weeklyPdfArchivePage > 1) { weeklyPdfArchivePage--; renderWeeklyPdfArchive(); }
+  });
+  document.getElementById('weeklyPdfNextBtn').addEventListener('click', () => {
+    if (weeklyPdfArchivePage < pages) { weeklyPdfArchivePage++; renderWeeklyPdfArchive(); }
+  });
+}
+
+async function loadWeeklyPdfSection(containerEl) {
+  weeklyPdfArchivePage  = 1;
+  weeklyPdfArchiveList  = [];
+  weeklyPdfArchiveOpen  = false;
+  weeklyPdfSelectedUrls = new Set();
+
+  const section = document.createElement('div');
+  section.className = 'section';
+  section.innerHTML = `
+    <div class="section-header"><h2>Weekly PDF Report</h2></div>
+    <div id="weeklyPdfTodayWrap"><div class="loading-msg">Loading weekly PDF…</div></div>
+    <div id="weeklyPdfArchiveSection"></div>`;
+  containerEl.appendChild(section);
+
+  const files = await listWeeklyPdfs();
+  const todayWrap  = document.getElementById('weeklyPdfTodayWrap');
+  const archiveEl  = document.getElementById('weeklyPdfArchiveSection');
+
+  if (!files.length) {
+    todayWrap.innerHTML = '<p class="section-note">No weekly PDF reports yet — they generate after market close on Fridays when weekly data is available.</p>';
+    return;
+  }
+
+  const latest = files[0];
+  todayWrap.innerHTML = `
+    <div class="pdf-viewer-wrap">
+      <div class="pdf-viewer-actions">
+        <a class="btn-primary" href="${latest.url}" target="_blank" rel="noopener">Open PDF ↗</a>
+        <a class="btn-secondary" href="${latest.url}" download>Download ↓</a>
+      </div>
+      <iframe class="pdf-iframe" src="${latest.url}" title="REIT Weekly Report ${latest.date}"></iframe>
+    </div>`;
+
+  weeklyPdfArchiveList = files.slice(1);
+  if (weeklyPdfArchiveList.length) {
+    archiveEl.innerHTML = `
+      <button class="pdf-archive-toggle-btn" id="weeklyPdfArchiveToggleBtn">Archive ▼</button>
+      <div class="pdf-archive-dropdown hidden" id="weeklyPdfArchiveDropdown"></div>`;
+    document.getElementById('weeklyPdfArchiveToggleBtn').addEventListener('click', () => {
+      weeklyPdfArchiveOpen = !weeklyPdfArchiveOpen;
+      const dropdown = document.getElementById('weeklyPdfArchiveDropdown');
+      const btn      = document.getElementById('weeklyPdfArchiveToggleBtn');
+      if (weeklyPdfArchiveOpen) {
+        dropdown.classList.remove('hidden');
+        btn.textContent = 'Archive ▲';
+        renderWeeklyPdfArchive();
+      } else {
+        dropdown.classList.add('hidden');
+        btn.textContent = 'Archive ▼';
+      }
+    });
+  }
+}
 
 // ── PDF Report Tab ────────────────────────────────────────────
 const PDF_PAGE_SIZE  = 10;
