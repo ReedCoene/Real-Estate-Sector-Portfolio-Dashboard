@@ -1126,7 +1126,7 @@ async function loadWeeklyPdfSection(containerEl) {
     <div class="pdf-viewer-wrap">
       <div class="pdf-viewer-actions">
         <a class="btn-primary" href="${latest.url}" target="_blank" rel="noopener">Open PDF ↗</a>
-        <a class="btn-secondary" href="${latest.url}" download="${weeklyPdfCurrentLabel} ${latest.date}.pdf">Download ↓</a>
+        <button class="btn-secondary" onclick="downloadPdf('${latest.url}', '${weeklyPdfCurrentLabel} ${latest.date}.pdf')">Download ↓</button>
       </div>
       <iframe class="pdf-iframe" src="${latest.url}" title="REIT Weekly Report ${latest.date}"></iframe>
     </div>`;
@@ -1184,8 +1184,24 @@ async function listSectorPdfs(sector) {
   return results.filter(Boolean); // newest first (i=0 is today)
 }
 
+async function downloadPdf(url, filename) {
+  try {
+    const res  = await fetch(url);
+    const blob = await res.blob();
+    const blobUrl = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = blobUrl;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(blobUrl);
+  } catch (e) {
+    window.open(url, '_blank');
+  }
+}
+
 function downloadSelected() {
-  // Build url→filename map from checked checkboxes (both daily and weekly)
   const nameMap = {};
   document.querySelectorAll('.pdf-cb[data-label], .weekly-pdf-cb[data-label]').forEach(cb => {
     if (cb.dataset.label && cb.dataset.date) {
@@ -1194,13 +1210,7 @@ function downloadSelected() {
   });
   const allUrls = new Set([...pdfSelectedUrls, ...weeklyPdfSelectedUrls]);
   allUrls.forEach(url => {
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = nameMap[url] || url.split('/').pop();
-    a.target = '_blank';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
+    downloadPdf(url, nameMap[url] || url.split('/').pop());
   });
 }
 
@@ -1310,7 +1320,7 @@ async function loadPdfTab(sector) {
     <div class="pdf-viewer-wrap">
       <div class="pdf-viewer-actions">
         <a class="btn-primary" href="${today.url}" target="_blank" rel="noopener">Open PDF ↗</a>
-        <a class="btn-secondary" href="${today.url}" download="${label} ${today.date}.pdf">Download ↓</a>
+        <button class="btn-secondary" onclick="downloadPdf('${today.url}', '${label} ${today.date}.pdf')">Download ↓</button>
       </div>
       <iframe class="pdf-iframe" src="${today.url}" title="${label} Sector Report ${today.date}"></iframe>
     </div>`;
