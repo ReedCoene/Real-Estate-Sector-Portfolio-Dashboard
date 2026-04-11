@@ -335,7 +335,8 @@ def _render_overview_pdf(buf, sdata, market_date, total_pages):
         values = [v['avg_change'] for _, v in sorted_sectors]
         colors = ['#00c087' if v >= 0 else '#f6465d' for v in values]
 
-        fig, ax = plt.subplots(figsize=(6.8, max(3.0, len(names) * 0.45)))
+        fig_h = max(3.5, len(names) * 0.5)
+        fig, ax = plt.subplots(figsize=(6.8, fig_h))
         fig.patch.set_facecolor('white')
         ax.set_facecolor('white')
         bars = ax.barh(names, values, color=colors, height=0.55, zorder=3)
@@ -357,14 +358,14 @@ def _render_overview_pdf(buf, sdata, market_date, total_pages):
             ax.text(xpos, bar.get_y() + bar.get_height()/2, label,
                     va='center', ha=ha, fontsize=8, color='#111827',
                     fontweight='bold')
-        plt.tight_layout(pad=0.8)
+        plt.tight_layout(pad=0.5)
 
         chart_buf = io.BytesIO()
-        plt.savefig(chart_buf, format='png', dpi=150, bbox_inches='tight')
+        plt.savefig(chart_buf, format='png', dpi=150)
         plt.close(fig)
         chart_buf.seek(0)
 
-        chart_h = 2.8*inch
+        chart_h = fig_h * inch
         chart_w = W - inch
         c.setFillColor(rgb(C_TEXT))
         c.setFont('Helvetica-Bold', 13)
@@ -377,6 +378,12 @@ def _render_overview_pdf(buf, sdata, market_date, total_pages):
         y -= chart_h + 0.3*inch
 
     # ── Top Gainers / Losers — full-width stacked tables ─────────
+    # If both tables won't fit above the footer, start a new page
+    MOVERS_NEED = 4.7 * inch  # title + header + 5 rows × 2 tables + gaps + footer
+    if y < MOVERS_NEED:
+        advance_page()
+        y = H - 0.8*inch
+
     COL_TICKER = 0.55*inch
     COL_NAME   = 1.25*inch
     COL_PRICE  = 4.55*inch
