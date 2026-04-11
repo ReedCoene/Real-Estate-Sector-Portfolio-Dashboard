@@ -1166,12 +1166,16 @@ function pdfStorageBase() {
 
 async function listSectorPdfs(sector) {
   const base  = pdfStorageBase();
-  const today = new Date();
+  // Start from last weekday so weekend runs don't probe Sat/Sun dates
+  const start = new Date();
+  const day   = start.getDay();
+  if (day === 6) start.setDate(start.getDate() - 1); // Sat → Fri
+  if (day === 0) start.setDate(start.getDate() - 2); // Sun → Fri
   const checks = [];
-  // Check the last 30 calendar days
+  // Check the last 30 weekdays back from the most recent trading day
   for (let i = 0; i < 30; i++) {
-    const d = new Date(today);
-    d.setDate(today.getDate() - i);
+    const d = new Date(start);
+    d.setDate(start.getDate() - i);
     const dateStr = d.toISOString().split('T')[0];
     const url = `${base}/${sector}/${dateStr}.pdf`;
     checks.push(
@@ -1181,7 +1185,7 @@ async function listSectorPdfs(sector) {
     );
   }
   const results = await Promise.all(checks);
-  return results.filter(Boolean); // newest first (i=0 is today)
+  return results.filter(Boolean); // newest first
 }
 
 async function downloadPdf(url, filename) {
