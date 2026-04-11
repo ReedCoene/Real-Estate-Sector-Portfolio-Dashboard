@@ -1019,7 +1019,7 @@ async function listWeeklyPdfs(sector) {
     // Find the most recent Friday on or before d
     const dayOfWeek = d.getDay(); // 0=Sun … 5=Fri
     d.setDate(d.getDate() - ((dayOfWeek + 2) % 7 === 0 ? 0 : (dayOfWeek - 5 + 7) % 7));
-    const dateStr = d.toISOString().split('T')[0];
+    const dateStr = localDateStr(d);
     const url = `${base}/${sector}/weekly/${dateStr}.pdf`;
     checks.push(
       fetch(url, { method: 'HEAD' })
@@ -1164,6 +1164,12 @@ function pdfStorageBase() {
   return `${window.SUPABASE_URL}/storage/v1/object/public/sector-reports`;
 }
 
+// Format a Date as YYYY-MM-DD in LOCAL time (toISOString() uses UTC and shifts
+// the date for users west of UTC, e.g. ET at 8 PM shows the next UTC day).
+function localDateStr(d) {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
 async function listSectorPdfs(sector) {
   const base  = pdfStorageBase();
   // Start from last weekday so weekend runs don't probe Sat/Sun dates
@@ -1176,7 +1182,7 @@ async function listSectorPdfs(sector) {
   for (let i = 0; i < 30; i++) {
     const d = new Date(start);
     d.setDate(start.getDate() - i);
-    const dateStr = d.toISOString().split('T')[0];
+    const dateStr = localDateStr(d);
     const url = `${base}/${sector}/${dateStr}.pdf`;
     checks.push(
       fetch(url, { method: 'HEAD' })
