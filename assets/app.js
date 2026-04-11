@@ -1006,6 +1006,7 @@ let weeklyPdfArchivePage   = 1;
 let weeklyPdfArchiveList   = [];
 let weeklyPdfArchiveOpen   = false;
 let weeklyPdfSelectedUrls  = new Set();
+let weeklyPdfCurrentLabel  = '';
 
 async function listWeeklyPdfs(sector) {
   const base  = pdfStorageBase();
@@ -1051,7 +1052,7 @@ function renderWeeklyPdfArchive() {
 
   const rows = slice.map(f => `
     <label class="pdf-archive-row">
-      <input type="checkbox" class="weekly-pdf-cb" data-url="${f.url}" ${weeklyPdfSelectedUrls.has(f.url) ? 'checked' : ''}>
+      <input type="checkbox" class="weekly-pdf-cb" data-url="${f.url}" data-label="${weeklyPdfCurrentLabel}" data-date="${f.date}" ${weeklyPdfSelectedUrls.has(f.url) ? 'checked' : ''}>
       <span class="pdf-archive-date">${f.date}</span>
       <a class="pdf-archive-dl" href="${f.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open ↗</a>
     </label>`).join('');
@@ -1101,6 +1102,7 @@ async function loadWeeklyPdfSection(containerEl) {
   weeklyPdfArchiveList  = [];
   weeklyPdfArchiveOpen  = false;
   weeklyPdfSelectedUrls = new Set();
+  weeklyPdfCurrentLabel = (SECTOR_DISPLAY_NAMES[currentSector] || currentSector) + ' Weekly';
 
   const section = document.createElement('div');
   section.className = 'section';
@@ -1124,7 +1126,7 @@ async function loadWeeklyPdfSection(containerEl) {
     <div class="pdf-viewer-wrap">
       <div class="pdf-viewer-actions">
         <a class="btn-primary" href="${latest.url}" target="_blank" rel="noopener">Open PDF ↗</a>
-        <a class="btn-secondary" href="${latest.url}" download>Download ↓</a>
+        <a class="btn-secondary" href="${latest.url}" download="${weeklyPdfCurrentLabel} ${latest.date}.pdf">Download ↓</a>
       </div>
       <iframe class="pdf-iframe" src="${latest.url}" title="REIT Weekly Report ${latest.date}"></iframe>
     </div>`;
@@ -1156,6 +1158,7 @@ let pdfArchivePage   = 1;
 let pdfArchiveList   = [];
 let pdfArchiveOpen   = false;
 let pdfSelectedUrls  = new Set();
+let pdfCurrentLabel  = '';
 
 function pdfStorageBase() {
   return `${window.SUPABASE_URL}/storage/v1/object/public/sector-reports`;
@@ -1182,10 +1185,18 @@ async function listSectorPdfs(sector) {
 }
 
 function downloadSelected() {
-  pdfSelectedUrls.forEach(url => {
+  // Build url→filename map from checked checkboxes (both daily and weekly)
+  const nameMap = {};
+  document.querySelectorAll('.pdf-cb[data-label], .weekly-pdf-cb[data-label]').forEach(cb => {
+    if (cb.dataset.label && cb.dataset.date) {
+      nameMap[cb.dataset.url] = `${cb.dataset.label} ${cb.dataset.date}.pdf`;
+    }
+  });
+  const allUrls = new Set([...pdfSelectedUrls, ...weeklyPdfSelectedUrls]);
+  allUrls.forEach(url => {
     const a = document.createElement('a');
     a.href = url;
-    a.download = url.split('/').pop();
+    a.download = nameMap[url] || url.split('/').pop();
     a.target = '_blank';
     document.body.appendChild(a);
     a.click();
@@ -1211,7 +1222,7 @@ function renderPdfArchiveDropdown() {
 
   const rows = slice.map(f => `
     <label class="pdf-archive-row">
-      <input type="checkbox" class="pdf-cb" data-url="${f.url}" ${pdfSelectedUrls.has(f.url) ? 'checked' : ''}>
+      <input type="checkbox" class="pdf-cb" data-url="${f.url}" data-label="${pdfCurrentLabel}" data-date="${f.date}" ${pdfSelectedUrls.has(f.url) ? 'checked' : ''}>
       <span class="pdf-archive-date">${f.date}</span>
       <a class="pdf-archive-dl" href="${f.url}" target="_blank" rel="noopener" onclick="event.stopPropagation()">Open ↗</a>
     </label>`).join('');
@@ -1279,6 +1290,7 @@ async function loadPdfTab(sector) {
   pdfArchiveOpen  = false;
   pdfArchivePage  = 1;
   pdfSelectedUrls = new Set();
+  pdfCurrentLabel = label;
 
   titleEl.textContent = `${label} — Today's Sector Report`;
   todayWrap.innerHTML = '<div class="loading-msg">Loading PDF…</div>';
@@ -1298,7 +1310,7 @@ async function loadPdfTab(sector) {
     <div class="pdf-viewer-wrap">
       <div class="pdf-viewer-actions">
         <a class="btn-primary" href="${today.url}" target="_blank" rel="noopener">Open PDF ↗</a>
-        <a class="btn-secondary" href="${today.url}" download>Download ↓</a>
+        <a class="btn-secondary" href="${today.url}" download="${label} ${today.date}.pdf">Download ↓</a>
       </div>
       <iframe class="pdf-iframe" src="${today.url}" title="${label} Sector Report ${today.date}"></iframe>
     </div>`;
