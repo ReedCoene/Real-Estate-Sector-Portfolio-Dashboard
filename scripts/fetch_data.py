@@ -887,13 +887,20 @@ def main():
         signals = sum(1 for n in sector_news if n.get("is_signal"))
         print(f"  {sector_key}: {len(sector_stocks)} stocks, {len(sector_news)} news items, {signals} signals")
 
+    # Use last weekday so weekend runs don't produce Saturday/Sunday dates
+    _today = datetime.now()
+    _wd = _today.weekday()  # 0=Mon … 6=Sun
+    if _wd == 5:   _today -= timedelta(days=1)   # Sat → Fri
+    elif _wd == 6: _today -= timedelta(days=2)   # Sun → Fri
+    market_date_str = _today.strftime("%B %d, %Y")
+
     print("\nBuilding overview...")
-    overview = build_overview(sectors, all_stocks, all_news, datetime.now().strftime("%B %d, %Y"))
+    overview = build_overview(sectors, all_stocks, all_news, market_date_str)
     sectors["overview"] = overview
 
     payload = {
         "last_updated":  datetime.now(timezone.utc).isoformat(),
-        "market_date":   datetime.now().strftime("%B %d, %Y"),
+        "market_date":   market_date_str,
         "sectors":       sectors,
         "macro_context": overview.get("narrative_short") or "",
     }

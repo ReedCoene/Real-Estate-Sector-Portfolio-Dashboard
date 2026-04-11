@@ -385,47 +385,50 @@ def _render_overview_pdf(buf, sdata, market_date, total_pages):
 
     def draw_movers_table_full(title, movers, start_y, accent_color):
         cy = start_y
+        ROW_H = 0.28*inch
+
+        # Title + underline
         c.setFillColor(rgb(C_TEXT))
         c.setFont('Helvetica-Bold', 11)
         c.drawString(0.5*inch, cy, title)
         cy -= 0.08*inch
         c.setFillColor(rgb(accent_color))
         c.rect(0.5*inch, cy, 1.2*inch, 0.02*inch, fill=1, stroke=0)
-        cy -= 0.25*inch
+        cy -= ROW_H  # header row bottom sits here
 
-        # Header
+        # Header row
         c.setFillColor(rgb(C_LIGHT))
-        c.rect(0.5*inch, cy - 0.05*inch, TABLE_W, 0.27*inch, fill=1, stroke=0)
+        c.rect(0.5*inch, cy, TABLE_W, ROW_H, fill=1, stroke=0)
         c.setFillColor(rgb(C_MUTED))
         c.setFont('Helvetica-Bold', 8)
         c.drawString(COL_TICKER, cy + 0.09*inch, 'TICKER')
         c.drawString(COL_NAME,   cy + 0.09*inch, 'COMPANY')
         c.drawString(COL_PRICE,  cy + 0.09*inch, 'PRICE')
         c.drawString(COL_CHANGE, cy + 0.09*inch, 'DAY %')
-        cy -= 0.05*inch
+        cy -= ROW_H  # first data row bottom sits here
 
         for idx, s in enumerate(movers[:5]):
             pct = s.get('pct_change') or 0
             row_bg = (1, 1, 1) if idx % 2 == 0 else C_LIGHT
             c.setFillColor(rgb(row_bg))
-            c.rect(0.5*inch, cy - 0.1*inch, TABLE_W, 0.29*inch, fill=1, stroke=0)
+            c.rect(0.5*inch, cy, TABLE_W, ROW_H, fill=1, stroke=0)
 
             c.setFillColor(rgb(accent_color))
             c.setFont('Helvetica-Bold', 9)
-            c.drawString(COL_TICKER, cy + 0.06*inch, s.get('ticker', ''))
+            c.drawString(COL_TICKER, cy + 0.09*inch, s.get('ticker', ''))
 
             c.setFillColor(rgb(C_TEXT))
             c.setFont('Helvetica', 9)
             name = s.get('name', '')
             if len(name) > 42: name = name[:40] + '…'
-            c.drawString(COL_NAME, cy + 0.06*inch, name)
-            c.drawString(COL_PRICE, cy + 0.06*inch, fp(s.get('price')))
+            c.drawString(COL_NAME,   cy + 0.09*inch, name)
+            c.drawString(COL_PRICE,  cy + 0.09*inch, fp(s.get('price')))
 
             pct_color = C_UP if pct > 0 else C_DOWN if pct < 0 else C_MUTED
             c.setFillColor(rgb(pct_color))
             c.setFont('Helvetica-Bold', 9)
-            c.drawString(COL_CHANGE, cy + 0.06*inch, fpct(pct))
-            cy -= 0.28*inch
+            c.drawString(COL_CHANGE, cy + 0.09*inch, fpct(pct))
+            cy -= ROW_H
         return cy
 
     y = draw_movers_table_full('Top 5 Gainers', top_gainers, y, C_UP)
