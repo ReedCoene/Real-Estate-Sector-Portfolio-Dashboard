@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-11T00:16:18.523863+00:00",
-  "market_date": "April 11, 2026",
+  "last_updated": "2026-04-11T00:38:44.719870+00:00",
+  "market_date": "April 10, 2026",
   "sectors": {
     "healthcare": {
       "focus_ticker": "CTRE",
@@ -9174,6 +9174,17 @@
           "company": null,
           "source": "RCR Wireless",
           "category": "towers",
+          "title": "How GNSS satellites power positioning and timing",
+          "link": "https://www.rcrwireless.com/20260410/network-infrastructure/how-gnss-satellites-power-positioning-and-timing",
+          "published": "Sat, 11 Apr 2026 00:18:43 +0000",
+          "summary": "From smartphones to cars to critical infrastructure, these early satellites power some of the most modern technologies of today GNSS is not a term that peppers media language often. Nevertheless, it underpins almost all technologies that we use in everyday&#8230;",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "RCR Wireless",
+          "category": "towers",
           "title": "Nvidia\u2019s AI grid and the telco dilemma",
           "link": "https://www.rcrwireless.com/20260410/ai/nvidias-ai-grid-telco",
           "published": "Fri, 10 Apr 2026 22:32:22 +0000",
@@ -9212,17 +9223,6 @@
           "published": "Fri, 10 Apr 2026 09:48:00 +0000",
           "summary": "The Agentic RAN Management Service is designed for human-in-the-loop adoption on the path to AI-native 6G networks During the recent Mobile World Congress, Qualcomm showcased AI-powered solutions for radio access network (RAN) management that are delivering real-world results today while&#8230;",
           "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "RCR Wireless",
-          "category": "towers",
-          "title": "FCC to loosen satellite power limits, potentially reducing broadband price",
-          "link": "https://www.rcrwireless.com/20260409/network-infrastructure/fcc-to-loosen-satellite-power-limits-potentially-reducing-broadband-price",
-          "published": "Fri, 10 Apr 2026 00:24:33 +0000",
-          "summary": "\u201cWe could see billions of dollars in benefits for the American economy,\u201d says FCC chairman, Brendan Carr. In sum \u2014 what to know: Policy change: The Federal Communications Commission (FCC) is set to discard the power limits on satellite spectrum&#8230;",
-          "is_signal": true
         },
         {
           "ticker": null,
@@ -12434,11 +12434,11 @@
           "next_earnings": "2026-04-23"
         }
       ],
-      "narrative": "Office REITs led the tape today, posting a sector-best +1.81% average gain anchored by PDM's standout +5.64% move, while Housing (+0.90%) and Towers (+0.83%) rounded out the top three. The broad-based bid across rate-sensitive names suggests the market is pricing in a more dovish Fed trajectory heading into next week's data. Laggards were notably defensive \u2014 Healthcare (+0.07%) and Industrial (+0.05%) barely held green, with ARE dragging at -3.14% and ILPT off -1.60%.\n\nThe PDM/ONL surge stands out as a potential office revaluation trade, with both names up over 4.9% \u2014 worth watching whether this reflects positioning ahead of earnings or a broader re-rating of discounted office exposure. The ARE weakness is notable given its lab-space focus; the -3.14% decline diverges sharply from the broader Healthcare flat print and suggests name-specific overhang. In Hospitality, the RHP/RLJ spread of nearly 400bps signals clear quality differentiation within lodging.\n\nPositioning into Monday should favor continued office momentum if rates cooperate, though the move in PDM and ONL feels extended for a single session. We'd look to add Tower exposure on any SBAC pullback from today's +2.42% and remain cautious on ARE until the technical picture stabilizes. Rotate out of Industrial laggards into Housing strength, particularly CSR.",
-      "narrative_short": "All eight REIT sectors posted gains on April 11, 2026, with Office REITs leading the advance at +1.81% while Industrial REITs recorded the smallest increase at +0.05%. The broad-based strength across the REIT market reflected positive sentiment despite the modest performance in the Industrial sector.",
+      "narrative": "Office REITs led the sector Friday, posting a +1.81% average gain headlined by Piedmont's +5.64% surge, as improving return-to-office sentiment and favorable lease-spread data continued to reprice the most beaten-down segment. Housing (+0.90%) and Towers (+0.83%) rode the bid, with CenterSpace up +3.03% on apartment fundamentals. At the bottom, Healthcare (+0.07%) and Industrial (+0.05%) were essentially flat, dragged by Alexandria's -3.14% decline and ILPT's -1.60% slide.\n\nThe intra-sector dispersion tells the story. Office saw a 616bp spread between PDM and FSP, suggesting this is still a stock-picker's market rather than a broad beta rally. ONL's +4.91% move reinforces the theme of capital rotating into deep-value, higher-beta names. Meanwhile, ARE's sharp underperformance against an otherwise stable Healthcare tape points to idiosyncratic life-science supply concerns rather than sector-wide weakness. Hospitality showed similar bifurcation\u2014RHP +2.74% versus RLJ -1.26%\u2014reflecting divergent leisure-versus-urban-business-travel exposures.\n\nPositioning into Monday, the office momentum trade has legs if 10-year yields stay contained, but PDM is approaching technical resistance after this move. We'd look to add selectively in Towers on any SBAC pullback from today's +2.42% gain and remain cautious on Industrial given persistent negative breadth. Trim ARE into further weakness.",
+      "narrative_short": "The REIT market demonstrated broad-based strength on April 10, 2026, with all eight sectors posting gains as office REITs surged 1.81% to lead performance. Industrial REITs trailed the advance with a modest 0.05% increase, reflecting continued sector-specific headwinds despite the overall positive market momentum.",
       "focus_details": null,
       "weekly_report": null
     }
   },
-  "macro_context": "All eight REIT sectors posted gains on April 11, 2026, with Office REITs leading the advance at +1.81% while Industrial REITs recorded the smallest increase at +0.05%. The broad-based strength across the REIT market reflected positive sentiment despite the modest performance in the Industrial sector."
+  "macro_context": "The REIT market demonstrated broad-based strength on April 10, 2026, with all eight sectors posting gains as office REITs surged 1.81% to lead performance. Industrial REITs trailed the advance with a modest 0.05% increase, reflecting continued sector-specific headwinds despite the overall positive market momentum."
 }
