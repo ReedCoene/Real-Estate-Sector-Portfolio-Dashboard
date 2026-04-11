@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-11T00:58:07.208781+00:00",
+  "last_updated": "2026-04-11T01:24:55.276324+00:00",
   "market_date": "April 10, 2026",
   "sectors": {
     "healthcare": {
@@ -60,7 +60,7 @@
           "prev_close": 49.11,
           "pct_change": 0.24,
           "market_cap": 9445768192,
-          "dividend_yield": 2.04,
+          "dividend_yield": 2.03,
           "fifty_two_week_high": 54.67,
           "fifty_two_week_low": 28.18,
           "next_earnings": "2026-05-07"
@@ -1768,7 +1768,7 @@
           "prev_close": 125.62,
           "pct_change": 0.61,
           "market_cap": 15146938368,
-          "dividend_yield": 4.87,
+          "dividend_yield": 4.84,
           "fifty_two_week_high": 169.0,
           "fifty_two_week_low": 120.3,
           "next_earnings": "2026-04-29"
@@ -1852,7 +1852,7 @@
           "prev_close": 25.14,
           "pct_change": 1.87,
           "market_cap": 1318024832,
-          "dividend_yield": 8.43,
+          "dividend_yield": 8.28,
           "fifty_two_week_high": 38.93,
           "fifty_two_week_low": 23.79,
           "next_earnings": "2026-04-28"
@@ -3641,7 +3641,7 @@
           "prev_close": 50.07,
           "pct_change": 1.86,
           "market_cap": 1434929152,
-          "dividend_yield": 15.18,
+          "dividend_yield": 14.9,
           "fifty_two_week_high": 59.83,
           "fifty_two_week_low": 44.58,
           "next_earnings": "2026-05-06"
@@ -4864,7 +4864,7 @@
           "prev_close": 21.09,
           "pct_change": 1.56,
           "market_cap": 5770774016,
-          "dividend_yield": 3.22,
+          "dividend_yield": 3.17,
           "fifty_two_week_high": 21.43,
           "fifty_two_week_low": 13.4,
           "next_earnings": "2026-05-06"
@@ -4876,7 +4876,7 @@
           "prev_close": 198.97,
           "pct_change": 0.8,
           "market_cap": 76345565184,
-          "dividend_yield": 4.35,
+          "dividend_yield": 4.31,
           "fifty_two_week_high": 205.12,
           "fifty_two_week_low": 142.3,
           "next_earnings": "2026-05-11"
@@ -7756,7 +7756,7 @@
           "prev_close": 20.04,
           "pct_change": 1.1,
           "market_cap": 2230889728,
-          "dividend_yield": 4.39,
+          "dividend_yield": 4.34,
           "fifty_two_week_high": 21.3,
           "fifty_two_week_low": 14.74,
           "next_earnings": "2026-04-20"
@@ -8895,7 +8895,7 @@
           "prev_close": 218.46,
           "pct_change": 2.42,
           "market_cap": 23731464192,
-          "dividend_yield": 2.29,
+          "dividend_yield": 2.23,
           "fifty_two_week_high": 245.16,
           "fifty_two_week_low": 162.41,
           "next_earnings": "2026-04-27"
@@ -8907,7 +8907,7 @@
           "prev_close": 179.93,
           "pct_change": -0.36,
           "market_cap": 83615490048,
-          "dividend_yield": 3.83,
+          "dividend_yield": 3.84,
           "fifty_two_week_high": 234.33,
           "fifty_two_week_low": 165.08,
           "next_earnings": "2026-04-28"
@@ -9823,7 +9823,7 @@
           "prev_close": 21.81,
           "pct_change": 2.8,
           "market_cap": 2517836800,
-          "dividend_yield": 9.17,
+          "dividend_yield": 8.92,
           "fifty_two_week_high": 32.76,
           "fifty_two_week_low": 20.45,
           "next_earnings": "2026-04-28"
@@ -10942,7 +10942,7 @@
           "prev_close": 49.11,
           "pct_change": 0.24,
           "market_cap": 9445768192,
-          "dividend_yield": 2.04,
+          "dividend_yield": 2.03,
           "fifty_two_week_high": 54.67,
           "fifty_two_week_low": 28.18,
           "next_earnings": "2026-05-07"
@@ -11146,7 +11146,7 @@
           "prev_close": 125.62,
           "pct_change": 0.61,
           "market_cap": 15146938368,
-          "dividend_yield": 4.87,
+          "dividend_yield": 4.84,
           "fifty_two_week_high": 169.0,
           "fifty_two_week_low": 120.3,
           "next_earnings": "2026-04-29"
@@ -11230,7 +11230,7 @@
           "prev_close": 25.14,
           "pct_change": 1.87,
           "market_cap": 1318024832,
-          "dividend_yield": 8.43,
+          "dividend_yield": 8.28,
           "fifty_two_week_high": 38.93,
           "fifty_two_week_low": 23.79,
           "next_earnings": "2026-04-28"
@@ -11434,7 +11434,7 @@
           "prev_close": 50.07,
           "pct_change": 1.86,
           "market_cap": 1434929152,
-          "dividend_yield": 15.18,
+          "dividend_yield": 14.9,
           "fifty_two_week_high": 59.83,
           "fifty_two_week_low": 44.58,
           "next_earnings": "2026-05-06"
@@ -11470,7 +11470,7 @@
           "prev_close": 21.09,
           "pct_change": 1.56,
           "market_cap": 5770774016,
-          "dividend_yield": 3.22,
+          "dividend_yield": 3.17,
           "fifty_two_week_high": 21.43,
           "fifty_two_week_low": 13.4,
           "next_earnings": "2026-05-06"
@@ -11482,7 +11482,7 @@
           "prev_close": 198.97,
           "pct_change": 0.8,
           "market_cap": 76345565184,
-          "dividend_yield": 4.35,
+          "dividend_yield": 4.31,
           "fifty_two_week_high": 205.12,
           "fifty_two_week_low": 142.3,
           "next_earnings": "2026-05-11"
@@ -11842,7 +11842,7 @@
           "prev_close": 20.04,
           "pct_change": 1.1,
           "market_cap": 2230889728,
-          "dividend_yield": 4.39,
+          "dividend_yield": 4.34,
           "fifty_two_week_high": 21.3,
           "fifty_two_week_low": 14.74,
           "next_earnings": "2026-04-20"
@@ -11890,7 +11890,7 @@
           "prev_close": 218.46,
           "pct_change": 2.42,
           "market_cap": 23731464192,
-          "dividend_yield": 2.29,
+          "dividend_yield": 2.23,
           "fifty_two_week_high": 245.16,
           "fifty_two_week_low": 162.41,
           "next_earnings": "2026-04-27"
@@ -11902,7 +11902,7 @@
           "prev_close": 179.93,
           "pct_change": -0.36,
           "market_cap": 83615490048,
-          "dividend_yield": 3.83,
+          "dividend_yield": 3.84,
           "fifty_two_week_high": 234.33,
           "fifty_two_week_low": 165.08,
           "next_earnings": "2026-04-28"
@@ -12022,7 +12022,7 @@
           "prev_close": 21.81,
           "pct_change": 2.8,
           "market_cap": 2517836800,
-          "dividend_yield": 9.17,
+          "dividend_yield": 8.92,
           "fifty_two_week_high": 32.76,
           "fifty_two_week_low": 20.45,
           "next_earnings": "2026-04-28"
@@ -12354,7 +12354,7 @@
           "prev_close": 21.81,
           "pct_change": 2.8,
           "market_cap": 2517836800,
-          "dividend_yield": 9.17,
+          "dividend_yield": 8.92,
           "fifty_two_week_high": 32.76,
           "fifty_two_week_low": 20.45,
           "next_earnings": "2026-04-28"
@@ -12434,11 +12434,11 @@
           "next_earnings": "2026-04-23"
         }
       ],
-      "narrative": "Office REITs led the tape Friday, posting a sector-best +1.81% average gain behind a standout +5.64% move in PDM, with ONL adding +4.91% as smaller-cap office names caught a bid on renewed return-to-office momentum and favorable lease-spread commentary circulating in the market. Housing (+0.90%) and Towers (+0.83%) provided solid support, with CSR +3.03% and SBAC +2.42% leading their respective subsectors. Healthcare was the notable laggard at +0.07%, dragged down by ARE's -3.14% decline, while Industrial barely held green at +0.05% as ILPT shed -1.60%.\n\nThe office-healthcare divergence stands out\u2014a 174bp spread between the two suggests rotation into cyclical recovery plays at the expense of defensive names facing idiosyncratic headwinds. ARE's continued weakness warrants monitoring given its life science exposure and potential lab space oversupply concerns. Within Hospitality, the RHP-RLJ spread of nearly 400bp signals a clear quality bifurcation, with experiential lodging outperforming commodity select-service.\n\nPositioning into Monday should favor the office momentum trade, particularly if PDM holds its breakout level, though we'd be cautious chasing after a 5%+ session. The tower complex looks constructive with SBAC leading; any pullback toward flat offers entry. We'd avoid bottom-fishing ARE until the technical picture stabilizes and trim Industrial exposure given lackluster breadth.",
-      "narrative_short": "The broad REIT market showed strength on April 10, 2026, with all eight sectors posting gains as investors rotated toward real estate investments. Office REITs led the rally with a 1.81% advance, while Industrial REITs lagged with a more modest 0.05% gain, reflecting divergent investor sentiment across property types.",
+      "narrative": "Office REITs led the tape Friday, posting a sector-best +1.81% average gain as PDM surged +5.64% and ONL added +4.91%, likely reflecting renewed optimism around return-to-office momentum and tightening urban vacancy narratives. Housing (+0.90%) and Towers (+0.83%) provided secondary support, with CSR +3.03% and SBAC +2.42% standing out. The laggards tell a different story \u2014 Healthcare barely held flat at +0.07% while Industrial was effectively unchanged at +0.05%, weighed down by ARE's sharp -3.14% decline and ILPT's -1.60% drag, suggesting life sciences and leveraged industrial names remain under pressure.\n\nThe Office/Industrial divergence is notable. PDM's +5.64% move versus ILPT's -1.60% represents a 725bp spread in a single session, underscoring a potential rotation out of warehouse-heavy portfolios into office recovery plays. Meanwhile, Hospitality showed internal fractures \u2014 RHP rallied +2.74% on experiential strength while RLJ dropped -1.26%, a nearly 400bp gap suggesting investors are discriminating sharply between premium and select-service operators. DHC's -2.19% continues its troubled trajectory within Healthcare.\n\nHeading into Monday, the office bid looks worth pressing selectively, particularly in sunbelt-exposed names like PDM. We'd fade the ARE weakness cautiously \u2014 the -3.14% move may be overdone absent fundamental catalysts. Industrial longs should watch ILPT closely for further de-leveraging signals.",
+      "narrative_short": "All eight REIT sectors posted gains on April 10, 2026, with Office REITs leading the advance at 1.81% while Industrial REITs trailed with a 0.05% increase. The broad-based rally across the REIT market reflected positive investor sentiment despite modest momentum in the traditionally stable Industrial sector.",
       "focus_details": null,
       "weekly_report": null
     }
   },
-  "macro_context": "The broad REIT market showed strength on April 10, 2026, with all eight sectors posting gains as investors rotated toward real estate investments. Office REITs led the rally with a 1.81% advance, while Industrial REITs lagged with a more modest 0.05% gain, reflecting divergent investor sentiment across property types."
+  "macro_context": "All eight REIT sectors posted gains on April 10, 2026, with Office REITs leading the advance at 1.81% while Industrial REITs trailed with a 0.05% increase. The broad-based rally across the REIT market reflected positive investor sentiment despite modest momentum in the traditionally stable Industrial sector."
 }
