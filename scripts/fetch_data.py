@@ -842,12 +842,12 @@ def main():
 
     all_news = tag_signals(reit_news + broad_news + api_news + sec_news)
 
-    # Weekly report: generated on Sundays, otherwise loaded from existing JSON
-    is_sunday = datetime.now().weekday() == 6
+    # Weekly report: generated on Fridays (market close), otherwise loaded from existing JSON
+    is_friday = datetime.now().weekday() == 4
     out_path  = os.path.join(os.path.dirname(__file__), "..", "data", "market_data.json")
 
     existing_weekly = {}
-    if not is_sunday:
+    if not is_friday:
         try:
             with open(out_path, "r") as f:
                 existing = json.load(f)
@@ -870,7 +870,7 @@ def main():
         sector_news = build_sector_news(all_news, sector_key, sector_cfg)
 
         # Weekly report
-        if is_sunday:
+        if is_friday:
             print(f"\nGenerating weekly report for {sector_key}...")
             weekly = generate_weekly_report(all_sector_tickers, all_stocks, all_news)
         else:
