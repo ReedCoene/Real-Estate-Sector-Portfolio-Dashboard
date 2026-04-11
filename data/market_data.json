@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-10T23:26:07.841659+00:00",
-  "market_date": "April 10, 2026",
+  "last_updated": "2026-04-11T00:16:18.523863+00:00",
+  "market_date": "April 11, 2026",
   "sectors": {
     "healthcare": {
       "focus_ticker": "CTRE",
@@ -59,7 +59,7 @@
           "price": 49.23,
           "prev_close": 49.11,
           "pct_change": 0.24,
-          "market_cap": 9256645632,
+          "market_cap": 9445768192,
           "dividend_yield": 2.04,
           "fifty_two_week_high": 54.67,
           "fifty_two_week_low": 28.18,
@@ -188,9 +188,9 @@
         "GMRE": {
           "name": "Global Medical REIT",
           "ticker": "GMRE",
-          "price": 35.44,
-          "prev_close": 34.41,
-          "pct_change": 2.99,
+          "price": 35.68,
+          "prev_close": 35.44,
+          "pct_change": 0.68,
           "market_cap": 979776256,
           "dividend_yield": 8.36,
           "fifty_two_week_high": 45.75,
@@ -4073,6 +4073,17 @@
           "company": "Innovative Industrial Properties",
           "source": "IIPR",
           "category": "reit",
+          "title": "Innovative Industrial Properties (IIPR) Ascends While Market Falls: Some Facts to Note",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/innovative-industrial-properties-iipr-ascends-221503698.html?.tsrc=rss",
+          "published": "Fri, 10 Apr 2026 22:15:03 +0000",
+          "summary": "In the latest trading session, Innovative Industrial Properties (IIPR) closed at $51, marking a +1.86% move from the previous day.",
+          "is_signal": false
+        },
+        {
+          "ticker": "IIPR",
+          "company": "Innovative Industrial Properties",
+          "source": "IIPR",
+          "category": "reit",
           "title": "Zacks Market Edge Highlights: Occidental Petroleum, Archer Daniels Midland, Innovative Industrial Properties, Magnolia Oil & Gas and Malibu Boats",
           "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-market-edge-highlights-occidental-095200362.html?.tsrc=rss",
           "published": "Fri, 10 Apr 2026 09:52:00 +0000",
@@ -4099,17 +4110,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/did-iipr-dividends-credit-facility-050902135.html?.tsrc=rss",
           "published": "Fri, 03 Apr 2026 05:09:02 +0000",
           "summary": "Innovative Industrial Properties recently declared its first-quarter 2026 dividends, including a US$1.90 common share payout and a US$0.5625 Series A preferred dividend, and detailed past actions to raise US$146 million through debt and preferred equity alongside securing a US$100 million revolving \u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": "IIPR",
-          "company": "Innovative Industrial Properties",
-          "source": "IIPR",
-          "category": "reit",
-          "title": "Innovative Industrial Properties, Inc. (IIPR) Reports First Quarter 2026 Dividends",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/innovative-industrial-properties-inc-iipr-165518366.html?.tsrc=rss",
-          "published": "Wed, 01 Apr 2026 16:55:18 +0000",
-          "summary": "Innovative Industrial Properties, Inc. (NYSE:IIPR) is one of the 11 Best Marijuana Stocks to Buy Right Now. On March 13, 2026, Innovative Industrial Properties, Inc. (NYSE:IIPR) reported that the board announced a first-quarter dividend of $1.90 per share, representing an annualized $7.60 per share,\u2026",
           "is_signal": true
         },
         {
@@ -4254,61 +4254,6 @@
           "published": "Thu, 09 Apr 2026 13:03:15 -0400",
           "summary": "<figure><div><img src=\"https://imgproxy.divecdn.com/HvY7JB2LNWGqW--UDy4qyYu79xAyjGTNTbJ91TV2U6I/g:ce/rs:fill:1600:900:1/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9mcmVuY2hmcmllc19sM1JzYURzLmpwZw==.webp\" /></div></figure><p><!-- obsidian --></p>\n\n<p><!-- obsidian --></p>\n\n<p>The french fry maker anti\u2026",
           "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "Descartes: global trade is focused on risk management amid Middle East tensions",
-          "link": "https://www.dcvelocity.com/supply-chain/other-services/global-logistics/descartes-global-trade-is-focused-on-risk-management-amid-middle-east-tensions",
-          "published": "Fri, 10 Apr 2026 21:31:01 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/chart-of-importer-countries-to-us.png?id=65506306&amp;width=1293&amp;height=942&amp;coordinates=0%2C0%2C11%2C0\" /><br /><br /><h3></h3><br /><p>Global supply chain planning remains centered on risk management and flexibility amid elevated volatility\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "Oracle supply chain software uses teams of AI agents",
-          "link": "https://www.dcvelocity.com/technology/artificial-intelligence/oracle-launches-new-ai-tools-for-finance-and-supply-chain-operations",
-          "published": "Fri, 10 Apr 2026 21:23:33 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/photo-of-two-people-working-in-a-warehouse-with-a-laptop.png?id=65506281&amp;width=1200&amp;height=800&amp;coordinates=141%2C0%2C141%2C0\" /><br /><br /><h3></h3><br /><p>Enterprise software vendor Oracle on Thursday announced a new family of agentic\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "Startup gains $3.2 million funding for AI-powered returns platform",
-          "link": "https://www.dcvelocity.com/supply-chain/other-services/reverse-logistics/startup-gains-3-2-million-funding-for-ai-powered-returns-platform",
-          "published": "Fri, 10 Apr 2026 21:19:36 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/photo-of-warehouse-worker.jpg?id=65506259&amp;width=1200&amp;height=800&amp;coordinates=71%2C0%2C71%2C0\" /><br /><br /><h3></h3><br /><p>The Denver startup Two Boxes this week <a href=\"https://www.twoboxes.com/press/two-boxes-accelerates-ai-powered-\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "Iran War: expensive oil drives rising inflation in U.S.",
-          "link": "https://www.dcvelocity.com/transportation/trucking/iran-war-expensive-oil-drives-rising-inflation-in-u-s",
-          "published": "Fri, 10 Apr 2026 21:13:45 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/image-of-graph-lines-on-stacks-of-cash.png?id=65506234&amp;width=1200&amp;height=800&amp;coordinates=551%2C0%2C552%2C0\" /><br /><br /><h3></h3><br /><p>Skyrocketing fuel prices driven up by supply chain side-effects of the Iran War contributed 25% o\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "AI is redefining first-time jobs",
-          "link": "https://www.dcvelocity.com/technology/ai-is-redefining-first-time-jobs",
-          "published": "Fri, 10 Apr 2026 12:00:02 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/image.jpg?id=65475934&amp;width=1200&amp;height=800&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><h3></h3><br /><p>Artificial intelligence (AI) is everywhere these days, and two recent surveys shed light on a stunning effect the technology is having\u2026",
-          "is_signal": false
         },
         {
           "ticker": null,
@@ -8949,7 +8894,7 @@
           "price": 223.75,
           "prev_close": 218.46,
           "pct_change": 2.42,
-          "market_cap": 23640082432,
+          "market_cap": 23731464192,
           "dividend_yield": 2.29,
           "fifty_two_week_high": 245.16,
           "fifty_two_week_low": 162.41,
@@ -9901,7 +9846,7 @@
           "price": 28.22,
           "prev_close": 27.72,
           "pct_change": 1.8,
-          "market_cap": 3376625408,
+          "market_cap": 3376145152,
           "dividend_yield": 7.79,
           "fifty_two_week_high": 45.03,
           "fifty_two_week_low": 27.36,
@@ -10996,7 +10941,7 @@
           "price": 49.23,
           "prev_close": 49.11,
           "pct_change": 0.24,
-          "market_cap": 9256645632,
+          "market_cap": 9445768192,
           "dividend_yield": 2.04,
           "fifty_two_week_high": 54.67,
           "fifty_two_week_low": 28.18,
@@ -11125,9 +11070,9 @@
         "GMRE": {
           "name": "Global Medical REIT",
           "ticker": "GMRE",
-          "price": 35.44,
-          "prev_close": 34.41,
-          "pct_change": 2.99,
+          "price": 35.68,
+          "prev_close": 35.44,
+          "pct_change": 0.68,
           "market_cap": 979776256,
           "dividend_yield": 8.36,
           "fifty_two_week_high": 45.75,
@@ -11944,7 +11889,7 @@
           "price": 223.75,
           "prev_close": 218.46,
           "pct_change": 2.42,
-          "market_cap": 23640082432,
+          "market_cap": 23731464192,
           "dividend_yield": 2.29,
           "fifty_two_week_high": 245.16,
           "fifty_two_week_low": 162.41,
@@ -12100,7 +12045,7 @@
           "price": 28.22,
           "prev_close": 27.72,
           "pct_change": 1.8,
-          "market_cap": 3376625408,
+          "market_cap": 3376145152,
           "dividend_yield": 7.79,
           "fifty_two_week_high": 45.03,
           "fifty_two_week_low": 27.36,
@@ -12269,10 +12214,10 @@
       ],
       "sector_performance": {
         "healthcare": {
-          "avg_change": 0.21,
+          "avg_change": 0.07,
           "best": {
-            "ticker": "GMRE",
-            "pct": 2.99
+            "ticker": "SILA",
+            "pct": 1.02
           },
           "worst": {
             "ticker": "ARE",
@@ -12403,18 +12348,6 @@
           "next_earnings": "2026-05-04"
         },
         {
-          "name": "Global Medical REIT",
-          "ticker": "GMRE",
-          "price": 35.44,
-          "prev_close": 34.41,
-          "pct_change": 2.99,
-          "market_cap": 979776256,
-          "dividend_yield": 8.36,
-          "fifty_two_week_high": 45.75,
-          "fifty_two_week_low": 29.05,
-          "next_earnings": "2026-05-06"
-        },
-        {
           "name": "Highwoods Properties",
           "ticker": "HIW",
           "price": 22.42,
@@ -12425,6 +12358,18 @@
           "fifty_two_week_high": 32.76,
           "fifty_two_week_low": 20.45,
           "next_earnings": "2026-04-28"
+        },
+        {
+          "name": "Cousins Properties",
+          "ticker": "CUZ",
+          "price": 22.88,
+          "prev_close": 22.26,
+          "pct_change": 2.79,
+          "market_cap": 3843999744,
+          "dividend_yield": 5.75,
+          "fifty_two_week_high": 30.81,
+          "fifty_two_week_low": 21.03,
+          "next_earnings": "2026-04-29"
         }
       ],
       "top_losers": [
@@ -12489,11 +12434,11 @@
           "next_earnings": "2026-04-23"
         }
       ],
-      "narrative": "Office REITs led the tape Friday, posting a sector-best +1.81% average gain headlined by Piedmont's +5.64% surge, as improving return-to-office sentiment and a softer rate backdrop fueled rotation into the most beaten-down names. Housing (+0.90%) and Towers (+0.83%) provided solid follow-through, with CSR +3.03% and SBAC +2.42% leading their respective subsectors. Industrial was essentially flat at +0.05%, while Healthcare lagged at +0.21%, dragged lower by Alexandria's sharp -3.14% decline that stood in stark contrast to GMRE's +2.99% gain.\n\nThe ONL +4.91% move alongside PDM suggests speculative capital is chasing deep-value office plays aggressively\u2014a theme worth monitoring for durability versus short-squeeze dynamics. The ARE selloff is notable given its life-science focus typically commands a premium; any fundamental catalyst here warrants close attention. Within Hospitality, the 400bp spread between RHP (+2.74%) and RLJ (-1.26%) highlights diverging views on leisure versus business-travel recovery trajectories. DHC's -2.19% drop keeps the healthcare seniors housing complex under pressure.\n\nPositioning into Monday should favor continued office momentum if rate expectations remain benign, but the move is getting extended in names like PDM and ONL\u2014tighten stops accordingly. We'd look to add Tower exposure on any SBAC pullback and stay cautious on ARE until the selling pressure stabilizes.",
-      "narrative_short": "The REIT market closed broadly higher on April 10, 2026, with all eight sectors posting gains as Office REITs led the advance with a 1.81% surge. Industrial REITs, typically a defensive sector, showed the weakest performance among gainers with a modest 0.05% increase.",
+      "narrative": "Office REITs led the tape today, posting a sector-best +1.81% average gain anchored by PDM's standout +5.64% move, while Housing (+0.90%) and Towers (+0.83%) rounded out the top three. The broad-based bid across rate-sensitive names suggests the market is pricing in a more dovish Fed trajectory heading into next week's data. Laggards were notably defensive \u2014 Healthcare (+0.07%) and Industrial (+0.05%) barely held green, with ARE dragging at -3.14% and ILPT off -1.60%.\n\nThe PDM/ONL surge stands out as a potential office revaluation trade, with both names up over 4.9% \u2014 worth watching whether this reflects positioning ahead of earnings or a broader re-rating of discounted office exposure. The ARE weakness is notable given its lab-space focus; the -3.14% decline diverges sharply from the broader Healthcare flat print and suggests name-specific overhang. In Hospitality, the RHP/RLJ spread of nearly 400bps signals clear quality differentiation within lodging.\n\nPositioning into Monday should favor continued office momentum if rates cooperate, though the move in PDM and ONL feels extended for a single session. We'd look to add Tower exposure on any SBAC pullback from today's +2.42% and remain cautious on ARE until the technical picture stabilizes. Rotate out of Industrial laggards into Housing strength, particularly CSR.",
+      "narrative_short": "All eight REIT sectors posted gains on April 11, 2026, with Office REITs leading the advance at +1.81% while Industrial REITs recorded the smallest increase at +0.05%. The broad-based strength across the REIT market reflected positive sentiment despite the modest performance in the Industrial sector.",
       "focus_details": null,
       "weekly_report": null
     }
   },
-  "macro_context": "The REIT market closed broadly higher on April 10, 2026, with all eight sectors posting gains as Office REITs led the advance with a 1.81% surge. Industrial REITs, typically a defensive sector, showed the weakest performance among gainers with a modest 0.05% increase."
+  "macro_context": "All eight REIT sectors posted gains on April 11, 2026, with Office REITs leading the advance at +1.81% while Industrial REITs recorded the smallest increase at +0.05%. The broad-based strength across the REIT market reflected positive sentiment despite the modest performance in the Industrial sector."
 }
