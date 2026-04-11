@@ -92,7 +92,7 @@ def generate_pdf(sector_key, sdata, market_date):
 
     c.setFillColor(rgb(C_MUTED))
     c.setFont('Helvetica', 10)
-    c.drawString(0.5*inch, H - 1.05*inch, f'Market date: {market_date}  ·  Generated {datetime.now(timezone.utc).strftime("%B %d, %Y")}')
+    c.drawString(0.5*inch, H - 1.05*inch, f'Market date: {market_date}  ·  Generated {market_date}')
 
     c.setFillColor(rgb(C_ACCENT))
     c.rect(0, H - 1.42*inch, W, 0.04*inch, fill=1, stroke=0)
@@ -321,7 +321,7 @@ def _render_overview_pdf(buf, sdata, market_date, total_pages):
     c.setFillColor(rgb(C_MUTED))
     c.setFont('Helvetica', 10)
     c.drawString(0.5*inch, H - 1.05*inch,
-                 f'Market date: {market_date}  ·  Generated {datetime.now(timezone.utc).strftime("%B %d, %Y")}')
+                 f'Market date: {market_date}  ·  Generated {market_date}')
 
     c.setFillColor(rgb(C_ACCENT))
     c.rect(0, H - 1.42*inch, W, 0.04*inch, fill=1, stroke=0)
@@ -364,7 +364,7 @@ def _render_overview_pdf(buf, sdata, market_date, total_pages):
         plt.close(fig)
         chart_buf.seek(0)
 
-        chart_h = 2.0*inch
+        chart_h = 2.8*inch
         chart_w = W - inch
         c.setFillColor(rgb(C_TEXT))
         c.setFont('Helvetica-Bold', 13)
