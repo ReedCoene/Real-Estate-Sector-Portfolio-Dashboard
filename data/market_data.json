@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-18T22:31:39.267715+00:00",
-  "market_date": "June 18, 2026",
+  "last_updated": "2026-06-19T21:45:50.671617+00:00",
+  "market_date": "June 19, 2026",
   "sectors": {
     "healthcare": {
       "focus_ticker": "CTRE",
@@ -59,7 +59,7 @@
           "price": 46.52,
           "prev_close": 46.52,
           "pct_change": 0.0,
-          "market_cap": 8965441536,
+          "market_cap": 9616721920,
           "dividend_yield": 2.13,
           "fifty_two_week_high": 54.67,
           "fifty_two_week_low": 35.46,
@@ -963,21 +963,10 @@
           "company": null,
           "source": "STAT News",
           "category": "healthcare",
-          "title": "STAT+: CMS recalculates Medicare Advantage star ratings again, adding more volatility to program",
-          "link": "https://www.statnews.com/2026/06/18/medicare-advantage-star-ratings-recalculated-volatility-industry-lawsuits/?utm_campaign=rss",
-          "published": "Thu, 18 Jun 2026 22:25:13 +0000",
-          "summary": "Medicare Advantage plans that receive four out of five stars or better get bonus payments, which have ballooned to $16 billion this year.",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "STAT News",
-          "category": "healthcare",
-          "title": "STAT+: FDA advisory panel endorses Moderna mRNA flu vaccine that was subject of controversy",
-          "link": "https://www.statnews.com/2026/06/18/fda-mrna-flu-vaccine-vrbpac-advisers-endorse-moderna-shots/?utm_campaign=rss",
-          "published": "Thu, 18 Jun 2026 20:26:25 +0000",
-          "summary": "A panel of advisers to FDA gave its endorsement to a seasonal mRNA flu vaccine that was developed by Moderna and that earlier this year became the subject of controversy.",
+          "title": "STAT+: Up and down the ladder: The latest comings and goings",
+          "link": "https://www.statnews.com/pharmalot/2026/06/19/up-and-down-the-ladder-jobs-bristol-novartis-pfizer-moderna-astrazeneca/?utm_campaign=rss",
+          "published": "Fri, 19 Jun 2026 14:00:00 +0000",
+          "summary": "From new hires to departures, promotions and transfers, here are the latest comings and goings in the pharmaceutical industry.",
           "is_signal": false
         },
         {
@@ -985,10 +974,10 @@
           "company": null,
           "source": "STAT News",
           "category": "healthcare",
-          "title": "STAT+: Eli Lilly ends 340B drug discounts to some hospitals for failing to provide claims data",
-          "link": "https://www.statnews.com/pharmalot/2026/06/18/eli-lilly-340b-hospitals-drug-discount-price-breaks-eliminated/?utm_campaign=rss",
-          "published": "Thu, 18 Jun 2026 19:56:26 +0000",
-          "summary": "Making good on its threat, Eli Lilly has begun eliminating mandated price breaks to a few dozen hospitals that participate in a federal drug discount program.",
+          "title": "Federal grant delays could jeopardize essential disability services, research",
+          "link": "https://www.statnews.com/2026/06/19/federal-grant-delays-jeopardize-essential-disability-services-research/?utm_campaign=rss",
+          "published": "Fri, 19 Jun 2026 08:30:00 +0000",
+          "summary": "Disability researchers across the country worry about their jobs, and the future of their institutions, as a delay in issuing federal grants drags on.",
           "is_signal": false
         },
         {
@@ -996,10 +985,10 @@
           "company": null,
           "source": "STAT News",
           "category": "healthcare",
-          "title": "New hope in treating Huntington\u2019s disease and a report card on RFK Jr.\u2019s promises",
-          "link": "https://www.statnews.com/2026/06/18/huntingtons-disease-uniqure-rfk-jr-readout-loud-podcast/?utm_campaign=rss",
-          "published": "Thu, 18 Jun 2026 19:40:54 +0000",
-          "summary": "This week on \"The Readout LOUD\" podcast: new hope in treating Huntington's disease and a report card on RFK Jr.'s promises. Listen now.",
+          "title": "Tennessee pharmacies sell potent ivermectin, led by anti-vaccine doctor who\u2019s taken \u2018bucketloads\u2019",
+          "link": "https://www.statnews.com/2026/06/19/tennessee-ivermectin-market-how-to-create-booming-sales-unproven-drug/?utm_campaign=rss",
+          "published": "Fri, 19 Jun 2026 08:30:00 +0000",
+          "summary": "Tennessee pharmacies are selling potent versions of the antiparasitic drug ivermectin, led by an anti-vaccine doctor who\u2019s taken \"bucketloads.\"",
           "is_signal": false
         },
         {
@@ -1007,10 +996,21 @@
           "company": null,
           "source": "STAT News",
           "category": "healthcare",
-          "title": "Ebola cases increase almost 40% in a week as death toll passes 200",
-          "link": "https://www.statnews.com/2026/06/18/ebola-outbreak-congo-uganda-cases-increase-death-toll/?utm_campaign=rss",
-          "published": "Thu, 18 Jun 2026 16:30:00 +0000",
-          "summary": "Ebola cases have increased almost 40% in a week in the current outbreak in Congo and Uganda as the death toll passes 200.",
+          "title": "Opinion: STAT+: The real work for making dramatic gains against pancreatic cancer is just beginning",
+          "link": "https://www.statnews.com/2026/06/19/daraxonrasib-pancreatic-cancer-miracle-drug-oncosystems-ai/?utm_campaign=rss",
+          "published": "Fri, 19 Jun 2026 08:30:00 +0000",
+          "summary": "The co-founders of Darwin Health write that the real work for making dramatic gains against pancreatic cancers is just beginning.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
+          "title": "Opinion: Maternity deserts aren\u2019t accidents. They\u2019re the result of a design flaw",
+          "link": "https://www.statnews.com/2026/06/19/maternity-desert-physician-shortage-obstetrics-pregnancy-residency-south-dakota/?utm_campaign=rss",
+          "published": "Fri, 19 Jun 2026 08:30:00 +0000",
+          "summary": "Shrinking fertility should mean less strain on doctors. But nearly half of U.S. counties lack a practicing obstetrician or gynecologist.",
           "is_signal": false
         },
         {
@@ -1128,6 +1128,39 @@
           "company": null,
           "source": "Commercial Observer",
           "category": "broad",
+          "title": "Miami-Area Warehouse Trades for $56M",
+          "link": "http://commercialobserver.com/2026/06/florida-warehouse-terreno-clarion/",
+          "published": "2026-06-18T20:50:42Z",
+          "summary": "Terreno Realty on Thursday announced it has paid $56.3 million for an industrial property in Hialeah Gardens, Fla. The 98,000-square-foot distribution building sits on 16.8 acres at 10910 Northwest 144th Street, adjacent to the intersection of Florida\u2019s Turnp\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "PRNewswire",
+          "category": "broad",
+          "title": "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "link": "https://www.prnewswire.com/news-releases/grech-rv-launches-sprinter-rv-upgrade-program-offering-up-to-10-000-toward-a-new-luxury-camper-van-302804508.html",
+          "published": "2026-06-18T14:35:00Z",
+          "summary": "The Sprinter RV Upgrade Program rewards owners of competitive Mercedes-Benz Sprinter\u00ae-based Class B motorhomes \u2014 and current Grech owners \u2014 with up to $10,000 toward a new STRADA-ion\u2122, TURISMO-ion\u2122, TERRENO-ion\u2122, or VACANZA-ion\u2122. Qualifying units must be purc\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Biztoc.com",
+          "category": "broad",
+          "title": "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "link": "https://biztoc.com/x/d9b3d4916b3d4946",
+          "published": "2026-06-18T11:55:48Z",
+          "summary": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiations, please see our analyst ratings page.\nRaymond James analyst David Rodgers initiated coverage o\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Commercial Observer",
+          "category": "broad",
           "title": "Warsh\u2019s First Fed Meeting as Chair Produces a Result Many in CRE Expected",
           "link": "http://commercialobserver.com/2026/06/fed-interest-rates-pause-kevin-warsh/",
           "published": "2026-06-17T19:22:15Z",
@@ -1198,39 +1231,6 @@
           "link": "https://bikerumor.com/megamo-doubles-down-on-avinox-powered-drop-bar-bikes-with-the-along-e-gravel-bike/",
           "published": "2026-06-11T23:10:24Z",
           "summary": "Closely following the launch of the Upon e-road bike, Megamo is bringing Avinox power to gravel with the all-new Along e-gravel bike.\nThe post Megamo Doubles Down on Avinox-Powered Drop Bar Bikes With the Along E-Gravel Bike appeared first on Bikerumor.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "road.cc",
-          "category": "broad",
-          "title": "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres",
-          "link": "https://road.cc/offroad/tech-news/is-130nm-too-much-for-gravel-megamos-along-e-gravel-bike-boasts-avinox-motors-and-clearance-for-50mm-tyres",
-          "published": "2026-06-11T16:00:16Z",
-          "summary": "Ever since its release, DJI\u2019s Avinox motor system has taken the e-bike world by storm, delivering some of the highest torque and power figures to hit the market. Then, earlier this year, the motor brand announced its even punchier M2 and M2S systems. Now, Meg\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Finofilipino.org",
-          "category": "broad",
-          "title": "Top 7 frases del Xokas en ingl\u00e9s.",
-          "link": "https://finofilipino.org/top-7-frases-del-xokas-en-ingles/",
-          "published": "2026-06-10T08:20:25Z",
-          "summary": "https://www.youtube.com/shorts/up9CZOJYHsg?feature=share",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Coolchicstylefashion.com",
-          "category": "broad",
-          "title": "La lavanda (Lavandula) DAILY INSPIRATION",
-          "link": "https://www.coolchicstylefashion.com/2026/06/la-lavanda-lavandula-daily-inspiration.html",
-          "published": "2026-06-06T07:34:56Z",
-          "summary": "A Daily Style and Design Site. Interiors, Fashion, Lifestyle, Design Travel, Leisure. Cool Chic Style Fashion the daily search for beautiful things.",
           "is_signal": false
         },
         {
@@ -1668,55 +1668,60 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "June 12, 2026",
-        "generated_at": "2026-06-12T22:08:20.814891+00:00",
-        "advancing": 15,
-        "declining": 1,
+        "week_ending": "June 19, 2026",
+        "generated_at": "2026-06-19T21:45:43.228387+00:00",
+        "advancing": 3,
+        "declining": 13,
         "total": 16,
-        "avg_weekly_pct": 3.92,
+        "avg_weekly_pct": -2.36,
         "top_gainers": [
           {
-            "ticker": "DHC",
-            "name": "Diversified Healthcare Trust",
-            "price": 9.03,
-            "weekly_pct": 8.8
+            "ticker": "STRW",
+            "name": "Strawberry Fields REIT",
+            "price": 13.34,
+            "weekly_pct": 2.21
           },
-          {
-            "ticker": "WELL",
-            "name": "Welltower",
-            "price": 214.23,
-            "weekly_pct": 7.11
-          },
-          {
-            "ticker": "VTR",
-            "name": "Ventas",
-            "price": 84.6,
-            "weekly_pct": 6.25
-          }
-        ],
-        "top_losers": [
           {
             "ticker": "CTRE",
             "name": "CareTrust REIT",
-            "price": 36.85,
-            "weekly_pct": -0.19
+            "price": 37.06,
+            "weekly_pct": 0.57
           },
           {
             "ticker": "SILA",
             "name": "Sila Realty Trust",
-            "price": 30.28,
-            "weekly_pct": 0.03
+            "price": 30.3,
+            "weekly_pct": 0.07
+          }
+        ],
+        "top_losers": [
+          {
+            "ticker": "UHT",
+            "name": "Universal Health Realty Income Trust",
+            "price": 37.86,
+            "weekly_pct": -5.96
           },
           {
-            "ticker": "STRW",
-            "name": "Strawberry Fields REIT",
-            "price": 13.22,
-            "weekly_pct": 1.23
+            "ticker": "DOC",
+            "name": "Healthpeak Properties",
+            "price": 19.56,
+            "weekly_pct": -4.99
+          },
+          {
+            "ticker": "HR",
+            "name": "Healthcare Realty Trust",
+            "price": 19.79,
+            "weekly_pct": -4.4
           }
         ],
         "key_signals": [],
         "broad_highlights": [
-          "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres"
+          "Miami-Area Warehouse Trades for $56M",
+          "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "Pirelli Cinturato Gravel M High Performance gravel tyres",
+          "Macerich Announces Pricing of Public Offering of Common Stock",
+          "Macerich Announces Commencement of Public Offering of Common Stock"
         ]
       }
     },
@@ -2002,6 +2007,17 @@
           "company": "Equity Residential",
           "source": "EQR",
           "category": "reit",
+          "title": "AvalonBay (AVB) Could Benefit From a Changing Housing Market, Says Mizuho",
+          "link": "https://finance.yahoo.com/real-estate/articles/avalonbay-avb-could-benefit-changing-002422308.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 00:24:22 +0000",
+          "summary": "With a short percentage of shares outstanding of 2.82%, AvalonBay Communities, Inc. (NYSE:AVB) is among the 7 Best \u201cLand Owner\u201d Stocks to Buy for Hard Asset Value. On June 10, Mizuho raised its price target on AvalonBay Communities, Inc. (NYSE:AVB) to $192 from $189 while maintaining a Neutral ratin\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "EQR",
+          "company": "Equity Residential",
+          "source": "EQR",
+          "category": "reit",
           "title": "Equity Residential Declares Second Quarter Dividends",
           "link": "https://finance.yahoo.com/real-estate/articles/equity-residential-declares-second-quarter-201500022.html?.tsrc=rss",
           "published": "Thu, 18 Jun 2026 20:15:00 +0000",
@@ -2031,14 +2047,25 @@
           "is_signal": false
         },
         {
-          "ticker": "EQR",
-          "company": "Equity Residential",
-          "source": "EQR",
+          "ticker": "AVB",
+          "company": "AvalonBay Communities",
+          "source": "AVB",
           "category": "reit",
-          "title": "AvalonBay And Equity Residential Merger Reshapes Multifamily REIT Valuation Story",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/avalonbay-equity-residential-merger-reshapes-151256786.html?.tsrc=rss",
-          "published": "Sat, 13 Jun 2026 15:12:56 +0000",
-          "summary": "AvalonBay Communities (NYSE:AVB) and Equity Residential have agreed to merge, creating a combined multifamily REIT under a newly announced executive leadership team. The companies have outlined how the merged REIT will be structured, including key management roles and governance for the integrated p\u2026",
+          "title": "Is AvalonBay Stock Underperforming the S&P 500?",
+          "link": "https://www.barchart.com/story/news/2553931/is-avalonbay-stock-underperforming-the-s-p-500?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 11:36:51 +0000",
+          "summary": "AvalonBay stock has trailed behind the S&amp;P 500\u2019s returns over the past year, but analysts are moderately optimistic about the stock.",
+          "is_signal": false
+        },
+        {
+          "ticker": "AVB",
+          "company": "AvalonBay Communities",
+          "source": "AVB",
+          "category": "reit",
+          "title": "AvalonBay (AVB) Could Benefit From a Changing Housing Market, Says Mizuho",
+          "link": "https://finance.yahoo.com/real-estate/articles/avalonbay-avb-could-benefit-changing-002422308.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 00:24:22 +0000",
+          "summary": "With a short percentage of shares outstanding of 2.82%, AvalonBay Communities, Inc. (NYSE:AVB) is among the 7 Best \u201cLand Owner\u201d Stocks to Buy for Hard Asset Value. On June 10, Mizuho raised its price target on AvalonBay Communities, Inc. (NYSE:AVB) to $192 from $189 while maintaining a Neutral ratin\u2026",
           "is_signal": true
         },
         {
@@ -2062,28 +2089,6 @@
           "published": "Fri, 12 Jun 2026 11:51:48 +0000",
           "summary": "Equity Residential has underperformed the broader real estate sector over the past year, and analysts are cautiously bullish about the stock\u2019s future prospects.",
           "is_signal": false
-        },
-        {
-          "ticker": "AVB",
-          "company": "AvalonBay Communities",
-          "source": "AVB",
-          "category": "reit",
-          "title": "AvalonBay Communities, Inc. Declares Second Quarter 2026 Dividends",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/avalonbay-communities-inc-declares-second-201500794.html?.tsrc=rss",
-          "published": "Tue, 09 Jun 2026 20:15:00 +0000",
-          "summary": "ARLINGTON, Va., June 09, 2026--AvalonBay Communities, Inc. (NYSE: AVB) (the \"Company\") announced today that its Board of Directors declared a cash dividend on the Company\u2019s Common Stock (par value $0.01 per share) for the second quarter of 2026. The Common Stock dividend is $1.78 per share and is pa\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": "AVB",
-          "company": "AvalonBay Communities",
-          "source": "AVB",
-          "category": "reit",
-          "title": "Toll Brothers upgraded, Lennar downgraded: Wall Street's top analyst calls",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/toll-brothers-upgraded-lennar-downgraded-133255377.html?.tsrc=rss",
-          "published": "Tue, 09 Jun 2026 13:32:55 +0000",
-          "summary": "Toll Brothers upgraded, Lennar downgraded: Wall Street's top analyst calls",
-          "is_signal": true
         },
         {
           "ticker": "ESS",
@@ -2178,6 +2183,17 @@
           "company": "UDR Inc",
           "source": "UDR",
           "category": "reit",
+          "title": "Is UDR Stock Underperforming the Nasdaq?",
+          "link": "https://www.barchart.com/story/news/2551614/is-udr-stock-underperforming-the-nasdaq?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 09:02:17 +0000",
+          "summary": "UDR has underperformed the Nasdaq Composite over the past year, yet Wall Street remains optimistic about the stock.",
+          "is_signal": false
+        },
+        {
+          "ticker": "UDR",
+          "company": "UDR Inc",
+          "source": "UDR",
+          "category": "reit",
           "title": "UDR Stock Gains 9% in Three Months: Will the Uptrend Continue?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/udr-stock-gains-9-three-131700017.html?.tsrc=rss",
           "published": "Thu, 11 Jun 2026 13:17:00 +0000",
@@ -2205,17 +2221,6 @@
           "published": "Mon, 25 May 2026 23:05:09 +0000",
           "summary": "UDR, Inc. (NYSE:UDR) is one of the 10 Best Residential REITs to Buy in 2026. On May 14, 2026, Scotiabank lowered the firm\u2019s price target on UDR, Inc. (NYSE:UDR) to $38 from $39 and maintained a Sector Perform rating on the shares. The firm said it updated its outlook for U.S. multifamily REITs and c\u2026",
           "is_signal": true
-        },
-        {
-          "ticker": "UDR",
-          "company": "UDR Inc",
-          "source": "UDR",
-          "category": "reit",
-          "title": "Gasoline Prices Aren\u2019t the Only Inflation Threat. Watch Housing Costs.",
-          "link": "https://finance.yahoo.com/m/d4db5ad7-1307-357d-82c1-649fa3339801/gasoline-prices-aren%E2%80%99t-the.html?.tsrc=rss",
-          "published": "Mon, 11 May 2026 10:03:00 +0000",
-          "summary": "Economists say distortions tied to the 2025 government shutdown could cause shelter inflation to accelerate in April, complicating the Federal Reserve\u2019s fight against rising prices.",
-          "is_signal": false
         },
         {
           "ticker": "CPT",
@@ -2574,6 +2579,17 @@
           "company": "Sun Communities",
           "source": "SUI",
           "category": "reit",
+          "title": "Why RBC Still Likes Sun Communities (SUI) After Its Latest Asset Sale",
+          "link": "https://finance.yahoo.com/real-estate/articles/why-rbc-still-likes-sun-002431959.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 00:24:31 +0000",
+          "summary": "With a short percentage of shares outstanding of 2.59%, Sun Communities, Inc. (NYSE:SUI) is among the 7 Best \u201cLand Owner\u201d Stocks to Buy for Hard Asset Value. On June 5, RBC Capital lowered its price target on Sun Communities, Inc. (NYSE:SUI) to $149 from $151 while maintaining an Outperform rating o\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "SUI",
+          "company": "Sun Communities",
+          "source": "SUI",
+          "category": "reit",
           "title": "Deutsche Bank Maintains Hold Rating on Sun Communities (SUI)",
           "link": "https://finance.yahoo.com/markets/stocks/articles/deutsche-bank-maintains-hold-rating-230752044.html?.tsrc=rss",
           "published": "Mon, 25 May 2026 23:07:52 +0000",
@@ -2600,17 +2616,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/sun-communities-inc-announces-agreement-063300430.html?.tsrc=rss",
           "published": "Thu, 21 May 2026 06:33:00 +0000",
           "summary": "Results in Leading North American Pure-Play MH and RV PlatformSouthfield, MI, May 21, 2026 (GLOBE NEWSWIRE) -- Sun Communities, Inc. (NYSE: SUI) (the \u201cCompany\u201d or \u201cSun\u201d), a real estate investment trust (\u201cREIT\u201d) that owns and operates or has an interest in manufactured housing (\u201cMH\u201d) and recreational\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": "SUI",
-          "company": "Sun Communities",
-          "source": "SUI",
-          "category": "reit",
-          "title": "A Look At Sun Communities (SUI) Valuation As Strong Q1 Results And Higher Guidance Reshape Expectations",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/look-sun-communities-sui-valuation-030932917.html?.tsrc=rss",
-          "published": "Fri, 01 May 2026 03:09:32 +0000",
-          "summary": "Sun Communities (SUI) shares were in focus after first quarter 2026 results topped management expectations, supported by higher full year guidance, early strength in RV demand, and ongoing buybacks and acquisitions. See our latest analysis for Sun Communities. The share price has a year to date retu\u2026",
           "is_signal": true
         },
         {
@@ -2662,6 +2667,17 @@
           "company": "UMH Properties",
           "source": "UMH",
           "category": "reit",
+          "title": "Here is why UMH Properties, Inc.\u00a0(UMH)\u00a0is among the Best \u201cLand Owner\u201d Stocks to Buy for Hard Asset Value",
+          "link": "https://finance.yahoo.com/real-estate/articles/why-umh-properties-inc-umh-002506113.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 00:25:06 +0000",
+          "summary": "With a short percentage of shares outstanding of 0.01%, UMH Properties, Inc. (NYSE:UMH) is among the 7 Best \u201cLand Owner\u201d Stocks to Buy for Hard Asset Value. On May 28, UMH Properties, Inc. (NYSE:UMH) announced that Executive Vice President, Chief Financial Officer, and Treasurer Anna Chew elected to\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": "UMH",
+          "company": "UMH Properties",
+          "source": "UMH",
+          "category": "reit",
           "title": "UMH PROPERTIES, INC. PUBLISHES ITS 2025 SUSTAINABILITY REPORT",
           "link": "https://finance.yahoo.com/sectors/healthcare/articles/umh-properties-inc-publishes-2025-153600949.html?.tsrc=rss",
           "published": "Mon, 08 Jun 2026 15:36:00 +0000",
@@ -2691,14 +2707,14 @@
           "is_signal": true
         },
         {
-          "ticker": "UMH",
-          "company": "UMH Properties",
-          "source": "UMH",
+          "ticker": "LEN",
+          "company": "Lennar",
+          "source": "LEN",
           "category": "reit",
-          "title": "UMH PROPERTIES, INC. CONGRATULATES ITS DIRECTORS ON THEIR REELECTION AT THE ANNUAL SHAREHOLDER MEETING",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/umh-properties-inc-congratulates-directors-215000859.html?.tsrc=rss",
-          "published": "Wed, 27 May 2026 21:50:00 +0000",
-          "summary": "FREEHOLD, NJ, May 27, 2026 (GLOBE NEWSWIRE) -- UMH Properties, Inc. (NYSE: UMH) (TASE: UMH), a real estate investment trust (REIT) specializing in the ownership and operation of manufactured home communities, today congratulates its directors, Jeffrey A. Carus, Matthew I. Hirsch, Angela D. Pruitt-Ma\u2026",
+          "title": "1 Cash-Producing Stock to Target This Week and 2 That Underwhelm",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/1-cash-producing-stock-target-133258854.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 13:32:58 +0000",
+          "summary": "Generating cash is essential for any business, but not all cash-rich companies are great investments. Some produce plenty of cash but fail to allocate it effectively, leading to missed opportunities.",
           "is_signal": true
         },
         {
@@ -2732,17 +2748,6 @@
           "link": "https://finance.yahoo.com/real-estate/articles/lennar-faces-2026-housing-trends-152300659.html?.tsrc=rss",
           "published": "Wed, 17 Jun 2026 15:23:00 +0000",
           "summary": "LEN is boosting deliveries, cutting build times and investing in technology, but affordability pressures and lower pricing continue to weigh on margins.",
-          "is_signal": true
-        },
-        {
-          "ticker": "LEN",
-          "company": "Lennar",
-          "source": "LEN",
-          "category": "reit",
-          "title": "Is LEN Stock a Value Trap or a Bargain After Its 2026 Pullback",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/len-stock-value-trap-bargain-151800218.html?.tsrc=rss",
-          "published": "Wed, 17 Jun 2026 15:18:00 +0000",
-          "summary": "LEN looks cheap on valuation metrics after its pullback, but falling earnings, estimate cuts and housing-market pressure keep the value-trap debate alive.",
           "is_signal": true
         },
         {
@@ -2794,10 +2799,10 @@
           "company": null,
           "source": "HousingWire",
           "category": "housing",
-          "title": "Retirement plan participation reaches record high, but financial pressures persist",
-          "link": "https://www.housingwire.com/articles/retirement-plan-participation-reaches-record-high-but-financial-pressures-persist/",
-          "published": "Thu, 18 Jun 2026 21:46:11 +0000",
-          "summary": "Nearly two-thirds of retirement plans now automatically enroll new participants at contribution rates of at least 4%.",
+          "title": "What a 50-year-old letter says about accountability in homebuilding",
+          "link": "https://www.housingwire.com/articles/fathers-day-responsibility-builders/",
+          "published": "Fri, 19 Jun 2026 17:05:19 +0000",
+          "summary": "Exactly 50 years ago this time of year, a 51-year-old man handwrote a four-page letter on a legal pad to his then 21-year-old son, one of seven children \u2013 six of them sons and one angel of a daughter \u2013 who was spending a semester studying in Dublin, Ireland. The letter\u2019s narrative arc, now mostly [&\u2026",
           "is_signal": false
         },
         {
@@ -2805,10 +2810,21 @@
           "company": null,
           "source": "HousingWire",
           "category": "housing",
-          "title": "Beazer refinancing raises Dream Finders deal cost by $53 million",
-          "link": "https://www.housingwire.com/articles/beazer-notes-change-control-cost/",
-          "published": "Thu, 18 Jun 2026 20:52:39 +0000",
-          "summary": "For weeks, a central question surrounding Dream Finders Homes&#8216; pursuit of Beazer Homes has been unambiguous: Will Dream Finders&#8217; offer for the company and its public relations campaign be enough to convince Beazer shareholders that a sale should occur? A just-completed debt refinancing b\u2026",
+          "title": "Four rules for underwriting secondary Texas markets in a slower cycle",
+          "link": "https://www.housingwire.com/articles/texas-builders-secondary-yield/",
+          "published": "Fri, 19 Jun 2026 14:23:46 +0000",
+          "summary": "For the better part of a decade, the Texas growth playbook was remarkably simple. If you wanted scale, liquidity and appreciation, you went to the Texas Triangle: Austin, Dallas\u2013Fort Worth, Houston, and San Antonio and tried to be early to the next ring of rooftops. Those four metros captured the li\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "HousingWire",
+          "category": "housing",
+          "title": "ICE executives detail AI cybersecurity efforts through Project Glasswing",
+          "link": "https://www.housingwire.com/articles/ice-claude-mythos-cybersecurity/",
+          "published": "Fri, 19 Jun 2026 14:00:00 +0000",
+          "summary": "ICE is using Claude Mythos via Project Glasswing to find vulnerabilities faster, with a focus on accuracy, speed and fixes.",
           "is_signal": true
         },
         {
@@ -2816,10 +2832,10 @@
           "company": null,
           "source": "HousingWire",
           "category": "housing",
-          "title": "With Warsh\u2019s Fed overhaul, mortgage rates face a new risk",
-          "link": "https://www.housingwire.com/articles/warsh-fed-guidance-mortgage-volatility/",
-          "published": "Thu, 18 Jun 2026 20:45:43 +0000",
-          "summary": "Federal Reserve Chair Kevin Warsh\u2019s new framework for the U.S. central bank carries significant implications for the mortgage industry and broader housing market.",
+          "title": "Home flipping slowed in early 2026 but investors saw returns tick up",
+          "link": "https://www.housingwire.com/articles/attom-q1-2026-home-flipping/",
+          "published": "Fri, 19 Jun 2026 13:00:00 +0000",
+          "summary": "ATTOM reports 64,348 Q1 2026 flips, 8% of sales, as typical gross returns rose to 25.4% and gross profit increased to $66,000.",
           "is_signal": false
         },
         {
@@ -2827,22 +2843,11 @@
           "company": null,
           "source": "HousingWire",
           "category": "housing",
-          "title": "HUD aims to help multi-story manufactured housing go vertical",
-          "link": "https://www.housingwire.com/articles/hud-multistory-manufactured-homes/",
-          "published": "Thu, 18 Jun 2026 20:09:04 +0000",
-          "summary": "HUD proposed a rule to allow chassis free upper floors in manufactured homes, a change developers say can cut $5,000 to $10,000 per home.",
+          "title": "Aging in place is reshaping housing demand \u2014 and most homes aren\u2019t ready",
+          "link": "https://www.housingwire.com/articles/aging-in-place-reshape-housing-demand/",
+          "published": "Fri, 19 Jun 2026 10:00:00 +0000",
+          "summary": "An expert expains why aging in place is shifting from preference to financial necessity \u2014 and what housing professionals need to know.",
           "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "HousingWire",
-          "category": "housing",
-          "title": "Intent beats volume: What real estate teams are learning from AI-powered follow-up",
-          "link": "https://www.housingwire.com/articles/ai-follow-up-intent-signals/",
-          "published": "Thu, 18 Jun 2026 19:14:22 +0000",
-          "summary": "Insights from one million calls show intent based targeting, better context, and local numbers can improve appointment conversion.",
-          "is_signal": true
         },
         {
           "ticker": null,
@@ -3014,6 +3019,39 @@
           "company": null,
           "source": "Commercial Observer",
           "category": "broad",
+          "title": "Miami-Area Warehouse Trades for $56M",
+          "link": "http://commercialobserver.com/2026/06/florida-warehouse-terreno-clarion/",
+          "published": "2026-06-18T20:50:42Z",
+          "summary": "Terreno Realty on Thursday announced it has paid $56.3 million for an industrial property in Hialeah Gardens, Fla. The 98,000-square-foot distribution building sits on 16.8 acres at 10910 Northwest 144th Street, adjacent to the intersection of Florida\u2019s Turnp\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "PRNewswire",
+          "category": "broad",
+          "title": "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "link": "https://www.prnewswire.com/news-releases/grech-rv-launches-sprinter-rv-upgrade-program-offering-up-to-10-000-toward-a-new-luxury-camper-van-302804508.html",
+          "published": "2026-06-18T14:35:00Z",
+          "summary": "The Sprinter RV Upgrade Program rewards owners of competitive Mercedes-Benz Sprinter\u00ae-based Class B motorhomes \u2014 and current Grech owners \u2014 with up to $10,000 toward a new STRADA-ion\u2122, TURISMO-ion\u2122, TERRENO-ion\u2122, or VACANZA-ion\u2122. Qualifying units must be purc\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Biztoc.com",
+          "category": "broad",
+          "title": "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "link": "https://biztoc.com/x/d9b3d4916b3d4946",
+          "published": "2026-06-18T11:55:48Z",
+          "summary": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiations, please see our analyst ratings page.\nRaymond James analyst David Rodgers initiated coverage o\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Commercial Observer",
+          "category": "broad",
           "title": "Warsh\u2019s First Fed Meeting as Chair Produces a Result Many in CRE Expected",
           "link": "http://commercialobserver.com/2026/06/fed-interest-rates-pause-kevin-warsh/",
           "published": "2026-06-17T19:22:15Z",
@@ -3084,39 +3122,6 @@
           "link": "https://bikerumor.com/megamo-doubles-down-on-avinox-powered-drop-bar-bikes-with-the-along-e-gravel-bike/",
           "published": "2026-06-11T23:10:24Z",
           "summary": "Closely following the launch of the Upon e-road bike, Megamo is bringing Avinox power to gravel with the all-new Along e-gravel bike.\nThe post Megamo Doubles Down on Avinox-Powered Drop Bar Bikes With the Along E-Gravel Bike appeared first on Bikerumor.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "road.cc",
-          "category": "broad",
-          "title": "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres",
-          "link": "https://road.cc/offroad/tech-news/is-130nm-too-much-for-gravel-megamos-along-e-gravel-bike-boasts-avinox-motors-and-clearance-for-50mm-tyres",
-          "published": "2026-06-11T16:00:16Z",
-          "summary": "Ever since its release, DJI\u2019s Avinox motor system has taken the e-bike world by storm, delivering some of the highest torque and power figures to hit the market. Then, earlier this year, the motor brand announced its even punchier M2 and M2S systems. Now, Meg\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Finofilipino.org",
-          "category": "broad",
-          "title": "Top 7 frases del Xokas en ingl\u00e9s.",
-          "link": "https://finofilipino.org/top-7-frases-del-xokas-en-ingles/",
-          "published": "2026-06-10T08:20:25Z",
-          "summary": "https://www.youtube.com/shorts/up9CZOJYHsg?feature=share",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Coolchicstylefashion.com",
-          "category": "broad",
-          "title": "La lavanda (Lavandula) DAILY INSPIRATION",
-          "link": "https://www.coolchicstylefashion.com/2026/06/la-lavanda-lavandula-daily-inspiration.html",
-          "published": "2026-06-06T07:34:56Z",
-          "summary": "A Daily Style and Design Site. Interiors, Fashion, Lifestyle, Design Travel, Leisure. Cool Chic Style Fashion the daily search for beautiful things.",
           "is_signal": false
         },
         {
@@ -3521,55 +3526,60 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "June 12, 2026",
-        "generated_at": "2026-06-12T22:08:22.889655+00:00",
-        "advancing": 13,
-        "declining": 5,
+        "week_ending": "June 19, 2026",
+        "generated_at": "2026-06-19T21:45:45.054797+00:00",
+        "advancing": 1,
+        "declining": 18,
         "total": 19,
-        "avg_weekly_pct": 1.05,
+        "avg_weekly_pct": -3.57,
         "top_gainers": [
-          {
-            "ticker": "ELS",
-            "name": "Equity LifeStyle Properties",
-            "price": 64.83,
-            "weekly_pct": 5.43
-          },
-          {
-            "ticker": "SUI",
-            "name": "Sun Communities",
-            "price": 126.95,
-            "weekly_pct": 3.9
-          },
-          {
-            "ticker": "UDR",
-            "name": "UDR Inc",
-            "price": 39.4,
-            "weekly_pct": 2.05
-          }
-        ],
-        "top_losers": [
           {
             "ticker": "AIV",
             "name": "Apartment Investment and Management",
-            "price": 2.88,
-            "weekly_pct": -2.37
-          },
-          {
-            "ticker": "ELME",
-            "name": "Elme Communities",
-            "price": 2.03,
-            "weekly_pct": -0.49
+            "price": 2.9,
+            "weekly_pct": 0.69
           },
           {
             "ticker": "LEN",
             "name": "Lennar",
-            "price": 90.3,
-            "weekly_pct": -0.48
+            "price": 89.73,
+            "weekly_pct": -0.63
+          },
+          {
+            "ticker": "FPH",
+            "name": "Five Point Holdings",
+            "price": 5.12,
+            "weekly_pct": -0.78
+          }
+        ],
+        "top_losers": [
+          {
+            "ticker": "SUI",
+            "name": "Sun Communities",
+            "price": 118.46,
+            "weekly_pct": -6.69
+          },
+          {
+            "ticker": "IRT",
+            "name": "Independence Realty Trust",
+            "price": 15.82,
+            "weekly_pct": -6.22
+          },
+          {
+            "ticker": "CPT",
+            "name": "Camden Property Trust",
+            "price": 108.99,
+            "weekly_pct": -5.21
           }
         ],
         "key_signals": [],
         "broad_highlights": [
-          "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres"
+          "Miami-Area Warehouse Trades for $56M",
+          "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "Pirelli Cinturato Gravel M High Performance gravel tyres",
+          "Macerich Announces Pricing of Public Offering of Common Stock",
+          "Macerich Announces Commencement of Public Offering of Common Stock"
         ]
       }
     },
@@ -3727,6 +3737,17 @@
           "company": "Terreno Realty",
           "source": "TRNO",
           "category": "reit",
+          "title": "Terreno Realty's Acquisition Spree Gains Steam With Hialeah Deal",
+          "link": "https://finance.yahoo.com/real-estate/articles/terreno-realtys-acquisition-spree-gains-122700662.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 12:27:00 +0000",
+          "summary": "Terreno Realty expands its Miami portfolio with a fully leased Hialeah Gardens asset, extending its buying push across high-barrier logistics markets.",
+          "is_signal": true
+        },
+        {
+          "ticker": "TRNO",
+          "company": "Terreno Realty",
+          "source": "TRNO",
+          "category": "reit",
           "title": "Terreno Expands Portfolio With $77.1M Landover Property Acquisition",
           "link": "https://finance.yahoo.com/real-estate/articles/terreno-expands-portfolio-77-1m-151600395.html?.tsrc=rss",
           "published": "Thu, 18 Jun 2026 15:16:00 +0000",
@@ -3756,15 +3777,26 @@
           "is_signal": true
         },
         {
-          "ticker": "TRNO",
-          "company": "Terreno Realty",
-          "source": "TRNO",
+          "ticker": "PLD",
+          "company": "Prologis",
+          "source": "PLD",
           "category": "reit",
-          "title": "Terreno Realty Corporation Acquires Property in Landover, MD for $77.1 Million",
-          "link": "https://finance.yahoo.com/real-estate/articles/terreno-realty-corporation-acquires-property-131500104.html?.tsrc=rss",
-          "published": "Wed, 17 Jun 2026 13:15:00 +0000",
-          "summary": "BELLEVUE, Wash., June 17, 2026--Terreno Realty Corporation Acquires Property in Landover, MD for $77.1 Million",
+          "title": "Are Finance Stocks Lagging  Prologis (PLD) This Year?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/finance-stocks-lagging-prologis-pld-134005125.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 13:40:05 +0000",
+          "summary": "Here is how Prologis (PLD) and Atlanticus Holdings Corporation (ATLC) have performed compared to their sector so far this year.",
           "is_signal": false
+        },
+        {
+          "ticker": "PLD",
+          "company": "Prologis",
+          "source": "PLD",
+          "category": "reit",
+          "title": "Terreno Realty's Acquisition Spree Gains Steam With Hialeah Deal",
+          "link": "https://finance.yahoo.com/real-estate/articles/terreno-realtys-acquisition-spree-gains-122700662.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 12:27:00 +0000",
+          "summary": "Terreno Realty expands its Miami portfolio with a fully leased Hialeah Gardens asset, extending its buying push across high-barrier logistics markets.",
+          "is_signal": true
         },
         {
           "ticker": "PLD",
@@ -3787,28 +3819,6 @@
           "published": "Thu, 18 Jun 2026 15:07:00 +0000",
           "summary": "Prologis looks compelling despite the Fed's hawkish tone, backed by record leasing, rent growth, balance sheet strength and data center opportunities.",
           "is_signal": true
-        },
-        {
-          "ticker": "PLD",
-          "company": "Prologis",
-          "source": "PLD",
-          "category": "reit",
-          "title": "SpaceX initiated, Salesforce upgraded: Wall Street's top analyst calls",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/spacex-initiated-salesforce-upgraded-wall-133508409.html?.tsrc=rss",
-          "published": "Thu, 18 Jun 2026 13:35:08 +0000",
-          "summary": "SpaceX initiated, Salesforce upgraded: Wall Street's top analyst calls",
-          "is_signal": true
-        },
-        {
-          "ticker": "PLD",
-          "company": "Prologis",
-          "source": "PLD",
-          "category": "reit",
-          "title": "FIBRA Prologis Announces Changes to its Technical Committee",
-          "link": "https://finance.yahoo.com/real-estate/articles/fibra-prologis-announces-changes-technical-214100291.html?.tsrc=rss",
-          "published": "Wed, 17 Jun 2026 21:41:00 +0000",
-          "summary": "FIBRA Prologis (BMV: FIBRAPL 14), a leading owner and operator of Class-A industrial real estate in Mexico, today announced changes to its Technical Committee: Christopher Burns, Head of Deployment of North America for Prologis will join as a non-independent member and Joseph Ghazal, former Chief In\u2026",
-          "is_signal": false
         },
         {
           "ticker": "EGP",
@@ -3991,6 +4001,17 @@
           "company": "STAG Industrial",
           "source": "STAG",
           "category": "reit",
+          "title": "Terreno Realty's Acquisition Spree Gains Steam With Hialeah Deal",
+          "link": "https://finance.yahoo.com/real-estate/articles/terreno-realtys-acquisition-spree-gains-122700662.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 12:27:00 +0000",
+          "summary": "Terreno Realty expands its Miami portfolio with a fully leased Hialeah Gardens asset, extending its buying push across high-barrier logistics markets.",
+          "is_signal": true
+        },
+        {
+          "ticker": "STAG",
+          "company": "STAG Industrial",
+          "source": "STAG",
+          "category": "reit",
           "title": "Terreno Realty Adds Alexandria Asset as Industrial Demand Holds Up",
           "link": "https://finance.yahoo.com/real-estate/articles/terreno-realty-adds-alexandria-asset-155500980.html?.tsrc=rss",
           "published": "Wed, 17 Jun 2026 15:55:00 +0000",
@@ -4017,17 +4038,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/public-storage-stock-still-worth-160100655.html?.tsrc=rss",
           "published": "Tue, 09 Jun 2026 16:01:00 +0000",
           "summary": "Public Storage rises 19.9% YTD as FFO ticks higher and a National Storage Affiliates deal promises synergies. Can the momentum last?",
-          "is_signal": true
-        },
-        {
-          "ticker": "STAG",
-          "company": "STAG Industrial",
-          "source": "STAG",
-          "category": "reit",
-          "title": "LAMR Stock Rallies 19.2% YTD: Can the Momentum Keep Going?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/lamr-stock-rallies-19-2-170000447.html?.tsrc=rss",
-          "published": "Fri, 05 Jun 2026 17:00:00 +0000",
-          "summary": "LAMR rises 19.2% YTD as Q1 results beat, bookings hit best since COVID, margins expand and a 2026 dividend of at least $6.40 looms.",
           "is_signal": true
         },
         {
@@ -4123,6 +4133,17 @@
           "company": "Innovative Industrial Properties",
           "source": "IIPR",
           "category": "reit",
+          "title": "Innovative Industrial Properties (IIPR) Exceeds Market Returns: Some Facts to Consider",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/innovative-industrial-properties-iipr-exceeds-221503831.html?.tsrc=rss",
+          "published": "Thu, 18 Jun 2026 22:15:03 +0000",
+          "summary": "Innovative Industrial Properties (IIPR) concluded the recent trading session at $59.6, signifying a +1.62% move from its prior day's close.",
+          "is_signal": false
+        },
+        {
+          "ticker": "IIPR",
+          "company": "Innovative Industrial Properties",
+          "source": "IIPR",
+          "category": "reit",
           "title": "KBWY Up 20% This Year, But The Real Test Comes When Rent Rolls Reset",
           "link": "https://247wallst.com/investing/2026/06/18/kbwy-up-20-this-year-but-the-real-test-comes-when-rent-rolls-reset/?.tsrc=rss",
           "published": "Thu, 18 Jun 2026 16:28:35 +0000",
@@ -4150,17 +4171,6 @@
           "published": "Mon, 15 Jun 2026 03:10:13 +0000",
           "summary": "Innovative Industrial Properties (IIPR) has priced an upsized private offering of US$350 million exchangeable senior notes due 2029. This funding move immediately puts capital structure, dilution risk and capital allocation in focus for shareholders. See our latest analysis for Innovative Industrial\u2026",
           "is_signal": true
-        },
-        {
-          "ticker": "IIPR",
-          "company": "Innovative Industrial Properties",
-          "source": "IIPR",
-          "category": "reit",
-          "title": "Innovative Industrial Properties (IIPR) Stock Declines While Market Improves: Some Information for Investors",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/innovative-industrial-properties-iipr-stock-221504645.html?.tsrc=rss",
-          "published": "Fri, 12 Jun 2026 22:15:04 +0000",
-          "summary": "Innovative Industrial Properties (IIPR) closed the most recent trading day at $60.49, moving 2.07% from the previous trading session.",
-          "is_signal": false
         },
         {
           "ticker": "ILPT",
@@ -4310,10 +4320,32 @@
           "company": null,
           "source": "DC Velocity",
           "category": "industrial",
+          "title": "Forecast: Panama Canal could restrict shipping if El Nino causes drought",
+          "link": "https://www.dcvelocity.com/transportation/maritime-ocean/forecast-panama-canal-could-restrict-shipping-if-el-nino-causes-drought",
+          "published": "Fri, 19 Jun 2026 18:42:36 +0000",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/chart-of-history-of-el-nino-weather.png?id=66968557&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><h3></h3><br /><p>Global supply chains could be slowed this year by restricted shipping through the Panama Canal, accordin\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "DC Velocity",
+          "category": "industrial",
+          "title": "Experts: Hormuz won\u2019t see return to full cargo flow for 3 months",
+          "link": "https://www.dcvelocity.com/transportation/maritime-ocean/experts-hormuz-wont-see-return-to-full-cargo-flow-for-3-months",
+          "published": "Fri, 19 Jun 2026 18:35:36 +0000",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/satellite-photo-of-strait-of-hormuz.png?id=66968494&amp;width=1245&amp;height=700&amp;coordinates=0%2C114%2C0%2C114\" /><br /><br /><h3></h3><br /><p>Commercial shipping analysts are giving wary support for the U.S. and Iran\u2019s temporary peace agreeme\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "DC Velocity",
+          "category": "industrial",
           "title": "Gartner: Schneider Electric returns as Number 1 in supply chain rank",
           "link": "https://www.dcvelocity.com/supply-chain/other-services/supply-chain-strategy/gartner-schneider-electric-returns-as-number-1-in-supply-chain-rank",
           "published": "Thu, 18 Jun 2026 19:15:50 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/chart-of-supply-chain-rankings.png?id=66958429&amp;width=1200&amp;height=400&amp;coordinates=0%2C181%2C0%2C181\" /><br /><br /><h3></h3><br /><p>Analyst firm Gartner this week <a href=\"https://www.gartner.com/en/newsroom/press-releases/2026-06-17-gar\u2026",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/chart-of-supply-chain-rankings.png?id=66958429&amp;width=1245&amp;height=700&amp;coordinates=0%2C43%2C0%2C44\" /><br /><br /><h3></h3><br /><p>Analyst firm Gartner this week <a href=\"https://www.gartner.com/en/newsroom/press-releases/2026-06-17-gartn\u2026",
           "is_signal": true
         },
         {
@@ -4324,7 +4356,7 @@
           "title": "Descartes: U.S. Imports from Hormuz-Affected ports \u201ccollapsed\u201d in May",
           "link": "https://www.dcvelocity.com/transportation/maritime-ocean/descartes-u-s-imports-from-hormuz-affected-ports-collapsed-in-may",
           "published": "Thu, 18 Jun 2026 19:14:59 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/chart-of-exports-through-hormuz.png?id=66958379&amp;width=1200&amp;height=400&amp;coordinates=0%2C137%2C0%2C138\" /><br /><br /><h3></h3><br /><p>U.S. Imports from Hormuz-affected ports \u201ccollapsed\u201d in May as the closure of the key shipping strait hit\u2026",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/chart-of-exports-through-hormuz.png?id=66958379&amp;width=1245&amp;height=700&amp;coordinates=25%2C0%2C26%2C0\" /><br /><br /><h3></h3><br /><p>U.S. Imports from Hormuz-affected ports \u201ccollapsed\u201d in May as the closure of the key shipping strait hit c\u2026",
           "is_signal": false
         },
         {
@@ -4335,29 +4367,7 @@
           "title": "Accenture says acquisition offers tools to help manufacturers to digitalize operations",
           "link": "https://www.dcvelocity.com/technology/supply-chain-it/simulation-vr-digital-twin/accenture-says-acquisition-offers-tools-to-help-manufacturers-to-digitalize-operations",
           "published": "Thu, 18 Jun 2026 19:08:23 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/diagram-of-digitalization.png?id=66958346&amp;width=1200&amp;height=400&amp;coordinates=0%2C197%2C0%2C197\" /><br /><br /><h3></h3><br /><p>Consulting firm <a href=\"https://newsroom.accenture.com/news/2026/accenture-to-strengthen-capabilities-for-sof\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "Berkshire Grey expands footprint in Europe",
-          "link": "https://www.dcvelocity.com/material-handling/order-fulfillment-packing/robotic-picking-and-loading/berkshire-grey-expands-footprint-in-europe",
-          "published": "Thu, 18 Jun 2026 19:04:37 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/photo-of-automated-picking-cell.jpg?id=66958328&amp;width=1200&amp;height=400&amp;coordinates=0%2C220%2C0%2C220\" /><br /><br /><h3></h3><br /><p>Robotic automation provider Berkshire Grey will expand its European operations with the opening of a new\u2026",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "DC Velocity",
-          "category": "industrial",
-          "title": "Logistics workers score big in World Cup prep",
-          "link": "https://www.dcvelocity.com/editorial/featured/logistics-workers-score-big-in-world-cup-prep",
-          "published": "Wed, 17 Jun 2026 14:39:15 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/norway-vs-iraq-at-massachusetts-gillette-stadium-june-16.jpg?id=66951880&amp;width=1200&amp;height=400&amp;coordinates=0%2C227%2C0%2C227\" /><br /><br /><h3></h3><br /><p>The World Cup is well underway in America, and players and fans alike can thank\u2026",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/diagram-of-digitalization.png?id=66958346&amp;width=1245&amp;height=700&amp;coordinates=57%2C0%2C58%2C0\" /><br /><br /><h3></h3><br /><p>Consulting firm <a href=\"https://newsroom.accenture.com/news/2026/accenture-to-strengthen-capabilities-for-softw\u2026",
           "is_signal": true
         },
         {
@@ -4420,21 +4430,10 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "Hormuz traffic rises as US-Iran MoU sparks cautious optimism",
-          "link": "https://theloadstar.com/hormuz-traffic-rises-as-us-iran-mou-sparks-cautious-optimism/",
-          "published": "Thu, 18 Jun 2026 11:44:29 +0000",
-          "summary": "<p>Forwarders may be short of confidence following confirmation that the US and Iran have signed a deal to end the war, but there have been green shoots of hope with ocean transits on the up.<br />\nBoth President Trump and President Masoud Pezeshkian confirmed that they had put pen to paper \u2013 or pen\u2026",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Loadstar",
-          "category": "industrial",
-          "title": "Network restructuring cascading larger vessels onto Intra-Europe trades",
-          "link": "https://theloadstar.com/network-restructuring-cascading-larger-vessels-onto-intra-europe-trades/",
-          "published": "Thu, 18 Jun 2026 11:20:09 +0000",
-          "summary": "<p>Container lines are increasingly deploying larger vessels on intra-Europe routes, with the number of ships above 8,000 teu operating in the Mediterranean rising by 78% year on year, according to Alphaliner.\u00a0<br />\nThe analyst said the fleet of vessels above 8,000 teu trading in the region had inc\u2026",
+          "title": "Spot rates surge again as carriers push through fresh July hikes",
+          "link": "https://theloadstar.com/spot-rates-surge-again-as-carriers-push-through-fresh-july-hikes/",
+          "published": "Fri, 19 Jun 2026 12:20:50 +0000",
+          "summary": "<p>A series of container freight spot rate hikes and general rate increases implemented on 15 June prompted another week of double-digit price rises on the transpacific and Asia-Europe trades.<br />\nThis week\u2019s World Container Index (WCI) from Drewry saw the spot rate on its Shanghai-Rotterdam leg s\u2026",
           "is_signal": true
         },
         {
@@ -4442,21 +4441,10 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "Sticky port congestion drives intra-Asia freight rates higher",
-          "link": "https://theloadstar.com/sticky-port-congestion-drives-intra-asia-freight-rates-higher/",
-          "published": "Thu, 18 Jun 2026 10:46:45 +0000",
-          "summary": "<p>Intra-Asia rates continue to rise year-on-year, as major ports are congested amid the early peak season, and there is a slow return of empty containers.<br />\nOn 12 June, the Shanghai Containerised Freight Index showed the Shanghai-Southeast Asia rate went up by 5% from 5 June, to $682 per teu. T\u2026",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Loadstar",
-          "category": "industrial",
-          "title": "CargoWise\u00a0outage reignites debate over software quality,\u00a0support\u00a0and updates",
-          "link": "https://theloadstar.com/cargowise-outage-reignites-debate-over-software-quality-support-and-updates/",
-          "published": "Thu, 18 Jun 2026 09:24:05 +0000",
-          "summary": "<p>WiseTech Global has attributed Tuesday&#8217;s CargoWise outage to a faulty data update, but the incident has reopened the wider debate among customers over software quality, support responsiveness and the company&#8217;s approach to product releases.\u00a0<br />\nIn a statement provided to\u00a0The Loadsta\u2026",
+          "title": "Gulf land bridge gains momentum as DHL, Oman Air and GWC expand capacity",
+          "link": "https://theloadstar.com/gulf-land-bridge-gains-momentum-as-dhl-oman-air-and-gwc-expand-capacity/",
+          "published": "Fri, 19 Jun 2026 12:03:17 +0000",
+          "summary": "<p>Deal or no deal, logistics operators are expanding their Gulf land bridge offerings with DHL, GWC, and Oman Air Cargo all pumping further capacity into the region as shocks from the US/Israeli war against Iran continue to be felt across global supply chains.<br />\nOman Air Cargo this week launche\u2026",
           "is_signal": true
         },
         {
@@ -4464,11 +4452,33 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "USPS \u2013 insourcing is killing the contractors that built its network",
-          "link": "https://theloadstar.com/usps-insourcing-is-killing-the-contractors-that-built-its-network/",
-          "published": "Thu, 18 Jun 2026 09:21:13 +0000",
-          "summary": "<p>Key takeaway: The Postal Service&#8217;s push to bring operations in-house has cost more than 3,000 jobs across its contractor base in six months, and the companies that spent decades hauling America&#8217;s mail are learning what concentration risk really means.<br />\nThere is a particular cruel\u2026",
+          "title": "Forwarders face profitability test as freight markets\u00a0look set to stabilise",
+          "link": "https://theloadstar.com/forwarders-face-profitability-test-as-freight-markets-look-set-to-stabilise/",
+          "published": "Fri, 19 Jun 2026 11:32:20 +0000",
+          "summary": "<p>As global freight markets begin\u00a0to show\u00a0signs of\u00a0stabilisation\u00a0after months of disruption, the industry&#8217;s largest forwarders\u00a0have shown that\u00a0recovering markets are not automatically translating into easier profits.\u00a0<br />\nThe warning, highlighted this week by profitability software provider\u2026",
           "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "The Loadstar",
+          "category": "industrial",
+          "title": "Regional trade boom could reshape container shipping for a \u2018golden decade\u2019",
+          "link": "https://theloadstar.com/regional-trade-boom-could-reshape-container-shipping-for-a-golden-decade/",
+          "published": "Fri, 19 Jun 2026 11:30:47 +0000",
+          "summary": "<p>The gradual regionalisation of global supply chains is becoming one of the most important trends shaping container shipping, according to Braemar, as new trade agreements and shifting geopolitical dynamics redraw cargo flows.\u00a0<br />\nAnalysing the World Bank\u2019s latest global outlook, consultancy Br\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "The Loadstar",
+          "category": "industrial",
+          "title": "Analysis: DSV CEO Jens Lund at a crossroads \u2013 next deal, please!",
+          "link": "https://theloadstar.com/analysis-dsv-ceo-jens-lund-at-a-crossroads-next-deal-please/",
+          "published": "Fri, 19 Jun 2026 11:12:33 +0000",
+          "summary": "<p>The forward-looking view on Danish forwarder DSV is always fascinating.<br />\nThat&#8217;s simply explained.<br />\nThe company \u2013 often promising to be better and more profitable than at any time previously thanks to deal-making \u2013 is widely regarded as the best asset-light transport and logistics \u2026",
+          "is_signal": true
         },
         {
           "ticker": null,
@@ -4585,6 +4595,39 @@
           "company": null,
           "source": "Commercial Observer",
           "category": "broad",
+          "title": "Miami-Area Warehouse Trades for $56M",
+          "link": "http://commercialobserver.com/2026/06/florida-warehouse-terreno-clarion/",
+          "published": "2026-06-18T20:50:42Z",
+          "summary": "Terreno Realty on Thursday announced it has paid $56.3 million for an industrial property in Hialeah Gardens, Fla. The 98,000-square-foot distribution building sits on 16.8 acres at 10910 Northwest 144th Street, adjacent to the intersection of Florida\u2019s Turnp\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "PRNewswire",
+          "category": "broad",
+          "title": "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "link": "https://www.prnewswire.com/news-releases/grech-rv-launches-sprinter-rv-upgrade-program-offering-up-to-10-000-toward-a-new-luxury-camper-van-302804508.html",
+          "published": "2026-06-18T14:35:00Z",
+          "summary": "The Sprinter RV Upgrade Program rewards owners of competitive Mercedes-Benz Sprinter\u00ae-based Class B motorhomes \u2014 and current Grech owners \u2014 with up to $10,000 toward a new STRADA-ion\u2122, TURISMO-ion\u2122, TERRENO-ion\u2122, or VACANZA-ion\u2122. Qualifying units must be purc\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Biztoc.com",
+          "category": "broad",
+          "title": "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "link": "https://biztoc.com/x/d9b3d4916b3d4946",
+          "published": "2026-06-18T11:55:48Z",
+          "summary": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiations, please see our analyst ratings page.\nRaymond James analyst David Rodgers initiated coverage o\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Commercial Observer",
+          "category": "broad",
           "title": "Warsh\u2019s First Fed Meeting as Chair Produces a Result Many in CRE Expected",
           "link": "http://commercialobserver.com/2026/06/fed-interest-rates-pause-kevin-warsh/",
           "published": "2026-06-17T19:22:15Z",
@@ -4655,39 +4698,6 @@
           "link": "https://bikerumor.com/megamo-doubles-down-on-avinox-powered-drop-bar-bikes-with-the-along-e-gravel-bike/",
           "published": "2026-06-11T23:10:24Z",
           "summary": "Closely following the launch of the Upon e-road bike, Megamo is bringing Avinox power to gravel with the all-new Along e-gravel bike.\nThe post Megamo Doubles Down on Avinox-Powered Drop Bar Bikes With the Along E-Gravel Bike appeared first on Bikerumor.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "road.cc",
-          "category": "broad",
-          "title": "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres",
-          "link": "https://road.cc/offroad/tech-news/is-130nm-too-much-for-gravel-megamos-along-e-gravel-bike-boasts-avinox-motors-and-clearance-for-50mm-tyres",
-          "published": "2026-06-11T16:00:16Z",
-          "summary": "Ever since its release, DJI\u2019s Avinox motor system has taken the e-bike world by storm, delivering some of the highest torque and power figures to hit the market. Then, earlier this year, the motor brand announced its even punchier M2 and M2S systems. Now, Meg\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Finofilipino.org",
-          "category": "broad",
-          "title": "Top 7 frases del Xokas en ingl\u00e9s.",
-          "link": "https://finofilipino.org/top-7-frases-del-xokas-en-ingles/",
-          "published": "2026-06-10T08:20:25Z",
-          "summary": "https://www.youtube.com/shorts/up9CZOJYHsg?feature=share",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Coolchicstylefashion.com",
-          "category": "broad",
-          "title": "La lavanda (Lavandula) DAILY INSPIRATION",
-          "link": "https://www.coolchicstylefashion.com/2026/06/la-lavanda-lavandula-daily-inspiration.html",
-          "published": "2026-06-06T07:34:56Z",
-          "summary": "A Daily Style and Design Site. Interiors, Fashion, Lifestyle, Design Travel, Leisure. Cool Chic Style Fashion the daily search for beautiful things.",
           "is_signal": false
         },
         {
@@ -4947,55 +4957,60 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "June 12, 2026",
-        "generated_at": "2026-06-12T22:08:23.941506+00:00",
-        "advancing": 10,
-        "declining": 2,
+        "week_ending": "June 19, 2026",
+        "generated_at": "2026-06-19T21:45:45.906527+00:00",
+        "advancing": 1,
+        "declining": 11,
         "total": 12,
-        "avg_weekly_pct": 3.42,
+        "avg_weekly_pct": -3.8,
         "top_gainers": [
           {
-            "ticker": "ILPT",
-            "name": "Industrial Logistics Properties Trust",
-            "price": 9.0,
-            "weekly_pct": 5.63
-          },
-          {
-            "ticker": "TRNO",
-            "name": "Terreno Realty",
-            "price": 67.27,
-            "weekly_pct": 5.42
-          },
-          {
-            "ticker": "LINE",
-            "name": "Lineage Inc",
-            "price": 44.42,
-            "weekly_pct": 5.04
-          }
-        ],
-        "top_losers": [
-          {
-            "ticker": "MDV",
-            "name": "Modiv Industrial",
-            "price": 18.35,
-            "weekly_pct": -0.22
-          },
-          {
-            "ticker": "COLD",
-            "name": "Americold Realty Trust",
-            "price": 14.46,
-            "weekly_pct": -0.21
+            "ticker": "LXP",
+            "name": "LXP Industrial Trust",
+            "price": 53.18,
+            "weekly_pct": 0.26
           },
           {
             "ticker": "IIPR",
             "name": "Innovative Industrial Properties",
-            "price": 60.49,
-            "weekly_pct": 2.2
+            "price": 59.6,
+            "weekly_pct": -1.47
+          },
+          {
+            "ticker": "MDV",
+            "name": "Modiv Industrial",
+            "price": 17.96,
+            "weekly_pct": -2.13
+          }
+        ],
+        "top_losers": [
+          {
+            "ticker": "ILPT",
+            "name": "Industrial Logistics Properties Trust",
+            "price": 8.1,
+            "weekly_pct": -10.0
+          },
+          {
+            "ticker": "LINE",
+            "name": "Lineage Inc",
+            "price": 41.38,
+            "weekly_pct": -6.84
+          },
+          {
+            "ticker": "REXR",
+            "name": "Rexford Industrial",
+            "price": 33.12,
+            "weekly_pct": -5.61
           }
         ],
         "key_signals": [],
         "broad_highlights": [
-          "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres"
+          "Miami-Area Warehouse Trades for $56M",
+          "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "Pirelli Cinturato Gravel M High Performance gravel tyres",
+          "Macerich Announces Pricing of Public Offering of Common Stock",
+          "Macerich Announces Commencement of Public Offering of Common Stock"
         ]
       }
     },
@@ -5138,8 +5153,8 @@
           "name": "Curbline Properties",
           "ticker": "CURB",
           "price": 29.86,
-          "prev_close": 30.01,
-          "pct_change": -0.5,
+          "prev_close": 29.84,
+          "pct_change": 0.07,
           "market_cap": 3151404800,
           "dividend_yield": 2.22,
           "fifty_two_week_high": 30.99,
@@ -5221,6 +5236,17 @@
           "company": "Simon Property Group",
           "source": "SPG",
           "category": "reit",
+          "title": "Simon Property Group, Inc.\u00a0(SPG): 7 Best \u201cLand Owner\u201d Stocks to Buy for Hard Asset Value",
+          "link": "https://finance.yahoo.com/real-estate/articles/simon-property-group-inc-spg-002459622.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 00:24:59 +0000",
+          "summary": "With a short percentage of shares outstanding of 0.00%, Simon Property Group, Inc. (NYSE:SPG) is among the 7 Best \u201cLand Owner\u201d Stocks to Buy for Hard Asset Value. On June 1, JPMorgan raised its price target on Simon Property Group, Inc. (NYSE:SPG) to $217 from $210 while maintaining a Neutral rating\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "SPG",
+          "company": "Simon Property Group",
+          "source": "SPG",
+          "category": "reit",
           "title": "MAC Trends to Watch as Redevelopment and Demand Reshape Growth",
           "link": "https://finance.yahoo.com/real-estate/articles/mac-trends-watch-redevelopment-demand-174900833.html?.tsrc=rss",
           "published": "Tue, 16 Jun 2026 17:49:00 +0000",
@@ -5247,17 +5273,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/macerich-stock-worth-buying-near-175400175.html?.tsrc=rss",
           "published": "Mon, 15 Jun 2026 17:54:00 +0000",
           "summary": "MAC surges 58.4% in a year as leasing and occupancy improve, but fair valuation, high leverage and limited upside complicate the buying case.",
-          "is_signal": true
-        },
-        {
-          "ticker": "SPG",
-          "company": "Simon Property Group",
-          "source": "SPG",
-          "category": "reit",
-          "title": "Jim Cramer on Simon Property Group: \u201cTerrific Record, Buy It\u201d",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-simon-property-group-082839739.html?.tsrc=rss",
-          "published": "Mon, 15 Jun 2026 08:28:39 +0000",
-          "summary": "Simon Property Group, Inc. (NYSE:SPG) was among the stocks Jim Cramer highlighted during Mad Money, as he noted the rotation into defensive sectors. Cramer highlighted the stock\u2019s yield, as he said: \u2026 Simon Property Group. The late great David Simon put together the best collection of shopping malls\u2026",
           "is_signal": true
         },
         {
@@ -5573,6 +5588,17 @@
           "company": "Tanger Inc",
           "source": "SKT",
           "category": "reit",
+          "title": "Tanger (SKT) Could Be a Great Choice",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/tanger-skt-could-great-choice-154502513.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 15:45:02 +0000",
+          "summary": "Dividends are one of the best benefits to being a shareholder, but finding a great dividend stock is no easy task. Does Tanger (SKT) have what it takes? Let's find out.",
+          "is_signal": true
+        },
+        {
+          "ticker": "SKT",
+          "company": "Tanger Inc",
+          "source": "SKT",
+          "category": "reit",
           "title": "MAC Trends to Watch as Redevelopment and Demand Reshape Growth",
           "link": "https://finance.yahoo.com/real-estate/articles/mac-trends-watch-redevelopment-demand-174900833.html?.tsrc=rss",
           "published": "Tue, 16 Jun 2026 17:49:00 +0000",
@@ -5599,17 +5625,6 @@
           "link": "https://finance.yahoo.com/real-estate/articles/tanger-faces-limited-upside-despite-151118699.html?.tsrc=rss",
           "published": "Tue, 16 Jun 2026 15:11:18 +0000",
           "summary": "Tanger (SKT) shares face limited upside despite solid fundamentals as the outlet-center real estate",
-          "is_signal": false
-        },
-        {
-          "ticker": "SKT",
-          "company": "Tanger Inc",
-          "source": "SKT",
-          "category": "reit",
-          "title": "Stocks Supported by Lower Crude Oil Prices and Bond Yields",
-          "link": "https://www.barchart.com/story/news/2495519/stocks-supported-by-lower-crude-oil-prices-and-bond-yields?.tsrc=rss",
-          "published": "Tue, 16 Jun 2026 14:18:10 +0000",
-          "summary": "The S&amp;P 500 Index ($SPX ) (SPY ) today is up +0.11%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.57%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.18%. June E-mini S&amp;P futures (ESM26 ) are up +0.09%, and June E-mini Nasdaq futures...",
           "is_signal": false
         },
         {
@@ -5958,6 +5973,39 @@
           "company": null,
           "source": "Commercial Observer",
           "category": "broad",
+          "title": "Miami-Area Warehouse Trades for $56M",
+          "link": "http://commercialobserver.com/2026/06/florida-warehouse-terreno-clarion/",
+          "published": "2026-06-18T20:50:42Z",
+          "summary": "Terreno Realty on Thursday announced it has paid $56.3 million for an industrial property in Hialeah Gardens, Fla. The 98,000-square-foot distribution building sits on 16.8 acres at 10910 Northwest 144th Street, adjacent to the intersection of Florida\u2019s Turnp\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "PRNewswire",
+          "category": "broad",
+          "title": "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "link": "https://www.prnewswire.com/news-releases/grech-rv-launches-sprinter-rv-upgrade-program-offering-up-to-10-000-toward-a-new-luxury-camper-van-302804508.html",
+          "published": "2026-06-18T14:35:00Z",
+          "summary": "The Sprinter RV Upgrade Program rewards owners of competitive Mercedes-Benz Sprinter\u00ae-based Class B motorhomes \u2014 and current Grech owners \u2014 with up to $10,000 toward a new STRADA-ion\u2122, TURISMO-ion\u2122, TERRENO-ion\u2122, or VACANZA-ion\u2122. Qualifying units must be purc\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Biztoc.com",
+          "category": "broad",
+          "title": "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "link": "https://biztoc.com/x/d9b3d4916b3d4946",
+          "published": "2026-06-18T11:55:48Z",
+          "summary": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiations, please see our analyst ratings page.\nRaymond James analyst David Rodgers initiated coverage o\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Commercial Observer",
+          "category": "broad",
           "title": "Warsh\u2019s First Fed Meeting as Chair Produces a Result Many in CRE Expected",
           "link": "http://commercialobserver.com/2026/06/fed-interest-rates-pause-kevin-warsh/",
           "published": "2026-06-17T19:22:15Z",
@@ -6028,39 +6076,6 @@
           "link": "https://bikerumor.com/megamo-doubles-down-on-avinox-powered-drop-bar-bikes-with-the-along-e-gravel-bike/",
           "published": "2026-06-11T23:10:24Z",
           "summary": "Closely following the launch of the Upon e-road bike, Megamo is bringing Avinox power to gravel with the all-new Along e-gravel bike.\nThe post Megamo Doubles Down on Avinox-Powered Drop Bar Bikes With the Along E-Gravel Bike appeared first on Bikerumor.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "road.cc",
-          "category": "broad",
-          "title": "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres",
-          "link": "https://road.cc/offroad/tech-news/is-130nm-too-much-for-gravel-megamos-along-e-gravel-bike-boasts-avinox-motors-and-clearance-for-50mm-tyres",
-          "published": "2026-06-11T16:00:16Z",
-          "summary": "Ever since its release, DJI\u2019s Avinox motor system has taken the e-bike world by storm, delivering some of the highest torque and power figures to hit the market. Then, earlier this year, the motor brand announced its even punchier M2 and M2S systems. Now, Meg\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Finofilipino.org",
-          "category": "broad",
-          "title": "Top 7 frases del Xokas en ingl\u00e9s.",
-          "link": "https://finofilipino.org/top-7-frases-del-xokas-en-ingles/",
-          "published": "2026-06-10T08:20:25Z",
-          "summary": "https://www.youtube.com/shorts/up9CZOJYHsg?feature=share",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Coolchicstylefashion.com",
-          "category": "broad",
-          "title": "La lavanda (Lavandula) DAILY INSPIRATION",
-          "link": "https://www.coolchicstylefashion.com/2026/06/la-lavanda-lavandula-daily-inspiration.html",
-          "published": "2026-06-06T07:34:56Z",
-          "summary": "A Daily Style and Design Site. Interiors, Fashion, Lifestyle, Design Travel, Leisure. Cool Chic Style Fashion the daily search for beautiful things.",
           "is_signal": false
         },
         {
@@ -6447,55 +6462,60 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "June 12, 2026",
-        "generated_at": "2026-06-12T22:08:25.180669+00:00",
-        "advancing": 13,
-        "declining": 1,
+        "week_ending": "June 19, 2026",
+        "generated_at": "2026-06-19T21:45:46.966608+00:00",
+        "advancing": 0,
+        "declining": 14,
         "total": 14,
-        "avg_weekly_pct": 4.82,
+        "avg_weekly_pct": -4.3,
         "top_gainers": [
           {
-            "ticker": "SKT",
-            "name": "Tanger Inc",
-            "price": 40.46,
-            "weekly_pct": 9.23
+            "ticker": "IVT",
+            "name": "InvenTrust Properties",
+            "price": 34.33,
+            "weekly_pct": -1.91
           },
           {
-            "ticker": "MAC",
-            "name": "Macerich",
-            "price": 25.45,
-            "weekly_pct": 8.81
+            "ticker": "PECO",
+            "name": "Phillips Edison & Company",
+            "price": 40.69,
+            "weekly_pct": -2.82
           },
           {
-            "ticker": "KIM",
-            "name": "Kimco Realty",
-            "price": 25.91,
-            "weekly_pct": 6.89
+            "ticker": "CURB",
+            "name": "Curbline Properties",
+            "price": 29.86,
+            "weekly_pct": -3.0
           }
         ],
         "top_losers": [
           {
-            "ticker": "AKR",
-            "name": "Acadia Realty Trust",
-            "price": 22.09,
-            "weekly_pct": -0.45
+            "ticker": "MAC",
+            "name": "Macerich",
+            "price": 23.63,
+            "weekly_pct": -6.53
           },
           {
-            "ticker": "IVT",
-            "name": "InvenTrust Properties",
-            "price": 35.0,
-            "weekly_pct": 2.1
+            "ticker": "UE",
+            "name": "Urban Edge Properties",
+            "price": 22.27,
+            "weekly_pct": -6.07
           },
           {
-            "ticker": "FRT",
-            "name": "Federal Realty Investment Trust",
-            "price": 125.84,
-            "weekly_pct": 3.06
+            "ticker": "KIM",
+            "name": "Kimco Realty",
+            "price": 24.38,
+            "weekly_pct": -5.91
           }
         ],
         "key_signals": [],
         "broad_highlights": [
-          "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres"
+          "Miami-Area Warehouse Trades for $56M",
+          "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "Pirelli Cinturato Gravel M High Performance gravel tyres",
+          "Macerich Announces Pricing of Public Offering of Common Stock",
+          "Macerich Announces Commencement of Public Offering of Common Stock"
         ]
       }
     },
@@ -6510,7 +6530,7 @@
           "pct_change": 2.51,
           "market_cap": 1956955904,
           "dividend_yield": 2.86,
-          "fifty_two_week_high": 20.195,
+          "fifty_two_week_high": 20.2,
           "fifty_two_week_low": 11.75,
           "next_earnings": "2026-07-30"
         },
@@ -6546,7 +6566,7 @@
           "pct_change": 2.09,
           "market_cap": 3916360704,
           "dividend_yield": 5.86,
-          "fifty_two_week_high": 16.7099,
+          "fifty_two_week_high": 16.71,
           "fifty_two_week_low": 10.85,
           "next_earnings": "2026-08-05"
         },
@@ -6606,7 +6626,7 @@
           "pct_change": 2.97,
           "market_cap": 1745378816,
           "dividend_yield": 5.33,
-          "fifty_two_week_high": 11.47,
+          "fifty_two_week_high": 11.48,
           "fifty_two_week_low": 6.54,
           "next_earnings": "2026-08-06"
         },
@@ -6685,10 +6705,32 @@
           "company": "Host Hotels & Resorts",
           "source": "HST",
           "category": "reit",
+          "title": "Host Hotels & Resorts Stock: Is HST Outperforming the Real Estate Sector?",
+          "link": "https://www.barchart.com/story/news/2554796/host-hotels-resorts-stock-is-hst-outperforming-the-real-estate-sector?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 12:11:30 +0000",
+          "summary": "Host Hotels & Resorts has outperformed the real estate sector over the past year, and Wall Street remains optimistic about the stock.",
+          "is_signal": true
+        },
+        {
+          "ticker": "HST",
+          "company": "Host Hotels & Resorts",
+          "source": "HST",
+          "category": "reit",
           "title": "Host Hotels & Resorts Announces Second Quarter 2026 Earnings Call to be Held on August 6, 2026",
           "link": "https://finance.yahoo.com/real-estate/articles/host-hotels-resorts-announces-second-203000104.html?.tsrc=rss",
           "published": "Thu, 18 Jun 2026 20:30:00 +0000",
           "summary": "BETHESDA, Md., June 18, 2026 (GLOBE NEWSWIRE) -- Host Hotels & Resorts, Inc. (NASDAQ: HST) (the \u201cCompany\u201d), the nation\u2019s largest lodging real estate investment trust, will report second quarter 2026 financial results on Wednesday, August 5, 2026, after the market close. The Company will hold a confe\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "HST",
+          "company": "Host Hotels & Resorts",
+          "source": "HST",
+          "category": "reit",
+          "title": "3 Hotel REITs Poised to Benefit from the World Cup",
+          "link": "https://www.marketbeat.com/articles/3-hotel-reits-poised-to-benefit-from-the-world-cup/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "published": "Thu, 18 Jun 2026 14:05:00 +0000",
+          "summary": "The 2026 FIFA World Cup could drive millions of hotel room nights and these three hotel REITs may be positioned to benefit",
           "is_signal": true
         },
         {
@@ -6703,25 +6745,14 @@
           "is_signal": true
         },
         {
-          "ticker": "HST",
-          "company": "Host Hotels & Resorts",
-          "source": "HST",
+          "ticker": "RHP",
+          "company": "Ryman Hospitality Properties",
+          "source": "RHP",
           "category": "reit",
-          "title": "Host Hotels & Resorts vs. MGM Resorts International: Which Destination Hotel Stock Is a Better Buy in 2026?",
-          "link": "https://www.fool.com/coverage/better-buy/2026/06/09/host-hotels-and-resorts-vs-mgm-resorts-international-which-destination-hotel-stock-is-a-better-buy-in-2026/?.tsrc=rss",
-          "published": "Tue, 09 Jun 2026 18:21:14 +0000",
-          "summary": "One company leans on luxury real estate, the other on global gaming and digital bets, see how their financials, risk profiles, and valuations compare for 2026.",
-          "is_signal": true
-        },
-        {
-          "ticker": "HST",
-          "company": "Host Hotels & Resorts",
-          "source": "HST",
-          "category": "reit",
-          "title": "8 Dividend S&P 500 Stocks Yield Enough To Still Be Worthwhile",
-          "link": "https://finance.yahoo.com/m/a3f1120c-1625-379d-b67d-956143b0072a/8-dividend-s%26p-500-stocks.html?.tsrc=rss",
-          "published": "Thu, 28 May 2026 12:00:54 +0000",
-          "summary": "It's getting tougher to find S&amp;P 500 dividend stocks that make any sense anymore. Thanks to skyrocketing stock prices, the S&amp;P 500's yield is now less than 1%. Meanwhile, the yield on Vanguard Total Bond Market ETF is up to nearly 4%.",
+          "title": "3 Hotel REITs Poised to Benefit from the World Cup",
+          "link": "https://www.marketbeat.com/articles/3-hotel-reits-poised-to-benefit-from-the-world-cup/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "published": "Thu, 18 Jun 2026 14:05:00 +0000",
+          "summary": "The 2026 FIFA World Cup could drive millions of hotel room nights and these three hotel REITs may be positioned to benefit",
           "is_signal": true
         },
         {
@@ -6755,17 +6786,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/ryman-hospitality-properties-rhp-story-191051776.html?.tsrc=rss",
           "published": "Fri, 05 Jun 2026 19:10:51 +0000",
           "summary": "Street analysts are nudging Ryman Hospitality Properties\u2019 price targets into a US$120 to US$132 range, reflecting updated views after the latest Q1 numbers. These adjustments are being tied to refreshed models and what researchers describe as stronger year to date operating performance, while also a\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": "RHP",
-          "company": "Ryman Hospitality Properties",
-          "source": "RHP",
-          "category": "reit",
-          "title": "Ryman Hospitality Properties, Inc. Announces Participation in Upcoming Institutional Investor Conferences",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/ryman-hospitality-properties-inc-announces-201500500.html?.tsrc=rss",
-          "published": "Wed, 27 May 2026 20:15:00 +0000",
-          "summary": "NASHVILLE, Tenn., May 27, 2026 (GLOBE NEWSWIRE) -- Ryman Hospitality Properties, Inc. (NYSE: RHP), a leading lodging and hospitality real estate investment trust that specializes in upscale convention center resorts and entertainment experiences, today announced its participation in three upcoming i\u2026",
           "is_signal": true
         },
         {
@@ -6828,6 +6848,17 @@
           "company": "Park Hotels & Resorts",
           "source": "PK",
           "category": "reit",
+          "title": "3 Hotel REITs Poised to Benefit from the World Cup",
+          "link": "https://www.marketbeat.com/articles/3-hotel-reits-poised-to-benefit-from-the-world-cup/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
+          "published": "Thu, 18 Jun 2026 14:05:00 +0000",
+          "summary": "The 2026 FIFA World Cup could drive millions of hotel room nights and these three hotel REITs may be positioned to benefit",
+          "is_signal": true
+        },
+        {
+          "ticker": "PK",
+          "company": "Park Hotels & Resorts",
+          "source": "PK",
+          "category": "reit",
           "title": "BMO Capital Lifts Park Hotels & Resorts (PK) Target to $14, Sees Potential Q2 Upside",
           "link": "https://finance.yahoo.com/real-estate/articles/bmo-capital-lifts-park-hotels-191602475.html?.tsrc=rss",
           "published": "Wed, 17 Jun 2026 19:16:02 +0000",
@@ -6843,17 +6874,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-park-hotels-resorts-134002741.html?.tsrc=rss",
           "published": "Thu, 11 Jun 2026 13:40:02 +0000",
           "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
-          "is_signal": true
-        },
-        {
-          "ticker": "PK",
-          "company": "Park Hotels & Resorts",
-          "source": "PK",
-          "category": "reit",
-          "title": "Park Hotels & Resorts Inc. Announces Second Quarter 2026 Earnings Conference Call on August 7, 2026",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/park-hotels-resorts-inc-announces-201500779.html?.tsrc=rss",
-          "published": "Tue, 02 Jun 2026 20:15:00 +0000",
-          "summary": "TYSONS, Va., June 02, 2026--Park Hotels & Resorts Inc. (NYSE: PK) (\"Park\") today announced that it plans to report financial results for the second quarter 2026 after the stock market closes on Thursday, August 6, 2026. Park will hold a conference call on Friday, August 7, 2026, at 11:00 a.m. Easter\u2026",
           "is_signal": true
         },
         {
@@ -6949,6 +6969,17 @@
           "company": "Pebblebrook Hotel Trust",
           "source": "PEB",
           "category": "reit",
+          "title": "Is Pebblebrook Hotel Trust (PEB) A Good Stock To Buy Now?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/pebblebrook-hotel-trust-peb-good-162424092.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 16:24:24 +0000",
+          "summary": "Is PEB a good stock to buy? We came across a bullish thesis on Pebblebrook Hotel Trust on TradersPro\u2019s Substack. In this article, we will summarize the bulls\u2019 thesis on PEB. Pebblebrook Hotel Trust\u2019s share was trading at $19.38 as of June 16th. PEB\u2019s trailing and forward P/E were 11.29 and 24.57 res\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "PEB",
+          "company": "Pebblebrook Hotel Trust",
+          "source": "PEB",
+          "category": "reit",
           "title": "PEB or GTY: Which Is the Better Value Stock Right Now?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/peb-gty-better-value-stock-154003269.html?.tsrc=rss",
           "published": "Tue, 16 Jun 2026 15:40:03 +0000",
@@ -6975,17 +7006,6 @@
           "link": "https://www.hotelmanagement-network.com/news/curator-hotel-canary-ai-tools/?.tsrc=rss",
           "published": "Tue, 16 Jun 2026 09:54:18 +0000",
           "summary": "Curator\u2019s Pebblebrook is using Canary\u2019s system as part of efforts to improve operational efficiency.",
-          "is_signal": true
-        },
-        {
-          "ticker": "PEB",
-          "company": "Pebblebrook Hotel Trust",
-          "source": "PEB",
-          "category": "reit",
-          "title": "Curator Hotel & Resort Collection Announces Strategic Partnership with Canary Technologies to Bring AI-Powered Guest Management Tools to Independent Lifestyle Hotels",
-          "link": "https://finance.yahoo.com/sectors/technology/articles/curator-hotel-resort-collection-announces-131800658.html?.tsrc=rss",
-          "published": "Mon, 15 Jun 2026 13:18:00 +0000",
-          "summary": "BETHESDA, Md. & SAN FRANCISCO, June 15, 2026--Curator Hotel & Resort Collection (\"Curator\"), a membership-based collection of independent boutique and lifestyle hotels and resorts, today announced a strategic partnership with Canary Technologies (\"Canary\"), a leading hospitality technology platform.\u2026",
           "is_signal": true
         },
         {
@@ -7180,6 +7200,28 @@
           "company": null,
           "source": "Skift",
           "category": "hospitality",
+          "title": "Air New Zealand\u2019s Tech-Savvy CEO on AI and the Limits of the Machine",
+          "link": "https://skift.com/2026/06/19/air-new-zealands-tech-savvy-ceo-on-ai-and-the-limits-of-the-machine/",
+          "published": "Fri, 19 Jun 2026 09:35:12 +0000",
+          "summary": "An AI-powered airline is a fine ambition \u2013 but it won&apos;t touch the fuel price, the grounded engines, or the weak Kiwi dollar doing the real damage. Ravishankar&apos;s edge is that he seems to know it.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "Grab Says Its Travel Strategy Isn\u2019t About Hotels or Flights, It\u2019s About Knowing What You\u2019ll Need Next",
+          "link": "https://skift.com/2026/06/19/grab-says-its-travel-strategy-isnt-about-hotels-or-flights-its-about-knowing-what-youll-need-next/",
+          "published": "Fri, 19 Jun 2026 05:24:07 +0000",
+          "summary": "Grab says it isn&apos;t competing with the region\u2019s travel platforms. But what it is building may be more disruptive than direct competition.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
           "title": "Airbnb Moves Into Fintech With a Cancel-for-Any-Reason Feature",
           "link": "https://skift.com/2026/06/18/airbnb-moves-into-fintech-with-a-hopper-like-cancel-for-any-reason-feature/",
           "published": "Thu, 18 Jun 2026 20:07:02 +0000",
@@ -7206,28 +7248,6 @@
           "link": "https://skift.com/2026/06/18/uk-and-australia-lift-gulf-travel-warnings-but-european-airlines-await-clearance/",
           "published": "Thu, 18 Jun 2026 16:50:21 +0000",
           "summary": "Gulf travel advisories are moving. War-risk insurance authorization isn\u2019t \u2014 and that\u2019s the constraint that controls when European airlines come back.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Skift",
-          "category": "hospitality",
-          "title": "Whitbread CEO\u2019s Answer to Activist Investor: Plan Is Working, We Don\u2019t Need to Sell",
-          "link": "https://skift.com/2026/06/18/whitbread-ceos-answer-to-activist-investor-plan-is-working-we-dont-need-to-sell/",
-          "published": "Thu, 18 Jun 2026 16:04:32 +0000",
-          "summary": "There&apos;s progress to point to, but even the CEO says it will get worse before it gets better.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Skift",
-          "category": "hospitality",
-          "title": "JTB Is Expanding Out of Japan. EXO Travel Is the Latest Deal",
-          "link": "https://skift.com/2026/06/18/jtb-is-expanding-out-of-japan-exo-travel-is-the-latest-deal/",
-          "published": "Thu, 18 Jun 2026 13:31:05 +0000",
-          "summary": "JTB no longer seems content being Japan&apos;s travel company. With the pieces now assembled, it intends to be Asia&apos;s, and is making a case for the world&apos;s.",
           "is_signal": false
         },
         {
@@ -7345,6 +7365,39 @@
           "company": null,
           "source": "Commercial Observer",
           "category": "broad",
+          "title": "Miami-Area Warehouse Trades for $56M",
+          "link": "http://commercialobserver.com/2026/06/florida-warehouse-terreno-clarion/",
+          "published": "2026-06-18T20:50:42Z",
+          "summary": "Terreno Realty on Thursday announced it has paid $56.3 million for an industrial property in Hialeah Gardens, Fla. The 98,000-square-foot distribution building sits on 16.8 acres at 10910 Northwest 144th Street, adjacent to the intersection of Florida\u2019s Turnp\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "PRNewswire",
+          "category": "broad",
+          "title": "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "link": "https://www.prnewswire.com/news-releases/grech-rv-launches-sprinter-rv-upgrade-program-offering-up-to-10-000-toward-a-new-luxury-camper-van-302804508.html",
+          "published": "2026-06-18T14:35:00Z",
+          "summary": "The Sprinter RV Upgrade Program rewards owners of competitive Mercedes-Benz Sprinter\u00ae-based Class B motorhomes \u2014 and current Grech owners \u2014 with up to $10,000 toward a new STRADA-ion\u2122, TURISMO-ion\u2122, TERRENO-ion\u2122, or VACANZA-ion\u2122. Qualifying units must be purc\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Biztoc.com",
+          "category": "broad",
+          "title": "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "link": "https://biztoc.com/x/d9b3d4916b3d4946",
+          "published": "2026-06-18T11:55:48Z",
+          "summary": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiations, please see our analyst ratings page.\nRaymond James analyst David Rodgers initiated coverage o\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Commercial Observer",
+          "category": "broad",
           "title": "Warsh\u2019s First Fed Meeting as Chair Produces a Result Many in CRE Expected",
           "link": "http://commercialobserver.com/2026/06/fed-interest-rates-pause-kevin-warsh/",
           "published": "2026-06-17T19:22:15Z",
@@ -7415,39 +7468,6 @@
           "link": "https://bikerumor.com/megamo-doubles-down-on-avinox-powered-drop-bar-bikes-with-the-along-e-gravel-bike/",
           "published": "2026-06-11T23:10:24Z",
           "summary": "Closely following the launch of the Upon e-road bike, Megamo is bringing Avinox power to gravel with the all-new Along e-gravel bike.\nThe post Megamo Doubles Down on Avinox-Powered Drop Bar Bikes With the Along E-Gravel Bike appeared first on Bikerumor.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "road.cc",
-          "category": "broad",
-          "title": "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres",
-          "link": "https://road.cc/offroad/tech-news/is-130nm-too-much-for-gravel-megamos-along-e-gravel-bike-boasts-avinox-motors-and-clearance-for-50mm-tyres",
-          "published": "2026-06-11T16:00:16Z",
-          "summary": "Ever since its release, DJI\u2019s Avinox motor system has taken the e-bike world by storm, delivering some of the highest torque and power figures to hit the market. Then, earlier this year, the motor brand announced its even punchier M2 and M2S systems. Now, Meg\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Finofilipino.org",
-          "category": "broad",
-          "title": "Top 7 frases del Xokas en ingl\u00e9s.",
-          "link": "https://finofilipino.org/top-7-frases-del-xokas-en-ingles/",
-          "published": "2026-06-10T08:20:25Z",
-          "summary": "https://www.youtube.com/shorts/up9CZOJYHsg?feature=share",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Coolchicstylefashion.com",
-          "category": "broad",
-          "title": "La lavanda (Lavandula) DAILY INSPIRATION",
-          "link": "https://www.coolchicstylefashion.com/2026/06/la-lavanda-lavandula-daily-inspiration.html",
-          "published": "2026-06-06T07:34:56Z",
-          "summary": "A Daily Style and Design Site. Interiors, Fashion, Lifestyle, Design Travel, Leisure. Cool Chic Style Fashion the daily search for beautiful things.",
           "is_signal": false
         },
         {
@@ -7808,55 +7828,60 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "June 12, 2026",
-        "generated_at": "2026-06-12T22:08:26.439631+00:00",
+        "week_ending": "June 19, 2026",
+        "generated_at": "2026-06-19T21:45:47.856150+00:00",
         "advancing": 11,
         "declining": 0,
         "total": 11,
-        "avg_weekly_pct": 4.58,
+        "avg_weekly_pct": 3.04,
         "top_gainers": [
           {
-            "ticker": "CLDT",
-            "name": "Chatham Lodging Trust",
-            "price": 12.86,
-            "weekly_pct": 11.54
+            "ticker": "INN",
+            "name": "Summit Hotel Properties",
+            "price": 6.63,
+            "weekly_pct": 6.94
           },
           {
             "ticker": "PEB",
             "name": "Pebblebrook Hotel Trust",
-            "price": 18.18,
-            "weekly_pct": 7.96
+            "price": 19.06,
+            "weekly_pct": 4.84
           },
           {
-            "ticker": "XHR",
-            "name": "Xenia Hotels & Resorts",
-            "price": 19.45,
-            "weekly_pct": 6.11
+            "ticker": "CLDT",
+            "name": "Chatham Lodging Trust",
+            "price": 13.36,
+            "weekly_pct": 3.89
           }
         ],
         "top_losers": [
           {
-            "ticker": "SHO",
-            "name": "Sunstone Hotel Investors",
-            "price": 11.72,
-            "weekly_pct": 1.74
-          },
-          {
             "ticker": "HST",
             "name": "Host Hotels & Resorts",
-            "price": 24.89,
-            "weekly_pct": 1.84
+            "price": 25.01,
+            "weekly_pct": 0.48
           },
           {
-            "ticker": "DRH",
-            "name": "DiamondRock Hospitality",
-            "price": 11.92,
-            "weekly_pct": 2.67
+            "ticker": "PK",
+            "name": "Park Hotels & Resorts",
+            "price": 14.72,
+            "weekly_pct": 1.52
+          },
+          {
+            "ticker": "SHO",
+            "name": "Sunstone Hotel Investors",
+            "price": 11.91,
+            "weekly_pct": 1.62
           }
         ],
         "key_signals": [],
         "broad_highlights": [
-          "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres"
+          "Miami-Area Warehouse Trades for $56M",
+          "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "Pirelli Cinturato Gravel M High Performance gravel tyres",
+          "Macerich Announces Pricing of Public Offering of Common Stock",
+          "Macerich Announces Commencement of Public Offering of Common Stock"
         ]
       }
     },
@@ -7963,8 +7988,8 @@
           "name": "VICI Properties",
           "ticker": "VICI",
           "price": 26.28,
-          "prev_close": 27.23,
-          "pct_change": -3.49,
+          "prev_close": 26.78,
+          "pct_change": -1.87,
           "market_cap": 28297783296,
           "dividend_yield": 6.43,
           "fifty_two_week_high": 34.01,
@@ -8034,6 +8059,28 @@
           "company": "Realty Income",
           "source": "O",
           "category": "reit",
+          "title": "The $1 Million Retirement Mistake: Counting Income You\u2019ll Never Get to Spend",
+          "link": "https://247wallst.com/personal-finance/2026/06/19/the-1-million-retirement-mistake-counting-income-youll-never-get-to-spend/?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 20:03:34 +0000",
+          "summary": "A $1 million portfolio is often discussed as though the balance itself answers the retirement question. It does not. What matters is the amount of income that ultimately reaches your bank account after taxes. The yield displayed on a brokerage statement is only the starting point. Federal taxes, sta\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": "O",
+          "company": "Realty Income",
+          "source": "O",
+          "category": "reit",
+          "title": "The Retirement Portfolio That Forks Over a $10,000 Check Every Month",
+          "link": "https://247wallst.com/personal-finance/2026/06/19/the-retirement-portfolio-that-forks-over-a-10000-check-every-month/?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 18:56:27 +0000",
+          "summary": "Ten thousand dollars a month works out to $120,000 a year, an income stream that exceeds the roughly $68,359 in per-capita disposable personal income reported by the Bureau of Economic Analysis for the first quarter of 2026. For many retirees, that level of cash flow would support a lifestyle well a\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "O",
+          "company": "Realty Income",
+          "source": "O",
+          "category": "reit",
           "title": "Our Highest Conviction Call on Realty Income Points to 30% Upside",
           "link": "https://247wallst.com/investing/2026/06/18/our-highest-conviction-call-on-realty-income-points-to-30-upside/?.tsrc=rss",
           "published": "Thu, 18 Jun 2026 16:33:40 +0000",
@@ -8049,28 +8096,6 @@
           "link": "https://247wallst.com/personal-finance/2026/06/18/this-2-million-portfolio-pays-a-six-figure-income-without-owning-a-single-rental-property/?.tsrc=rss",
           "published": "Thu, 18 Jun 2026 15:34:53 +0000",
           "summary": "A $2 million investment portfolio can generate a six-figure income stream without tenants, maintenance calls, property tax surprises, or vacancy risk. The arithmetic is straightforward. The challenge is deciding how much yield to pursue and understanding the trade-offs that come with it. To make a f\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": "O",
-          "company": "Realty Income",
-          "source": "O",
-          "category": "reit",
-          "title": "Why Own Rental Property When Dividend Income Can Pay You $10,000 a Month?",
-          "link": "https://247wallst.com/personal-finance/2026/06/08/why-own-rental-property-when-dividend-income-can-pay-you-10000-a-month/?.tsrc=rss",
-          "published": "Wed, 17 Jun 2026 15:54:38 +0000",
-          "summary": "A $10,000 monthly income stream is one reason many investors gravitate toward rental real estate. It promises meaningful cash flow, but it also comes with tenants, maintenance, vacancies, insurance claims, and rising property taxes. A dividend portfolio offers a different path. The income arrives wi\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": "O",
-          "company": "Realty Income",
-          "source": "O",
-          "category": "reit",
-          "title": "Worried About a Market Crash? These 3 Dividend Stocks Could Help Reduce Your Risk",
-          "link": "https://www.fool.com/investing/2026/06/17/worried-about-a-market-crash-these-3-dividend-stoc/?.tsrc=rss",
-          "published": "Wed, 17 Jun 2026 15:20:00 +0000",
-          "summary": "The stocks on this list offer above-average yields and aren't volatile investments.",
           "is_signal": true
         },
         {
@@ -8375,10 +8400,10 @@
           "company": "VICI Properties",
           "source": "VICI",
           "category": "reit",
-          "title": "VICI Properties and Club Med Announce Acquisition and Redevelopment of Carambola Beach Resort in St. Croix",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/vici-properties-club-med-announce-121500232.html?.tsrc=rss",
+          "title": "CLUB MED ADVANCES STRATEGIC NORTH AMERICAN EXPANSION WITH THE REDEVELOPMENT OF CARAMBOLA BEACH RESORT IN ST. CROIX IN PARTNERSHIP WITH VICI PROPERTIES",
+          "link": "https://finance.yahoo.com/economy/policy/articles/club-med-advances-strategic-north-121500800.html?.tsrc=rss",
           "published": "Mon, 15 Jun 2026 12:15:00 +0000",
-          "summary": "ST. CROIX, U.S. Virgin Islands & NEW YORK, June 15, 2026--Club Med, the pioneer of the all-inclusive concept with nearly 60 resorts in some of the world\u2019s most desired vacation destinations, and VICI Properties Inc. (NYSE: VICI), an S&amp;P 500 experiential real estate investment trust, announced to\u2026",
+          "summary": "Club Med, the pioneer of the all-inclusive concept with nearly 60 resorts in some of the world's most desired vacation destinations, and VICI Properties Inc. (NYSE: VICI), an S&amp;P 500 experiential real estate investment trust, announced today the acquisition and planned redevelopment of the iconi\u2026",
           "is_signal": true
         },
         {
@@ -8430,10 +8455,10 @@
           "company": null,
           "source": "Connect CRE",
           "category": "netlease",
-          "title": "Survey Reports Robust Leasing and Design Investments in the Legal Office Sector",
-          "link": "https://www.connectcre.com/stories/survey-reports-robust-leasing-and-design-investments-in-the-legal-office-sector/",
-          "published": "Thu, 18 Jun 2026 21:37:56 +0000",
-          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/06/LegalOfficeCollaboration_1600x900.jpg\" /></p>\n<p>Unlike many other office-reliant industries, the legal sector is doing quite well due to strong demand for services, continued revenue growth and a commitment to in-person work. As a r\u2026",
+          "title": "Bronx STEAM Sets Up Shop at Simone\u2019s Hutchinson Metro Center Atrium",
+          "link": "https://www.connectcre.com/stories/bronx-steam-center-sets-up-shop-at-simones-hutchinson-metro-center-atrium/",
+          "published": "Fri, 19 Jun 2026 20:50:27 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/06/NY-Hutchinson-Metro-Center-Atrium-Bronx.jpg\" /></p>\n<p>Simone\u00a0Development Companies\u00a0announced that\u00a0the New York City School Construction Authority has signed a long-term lease to establish the new Bronx STEAM Center in 54,245 square \u2026",
           "is_signal": true
         },
         {
@@ -8441,10 +8466,10 @@
           "company": null,
           "source": "Connect CRE",
           "category": "netlease",
-          "title": "Colliers Facilitates Sale of 118-Unit Apartment Property in Bozeman",
-          "link": "https://www.connectcre.com/stories/colliers-facilitates-sale-of-118-unit-apartment-property-in-bozeman/",
-          "published": "Thu, 18 Jun 2026 21:28:13 +0000",
-          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/06/Silver-Creek.png\" /></p>\n<p>Colliers announced the sale of Silver Creek Apartments, a 118-unit multifamily community located at 1481 North 25th Avenue in Bozeman, Montana. The sale was led by the Colliers team of Executive Vice Presi\u2026",
+          "title": "Kidder Closes Hollywood Multifamily Sale Despite Softening Rental Trends",
+          "link": "https://www.connectcre.com/stories/kidder-closes-hollywood-multifamily-sale-despite-softening-rental-trends/",
+          "published": "Fri, 19 Jun 2026 20:36:38 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/06/CA-Carlton-Way-apartments-Hollywood-scaled.jpg\" /></p>\n<p>Kidder\u00a0Mathews arranged the $7.6-million sale of The Carlton Apartments, a 36-unit property located at 5535 Carlton Way in Hollywood. EVP Darin Beebower and associate Dakoda I\u2026",
           "is_signal": false
         },
         {
@@ -8452,10 +8477,10 @@
           "company": null,
           "source": "Connect CRE",
           "category": "netlease",
-          "title": "Highlights from Connect Midwest Multifamily Trends 2026: Development, Construction, Operations, PropTech & Design Trends for the Modern Renter (VIDEO)",
-          "link": "https://www.connectcre.com/stories/highlights-from-connect-midwest-multifamily-trends-2026-development-construction-operations-proptech-design-trends-for-the-modern-renter-video/",
-          "published": "Thu, 18 Jun 2026 21:27:23 +0000",
-          "summary": "<p>At the recent Connect Midwest Multifamily Trends 2026, hundreds of industry professionals gathered to hear from leaders across the multifamily sector to discuss trends. An array of experienced panel speakers shared their insights on development, construction, operations, and design, including ren\u2026",
+          "title": "NYC DOT Modernizes Willets Point Offices and Yard with $121M Redevelopment",
+          "link": "https://www.connectcre.com/stories/nyc-dot-modernizes-willets-point-offices-and-yard-with-121m-redevelopment/",
+          "published": "Fri, 19 Jun 2026 20:26:53 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/06/NY-Harper-Street-rendering-Whitestone-Expressway-view-B-med-scaled.jpg\" /></p>\n<p>Construction is proceeding on the $121-million Harper Street DOT administration building and yard redevelopment project at 32-11 Harper St. in the Will\u2026",
           "is_signal": false
         },
         {
@@ -8463,10 +8488,10 @@
           "company": null,
           "source": "Connect CRE",
           "category": "netlease",
-          "title": "Donaldson Impact Investments, NYL Acquire Yorkshire Apartments",
-          "link": "https://www.connectcre.com/stories/donaldson-impact-investments-nyl-acquire-yorkshire-apartments/",
-          "published": "Thu, 18 Jun 2026 21:16:32 +0000",
-          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/06/Yorkshire-Apartments.png\" /></p>\n<p>Donaldson Impact Investments, in partnership with New York Life Investment Management and Housing Initiative Partnership, announced the acquisition of Yorkshire Apartments, a 326-unit garden-style \u2026",
+          "title": "Locally Based Logistics Firm Scales Up with Menifee Warehouse Acquisition",
+          "link": "https://www.connectcre.com/stories/locally-based-logistics-firm-scales-up-with-menifee-warehouse-acquisition/",
+          "published": "Fri, 19 Jun 2026 20:13:13 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/06/CA-33520-Zeiders-Road-Menifee-Colliers-scaled.jpg\" /></p>\n<p>Colliers finalized the $40.5-million sale of Gateway at Menifee, a 229,934-square-foot industrial facility located at 33520 Zeiders Rd. in Menifee. The property is Building\u2026",
           "is_signal": true
         },
         {
@@ -8474,11 +8499,11 @@
           "company": null,
           "source": "Connect CRE",
           "category": "netlease",
-          "title": "Related, Battery Park City Authority Expand Affordability at Tribeca Park",
-          "link": "https://www.connectcre.com/stories/related-battery-park-city-authority-expand-affordability-at-tribeca-park/",
-          "published": "Thu, 18 Jun 2026 21:07:07 +0000",
-          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/06/NY-Tribeca-Park-Exterior-Photo-Courtesy-of-Related-Companies-1.jpg\" /></p>\n<p>The Battery Park City Authority (BPCA) has reached an agreement with Related Companies to preserve and significantly expand rental affordability at Tribeca\u2026",
-          "is_signal": true
+          "title": "Basis Industrial Closes on Construction Loan for Wayne, NJ Self-Storage",
+          "link": "https://www.connectcre.com/stories/basis-industrial-closes-on-construction-loan-for-wayne-nj-self-storage/",
+          "published": "Fri, 19 Jun 2026 20:00:58 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/06/NY-Wayne-NJ-Storage-scaled.jpg\" /></p>\n<p>Basis\u00a0Industrial, a privately held and vertically integrated real estate owner and operator based in Delray Beach, FL closed on a $24-million construction loan on June 18, 2026, for a ground-\u2026",
+          "is_signal": false
         },
         {
           "ticker": null,
@@ -8595,6 +8620,39 @@
           "company": null,
           "source": "Commercial Observer",
           "category": "broad",
+          "title": "Miami-Area Warehouse Trades for $56M",
+          "link": "http://commercialobserver.com/2026/06/florida-warehouse-terreno-clarion/",
+          "published": "2026-06-18T20:50:42Z",
+          "summary": "Terreno Realty on Thursday announced it has paid $56.3 million for an industrial property in Hialeah Gardens, Fla. The 98,000-square-foot distribution building sits on 16.8 acres at 10910 Northwest 144th Street, adjacent to the intersection of Florida\u2019s Turnp\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "PRNewswire",
+          "category": "broad",
+          "title": "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "link": "https://www.prnewswire.com/news-releases/grech-rv-launches-sprinter-rv-upgrade-program-offering-up-to-10-000-toward-a-new-luxury-camper-van-302804508.html",
+          "published": "2026-06-18T14:35:00Z",
+          "summary": "The Sprinter RV Upgrade Program rewards owners of competitive Mercedes-Benz Sprinter\u00ae-based Class B motorhomes \u2014 and current Grech owners \u2014 with up to $10,000 toward a new STRADA-ion\u2122, TURISMO-ion\u2122, TERRENO-ion\u2122, or VACANZA-ion\u2122. Qualifying units must be purc\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Biztoc.com",
+          "category": "broad",
+          "title": "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "link": "https://biztoc.com/x/d9b3d4916b3d4946",
+          "published": "2026-06-18T11:55:48Z",
+          "summary": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiations, please see our analyst ratings page.\nRaymond James analyst David Rodgers initiated coverage o\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Commercial Observer",
+          "category": "broad",
           "title": "Warsh\u2019s First Fed Meeting as Chair Produces a Result Many in CRE Expected",
           "link": "http://commercialobserver.com/2026/06/fed-interest-rates-pause-kevin-warsh/",
           "published": "2026-06-17T19:22:15Z",
@@ -8665,39 +8723,6 @@
           "link": "https://bikerumor.com/megamo-doubles-down-on-avinox-powered-drop-bar-bikes-with-the-along-e-gravel-bike/",
           "published": "2026-06-11T23:10:24Z",
           "summary": "Closely following the launch of the Upon e-road bike, Megamo is bringing Avinox power to gravel with the all-new Along e-gravel bike.\nThe post Megamo Doubles Down on Avinox-Powered Drop Bar Bikes With the Along E-Gravel Bike appeared first on Bikerumor.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "road.cc",
-          "category": "broad",
-          "title": "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres",
-          "link": "https://road.cc/offroad/tech-news/is-130nm-too-much-for-gravel-megamos-along-e-gravel-bike-boasts-avinox-motors-and-clearance-for-50mm-tyres",
-          "published": "2026-06-11T16:00:16Z",
-          "summary": "Ever since its release, DJI\u2019s Avinox motor system has taken the e-bike world by storm, delivering some of the highest torque and power figures to hit the market. Then, earlier this year, the motor brand announced its even punchier M2 and M2S systems. Now, Meg\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Finofilipino.org",
-          "category": "broad",
-          "title": "Top 7 frases del Xokas en ingl\u00e9s.",
-          "link": "https://finofilipino.org/top-7-frases-del-xokas-en-ingles/",
-          "published": "2026-06-10T08:20:25Z",
-          "summary": "https://www.youtube.com/shorts/up9CZOJYHsg?feature=share",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Coolchicstylefashion.com",
-          "category": "broad",
-          "title": "La lavanda (Lavandula) DAILY INSPIRATION",
-          "link": "https://www.coolchicstylefashion.com/2026/06/la-lavanda-lavandula-daily-inspiration.html",
-          "published": "2026-06-06T07:34:56Z",
-          "summary": "A Daily Style and Design Site. Interiors, Fashion, Lifestyle, Design Travel, Leisure. Cool Chic Style Fashion the daily search for beautiful things.",
           "is_signal": false
         },
         {
@@ -9046,55 +9071,60 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "June 12, 2026",
-        "generated_at": "2026-06-12T22:08:27.341980+00:00",
-        "advancing": 10,
-        "declining": 0,
+        "week_ending": "June 19, 2026",
+        "generated_at": "2026-06-19T21:45:48.811045+00:00",
+        "advancing": 0,
+        "declining": 10,
         "total": 10,
-        "avg_weekly_pct": 3.12,
+        "avg_weekly_pct": -4.62,
         "top_gainers": [
           {
-            "ticker": "O",
-            "name": "Realty Income",
-            "price": 62.72,
-            "weekly_pct": 4.52
+            "ticker": "GTY",
+            "name": "Getty Realty",
+            "price": 32.68,
+            "weekly_pct": -2.13
           },
           {
-            "ticker": "VICI",
-            "name": "VICI Properties",
-            "price": 28.52,
-            "weekly_pct": 4.09
+            "ticker": "FCPT",
+            "name": "Four Corners Property Trust",
+            "price": 24.49,
+            "weekly_pct": -3.09
           },
           {
-            "ticker": "WPC",
-            "name": "W. P. Carey",
-            "price": 76.71,
-            "weekly_pct": 3.73
+            "ticker": "ADC",
+            "name": "Agree Realty",
+            "price": 73.25,
+            "weekly_pct": -3.4
           }
         ],
         "top_losers": [
           {
-            "ticker": "GTY",
-            "name": "Getty Realty",
-            "price": 33.39,
-            "weekly_pct": 1.83
+            "ticker": "WPC",
+            "name": "W. P. Carey",
+            "price": 71.22,
+            "weekly_pct": -7.16
+          },
+          {
+            "ticker": "VICI",
+            "name": "VICI Properties",
+            "price": 26.28,
+            "weekly_pct": -6.31
           },
           {
             "ticker": "GLPI",
             "name": "Gaming and Leisure Properties",
-            "price": 47.47,
-            "weekly_pct": 1.98
-          },
-          {
-            "ticker": "NTST",
-            "name": "NETSTREIT Corp",
-            "price": 20.37,
-            "weekly_pct": 2.0
+            "price": 44.59,
+            "weekly_pct": -6.07
           }
         ],
         "key_signals": [],
         "broad_highlights": [
-          "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres"
+          "Miami-Area Warehouse Trades for $56M",
+          "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "Pirelli Cinturato Gravel M High Performance gravel tyres",
+          "Macerich Announces Pricing of Public Offering of Common Stock",
+          "Macerich Announces Commencement of Public Offering of Common Stock"
         ]
       }
     },
@@ -9200,6 +9230,17 @@
           "company": "American Tower",
           "source": "AMT",
           "category": "reit",
+          "title": "Is American Tower Corporation\u00a0(AMT) among the 7 Best \u201cLand Owner\u201d Stocks to Buy for Hard Asset Value",
+          "link": "https://finance.yahoo.com/real-estate/articles/american-tower-corporation-amt-among-002516603.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 00:25:16 +0000",
+          "summary": "With a short percentage of shares outstanding of 1.93%, American Tower Corporation (NYSE:AMT) is among the 7 Best \u201cLand Owner\u201d Stocks to Buy for Hard Asset Value. On June 4, American Tower Corporation (NYSE:AMT) disclosed in a regulatory filing that it had delivered a notice of termination, effectiv\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "AMT",
+          "company": "American Tower",
+          "source": "AMT",
+          "category": "reit",
           "title": "Why American Tower (AMT) Dipped More Than Broader Market Today",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-american-tower-amt-dipped-221504485.html?.tsrc=rss",
           "published": "Wed, 17 Jun 2026 22:15:04 +0000",
@@ -9227,17 +9268,6 @@
           "published": "Tue, 16 Jun 2026 12:36:00 +0000",
           "summary": "OUT's digital conversions and transit rebound boost its 2026 growth case, but cyclical ad demand and capital spending keep the outlook balanced.",
           "is_signal": true
-        },
-        {
-          "ticker": "AMT",
-          "company": "American Tower",
-          "source": "AMT",
-          "category": "reit",
-          "title": "OUTFRONT Media Trends to Watch as Digital OOH Spending Shifts in 2026",
-          "link": "https://finance.yahoo.com/real-estate/articles/outfront-media-trends-watch-digital-123300264.html?.tsrc=rss",
-          "published": "Tue, 16 Jun 2026 12:33:00 +0000",
-          "summary": "OUT's digital OOH growth, automated sales, premium transit assets and ad-tech deals point to a more flexible 2026 model, with costs and permits in focus.",
-          "is_signal": false
         },
         {
           "ticker": "CCI",
@@ -9387,6 +9417,28 @@
           "company": null,
           "source": "RCR Wireless",
           "category": "towers",
+          "title": "Complexity, convergence, AI and the demand for trust are reshaping telecom testing",
+          "link": "https://www.rcrwireless.com/20260619/test-and-measurement/telecom-testing",
+          "published": "Fri, 19 Jun 2026 17:14:12 +0000",
+          "summary": "In sum, what to know: &#8211;Telecom testing is shifting from point-in-time verification to continuous validation. As networks become increasingly cloud-native, multi-technology and automated, operators are moving toward continuous, end-to-end testing that combines active and passive elements and re\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "RCR Wireless",
+          "category": "towers",
+          "title": "Report: Scaling Optical Networks For The Hyperscale And AI Era",
+          "link": "https://pages.rcrtech.com/scaling-optical-networks-for-the-ai-and-hyperscale-era-report",
+          "published": "Fri, 19 Jun 2026 14:11:04 +0000",
+          "summary": "AI is not just driving demand for more network capacity. It is fundamentally changing what networks need to do. AI workloads introduce a traffic profile unlike anything cloud computing has required before, with massive east-west data flows, tightly synchronized compute&#8230;",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "RCR Wireless",
+          "category": "towers",
           "title": "SK Telecom wants to give every employee their own AI agent",
           "link": "https://www.rcrwireless.com/20260618/ai/sk-telecom-ai-agents-2",
           "published": "Thu, 18 Jun 2026 20:41:40 +0000",
@@ -9418,45 +9470,12 @@
         {
           "ticker": null,
           "company": null,
-          "source": "RCR Wireless",
-          "category": "towers",
-          "title": "Test And Measurement Market Pulse Report",
-          "link": "https://pages.rcrtech.com/test-and-measurement-market-pulse-report-2026",
-          "published": "Thu, 18 Jun 2026 13:19:30 +0000",
-          "summary": "Testing and validation are how the telecommunications industry explores new technologies, frameworks, and features, as well as how technological evolution and maturity are reflected. The test and measurement space has to be at the very cutting edge of current and&#8230;",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "RCR Wireless",
-          "category": "towers",
-          "title": "Quantum for telecom \u2013 why the work starts now (Reader Forum)",
-          "link": "https://www.rcrwireless.com/20260618/opinion/quantum-for-telecom-classiq",
-          "published": "Thu, 18 Jun 2026 09:54:25 +0000",
-          "summary": "Quantum computing is moving from long-term promise to practical telecom experimentation, writes quantum software company Classiq. As operators tackle complex optimisation, forecasting and security challenges, early pilots are helping build the expertise and competitive advantage needed for the quant\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
           "source": "Light Reading",
           "category": "towers",
-          "title": "FCC rip and replace picks up pace",
-          "link": "https://www.lightreading.com/regulatory-politics/fcc-rip-and-replace-picks-up-pace",
-          "published": "Thu, 18 Jun 2026 14:53:03 GMT",
-          "summary": "FCC reports &quot;rip-and-replace&quot; progress as 42% of projects removed Huawei and ZTE equipment from networks, but supply chain challenges persist for carriers.",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Light Reading",
-          "category": "towers",
-          "title": "Rightfiber will explore M&amp;A to fuel growth",
-          "link": "https://www.lightreading.com/broadband/rightfiber-will-explore-m-a-to-fuel-growth",
-          "published": "Thu, 18 Jun 2026 14:00:00 GMT",
-          "summary": "Ritter Communications and Great Plains Communications are merging to become Rightfiber. The combo will target growth through fiber expansions and opportunistic M&amp;A, says CEO Heath Simpson.",
+          "title": "China telcos under fire over price discrimination",
+          "link": "https://www.lightreading.com/ai-machine-learning/china-telcos-under-fire-over-price-discrimination",
+          "published": "Fri, 19 Jun 2026 12:29:27 GMT",
+          "summary": "Chinese operators remain silent over widespread reports of price discrimination relating to mobile data packages and AI tokens.",
           "is_signal": false
         },
         {
@@ -9464,21 +9483,10 @@
           "company": null,
           "source": "Light Reading",
           "category": "towers",
-          "title": "Federated Wireless bulks up on AI to unlock CBRS capacity",
-          "link": "https://www.lightreading.com/ai-machine-learning/federated-wireless-bulks-up-on-ai-to-unlock-cbrs-capacity",
-          "published": "Thu, 18 Jun 2026 13:00:00 GMT",
-          "summary": "Based on the results of recent market trials, Federated claims its new 'Spectrum AI' platform can deliver a 5x boost in CBRS network capacity without the need for more spectrum or infrastructure.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Light Reading",
-          "category": "towers",
-          "title": "Eurobites: Consortium seeks to head off 6G cyber threats",
-          "link": "https://www.lightreading.com/6g/eurobites-consortium-seeks-to-head-off-6g-cyber-threats",
-          "published": "Thu, 18 Jun 2026 10:51:56 GMT",
-          "summary": "Also in today's EMEA regional roundup: Orange gets semantic; T-Systems connects SupplyOn to its cloud; A1 explores use of mobile network for weather forecasting.",
+          "title": "Eurobites: Spain to mandate mobile network power backup \u2013 report",
+          "link": "https://www.lightreading.com/regulatory-politics/eurobites-spain-to-mandate-mobile-network-power-backup-report",
+          "published": "Fri, 19 Jun 2026 10:48:57 GMT",
+          "summary": "Also in today's EMEA regional roundup: SpaceX criticizes EU's satellite spectrum plans; Nokia and KNDS work together on connectivity for defense environments; rural Czech Republic gets more 5G.",
           "is_signal": true
         },
         {
@@ -9486,10 +9494,32 @@
           "company": null,
           "source": "Light Reading",
           "category": "towers",
-          "title": "Mavenir urges telcos to sell AI tokens and not rely on OpenAI",
-          "link": "https://www.lightreading.com/ai-machine-learning/mavenir-urges-telcos-to-sell-ai-tokens-and-not-rely-on-openai",
-          "published": "Thu, 18 Jun 2026 07:30:00 GMT",
-          "summary": "As Donald Trump cuts foreigners off from the most advanced American AI, Mavenir's CEO encourages the world's telcos to reinvent themselves as AI companies.",
+          "title": "Equinix opens HK6 with direct link to Hong Kong-Shenzhen innovation hub",
+          "link": "https://www.lightreading.com/data-centers/equinix-opens-hk6-with-direct-link-to-hong-kong-shenzhen-innovation-hub",
+          "published": "Fri, 19 Jun 2026 10:14:16 GMT",
+          "summary": "Equinix opened the first phase of its AI-ready data center in Hong Kong. The center has 1,000 cabinets and was initially invested in at a cost of US$124 million.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "More than science needed to make quantum work \u2013 BT",
+          "link": "https://www.lightreading.com/digital-transformation/more-than-science-needed-to-make-quantum-work-bt",
+          "published": "Fri, 19 Jun 2026 07:30:00 GMT",
+          "summary": "Speaking at the Commercialising Quantum conference, BT's Gabriela Styf Sj\u00f6man cautioned that the right systems, incentives and business cases will be needed to bridge the gap between quantum technologies' innovation and impact.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "Charter rolls out 'Latis,' an AI-powered household intelligence platform",
+          "link": "https://www.lightreading.com/ai-machine-learning/charter-rolls-out-latis-an-ai-powered-household-intelligence-platform",
+          "published": "Thu, 18 Jun 2026 21:00:00 GMT",
+          "summary": "Charter's Spectrum Intelligence Ventures unit has launched 'Latis,' a household intelligence platform designed to work with existing systems and emerging AI-native applications. #pressrelease",
           "is_signal": true
         },
         {
@@ -9607,6 +9637,39 @@
           "company": null,
           "source": "Commercial Observer",
           "category": "broad",
+          "title": "Miami-Area Warehouse Trades for $56M",
+          "link": "http://commercialobserver.com/2026/06/florida-warehouse-terreno-clarion/",
+          "published": "2026-06-18T20:50:42Z",
+          "summary": "Terreno Realty on Thursday announced it has paid $56.3 million for an industrial property in Hialeah Gardens, Fla. The 98,000-square-foot distribution building sits on 16.8 acres at 10910 Northwest 144th Street, adjacent to the intersection of Florida\u2019s Turnp\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "PRNewswire",
+          "category": "broad",
+          "title": "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "link": "https://www.prnewswire.com/news-releases/grech-rv-launches-sprinter-rv-upgrade-program-offering-up-to-10-000-toward-a-new-luxury-camper-van-302804508.html",
+          "published": "2026-06-18T14:35:00Z",
+          "summary": "The Sprinter RV Upgrade Program rewards owners of competitive Mercedes-Benz Sprinter\u00ae-based Class B motorhomes \u2014 and current Grech owners \u2014 with up to $10,000 toward a new STRADA-ion\u2122, TURISMO-ion\u2122, TERRENO-ion\u2122, or VACANZA-ion\u2122. Qualifying units must be purc\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Biztoc.com",
+          "category": "broad",
+          "title": "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "link": "https://biztoc.com/x/d9b3d4916b3d4946",
+          "published": "2026-06-18T11:55:48Z",
+          "summary": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiations, please see our analyst ratings page.\nRaymond James analyst David Rodgers initiated coverage o\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Commercial Observer",
+          "category": "broad",
           "title": "Warsh\u2019s First Fed Meeting as Chair Produces a Result Many in CRE Expected",
           "link": "http://commercialobserver.com/2026/06/fed-interest-rates-pause-kevin-warsh/",
           "published": "2026-06-17T19:22:15Z",
@@ -9677,39 +9740,6 @@
           "link": "https://bikerumor.com/megamo-doubles-down-on-avinox-powered-drop-bar-bikes-with-the-along-e-gravel-bike/",
           "published": "2026-06-11T23:10:24Z",
           "summary": "Closely following the launch of the Upon e-road bike, Megamo is bringing Avinox power to gravel with the all-new Along e-gravel bike.\nThe post Megamo Doubles Down on Avinox-Powered Drop Bar Bikes With the Along E-Gravel Bike appeared first on Bikerumor.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "road.cc",
-          "category": "broad",
-          "title": "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres",
-          "link": "https://road.cc/offroad/tech-news/is-130nm-too-much-for-gravel-megamos-along-e-gravel-bike-boasts-avinox-motors-and-clearance-for-50mm-tyres",
-          "published": "2026-06-11T16:00:16Z",
-          "summary": "Ever since its release, DJI\u2019s Avinox motor system has taken the e-bike world by storm, delivering some of the highest torque and power figures to hit the market. Then, earlier this year, the motor brand announced its even punchier M2 and M2S systems. Now, Meg\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Finofilipino.org",
-          "category": "broad",
-          "title": "Top 7 frases del Xokas en ingl\u00e9s.",
-          "link": "https://finofilipino.org/top-7-frases-del-xokas-en-ingles/",
-          "published": "2026-06-10T08:20:25Z",
-          "summary": "https://www.youtube.com/shorts/up9CZOJYHsg?feature=share",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Coolchicstylefashion.com",
-          "category": "broad",
-          "title": "La lavanda (Lavandula) DAILY INSPIRATION",
-          "link": "https://www.coolchicstylefashion.com/2026/06/la-lavanda-lavandula-daily-inspiration.html",
-          "published": "2026-06-06T07:34:56Z",
-          "summary": "A Daily Style and Design Site. Interiors, Fashion, Lifestyle, Design Travel, Leisure. Cool Chic Style Fashion the daily search for beautiful things.",
           "is_signal": false
         },
         {
@@ -9943,55 +9973,60 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "June 12, 2026",
-        "generated_at": "2026-06-12T22:08:27.677632+00:00",
-        "advancing": 3,
-        "declining": 1,
+        "week_ending": "June 19, 2026",
+        "generated_at": "2026-06-19T21:45:49.090757+00:00",
+        "advancing": 0,
+        "declining": 4,
         "total": 4,
-        "avg_weekly_pct": 3.17,
+        "avg_weekly_pct": -8.34,
         "top_gainers": [
+          {
+            "ticker": "AMT",
+            "name": "American Tower",
+            "price": 176.05,
+            "weekly_pct": -5.95
+          },
           {
             "ticker": "UNIT",
             "name": "Uniti Group",
-            "price": 12.75,
-            "weekly_pct": 10.97
+            "price": 11.64,
+            "weekly_pct": -8.71
           },
           {
             "ticker": "SBAC",
             "name": "SBA Communications",
-            "price": 204.79,
-            "weekly_pct": 2.34
-          },
-          {
-            "ticker": "CCI",
-            "name": "Crown Castle",
-            "price": 92.16,
-            "weekly_pct": 0.4
+            "price": 186.87,
+            "weekly_pct": -8.75
           }
         ],
         "top_losers": [
           {
-            "ticker": "AMT",
-            "name": "American Tower",
-            "price": 187.18,
-            "weekly_pct": -1.02
-          },
-          {
             "ticker": "CCI",
             "name": "Crown Castle",
-            "price": 92.16,
-            "weekly_pct": 0.4
+            "price": 82.05,
+            "weekly_pct": -9.93
           },
           {
             "ticker": "SBAC",
             "name": "SBA Communications",
-            "price": 204.79,
-            "weekly_pct": 2.34
+            "price": 186.87,
+            "weekly_pct": -8.75
+          },
+          {
+            "ticker": "UNIT",
+            "name": "Uniti Group",
+            "price": 11.64,
+            "weekly_pct": -8.71
           }
         ],
         "key_signals": [],
         "broad_highlights": [
-          "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres"
+          "Miami-Area Warehouse Trades for $56M",
+          "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "Pirelli Cinturato Gravel M High Performance gravel tyres",
+          "Macerich Announces Pricing of Public Offering of Common Stock",
+          "Macerich Announces Commencement of Public Offering of Common Stock"
         ]
       }
     },
@@ -10075,7 +10110,7 @@
           "ticker": "FSP",
           "price": 0.58,
           "prev_close": 0.61,
-          "pct_change": -4.69,
+          "pct_change": -4.92,
           "market_cap": 60285560,
           "dividend_yield": 5.56,
           "fifty_two_week_high": 1.82,
@@ -10513,6 +10548,17 @@
           "company": "Hudson Pacific Properties",
           "source": "HPP",
           "category": "reit",
+          "title": "Netflix Moves On Radford Studio At $400 Million",
+          "link": "https://finance.yahoo.com/real-estate/articles/netflix-moves-radford-studio-400-175046324.html?.tsrc=rss",
+          "published": "Fri, 19 Jun 2026 17:50:46 +0000",
+          "summary": "Netflix is reportedly buying Radford Studio Center far below its 2021 sale price after lenders repossessed the property.",
+          "is_signal": false
+        },
+        {
+          "ticker": "HPP",
+          "company": "Hudson Pacific Properties",
+          "source": "HPP",
+          "category": "reit",
           "title": "Are Investors Undervaluing Hudson Pacific Properties (HPP) Right Now?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-hudson-pacific-properties-134004126.html?.tsrc=rss",
           "published": "Thu, 18 Jun 2026 13:40:04 +0000",
@@ -10539,17 +10585,6 @@
           "link": "https://www.barchart.com/story/news/2496862/broader-market-weakens-as-energy-and-software-stocks-fall?.tsrc=rss",
           "published": "Tue, 16 Jun 2026 15:15:38 +0000",
           "summary": "The S&amp;P 500 Index ($SPX ) (SPY ) today is down -0.18%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.69%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.83%. June E-mini S&amp;P futures (ESM26 ) are down -0.20%, and June E-mini Nasdaq futures...",
-          "is_signal": false
-        },
-        {
-          "ticker": "HPP",
-          "company": "Hudson Pacific Properties",
-          "source": "HPP",
-          "category": "reit",
-          "title": "Stocks Supported by Lower Crude Oil Prices and Bond Yields",
-          "link": "https://www.barchart.com/story/news/2495519/stocks-supported-by-lower-crude-oil-prices-and-bond-yields?.tsrc=rss",
-          "published": "Tue, 16 Jun 2026 14:18:10 +0000",
-          "summary": "The S&amp;P 500 Index ($SPX ) (SPY ) today is up +0.11%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.57%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down -0.18%. June E-mini S&amp;P futures (ESM26 ) are up +0.09%, and June E-mini Nasdaq futures...",
           "is_signal": false
         },
         {
@@ -10777,22 +10812,22 @@
           "company": null,
           "source": "Bisnow CRE",
           "category": "office",
-          "title": "ICE Looks To Offload $700M In U.S. Warehouses As Detention Overhaul Unravels",
-          "link": "https://www.bisnow.com/national/news/industrial/ice-to-shed-7-of-11-warehouses-acquired-immigration-detention-135087",
-          "published": "Thu, 18 Jun 2026 15:31:08 -0400",
-          "summary": "The Department of Homeland Security's\u00a0plan to go on a $38.3B spree\u00a0to acquire warehouses across the country and convert them into detention facilities is reversing course.\nNow, the government agency wants to sell or give away seven out of the 11 facilities...",
-          "is_signal": true
+          "title": "Netflix To Buy Storied Hollywood Studio At 78% Price Cut",
+          "link": "https://www.bisnow.com/los-angeles/news/capital-markets/netflix-to-buy-storied-studio-at-78-discount-to-previous-valuation-135093",
+          "published": "Fri, 19 Jun 2026 09:38:07 -0400",
+          "summary": "Streaming giant Netflix is buying a Los Angeles film studio at a price that will seem like something from a horror film for other owners in the sector.",
+          "is_signal": false
         },
         {
           "ticker": null,
           "company": null,
           "source": "Bisnow CRE",
           "category": "office",
-          "title": "CRE Pricing Spread Between Cycle's 'Winners And Laggards' The Widest Ever",
-          "link": "https://www.bisnow.com/national/news/capital-markets/cre-pricing-spread-between-cycles-winners-and-laggards-the-widest-ever-135080",
-          "published": "Thu, 18 Jun 2026 12:00:25 -0400",
-          "summary": "The pricing chasm between property types that are on the rise and those that are struggling is the widest it has ever been.\nIndustrial pricing in Q1 2026 was up 88.5% since the quarter before the pandemic. Office pricing was up just 36.6% over the same...",
-          "is_signal": true
+          "title": "Reports Find Data Centers Don't Lower Nearby Home Prices, Despite Widespread Concern",
+          "link": "https://www.bisnow.com/national/news/data-center-community-relations/data-centers-may-not-be-a-drag-on-nearby-home-prices-135084",
+          "published": "Thu, 18 Jun 2026 14:09:03 -0400",
+          "summary": "As communities across the U.S. push back on data center projects, warnings that they\u00a0will slash the value of nearby homes have been a prominent rallying cry.\nBut two studies this year have found more often than not, this isn't the case \u2014 surprising...",
+          "is_signal": false
         },
         {
           "ticker": null,
@@ -10810,22 +10845,22 @@
           "company": null,
           "source": "Bisnow CRE",
           "category": "office",
-          "title": "Office REIT Emerges From Bankruptcy After Shaving $700M In Debt",
-          "link": "https://www.bisnow.com/national/news/office/office-reit-emerges-from-bankruptcy-135077",
-          "published": "Thu, 18 Jun 2026 10:42:14 -0400",
-          "summary": "A publicly traded landlord managed by Massachusetts-based The RMR Group has come out on the other side of bankruptcy after\u00a0cutting hundreds of million of dollars in debt.",
-          "is_signal": false
+          "title": "ICE Looks To Offload $700M In U.S. Warehouses As Detention Overhaul Unravels",
+          "link": "https://www.bisnow.com/national/news/industrial/ice-to-shed-7-of-11-warehouses-acquired-immigration-detention-135087",
+          "published": "Thu, 18 Jun 2026 15:31:08 -0400",
+          "summary": "The Department of Homeland Security's\u00a0plan to go on a $38.3B spree\u00a0to acquire warehouses across the country and convert them into detention facilities is reversing course.\nNow, the government agency wants to sell or give away seven out of the 11 facilities...",
+          "is_signal": true
         },
         {
           "ticker": null,
           "company": null,
           "source": "Bisnow CRE",
           "category": "office",
-          "title": "20 Attorneys General Sue To Block Executive Order Targeting DEI In Federal Contracts",
-          "link": "https://www.bisnow.com/national/news/commercial-real-estate/20-attorneys-general-sue-to-block-executive-order-targeting-dei-in-federal-contracts-135081",
-          "published": "Thu, 18 Jun 2026 12:16:56 -0400",
-          "summary": "Attorneys general from 19 states and the District of Columbia are suing the Trump administration to block what they say is an arbitrary and capricious executive order targeting diversity, equity and inclusion efforts among federal contractors.",
-          "is_signal": true
+          "title": "Brexit Slowly But Surely Remade London Commercial Real Estate. Now The Future Is Even Less Certain",
+          "link": "https://www.bisnow.com/london/news/economy/brexit-remade-london-commercial-real-estate-now-future-even-less-certain-135015",
+          "published": "Mon, 15 Jun 2026 07:13:57 -0400",
+          "summary": "On the morning of Friday, 24 June 2016, London real estate awoke to a new reality \u2014 the UK had voted to leave the European Union.\u00a0\nThe certainties of half a century were wiped away in an instant, and the stability the property sector enjoyed as London...",
+          "is_signal": false
         },
         {
           "ticker": null,
@@ -10942,6 +10977,39 @@
           "company": null,
           "source": "Commercial Observer",
           "category": "broad",
+          "title": "Miami-Area Warehouse Trades for $56M",
+          "link": "http://commercialobserver.com/2026/06/florida-warehouse-terreno-clarion/",
+          "published": "2026-06-18T20:50:42Z",
+          "summary": "Terreno Realty on Thursday announced it has paid $56.3 million for an industrial property in Hialeah Gardens, Fla. The 98,000-square-foot distribution building sits on 16.8 acres at 10910 Northwest 144th Street, adjacent to the intersection of Florida\u2019s Turnp\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "PRNewswire",
+          "category": "broad",
+          "title": "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "link": "https://www.prnewswire.com/news-releases/grech-rv-launches-sprinter-rv-upgrade-program-offering-up-to-10-000-toward-a-new-luxury-camper-van-302804508.html",
+          "published": "2026-06-18T14:35:00Z",
+          "summary": "The Sprinter RV Upgrade Program rewards owners of competitive Mercedes-Benz Sprinter\u00ae-based Class B motorhomes \u2014 and current Grech owners \u2014 with up to $10,000 toward a new STRADA-ion\u2122, TURISMO-ion\u2122, TERRENO-ion\u2122, or VACANZA-ion\u2122. Qualifying units must be purc\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Biztoc.com",
+          "category": "broad",
+          "title": "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "link": "https://biztoc.com/x/d9b3d4916b3d4946",
+          "published": "2026-06-18T11:55:48Z",
+          "summary": "Top Wall Street analysts changed their outlook on these top names. For a complete view of all analyst rating changes, including upgrades, downgrades and initiations, please see our analyst ratings page.\nRaymond James analyst David Rodgers initiated coverage o\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Commercial Observer",
+          "category": "broad",
           "title": "Warsh\u2019s First Fed Meeting as Chair Produces a Result Many in CRE Expected",
           "link": "http://commercialobserver.com/2026/06/fed-interest-rates-pause-kevin-warsh/",
           "published": "2026-06-17T19:22:15Z",
@@ -11012,39 +11080,6 @@
           "link": "https://bikerumor.com/megamo-doubles-down-on-avinox-powered-drop-bar-bikes-with-the-along-e-gravel-bike/",
           "published": "2026-06-11T23:10:24Z",
           "summary": "Closely following the launch of the Upon e-road bike, Megamo is bringing Avinox power to gravel with the all-new Along e-gravel bike.\nThe post Megamo Doubles Down on Avinox-Powered Drop Bar Bikes With the Along E-Gravel Bike appeared first on Bikerumor.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "road.cc",
-          "category": "broad",
-          "title": "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres",
-          "link": "https://road.cc/offroad/tech-news/is-130nm-too-much-for-gravel-megamos-along-e-gravel-bike-boasts-avinox-motors-and-clearance-for-50mm-tyres",
-          "published": "2026-06-11T16:00:16Z",
-          "summary": "Ever since its release, DJI\u2019s Avinox motor system has taken the e-bike world by storm, delivering some of the highest torque and power figures to hit the market. Then, earlier this year, the motor brand announced its even punchier M2 and M2S systems. Now, Meg\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Finofilipino.org",
-          "category": "broad",
-          "title": "Top 7 frases del Xokas en ingl\u00e9s.",
-          "link": "https://finofilipino.org/top-7-frases-del-xokas-en-ingles/",
-          "published": "2026-06-10T08:20:25Z",
-          "summary": "https://www.youtube.com/shorts/up9CZOJYHsg?feature=share",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Coolchicstylefashion.com",
-          "category": "broad",
-          "title": "La lavanda (Lavandula) DAILY INSPIRATION",
-          "link": "https://www.coolchicstylefashion.com/2026/06/la-lavanda-lavandula-daily-inspiration.html",
-          "published": "2026-06-06T07:34:56Z",
-          "summary": "A Daily Style and Design Site. Interiors, Fashion, Lifestyle, Design Travel, Leisure. Cool Chic Style Fashion the daily search for beautiful things.",
           "is_signal": false
         },
         {
@@ -11152,55 +11187,60 @@
       ],
       "focus_details": {},
       "weekly_report": {
-        "week_ending": "June 12, 2026",
-        "generated_at": "2026-06-12T22:08:29.093685+00:00",
-        "advancing": 12,
-        "declining": 1,
+        "week_ending": "June 19, 2026",
+        "generated_at": "2026-06-19T21:45:50.329179+00:00",
+        "advancing": 1,
+        "declining": 12,
         "total": 13,
-        "avg_weekly_pct": 2.95,
+        "avg_weekly_pct": -3.41,
         "top_gainers": [
           {
-            "ticker": "FSP",
-            "name": "Franklin Street Properties Corp.",
-            "price": 0.68,
-            "weekly_pct": 8.57
+            "ticker": "ONL",
+            "name": "Orion Properties Inc.",
+            "price": 2.87,
+            "weekly_pct": 2.87
           },
           {
-            "ticker": "CDP",
-            "name": "COPT Defense Properties",
-            "price": 34.54,
-            "weekly_pct": 5.05
+            "ticker": "SLG",
+            "name": "SL Green Realty Corp.",
+            "price": 50.56,
+            "weekly_pct": -1.15
           },
           {
-            "ticker": "HIW",
-            "name": "Highwoods Properties",
-            "price": 29.84,
-            "weekly_pct": 4.74
+            "ticker": "PDM",
+            "name": "Piedmont Realty Trust",
+            "price": 8.94,
+            "weekly_pct": -1.76
           }
         ],
         "top_losers": [
           {
-            "ticker": "ONL",
-            "name": "Orion Properties Inc.",
-            "price": 2.79,
-            "weekly_pct": -1.06
-          },
-          {
-            "ticker": "DEA",
-            "name": "Easterly Government Properties",
-            "price": 24.04,
-            "weekly_pct": 0.54
+            "ticker": "FSP",
+            "name": "Franklin Street Properties Corp.",
+            "price": 0.58,
+            "weekly_pct": -14.71
           },
           {
             "ticker": "BDN",
             "name": "Brandywine Realty Trust",
-            "price": 3.24,
-            "weekly_pct": 1.25
+            "price": 3.09,
+            "weekly_pct": -4.63
+          },
+          {
+            "ticker": "HPP",
+            "name": "Hudson Pacific Properties",
+            "price": 14.62,
+            "weekly_pct": -4.38
           }
         ],
         "key_signals": [],
         "broad_highlights": [
-          "Is Avinox\u2019s super powerful motor too much for gravel? The Megamo Along e-gravel bike boasts the drive system everyone is talking about, plus clearance for 50mm tyres"
+          "Miami-Area Warehouse Trades for $56M",
+          "Grech RV Launches Sprinter RV Upgrade Program, Offering Up to $10,000 Toward a New Luxury Camper Van",
+          "This Talen Energy Analyst Begins Coverage On A Bullish Note; Here Are Top 5 Initiations For Thursday",
+          "Pirelli Cinturato Gravel M High Performance gravel tyres",
+          "Macerich Announces Pricing of Public Offering of Common Stock",
+          "Macerich Announces Commencement of Public Offering of Common Stock"
         ]
       }
     },
@@ -11261,7 +11301,7 @@
           "price": 46.52,
           "prev_close": 46.52,
           "pct_change": 0.0,
-          "market_cap": 8965441536,
+          "market_cap": 9616721920,
           "dividend_yield": 2.13,
           "fifty_two_week_high": 54.67,
           "fifty_two_week_low": 35.46,
@@ -11907,8 +11947,8 @@
           "name": "Curbline Properties",
           "ticker": "CURB",
           "price": 29.86,
-          "prev_close": 30.01,
-          "pct_change": -0.5,
+          "prev_close": 29.84,
+          "pct_change": 0.07,
           "market_cap": 3151404800,
           "dividend_yield": 2.22,
           "fifty_two_week_high": 30.99,
@@ -11947,7 +11987,7 @@
           "pct_change": 2.51,
           "market_cap": 1956955904,
           "dividend_yield": 2.86,
-          "fifty_two_week_high": 20.195,
+          "fifty_two_week_high": 20.2,
           "fifty_two_week_low": 11.75,
           "next_earnings": "2026-07-30"
         },
@@ -11983,7 +12023,7 @@
           "pct_change": 2.09,
           "market_cap": 3916360704,
           "dividend_yield": 5.86,
-          "fifty_two_week_high": 16.7099,
+          "fifty_two_week_high": 16.71,
           "fifty_two_week_low": 10.85,
           "next_earnings": "2026-08-05"
         },
@@ -12043,7 +12083,7 @@
           "pct_change": 2.97,
           "market_cap": 1745378816,
           "dividend_yield": 5.33,
-          "fifty_two_week_high": 11.47,
+          "fifty_two_week_high": 11.48,
           "fifty_two_week_low": 6.54,
           "next_earnings": "2026-08-06"
         },
@@ -12171,8 +12211,8 @@
           "name": "VICI Properties",
           "ticker": "VICI",
           "price": 26.28,
-          "prev_close": 27.23,
-          "pct_change": -3.49,
+          "prev_close": 26.78,
+          "pct_change": -1.87,
           "market_cap": 28297783296,
           "dividend_yield": 6.43,
           "fifty_two_week_high": 34.01,
@@ -12316,7 +12356,7 @@
           "ticker": "FSP",
           "price": 0.58,
           "prev_close": 0.61,
-          "pct_change": -4.69,
+          "pct_change": -4.92,
           "market_cap": 60285560,
           "dividend_yield": 5.56,
           "fifty_two_week_high": 1.82,
@@ -12546,7 +12586,7 @@
           "count": 12
         },
         "retail": {
-          "avg_change": 0.19,
+          "avg_change": 0.23,
           "best": {
             "ticker": "MAC",
             "pct": 2.74
@@ -12570,14 +12610,14 @@
           "count": 11
         },
         "netlease": {
-          "avg_change": -0.93,
+          "avg_change": -0.77,
           "best": {
             "ticker": "GTY",
             "pct": 0.31
           },
           "worst": {
             "ticker": "VICI",
-            "pct": -3.49
+            "pct": -1.87
           },
           "count": 10
         },
@@ -12594,14 +12634,14 @@
           "count": 4
         },
         "office": {
-          "avg_change": 2.05,
+          "avg_change": 2.04,
           "best": {
             "ticker": "HPP",
             "pct": 9.02
           },
           "worst": {
             "ticker": "FSP",
-            "pct": -4.69
+            "pct": -4.92
           },
           "count": 13
         }
@@ -12674,7 +12714,7 @@
           "ticker": "FSP",
           "price": 0.58,
           "prev_close": 0.61,
-          "pct_change": -4.69,
+          "pct_change": -4.92,
           "market_cap": 60285560,
           "dividend_yield": 5.56,
           "fifty_two_week_high": 1.82,
@@ -12692,18 +12732,6 @@
           "fifty_two_week_high": 115.76,
           "fifty_two_week_low": 75.96,
           "next_earnings": "2026-07-22"
-        },
-        {
-          "name": "VICI Properties",
-          "ticker": "VICI",
-          "price": 26.28,
-          "prev_close": 27.23,
-          "pct_change": -3.49,
-          "market_cap": 28297783296,
-          "dividend_yield": 6.43,
-          "fifty_two_week_high": 34.01,
-          "fifty_two_week_low": 26.27,
-          "next_earnings": "2026-07-29"
         },
         {
           "name": "Sun Communities",
@@ -12727,6 +12755,18 @@
           "dividend_yield": 3.78,
           "fifty_two_week_high": 234.33,
           "fifty_two_week_low": 165.08,
+          "next_earnings": "2026-07-28"
+        },
+        {
+          "name": "Industrial Logistics Properties Trust",
+          "ticker": "ILPT",
+          "price": 8.1,
+          "prev_close": 8.32,
+          "pct_change": -2.64,
+          "market_cap": 539990336,
+          "dividend_yield": 2.31,
+          "fifty_two_week_high": 9.17,
+          "fifty_two_week_low": 4.43,
           "next_earnings": "2026-07-28"
         }
       ],
