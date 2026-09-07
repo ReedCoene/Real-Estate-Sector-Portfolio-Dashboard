@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-04T22:30:12.268985+00:00",
-  "market_date": "September 04, 2026",
+  "last_updated": "2026-09-07T22:58:19.815100+00:00",
+  "market_date": "September 07, 2026",
   "sectors": {
     "healthcare": {
       "focus_ticker": "CTRE",
@@ -12,7 +12,7 @@
           "prev_close": 39.61,
           "pct_change": -1.51,
           "market_cap": 9217797120,
-          "dividend_yield": 3.94,
+          "dividend_yield": 4.0,
           "fifty_two_week_high": 43.62,
           "fifty_two_week_low": 32.79,
           "next_earnings": "2026-11-09"
@@ -24,7 +24,7 @@
           "prev_close": 241.12,
           "pct_change": -2.05,
           "market_cap": 170177495040,
-          "dividend_yield": 1.41,
+          "dividend_yield": 1.44,
           "fifty_two_week_high": 255.2,
           "fifty_two_week_low": 163.75,
           "next_earnings": "2026-10-26"
@@ -36,9 +36,9 @@
           "prev_close": 92.11,
           "pct_change": -2.0,
           "market_cap": 46303666176,
-          "dividend_yield": 2.26,
+          "dividend_yield": 2.3,
           "fifty_two_week_high": 101.6,
-          "fifty_two_week_low": 66.38,
+          "fifty_two_week_low": 66.54,
           "next_earnings": "2026-10-28"
         },
         "DOC": {
@@ -48,7 +48,7 @@
           "prev_close": 21.03,
           "pct_change": -1.81,
           "market_cap": 14639760384,
-          "dividend_yield": 5.8,
+          "dividend_yield": 5.91,
           "fifty_two_week_high": 22.95,
           "fifty_two_week_low": 15.7,
           "next_earnings": "2026-10-22"
@@ -60,7 +60,7 @@
           "prev_close": 55.76,
           "pct_change": -1.87,
           "market_cap": 11928892416,
-          "dividend_yield": 1.79,
+          "dividend_yield": 1.83,
           "fifty_two_week_high": 58.7,
           "fifty_two_week_low": 40.0,
           "next_earnings": "2026-11-05"
@@ -83,8 +83,8 @@
           "price": 19.12,
           "prev_close": 19.27,
           "pct_change": -0.78,
-          "market_cap": 6706378752,
-          "dividend_yield": 4.98,
+          "market_cap": 6634597888,
+          "dividend_yield": 5.02,
           "fifty_two_week_high": 22.04,
           "fifty_two_week_low": 16.31,
           "next_earnings": "2026-10-29"
@@ -96,7 +96,7 @@
           "prev_close": 20.93,
           "pct_change": -0.72,
           "market_cap": 5308516352,
-          "dividend_yield": 5.73,
+          "dividend_yield": 5.78,
           "fifty_two_week_high": 22.77,
           "fifty_two_week_low": 17.17,
           "next_earnings": "2026-11-04"
@@ -108,7 +108,7 @@
           "prev_close": 71.91,
           "pct_change": -1.43,
           "market_cap": 3480947200,
-          "dividend_yield": 5.23,
+          "dividend_yield": 5.3,
           "fifty_two_week_high": 91.38,
           "fifty_two_week_low": 67.94,
           "next_earnings": "2026-11-05"
@@ -119,8 +119,8 @@
           "price": 46.38,
           "prev_close": 47.04,
           "pct_change": -1.4,
-          "market_cap": 14628032512,
-          "dividend_yield": 5.78,
+          "market_cap": 14809008128,
+          "dividend_yield": 5.86,
           "fifty_two_week_high": 52.39,
           "fifty_two_week_low": 39.26,
           "next_earnings": "2026-10-29"
@@ -132,7 +132,7 @@
           "prev_close": 41.9,
           "pct_change": -1.65,
           "market_cap": 2221448192,
-          "dividend_yield": 5.44,
+          "dividend_yield": 5.53,
           "fifty_two_week_high": 43.0,
           "fifty_two_week_low": 33.64,
           "next_earnings": "2026-11-03"
@@ -146,7 +146,7 @@
           "market_cap": 1818388736,
           "dividend_yield": 30,
           "fifty_two_week_high": 9.66,
-          "fifty_two_week_low": 3.82,
+          "fifty_two_week_low": 3.92,
           "next_earnings": "2026-11-02"
         },
         "CHCT": {
@@ -155,7 +155,7 @@
           "price": 15.0,
           "prev_close": 14.9,
           "pct_change": 0.67,
-          "market_cap": 428576896,
+          "market_cap": 429807616,
           "dividend_yield": 11.83,
           "fifty_two_week_high": 19.165,
           "fifty_two_week_low": 13.23,
@@ -168,7 +168,7 @@
           "prev_close": 41.16,
           "pct_change": -0.8,
           "market_cap": 567483264,
-          "dividend_yield": 7.26,
+          "dividend_yield": 7.35,
           "fifty_two_week_high": 46.3,
           "fifty_two_week_low": 35.26,
           "next_earnings": "2026-10-26"
@@ -180,7 +180,7 @@
           "prev_close": 13.7,
           "pct_change": -0.58,
           "market_cap": 769794176,
-          "dividend_yield": 4.96,
+          "dividend_yield": 4.99,
           "fifty_two_week_high": 14.75,
           "fifty_two_week_low": 11.11,
           "next_earnings": "2026-11-05"
@@ -236,6 +236,28 @@
           "company": "Welltower",
           "source": "WELL",
           "category": "reit",
+          "title": "Key Reasons to Add Welltower Stock to Your Portfolio Right Now",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/key-reasons-add-welltower-stock-144000590.html?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 14:40:00 +0000",
+          "summary": "WELL's SHO portfolio posts 20.5% SSNOI growth as acquisitions and capital recycling support its seniors housing focus.",
+          "is_signal": true
+        },
+        {
+          "ticker": "WELL",
+          "company": "Welltower",
+          "source": "WELL",
+          "category": "reit",
+          "title": "Is Welltower Stock Outperforming the Nasdaq?",
+          "link": "https://www.barchart.com/story/news/4472429/is-welltower-stock-outperforming-the-nasdaq?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 08:55:54 +0000",
+          "summary": "Despite WELL\u2019s strong outperformance relative to the Nasdaq Composite over the past year, Wall Street analysts remain very bullish on the stock\u2019s prospects.",
+          "is_signal": true
+        },
+        {
+          "ticker": "WELL",
+          "company": "Welltower",
+          "source": "WELL",
+          "category": "reit",
           "title": "The Baby Boomers Are Turning 80\u20143 REITs Built to Cash In",
           "link": "https://247wallst.com/investing/2026/09/04/the-baby-boomers-are-turning-80-3-reits-built-to-cash-in/?.tsrc=rss",
           "published": "Fri, 04 Sep 2026 12:08:38 +0000",
@@ -251,28 +273,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/top-research-reports-toyota-motor-203900129.html?.tsrc=rss",
           "published": "Tue, 01 Sep 2026 20:39:00 +0000",
           "summary": "Toyota Motor's hybrid growth and expanded value-chain businesses support demand, but higher costs, China weakness and leverage temper prospects.",
-          "is_signal": true
-        },
-        {
-          "ticker": "WELL",
-          "company": "Welltower",
-          "source": "WELL",
-          "category": "reit",
-          "title": "Welltower, Other Senior Housing REITs to See More Upside as Occupancy Supports 2027 Growth, Morgan Stanley Says",
-          "link": "https://finance.yahoo.com/real-estate/articles/welltower-other-senior-housing-reits-152427957.html?.tsrc=rss",
-          "published": "Tue, 01 Sep 2026 15:24:27 +0000",
-          "summary": "Welltower (WELL) and other senior housing REITs could see stronger growth in 2027 as occupancy rises",
-          "is_signal": true
-        },
-        {
-          "ticker": "WELL",
-          "company": "Welltower",
-          "source": "WELL",
-          "category": "reit",
-          "title": "Welltower Stock: Analyst Estimates & Ratings",
-          "link": "https://www.barchart.com/story/news/3781129/welltower-stock-analyst-estimates-ratings?.tsrc=rss",
-          "published": "Tue, 11 Aug 2026 14:14:40 +0000",
-          "summary": "Welltower has outperformed the broader market over the past year, and analysts are highly optimistic about the stock\u2019s prospects.",
           "is_signal": true
         },
         {
@@ -412,6 +412,17 @@
           "company": "Alexandria Real Estate Equities",
           "source": "ARE",
           "category": "reit",
+          "title": "Alexandria\u2019s (ARE) Profit Rebound Comes With A Cash Flow Catch",
+          "link": "https://finance.yahoo.com/real-estate/articles/alexandria-profit-rebound-comes-cash-135541164.html?.tsrc=rss",
+          "published": "Sun, 06 Sep 2026 13:55:41 +0000",
+          "summary": "On August 3, Alexandria Real Estate Equities (NYSE:ARE) reported a Q2 2026 net loss of $0.43 per diluted share, narrower than the $0.64 loss posted a year earlier, while first-half net income swung to $1.68 per share from a loss of $0.71 in H1 2025. Funds from operations, the metric real estate inve\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": "ARE",
+          "company": "Alexandria Real Estate Equities",
+          "source": "ARE",
+          "category": "reit",
           "title": "Alexandria Real Estate Equities (ARE) Up 5.7% Since Last Earnings Report: Can It Continue?",
           "link": "https://finance.yahoo.com/real-estate/articles/alexandria-real-estate-equities-5-153003846.html?.tsrc=rss",
           "published": "Wed, 02 Sep 2026 15:30:03 +0000",
@@ -441,15 +452,15 @@
           "is_signal": false
         },
         {
-          "ticker": "ARE",
-          "company": "Alexandria Real Estate Equities",
-          "source": "ARE",
+          "ticker": "HR",
+          "company": "Healthcare Realty Trust",
+          "source": "HR",
           "category": "reit",
-          "title": "Is Wall Street Bullish or Bearish on Alexandria Real Estate Stock?",
-          "link": "https://www.barchart.com/story/news/4023429/is-wall-street-bullish-or-bearish-on-alexandria-real-estate-stock?.tsrc=rss",
-          "published": "Tue, 25 Aug 2026 13:50:47 +0000",
-          "summary": "Alexandria Real Estate has underperformed the broader market over the past year, and analysts remain skeptical about the stock\u2019s prospects.",
-          "is_signal": false
+          "title": "Healthcare Realty Trust (HR) Upgraded to Buy: What Does It Mean for the Stock?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/healthcare-realty-trust-hr-upgraded-160002781.html?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 16:00:02 +0000",
+          "summary": "Healthcare Realty Trust (HR) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
+          "is_signal": true
         },
         {
           "ticker": "HR",
@@ -482,17 +493,6 @@
           "link": "https://www.fool.com/earnings/call-transcripts/2026/08/07/healthcare-realty-trust-hr-q2-2026-earnings-call-transcript/?.tsrc=rss",
           "published": "Sat, 08 Aug 2026 02:13:25 +0000",
           "summary": "FFO guidance raised as occupancy and leasing spreads drive outperformance.",
-          "is_signal": true
-        },
-        {
-          "ticker": "HR",
-          "company": "Healthcare Realty Trust",
-          "source": "HR",
-          "category": "reit",
-          "title": "Healthcare Realty Trust Q2 Earnings Call Highlights",
-          "link": "https://www.marketbeat.com/instant-alerts/healthcare-realty-trust-q2-earnings-call-highlights-2026-07-31/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
-          "published": "Fri, 31 Jul 2026 19:04:22 +0000",
-          "summary": "Healthcare Realty Trust (NYSE:HR) reported second-quarter results marked by higher occupancy, leasing activity, same-store net operating income growth and an increase to its full-year funds-from-operations outlook. Management said the company\u2019s performance continues to run ahead of objectives outlin",
           "is_signal": true
         },
         {
@@ -720,6 +720,17 @@
           "company": "Community Healthcare Trust",
           "source": "CHCT",
           "category": "reit",
+          "title": "Should Value Investors Buy Community Healthcare Trust (CHCT) Stock?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-community-healthcare-134005256.html?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 13:40:05 +0000",
+          "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+          "is_signal": true
+        },
+        {
+          "ticker": "CHCT",
+          "company": "Community Healthcare Trust",
+          "source": "CHCT",
+          "category": "reit",
           "title": "CHCT Q2 2026 Earnings Call Transcript",
           "link": "https://www.fool.com/earnings/call-transcripts/2026/08/11/chct-q2-2026-earnings-call-transcript/?.tsrc=rss",
           "published": "Wed, 12 Aug 2026 00:30:01 +0000",
@@ -746,17 +757,6 @@
           "link": "https://finance.yahoo.com/healthcare/articles/community-healthcare-trust-announces-second-213000174.html?.tsrc=rss",
           "published": "Fri, 17 Jul 2026 21:30:00 +0000",
           "summary": "Community Healthcare Trust Incorporated (NYSE: CHCT) today announced that on Tuesday evening, August 4, 2026, after the market closes, it will report results for the second quarter of 2026.",
-          "is_signal": true
-        },
-        {
-          "ticker": "CHCT",
-          "company": "Community Healthcare Trust",
-          "source": "CHCT",
-          "category": "reit",
-          "title": "Community Healthcare Trust Releases 2025 Corporate Sustainability Report",
-          "link": "https://finance.yahoo.com/healthcare/articles/community-healthcare-trust-releases-2025-204500268.html?.tsrc=rss",
-          "published": "Wed, 24 Jun 2026 20:45:00 +0000",
-          "summary": "Community Healthcare Trust Incorporated (NYSE: CHCT) (the \"Company\") today announced the release of its third Corporate Sustainability Report highlighting the Company's progress and its sustainability initiatives implemented in 2025. The report is aligned with the Global Reporting Framework Initiati\u2026",
           "is_signal": true
         },
         {
@@ -907,6 +907,39 @@
           "company": null,
           "source": "STAT News",
           "category": "healthcare",
+          "title": "STAT+: Novo Nordisk stops two cardiovascular trials of drug aimed at lowering inflammation",
+          "link": "https://www.statnews.com/2026/09/07/novo-nordisk-heart-studies-inflammation-ziltivekimab/?utm_campaign=rss",
+          "published": "Mon, 07 Sep 2026 11:13:52 +0000",
+          "summary": "Novo Nordisk has stopped two trials of a drug that aims to tame inflammation as a way to improve cardiovascular health, another blow for the approach.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
+          "title": "STAT+: Not so fast: Diabetes association panel not done reviewing ejections from its June meeting",
+          "link": "https://www.statnews.com/2026/09/06/ada-diabetes-association-ejection-conference-review-not-final/?utm_campaign=rss",
+          "published": "Sun, 06 Sep 2026 23:07:31 +0000",
+          "summary": "The American Diabetes Association \u201ccontinues to move from crisis to crisis to crisis,\u201d says one of five members ejected from June conference.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
+          "title": "Opinion: What STAT readers think about M.D. vs. D.O., AI in medicine, surrogacy, and more",
+          "link": "https://www.statnews.com/2026/09/05/md-vs-do-surrogacy-ai-medicine-stat-letters-to-editor/?utm_campaign=rss",
+          "published": "Sat, 05 Sep 2026 08:30:00 +0000",
+          "summary": "\u201cA click, signature, or brief review should not magically transfer responsibility from an AI developer or platform to a physician,\u201d a reader tells STAT.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
           "title": "STAT+: Novartis\u2019 experimental cardiovascular drug fails a pivotal study",
           "link": "https://www.statnews.com/2026/09/04/novartis-therapy-pelacarsen-fails-cardiovascular-trial/?utm_campaign=rss",
           "published": "Fri, 04 Sep 2026 21:07:27 +0000",
@@ -922,39 +955,6 @@
           "link": "https://www.statnews.com/2026/09/04/mass-general-brigham-medicare-advantage-network-cancer-treatment-dana-farber/?utm_campaign=rss",
           "published": "Fri, 04 Sep 2026 16:05:04 +0000",
           "summary": "First, Mass General Brigham split with Dana-Farber. Now its Medicare Advantage plan is dropping the cancer hospital.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "STAT News",
-          "category": "healthcare",
-          "title": "STAT+: After failure of Angelman syndrome drug, experts see hope in other experimental therapies",
-          "link": "https://www.statnews.com/2026/09/04/angelman-syndrome-drug-ultragenyx-oak-hill-ionis/?utm_campaign=rss",
-          "published": "Fri, 04 Sep 2026 15:34:42 +0000",
-          "summary": "After the failure of an experimental drug for Angelman syndrome, experts cautioned that there is still reason to think similar experimental medicines can succeed.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "STAT News",
-          "category": "healthcare",
-          "title": "STAT+: FDA takes another look at botanical drugs",
-          "link": "https://www.statnews.com/2026/09/04/biotech-news-fda-takes-another-look-at-botanical-drugs/?utm_campaign=rss",
-          "published": "Fri, 04 Sep 2026 13:46:42 +0000",
-          "summary": "The biggest barrier for a top schzophrenia treatment, Ionis' first approval for Alexander disease, and more biotech news",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "STAT News",
-          "category": "healthcare",
-          "title": "Disabled workers at greater risk of losing health insurance",
-          "link": "https://www.statnews.com/2026/09/04/health-news-disabled-workers-at-greater-risk-of-losing-insurance/?utm_campaign=rss",
-          "published": "Fri, 04 Sep 2026 13:08:15 +0000",
-          "summary": "An organ transplant first, new details on ADA conference controversy, and more health news from Morning Rounds",
           "is_signal": false
         },
         {
@@ -1834,7 +1834,7 @@
           "price": 278.61,
           "prev_close": 278.65,
           "pct_change": -0.01,
-          "market_cap": 19203524608,
+          "market_cap": 19205390336,
           "dividend_yield": 3.72,
           "fifty_two_week_high": 303.35,
           "fifty_two_week_low": 238.46,
@@ -1846,9 +1846,9 @@
           "price": 128.32,
           "prev_close": 128.56,
           "pct_change": -0.19,
-          "market_cap": 15311994880,
-          "dividend_yield": 4.76,
-          "fifty_two_week_high": 146.41,
+          "market_cap": 15265434624,
+          "dividend_yield": 4.77,
+          "fifty_two_week_high": 145.8,
           "fifty_two_week_low": 120.3,
           "next_earnings": "2026-10-28"
         },
@@ -1858,7 +1858,7 @@
           "price": 36.38,
           "prev_close": 36.37,
           "pct_change": 0.03,
-          "market_cap": 13479359488,
+          "market_cap": 13364710400,
           "dividend_yield": 4.76,
           "fifty_two_week_high": 42.0,
           "fifty_two_week_low": 32.94,
@@ -1870,8 +1870,8 @@
           "price": 105.69,
           "prev_close": 105.6,
           "pct_change": 0.09,
-          "market_cap": 10626003968,
-          "dividend_yield": 4.02,
+          "market_cap": 12231776256,
+          "dividend_yield": 4.01,
           "fifty_two_week_high": 119.81,
           "fifty_two_week_low": 96.53,
           "next_earnings": "2026-11-05"
@@ -1882,9 +1882,9 @@
           "price": 16.09,
           "prev_close": 16.13,
           "pct_change": -0.25,
-          "market_cap": 3888250112,
-          "dividend_yield": 4.28,
-          "fifty_two_week_high": 18.18,
+          "market_cap": 3888731136,
+          "dividend_yield": 4.29,
+          "fifty_two_week_high": 17.99,
           "fifty_two_week_low": 14.6,
           "next_earnings": "2026-10-28"
         },
@@ -1907,9 +1907,9 @@
           "prev_close": 52.39,
           "pct_change": 0.97,
           "market_cap": 936073536,
-          "dividend_yield": 5.88,
+          "dividend_yield": 5.82,
           "fifty_two_week_high": 69.61,
-          "fifty_two_week_low": 52.01,
+          "fifty_two_week_low": 52.0,
           "next_earnings": "2026-11-02"
         },
         "AIV": {
@@ -1931,8 +1931,8 @@
           "prev_close": 23.7,
           "pct_change": 0.34,
           "market_cap": 1227138432,
-          "dividend_yield": 8.95,
-          "fifty_two_week_high": 34.87,
+          "dividend_yield": 8.92,
+          "fifty_two_week_high": 34.68,
           "fifty_two_week_low": 23.1,
           "next_earnings": "2026-10-27"
         },
@@ -1943,7 +1943,7 @@
           "prev_close": 32.71,
           "pct_change": -0.73,
           "market_cap": 13311141888,
-          "dividend_yield": 4.04,
+          "dividend_yield": 4.07,
           "fifty_two_week_high": 35.07,
           "fifty_two_week_low": 27.22,
           "next_earnings": "2026-10-28"
@@ -1955,7 +1955,7 @@
           "prev_close": 28.45,
           "pct_change": -0.21,
           "market_cap": 16864851968,
-          "dividend_yield": 4.22,
+          "dividend_yield": 4.23,
           "fifty_two_week_high": 30.893,
           "fifty_two_week_low": 24.25,
           "next_earnings": "2026-10-28"
@@ -1966,8 +1966,8 @@
           "price": 119.44,
           "prev_close": 119.85,
           "pct_change": -0.34,
-          "market_cap": 15271695360,
-          "dividend_yield": 3.74,
+          "market_cap": 15091566592,
+          "dividend_yield": 3.75,
           "fifty_two_week_high": 137.85,
           "fifty_two_week_low": 115.9,
           "next_earnings": "2026-10-28"
@@ -1978,8 +1978,8 @@
           "price": 62.42,
           "prev_close": 62.61,
           "pct_change": -0.3,
-          "market_cap": 12507960320,
-          "dividend_yield": 3.47,
+          "market_cap": 12515891200,
+          "dividend_yield": 3.48,
           "fifty_two_week_high": 69.0,
           "fifty_two_week_low": 58.72,
           "next_earnings": "2026-10-21"
@@ -1990,7 +1990,7 @@
           "price": 15.95,
           "prev_close": 15.95,
           "pct_change": 0.0,
-          "market_cap": 1361900288,
+          "market_cap": 1358400768,
           "dividend_yield": 5.64,
           "fifty_two_week_high": 16.77,
           "fifty_two_week_low": 13.93,
@@ -2003,8 +2003,8 @@
           "prev_close": 84.45,
           "pct_change": -1.03,
           "market_cap": 20134014976,
-          "dividend_yield": 2.37,
-          "fifty_two_week_high": 144.24,
+          "dividend_yield": 2.39,
+          "fifty_two_week_high": 142.61,
           "fifty_two_week_low": 79.83,
           "next_earnings": "2026-09-16"
         },
@@ -2599,6 +2599,17 @@
           "company": "Invitation Homes",
           "source": "INVH",
           "category": "reit",
+          "title": "Key Reasons to Add Invitation Homes Stock to Your Portfolio Now",
+          "link": "https://finance.yahoo.com/real-estate/articles/key-reasons-add-invitation-homes-144200584.html?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 14:42:00 +0000",
+          "summary": "INVH's infill strategy, capital-light growth channels and strong balance sheet support growth, income and per-share returns.",
+          "is_signal": false
+        },
+        {
+          "ticker": "INVH",
+          "company": "Invitation Homes",
+          "source": "INVH",
+          "category": "reit",
           "title": "Invitation Homes Announces Release of 2025 Impact Report",
           "link": "https://finance.yahoo.com/real-estate/articles/invitation-homes-announces-release-2025-203000596.html?.tsrc=rss",
           "published": "Mon, 31 Aug 2026 20:30:00 +0000",
@@ -2625,17 +2636,6 @@
           "link": "https://finance.yahoo.com/technology/articles/invitation-homes-names-chief-technology-203000492.html?.tsrc=rss",
           "published": "Wed, 26 Aug 2026 20:30:00 +0000",
           "summary": "DALLAS, August 26, 2026--Invitation Homes Inc. (NYSE: INVH) (\"Invitation Homes\" or the \"Company\"), the nation\u2019s premier single-family home leasing and management company, today announced that James Curl will join the Company as Executive Vice President and Chief Technology Officer on September 8.",
-          "is_signal": true
-        },
-        {
-          "ticker": "INVH",
-          "company": "Invitation Homes",
-          "source": "INVH",
-          "category": "reit",
-          "title": "Invitation Homes (INVH) Q2 2026 Earnings Call Transcript",
-          "link": "https://www.fool.com/earnings/call-transcripts/2026/08/07/invitation-homes-invh-q2-2026-earnings-call-transcript/?.tsrc=rss",
-          "published": "Sat, 08 Aug 2026 00:17:33 +0000",
-          "summary": "Revenue climbed 9.7% as rental income grew and ResiBuilt integration progressed.",
           "is_signal": true
         },
         {
@@ -2775,6 +2775,17 @@
           "company": "Lennar",
           "source": "LEN",
           "category": "reit",
+          "title": "Lennar (LEN) Just Gave Investors Something To Think About",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lennar-len-just-gave-investors-021232813.html?.tsrc=rss",
+          "published": "Sat, 05 Sep 2026 02:12:32 +0000",
+          "summary": "Lennar (LEN) has just opened two new single family home communities, The Oaks at Eclectic in Alabama and Lake Shore in Georgia, giving investors fresh insight into how the builder is positioning product and pricing. These community launches arrive at a weaker share price backdrop for Lennar, with th\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": "LEN",
+          "company": "Lennar",
+          "source": "LEN",
+          "category": "reit",
           "title": "Is Lennar (LEN) Below Fair Value Or Still Priced Cautiously?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/lennar-len-below-fair-value-130755471.html?.tsrc=rss",
           "published": "Fri, 04 Sep 2026 13:07:55 +0000",
@@ -2801,17 +2812,6 @@
           "link": "https://247wallst.com/investing/2026/09/04/here-are-fridays-top-wall-street-analyst-research-calls-ambarella-cal-maine-foods-lennar-ormat-technologies-paychex-pultegroup-shell-plc-totalenergies-w-p-carey-and-more/?.tsrc=rss",
           "published": "Fri, 04 Sep 2026 12:06:59 +0000",
           "summary": "Wall Street wrapped a turbulent week with a wave of upgrades and downgrades hitting energy giants, homebuilders, and tech names just ahead of the Labor Day weekend. Find out which stocks analysts are rushing to buy and which ones just lost their support.",
-          "is_signal": true
-        },
-        {
-          "ticker": "LEN",
-          "company": "Lennar",
-          "source": "LEN",
-          "category": "reit",
-          "title": "/C O R R E C T I O N -- Lennar/",
-          "link": "https://finance.yahoo.com/real-estate/articles/lennar-celebrates-grand-opening-oaks-090000255.html?.tsrc=rss",
-          "published": "Fri, 04 Sep 2026 09:00:00 +0000",
-          "summary": "Lennar, one of the nation's leading homebuilders, today announced the grand opening of The Oaks at Eclectic, an exclusive new single-family home community just minutes from Lake Martin in the charming town of Eclectic, AL. Prospective residents are invited to tour the professionally decorated model \u2026",
           "is_signal": true
         },
         {
@@ -2863,10 +2863,10 @@
           "company": null,
           "source": "HousingWire",
           "category": "housing",
-          "title": "Trump threatens trade halt if Fed does not cut rates",
-          "link": "https://www.housingwire.com/articles/trump-trade-fed-rates/",
-          "published": "Fri, 04 Sep 2026 20:16:33 +0000",
-          "summary": "<p>President urged the Federal Reserve to cut rates after August payrolls rose by 162K and unemployment held at 4.1%</p>",
+          "title": "Can tech keep agents out of trouble for listing mistakes?",
+          "link": "https://www.housingwire.com/articles/tech-avoid-marketing-misrepresentation/",
+          "published": "Mon, 07 Sep 2026 14:55:00 +0000",
+          "summary": "<p>LiDAR measurements and 3D tours can back up square footage and limit misleading AI edited listing photos.</p>",
           "is_signal": false
         },
         {
@@ -2874,10 +2874,10 @@
           "company": null,
           "source": "HousingWire",
           "category": "housing",
-          "title": "Fay Group acquires VanDyk Mortgage to expand conforming loan footprint",
-          "link": "https://www.housingwire.com/articles/fay-group-acquires-vandyk-mortgage-expand-conforming-business/",
-          "published": "Fri, 04 Sep 2026 19:41:50 +0000",
-          "summary": "<p>Deal brings Fannie, Freddie and Ginnie execution plus MSR book </p>",
+          "title": "Truss Financial scales hybrid model with new direct lending platform",
+          "link": "https://www.housingwire.com/articles/truss-financial-direct-lending-non-qm-dscr-heloc/",
+          "published": "Mon, 07 Sep 2026 13:00:00 +0000",
+          "summary": "<p>Truss is adding in-house underwriting and funding to cut turn times</p>",
           "is_signal": false
         },
         {
@@ -2885,10 +2885,10 @@
           "company": null,
           "source": "HousingWire",
           "category": "housing",
-          "title": "ICE raids strain homebuilder labor, cycle times, and bank lines",
-          "link": "https://www.housingwire.com/articles/ice-enforcement-labor-costs/",
-          "published": "Fri, 04 Sep 2026 17:52:19 +0000",
-          "summary": "<p>ICE arrests rose from 32,545 in May to 49,571 in July; homebuilders cite delays, higher bids, and missed closings in some markets</p>",
+          "title": "Florida\u2019s housing market looks shaky. Orlando tells a more complicated story",
+          "link": "https://www.housingwire.com/articles/floridas-housing-market-looks-shaky-orlando-tells-a-more-complicated-story/",
+          "published": "Mon, 07 Sep 2026 13:00:00 +0000",
+          "summary": "<p>For buyers outside the vacation segment, affordability remains a central concern</p>",
           "is_signal": true
         },
         {
@@ -2896,10 +2896,10 @@
           "company": null,
           "source": "HousingWire",
           "category": "housing",
-          "title": "Why mortgage rates barely budged after jobs report beat estimates",
-          "link": "https://www.housingwire.com/articles/why-mortgage-rates-barely-budged-after-jobs-report-beat-estimates/",
-          "published": "Fri, 04 Sep 2026 17:37:51 +0000",
-          "summary": "<p>A lot is priced into the markets now, as the bond market did the heavy lifting for the Fed \n</p>",
+          "title": "FSBO.com rolls out tech platform to streamline home purchase agreements",
+          "link": "https://www.housingwire.com/articles/fsbocom-launches-pact-digital-offer-to-contract-platform/",
+          "published": "Mon, 07 Sep 2026 12:00:00 +0000",
+          "summary": "<p>Developed from technology first built at Homepie, PACT is part of FSBO.com\u2019s broader effort to digitize transactions from listing through closing</p>",
           "is_signal": true
         },
         {
@@ -2907,10 +2907,10 @@
           "company": null,
           "source": "HousingWire",
           "category": "housing",
-          "title": "Pulte says FHFA weighing bi-merge, single credit report",
-          "link": "https://www.housingwire.com/articles/fhfa-bi-merge-credit-report-vantagescore-pulte/",
-          "published": "Fri, 04 Sep 2026 16:00:04 +0000",
-          "summary": "<p>FHFA opens door to VantageScore for all lenders</p>",
+          "title": "George Morales on proprietary reverse mortgages and MISMO standards",
+          "link": "https://www.housingwire.com/articles/george-morales-reverse-mismo/",
+          "published": "Mon, 07 Sep 2026 10:00:00 +0000",
+          "summary": "<p>The MISMO reverse workgroup chair says standardization is meant to reduce tech barriers for lenders entering the space</p>",
           "is_signal": false
         },
         {
@@ -3813,7 +3813,7 @@
           "prev_close": 138.35,
           "pct_change": -0.73,
           "market_cap": 133507031040,
-          "dividend_yield": 3.09,
+          "dividend_yield": 3.12,
           "fifty_two_week_high": 153.35,
           "fifty_two_week_low": 110.6,
           "next_earnings": "2026-10-15"
@@ -3825,7 +3825,7 @@
           "prev_close": 198.47,
           "pct_change": 0.08,
           "market_cap": 10680456192,
-          "dividend_yield": 3.53,
+          "dividend_yield": 3.52,
           "fifty_two_week_high": 226.71,
           "fifty_two_week_low": 163.1,
           "next_earnings": "2026-10-22"
@@ -3836,7 +3836,7 @@
           "price": 36.79,
           "prev_close": 37.01,
           "pct_change": -0.59,
-          "market_cap": 8411496448,
+          "market_cap": 8411462144,
           "dividend_yield": 4.7,
           "fifty_two_week_high": 44.38,
           "fifty_two_week_low": 32.14,
@@ -3848,8 +3848,8 @@
           "price": 38.17,
           "prev_close": 38.33,
           "pct_change": -0.42,
-          "market_cap": 9494390784,
-          "dividend_yield": 5.56,
+          "market_cap": 9571045376,
+          "dividend_yield": 5.58,
           "fifty_two_week_high": 45.75,
           "fifty_two_week_low": 31.33,
           "next_earnings": "2026-11-11"
@@ -3860,8 +3860,8 @@
           "price": 61.85,
           "prev_close": 61.71,
           "pct_change": 0.23,
-          "market_cap": 8474467328,
-          "dividend_yield": 3.24,
+          "market_cap": 8474623488,
+          "dividend_yield": 3.23,
           "fifty_two_week_high": 69.88,
           "fifty_two_week_low": 50.24,
           "next_earnings": "2026-10-21"
@@ -3872,7 +3872,7 @@
           "price": 37.68,
           "prev_close": 37.7,
           "pct_change": -0.05,
-          "market_cap": 7415522816,
+          "market_cap": 7415713280,
           "dividend_yield": 4.11,
           "fifty_two_week_high": 42.61,
           "fifty_two_week_low": 34.4,
@@ -3885,7 +3885,7 @@
           "prev_close": 14.11,
           "pct_change": 0.78,
           "market_cap": 4078962688,
-          "dividend_yield": 6.52,
+          "dividend_yield": 6.47,
           "fifty_two_week_high": 16.88,
           "fifty_two_week_low": 10.1,
           "next_earnings": "2026-11-05"
@@ -3909,7 +3909,7 @@
           "prev_close": 56.8,
           "pct_change": 0.7,
           "market_cap": 1577081088,
-          "dividend_yield": 13.38,
+          "dividend_yield": 13.29,
           "fifty_two_week_high": 65.38,
           "fifty_two_week_low": 44.58,
           "next_earnings": "2026-11-02"
@@ -3921,7 +3921,7 @@
           "prev_close": 8.24,
           "pct_change": -0.12,
           "market_cap": 549318592,
-          "dividend_yield": 3.03,
+          "dividend_yield": 3.04,
           "fifty_two_week_high": 9.43,
           "fifty_two_week_low": 4.92,
           "next_earnings": "2026-10-27"
@@ -3977,10 +3977,10 @@
           "company": "Prologis",
           "source": "PLD",
           "category": "reit",
-          "title": "Dimensional Fund Advisors Ltd. : Form 8.3 - PROLOGIS INC - Ordinary Shares",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dimensional-fund-advisors-ltd-form-121900785.html?.tsrc=rss",
-          "published": "Fri, 04 Sep 2026 12:19:00 +0000",
-          "summary": "FORM 8.3 PUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BYA PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the Takeover Code (the \u201cCode\u201d) 1.KEY INFORMATION (a)Full name of discloser:Dimensional Fund Advisors Ltd. whose parent is Dimensional Fund Advisors LP, a\u2026",
+          "title": "Form 8.3",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/form-8-3-115900405.html?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 11:59:00 +0000",
+          "summary": "LONDON, September 07, 2026-- FORM 8.3",
           "is_signal": false
         },
         {
@@ -3988,10 +3988,10 @@
           "company": "Prologis",
           "source": "PLD",
           "category": "reit",
-          "title": "Form 8.3",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/form-8-3-093900262.html?.tsrc=rss",
-          "published": "Fri, 04 Sep 2026 09:39:00 +0000",
-          "summary": "LONDON, September 04, 2026-- FORM 8.3",
+          "title": "Dimensional Fund Advisors Ltd. : Form 8.3 - PROLOGIS INC - Ordinary Shares",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dimensional-fund-advisors-ltd-form-121900785.html?.tsrc=rss",
+          "published": "Fri, 04 Sep 2026 12:19:00 +0000",
+          "summary": "FORM 8.3 PUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BYA PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the Takeover Code (the \u201cCode\u201d) 1.KEY INFORMATION (a)Full name of discloser:Dimensional Fund Advisors Ltd. whose parent is Dimensional Fund Advisors LP, a\u2026",
           "is_signal": false
         },
         {
@@ -4197,6 +4197,17 @@
           "company": "STAG Industrial",
           "source": "STAG",
           "category": "reit",
+          "title": "Where You Hold SPYI and STAG Matters More Than You Think: The Taxable vs. IRA Math",
+          "link": "https://247wallst.com/personal-finance/2026/09/06/where-you-hold-spyi-and-stag-matters-more-than-you-think-the-taxable-vs-ira-math/?.tsrc=rss",
+          "published": "Sun, 06 Sep 2026 20:07:25 +0000",
+          "summary": "SPYI and STAG both drop cash into your account every month, but the account you choose determines whether the IRS takes a cut now, later, or never. The right placement for one of these holdings will surprise most income investors.",
+          "is_signal": false
+        },
+        {
+          "ticker": "STAG",
+          "company": "STAG Industrial",
+          "source": "STAG",
+          "category": "reit",
           "title": "5 Monthly Pay REITs for Dependable Retirement Cash Flow",
           "link": "https://247wallst.com/investing/2026/08/27/5-monthly-pay-reits-for-dependable-retirement-cash-flow/?.tsrc=rss",
           "published": "Thu, 27 Aug 2026 11:00:14 +0000",
@@ -4223,17 +4234,6 @@
           "link": "https://www.marketbeat.com/instant-alerts/stag-industrial-q2-earnings-call-highlights-2026-07-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
           "published": "Thu, 30 Jul 2026 12:03:51 +0000",
           "summary": "Stag Industrial (NYSE:STAG) said industrial real estate fundamentals continued to stabilize during the second quarter of 2026, citing stronger absorption, a reduced development pipeline and demand from e-commerce, manufacturing and data center-related users. Chief Executive Officer Bill Crooker sai",
-          "is_signal": true
-        },
-        {
-          "ticker": "STAG",
-          "company": "STAG Industrial",
-          "source": "STAG",
-          "category": "reit",
-          "title": "Stag Industrial Inc (STAG) Q2 2026 Earnings Call Highlights: Strong Leasing Spreads and Robust ...",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/stag-industrial-inc-stag-q2-210445410.html?.tsrc=rss",
-          "published": "Wed, 29 Jul 2026 21:04:45 +0000",
-          "summary": "Stag Industrial Inc (STAG) reports a 3.2% increase in core FFO per share and significant leasing activity, despite facing acquisition challenges.",
           "is_signal": true
         },
         {
@@ -4519,7 +4519,7 @@
           "title": "GE Appliances to expand Kentucky washer and drier factory in $1 billion plan",
           "link": "https://www.dcvelocity.com/logistics/manufacturing/ge-appliances-to-expand-kentucky-washer-and-drier-factory-in-1-billion-plan",
           "published": "Thu, 03 Sep 2026 18:33:17 +0000",
-          "summary": "<img src=\"https://www.dcvelocity.com/media-library/diagram-of-factory-plan.jpg?id=67725380&amp;width=1200&amp;height=400&amp;coordinates=0%2C220%2C0%2C220\" /><br /><br /><h3></h3><br /><p><a href=\"https://pressroom.geappliances.com/news/ge-appliances-and-iue-cwa-announce-1-billion-investment-in-loui\u2026",
+          "summary": "<img src=\"https://www.dcvelocity.com/media-library/diagram-of-factory-plan.jpg?id=67725380&amp;width=1245&amp;height=700&amp;coordinates=0%2C0%2C0%2C0\" /><br /><br /><h3></h3><br /><p><a href=\"https://pressroom.geappliances.com/news/ge-appliances-and-iue-cwa-announce-1-billion-investment-in-louisvil\u2026",
           "is_signal": true
         },
         {
@@ -4626,10 +4626,10 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "Samsung looks to FMC for record-breaking $186m from CMA CGM",
-          "link": "https://theloadstar.com/samsung-seeks-record-breaking-186m-from-fmc-over-cma-dd-practices/",
-          "published": "Fri, 04 Sep 2026 16:25:22 +0000",
-          "summary": "<p>South Korean consumer electronics giant Samsung has lodged the largest claim to be put before US maritime regulators at the FMC and is seeking $186m in damages from French carrier CMA CGM over erroneous detention and demurrage charges.<br />\nThe size of the claim surpasses the $161m in damages so\u2026",
+          "title": "Africa\u2013Far East growth stalls as Asia exports surge",
+          "link": "https://theloadstar.com/africa-far-east-growth-stalls-as-asia-exports-surge/",
+          "published": "Mon, 07 Sep 2026 15:13:27 +0000",
+          "summary": "<p>Data and sentiment finally appear to be aligning on the Africa-Far East tradelane, with growth stalling on goods headed to Asia, just as forwarders had been predicting, but for those shipping out of Asia, the picture is markedly healthier.<br />\nThe most recent release from Container Trades Stati\u2026",
           "is_signal": true
         },
         {
@@ -4637,10 +4637,10 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "Capacity fears as US drayage rates are buoyed by converging trends",
-          "link": "https://theloadstar.com/capacity-fears-as-us-drayage-rates-are-buoyed-by-converging-trends/",
-          "published": "Fri, 04 Sep 2026 14:00:51 +0000",
-          "summary": "<p>Concerns are rising in the US about drayage capacity and pricing, as a convergence of factors is producing signs of mounting strain.<br />\nThe situation has come to the fore in recent earnings calls of trucking and intermodal service providers. Jim filter, president and CEO of Schneider, claimed \u2026",
+          "title": "ACS Germany brings in Timo Kaden to drive cargo growth",
+          "link": "https://theloadstar.com/acs-germany-brings-in-timo-kaden-to-drive-cargo-growth/",
+          "published": "Mon, 07 Sep 2026 12:07:05 +0000",
+          "summary": "<p>Air Charter Service (ACS) Germany has appointed veteran air cargo executive Timo Kaden as cargo business development director, based at its Frankfurt office.<br />\nMr Kaden brings almost three decades of logistics experience to the aircraft charter broker, including nearly 19 years with KN Airlif\u2026",
           "is_signal": true
         },
         {
@@ -4648,10 +4648,10 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "Late peak demand sees container spot rates to the US surge",
-          "link": "https://theloadstar.com/late-peak-demand-sees-container-spot-rates-to-the-us-surge/",
-          "published": "Fri, 04 Sep 2026 12:23:38 +0000",
-          "summary": "<p>Container spot freight rates on the transpacific and Asia-Europe trades completely diverged this week, with a late peak season demand surge prompting freight prices to both east and west US coasts to spike.<br />\nThis week\u2019s World Container Index (WCI) from Drewry saw its Shanghai-New York leg ri\u2026",
+          "title": "Gemini partners to omit Shanghai call in Asia shuttle shake-up",
+          "link": "https://theloadstar.com/gemini-partners-to-omit-shanghai-call-in-asia-shuttle-shake-up/",
+          "published": "Mon, 07 Sep 2026 12:02:50 +0000",
+          "summary": "<p>The Gemini Cooperation is to merge two of its Asia shuttle services into one string, thereby dropping a call at the world\u2019s largest container port and key partnership hub, Shanghai.<br />\nThe change will lead to the end of the intra-Asia A04 shuttle and an expanded A14 service.<br />\n\u201cTo enhance \u2026",
           "is_signal": false
         },
         {
@@ -4659,10 +4659,10 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "Congestion and ship delays take 2.3m teu capacity off the market",
-          "link": "https://theloadstar.com/congestion-and-ship-delays-take-2-3m-teu-capacity-off-the-market/",
-          "published": "Fri, 04 Sep 2026 11:30:34 +0000",
-          "summary": "<p>Container\u00a0shipping\u2019s\u00a0deteriorating schedule reliability has effectively taken 2.3m\u00a0teu\u00a0of vessel capacity out of the market.<br />\nAccording to\u00a0Sea-Intelligence\u2019s latest Global Liner Performance data, schedule reliability fell to 56.4% in July, its lowest level since February 2025 and the weakest\u2026",
+          "title": "Miami operations back to normal after tragic Amazon freighter crash",
+          "link": "https://theloadstar.com/miami-operations-back-to-normal-after-tragic-amazon-freighter-crash/",
+          "published": "Mon, 07 Sep 2026 11:35:55 +0000",
+          "summary": "<p>Cargo operations at Miami International Airport appeared to be running broadly normally this morning, less than 24 hours after a fatal Amazon freighter crash brought flights to a halt and caused widespread disruption.<br />\nFreighters were again arriving and departing the major US cargo gateway, \u2026",
           "is_signal": true
         },
         {
@@ -4670,11 +4670,11 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "CargoWise is becoming the AI that runs freight \u2013 so what happens to the TMS?",
-          "link": "https://theloadstar.com/cargowise-is-becoming-the-ai-that-runs-freight-so-what-happens-to-the-tms/",
-          "published": "Fri, 04 Sep 2026 10:53:47 +0000",
-          "summary": "<p>In the second of a two-part interview with WiseTech CEO Zubin Appoo, The Loadstar examines WiseTech\u2019s plans to turn CargoWise into an AI \u2018system of execution\u2019 \u2013 and what that could mean for the future of the TMS. Yesterday: DSV\u2019s evolving relationship with CargoWise, the impact of its new pricing\u2026",
-          "is_signal": false
+          "title": "Major carriers carving out designer networks to avoid competing on routes",
+          "link": "https://theloadstar.com/major-carriers-carving-out-designer-networks-to-avoid-competing-on-routes/",
+          "published": "Mon, 07 Sep 2026 11:19:34 +0000",
+          "summary": "<p>Container shipping alliances are increasingly carving out distinct network niches, rather than competing head-to-head on the same port pairs, according to new analysis from Sea-Intelligence.<br />\nIt examined direct port-pair connections operated in July by the Gemini Cooperation, MSC, and the Oc\u2026",
+          "is_signal": true
         },
         {
           "ticker": null,
@@ -5325,7 +5325,7 @@
           "prev_close": 23.06,
           "pct_change": 0.78,
           "market_cap": 6856505856,
-          "dividend_yield": 2.95,
+          "dividend_yield": 2.93,
           "fifty_two_week_high": 26.68,
           "fifty_two_week_low": 16.03,
           "next_earnings": "2026-11-03"
@@ -5337,7 +5337,7 @@
           "prev_close": 211.52,
           "pct_change": -0.98,
           "market_cap": 79508340736,
-          "dividend_yield": 4.21,
+          "dividend_yield": 4.25,
           "fifty_two_week_high": 238.5,
           "fifty_two_week_low": 172.19,
           "next_earnings": "2026-11-02"
@@ -5358,10 +5358,10 @@
           "name": "Kimco Realty",
           "ticker": "KIM",
           "price": 23.6,
-          "prev_close": 23.92,
-          "pct_change": -1.34,
+          "prev_close": 23.64,
+          "pct_change": -0.17,
           "market_cap": 15830629376,
-          "dividend_yield": 4.68,
+          "dividend_yield": 4.75,
           "fifty_two_week_high": 26.65,
           "fifty_two_week_low": 19.76,
           "next_earnings": "2026-10-29"
@@ -5373,7 +5373,7 @@
           "prev_close": 75.92,
           "pct_change": -0.87,
           "market_cap": 14070514688,
-          "dividend_yield": 3.98,
+          "dividend_yield": 4.01,
           "fifty_two_week_high": 83.66,
           "fifty_two_week_low": 66.86,
           "next_earnings": "2026-10-28"
@@ -5384,7 +5384,7 @@
           "price": 117.09,
           "prev_close": 117.16,
           "pct_change": -0.06,
-          "market_cap": 10177274880,
+          "market_cap": 10235812864,
           "dividend_yield": 3.96,
           "fifty_two_week_high": 128.21,
           "fifty_two_week_low": 90.03,
@@ -5397,7 +5397,7 @@
           "prev_close": 29.27,
           "pct_change": -0.41,
           "market_cap": 8945328128,
-          "dividend_yield": 4.2,
+          "dividend_yield": 4.22,
           "fifty_two_week_high": 32.86,
           "fifty_two_week_low": 24.66,
           "next_earnings": "2026-10-26"
@@ -5408,8 +5408,8 @@
           "price": 25.96,
           "prev_close": 26.09,
           "pct_change": -0.5,
-          "market_cap": 5397502976,
-          "dividend_yield": 4.45,
+          "market_cap": 5326901760,
+          "dividend_yield": 4.47,
           "fifty_two_week_high": 29.92,
           "fifty_two_week_low": 21.33,
           "next_earnings": "2026-11-04"
@@ -5420,8 +5420,8 @@
           "price": 38.96,
           "prev_close": 39.18,
           "pct_change": -0.56,
-          "market_cap": 5500042752,
-          "dividend_yield": 3.52,
+          "market_cap": 5510757376,
+          "dividend_yield": 3.54,
           "fifty_two_week_high": 44.375,
           "fifty_two_week_low": 32.98,
           "next_earnings": "2026-10-22"
@@ -5432,8 +5432,8 @@
           "price": 37.33,
           "prev_close": 37.15,
           "pct_change": 0.48,
-          "market_cap": 4462382080,
-          "dividend_yield": 3.36,
+          "market_cap": 4462499328,
+          "dividend_yield": 3.35,
           "fifty_two_week_high": 42.53,
           "fifty_two_week_low": 31.13,
           "next_earnings": "2026-11-04"
@@ -5444,7 +5444,7 @@
           "price": 20.29,
           "prev_close": 20.28,
           "pct_change": 0.05,
-          "market_cap": 2958141952,
+          "market_cap": 2958199296,
           "dividend_yield": 3.94,
           "fifty_two_week_high": 23.03,
           "fifty_two_week_low": 18.61,
@@ -5456,7 +5456,7 @@
           "price": 29.47,
           "prev_close": 29.41,
           "pct_change": 0.2,
-          "market_cap": 3360689408,
+          "market_cap": 3390170368,
           "dividend_yield": 2.31,
           "fifty_two_week_high": 32.15,
           "fifty_two_week_low": 21.93,
@@ -5469,7 +5469,7 @@
           "prev_close": 21.16,
           "pct_change": -0.85,
           "market_cap": 2888676096,
-          "dividend_yield": 3.97,
+          "dividend_yield": 4.0,
           "fifty_two_week_high": 24.11,
           "fifty_two_week_low": 18.46,
           "next_earnings": "2026-10-28"
@@ -5481,7 +5481,7 @@
           "prev_close": 32.55,
           "pct_change": 0.25,
           "market_cap": 2544436224,
-          "dividend_yield": 3.07,
+          "dividend_yield": 3.06,
           "fifty_two_week_high": 37.22,
           "fifty_two_week_low": 26.81,
           "next_earnings": "2026-10-27"
@@ -5537,6 +5537,17 @@
           "company": "Simon Property Group",
           "source": "SPG",
           "category": "reit",
+          "title": "How Investors May Respond To Simon Property Group (SPG) Launching Its Simon Media Network Advertising Platform",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-simon-property-210609770.html?.tsrc=rss",
+          "published": "Sun, 06 Sep 2026 21:06:09 +0000",
+          "summary": "In August 2026, Simon Property Group launched Simon Media Network, a commerce media platform that lets brands reach high-intent shoppers across more than 200 Simon destinations using first-party consumer data and integrated digital, experiential, and online channels. This move turns Simon\u2019s vast mal\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": "SPG",
+          "company": "Simon Property Group",
+          "source": "SPG",
+          "category": "reit",
           "title": "Simon Launches Media Network to Unlock Value From Mall Traffic",
           "link": "https://finance.yahoo.com/media-advertising/articles/simon-launches-media-network-unlock-140100903.html?.tsrc=rss",
           "published": "Fri, 28 Aug 2026 14:01:00 +0000",
@@ -5563,17 +5574,6 @@
           "link": "https://www.fool.com/earnings/call-transcripts/2026/08/17/simon-property-group-spg-q2-2026-earnings-call-transcript/?.tsrc=rss",
           "published": "Mon, 17 Aug 2026 23:29:26 +0000",
           "summary": "FFO surged 7.9% as leasing demand accelerated across the portfolio.",
-          "is_signal": true
-        },
-        {
-          "ticker": "SPG",
-          "company": "Simon Property Group",
-          "source": "SPG",
-          "category": "reit",
-          "title": "Simon Property to More Than Double $18M in Lost Saks Rents",
-          "link": "https://www.credaily.com/briefs/simon-property-to-more-than-double-18m-in-lost-saks-rents/?.tsrc=rss",
-          "published": "Thu, 13 Aug 2026 16:59:55 +0000",
-          "summary": "Simon Property expects to turn $18M in lost Saks rent into $44M by re-leasing vacant mall space at higher rates.",
           "is_signal": true
         },
         {
@@ -6987,7 +6987,7 @@
           "prev_close": 18.15,
           "pct_change": -0.99,
           "market_cap": 1777741184,
-          "dividend_yield": 3.09,
+          "dividend_yield": 3.12,
           "fifty_two_week_high": 22.06,
           "fifty_two_week_low": 11.75,
           "next_earnings": "2026-10-30"
@@ -6999,7 +6999,7 @@
           "prev_close": 21.99,
           "pct_change": 0.27,
           "market_cap": 15318718464,
-          "dividend_yield": 3.64,
+          "dividend_yield": 3.63,
           "fifty_two_week_high": 25.71,
           "fifty_two_week_low": 15.61,
           "next_earnings": "2026-11-04"
@@ -7011,7 +7011,7 @@
           "prev_close": 122.25,
           "pct_change": 1.01,
           "market_cap": 8518869504,
-          "dividend_yield": 3.93,
+          "dividend_yield": 3.89,
           "fifty_two_week_high": 137.46,
           "fifty_two_week_low": 83.82,
           "next_earnings": "2026-11-02"
@@ -7023,7 +7023,7 @@
           "prev_close": 15.58,
           "pct_change": 0.13,
           "market_cap": 3682890240,
-          "dividend_yield": 6.16,
+          "dividend_yield": 6.15,
           "fifty_two_week_high": 17.28,
           "fifty_two_week_low": 10.85,
           "next_earnings": "2026-11-02"
@@ -7035,7 +7035,7 @@
           "prev_close": 15.08,
           "pct_change": 1.19,
           "market_cap": 3072423168,
-          "dividend_yield": 6.63,
+          "dividend_yield": 6.55,
           "fifty_two_week_high": 16.2,
           "fifty_two_week_low": 9.84,
           "next_earnings": "2026-11-05"
@@ -7047,7 +7047,7 @@
           "prev_close": 12.06,
           "pct_change": 0.17,
           "market_cap": 2481100288,
-          "dividend_yield": 3.65,
+          "dividend_yield": 3.64,
           "fifty_two_week_high": 13.79,
           "fifty_two_week_low": 7.48,
           "next_earnings": "2026-11-05"
@@ -7059,7 +7059,7 @@
           "prev_close": 11.01,
           "pct_change": 0.45,
           "market_cap": 2056540032,
-          "dividend_yield": 3.27,
+          "dividend_yield": 3.25,
           "fifty_two_week_high": 12.07,
           "fifty_two_week_low": 8.69,
           "next_earnings": "2026-11-05"
@@ -7070,8 +7070,8 @@
           "price": 18.03,
           "prev_close": 17.73,
           "pct_change": 1.69,
-          "market_cap": 2027506816,
-          "dividend_yield": 23.0,
+          "market_cap": 2034554368,
+          "dividend_yield": 22.0,
           "fifty_two_week_high": 19.93,
           "fifty_two_week_low": 9.99,
           "next_earnings": "2026-11-04"
@@ -7083,7 +7083,7 @@
           "prev_close": 10.89,
           "pct_change": 0.37,
           "market_cap": 1673894528,
-          "dividend_yield": 5.51,
+          "dividend_yield": 5.49,
           "fifty_two_week_high": 12.89,
           "fifty_two_week_low": 6.54,
           "next_earnings": "2026-11-05"
@@ -7095,7 +7095,7 @@
           "prev_close": 5.72,
           "pct_change": 1.22,
           "market_cap": 624471552,
-          "dividend_yield": 5.59,
+          "dividend_yield": 5.53,
           "fifty_two_week_high": 7.17,
           "fifty_two_week_low": 3.98,
           "next_earnings": "2026-11-04"
@@ -7106,8 +7106,8 @@
           "price": 13.04,
           "prev_close": 12.99,
           "pct_change": 0.38,
-          "market_cap": 640006656,
-          "dividend_yield": 3.08,
+          "market_cap": 638499136,
+          "dividend_yield": 3.07,
           "fifty_two_week_high": 13.89,
           "fifty_two_week_low": 6.08,
           "next_earnings": "2026-11-04"
@@ -7163,6 +7163,17 @@
           "company": "Host Hotels & Resorts",
           "source": "HST",
           "category": "reit",
+          "title": "4 Reasons to Add Host Hotels Stock to Your Portfolio Now",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/4-reasons-add-host-hotels-165000426.html?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 16:50:00 +0000",
+          "summary": "HST's strong demand, disciplined capital recycling, flexible balance sheet and dividend payouts support its case for portfolio gains.",
+          "is_signal": true
+        },
+        {
+          "ticker": "HST",
+          "company": "Host Hotels & Resorts",
+          "source": "HST",
+          "category": "reit",
           "title": "Why Is Host Hotels (HST) Down 6% Since Last Earnings Report?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/why-host-hotels-hst-down-153026467.html?.tsrc=rss",
           "published": "Fri, 04 Sep 2026 15:30:26 +0000",
@@ -7190,17 +7201,6 @@
           "published": "Tue, 25 Aug 2026 16:00:03 +0000",
           "summary": "Host Hotels (HST) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
           "is_signal": true
-        },
-        {
-          "ticker": "HST",
-          "company": "Host Hotels & Resorts",
-          "source": "HST",
-          "category": "reit",
-          "title": "HST vs. AMT: Which Stock Is the Better Value Option?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/hst-vs-amt-stock-better-154002447.html?.tsrc=rss",
-          "published": "Tue, 25 Aug 2026 15:40:02 +0000",
-          "summary": "HST vs. AMT: Which Stock Is the Better Value Option?",
-          "is_signal": false
         },
         {
           "ticker": "RHP",
@@ -7340,8 +7340,8 @@
           "source": "DRH",
           "category": "reit",
           "title": "DRH or GTY: Which Is the Better Value Stock Right Now?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/drh-gty-better-value-stock-154002607.html?.tsrc=rss",
-          "published": "Thu, 20 Aug 2026 15:40:02 +0000",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/drh-gty-better-value-stock-154004932.html?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 15:40:04 +0000",
           "summary": "DRH vs. GTY: Which Stock Is the Better Value Option?",
           "is_signal": false
         },
@@ -7658,21 +7658,10 @@
           "company": null,
           "source": "Skift",
           "category": "hospitality",
-          "title": "Blackstone Plans $7 Billion IPO of Spanish Resort Owner Hotel Investment Partners: Report",
-          "link": "https://skift.com/2026/09/04/blackstone-plans-7-billion-ipo-of-spanish-resort-owner-hotel-investment-partners-report/",
-          "published": "Fri, 04 Sep 2026 21:22:52 +0000",
-          "summary": "After nearly two years of weighing a sale, the private equity giant is reportedly steering the Barcelona-based owner of hotels and resorts across the Mediterranean toward a Madrid listing this fall.",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Skift",
-          "category": "hospitality",
-          "title": "Europe Prepares New Law to Support Cities\u2019 Airbnb Crackdowns",
-          "link": "https://skift.com/2026/09/04/european-commission-short-term-rental-crackdown/",
-          "published": "Fri, 04 Sep 2026 21:21:10 +0000",
-          "summary": "Brussels is looking to advance legislation that would clarify local authorities\u2019 power to crack down on short-term rentals amid Europe&apos;s housing crisis.",
+          "title": "Vrbo\u2019s Biggest Product Push Yet, and What Hosts Need to Know",
+          "link": "https://skift.com/2026/09/07/vrbos-biggest-product-push-yet-and-what-hosts-need-to-know/",
+          "published": "Mon, 07 Sep 2026 14:00:00 +0000",
+          "summary": "On this episode of Good Morning Hospitality, Michael Goldin, Brandy Canaley, and Jamie Lane sit down with Tim Rosolio, VP of Vacation Rental Partnerships at Expedia Group, to unpack what the expansion says about Vrbo\u2019s strategy for the vacation rental market.",
           "is_signal": false
         },
         {
@@ -7680,10 +7669,21 @@
           "company": null,
           "source": "Skift",
           "category": "hospitality",
-          "title": "Biggest Innovators in Travel and Hospitality: Summer 2026",
-          "link": "https://skift.com/2026/09/04/biggest-innovators-in-travel-and-hospitality-summer-2026/",
-          "published": "Fri, 04 Sep 2026 16:30:27 +0000",
-          "summary": "There is no shortage of launches and you can easily find the most expensive hospitality offerings. We&apos;re most interested in judgment that leads to truly exceptional service.",
+          "title": "EU Ends Border \u2018Safety Valve\u2019 as Airlines Warn of More Delays",
+          "link": "https://skift.com/2026/09/07/eu-ends-border-safety-valve-as-airlines-warn-of-more-delays/",
+          "published": "Mon, 07 Sep 2026 14:35:51 +0000",
+          "summary": "The training wheels are off \u2013 Brussels now finds out whether Europe\u2019s airports can actually stay upright.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "Flyadeal CEO Reveals Plans for Premium Economy and Long-Haul Network",
+          "link": "https://skift.com/2026/09/07/flyadeal-ceo-reveals-plans-for-premium-economy-and-long-haul-network/",
+          "published": "Mon, 07 Sep 2026 14:10:15 +0000",
+          "summary": "Flyadeal\u2019s move into connecting flights and premium economy marks a natural next step for a budget carrier scaling into long-haul.",
           "is_signal": true
         },
         {
@@ -7691,21 +7691,21 @@
           "company": null,
           "source": "Skift",
           "category": "hospitality",
-          "title": "The New Travel Loyalty Leaders Aren\u2019t Hotels or Airlines \u2014 They\u2019re Banks",
-          "link": "https://skift.com/2026/09/04/the-new-travel-loyalty-leaders-arent-hotels-or-airlines-theyre-banks/",
-          "published": "Fri, 04 Sep 2026 16:07:01 +0000",
-          "summary": "Travel companies have spent years worrying about losing customers to online travel agencies. The bigger threat was already in the wallet.",
-          "is_signal": true
+          "title": "Air India\u2019s New CEO Gets a Clear Mandate: Safety, Reliability and Profit",
+          "link": "https://skift.com/2026/09/07/air-indias-new-ceo-gets-a-clear-mandate-safety-reliability-and-profit/",
+          "published": "Mon, 07 Sep 2026 10:00:30 +0000",
+          "summary": "New CEO Tewolde Gebremariam is taking over a very different Air India from the one Campbell Wilson inherited in 2022. The airline has more aircraft, more resources and bigger ambitions, not to forget, much higher expectations.",
+          "is_signal": false
         },
         {
           "ticker": null,
           "company": null,
           "source": "Skift",
           "category": "hospitality",
-          "title": "Could AI Agents Turn the Time Between Trips Into a Revenue Channel?",
-          "link": "https://skift.com/2026/09/04/ai-agents-travel-customer-lifecycle/",
-          "published": "Fri, 04 Sep 2026 12:30:00 +0000",
-          "summary": "AI agents are helping airlines and other travel companies stay connected with customers throughout the journey. By retaining context and acting on signals over time, they could turn isolated service interactions into a more persistent source of loyalty, direct bookings, and revenue.",
+          "title": "A Viral AI Bot Just Showed Travel What Frictionless Actually Means",
+          "link": "https://skift.com/2026/09/04/a-viral-ai-bot-just-showed-travel-what-frictionless-actually-means/",
+          "published": "Fri, 04 Sep 2026 23:40:28 +0000",
+          "summary": "Instinct, a freshman AI assistant that has Silicon Valley buzzing, can book and rebook trips from a text thread. Key lesson for travel: Talking about frictionless booking isn&apos;t the same as delivering it.",
           "is_signal": false
         },
         {
@@ -8457,7 +8457,7 @@
           "price": 29.64,
           "prev_close": 29.7,
           "pct_change": -0.2,
-          "market_cap": 6426507264,
+          "market_cap": 6427309056,
           "dividend_yield": 4.31,
           "fifty_two_week_high": 34.73,
           "fifty_two_week_low": 28.95,
@@ -8470,7 +8470,7 @@
           "prev_close": 61.74,
           "pct_change": -0.79,
           "market_cap": 57955856384,
-          "dividend_yield": 5.27,
+          "dividend_yield": 5.31,
           "fifty_two_week_high": 67.94,
           "fifty_two_week_low": 55.86,
           "next_earnings": "2026-11-02"
@@ -8481,8 +8481,8 @@
           "price": 44.63,
           "prev_close": 45.18,
           "pct_change": -1.22,
-          "market_cap": 8565898240,
-          "dividend_yield": 5.49,
+          "market_cap": 8490776064,
+          "dividend_yield": 5.56,
           "fifty_two_week_high": 50.0,
           "fifty_two_week_low": 38.9,
           "next_earnings": "2026-11-03"
@@ -8493,7 +8493,7 @@
           "price": 72.62,
           "prev_close": 72.73,
           "pct_change": -0.15,
-          "market_cap": 9057808384,
+          "market_cap": 9057670144,
           "dividend_yield": 4.41,
           "fifty_two_week_high": 82.08,
           "fifty_two_week_low": 69.56,
@@ -8505,8 +8505,8 @@
           "price": 24.93,
           "prev_close": 24.91,
           "pct_change": 0.08,
-          "market_cap": 2736047616,
-          "dividend_yield": 5.89,
+          "market_cap": 2736227328,
+          "dividend_yield": 5.88,
           "fifty_two_week_high": 26.86,
           "fifty_two_week_low": 22.78,
           "next_earnings": "2026-10-28"
@@ -8518,7 +8518,7 @@
           "prev_close": 32.65,
           "pct_change": -0.37,
           "market_cap": 2014670592,
-          "dividend_yield": 5.94,
+          "dividend_yield": 5.96,
           "fifty_two_week_high": 36.83,
           "fifty_two_week_low": 25.39,
           "next_earnings": "2026-10-21"
@@ -8529,8 +8529,8 @@
           "price": 20.09,
           "prev_close": 20.43,
           "pct_change": -1.66,
-          "market_cap": 1962245632,
-          "dividend_yield": 4.41,
+          "market_cap": 2047777280,
+          "dividend_yield": 4.48,
           "fifty_two_week_high": 22.47,
           "fifty_two_week_low": 17.02,
           "next_earnings": "2026-10-26"
@@ -8542,7 +8542,7 @@
           "prev_close": 70.27,
           "pct_change": 0.16,
           "market_cap": 16033073152,
-          "dividend_yield": 5.33,
+          "dividend_yield": 5.34,
           "fifty_two_week_high": 77.22,
           "fifty_two_week_low": 63.08,
           "next_earnings": "2026-10-27"
@@ -8554,8 +8554,8 @@
           "prev_close": 25.65,
           "pct_change": -0.9,
           "market_cap": 27989389312,
-          "dividend_yield": 7.02,
-          "fifty_two_week_high": 33.82,
+          "dividend_yield": 7.24,
+          "fifty_two_week_high": 33.65,
           "fifty_two_week_low": 25.34,
           "next_earnings": "2026-10-29"
         },
@@ -8565,7 +8565,7 @@
           "price": 41.92,
           "prev_close": 42.36,
           "pct_change": -1.04,
-          "market_cap": 12555059200,
+          "market_cap": 12555089920,
           "dividend_yield": 7.74,
           "fifty_two_week_high": 49.95,
           "fifty_two_week_low": 41.17,
@@ -8622,10 +8622,10 @@
           "company": "Realty Income",
           "source": "O",
           "category": "reit",
-          "title": "Realty Income Corp. (O) Down 1% Since Last Earnings Report: Can It Rebound?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/realty-income-corp-o-down-153025731.html?.tsrc=rss",
-          "published": "Fri, 04 Sep 2026 15:30:25 +0000",
-          "summary": "Realty Income Corp. (O) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+          "title": "How Much Would You Need in Realty Income (O) Stock to Collect $500 a Month in Dividends?",
+          "link": "https://www.fool.com/investing/2026/09/07/how-much-realty-income-stock-500-dividend/?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 09:40:00 +0000",
+          "summary": "You'd need a lot of shares, but you don't have to buy that many. The 5.3% dividend yield will reward you regardless.",
           "is_signal": true
         },
         {
@@ -8633,10 +8633,21 @@
           "company": "Realty Income",
           "source": "O",
           "category": "reit",
-          "title": "3 Landlord Stocks That Collect the Rent and Pay You the Dividends",
-          "link": "https://247wallst.com/investing/2026/09/04/3-landlord-stocks-that-collect-the-rent-and-pay-you-the-dividends/?.tsrc=rss",
-          "published": "Fri, 04 Sep 2026 15:11:04 +0000",
-          "summary": "When tenants foot the bill for taxes, insurance, and maintenance, the landlord's job gets a lot simpler and the dividend check gets a lot more predictable. Three net lease REITs have quietly built some of the most durable income streams in the market, but each one carries a risk worth knowing before\u2026",
+          "title": "Realty Income (O) On Loan Changes And The Case For A Discount",
+          "link": "https://finance.yahoo.com/real-estate/articles/realty-income-o-loan-changes-081040075.html?.tsrc=rss",
+          "published": "Sun, 06 Sep 2026 08:10:40 +0000",
+          "summary": "Why Realty Income\u2019s latest term loan amendments matter now Realty Income (O) has updated two major term loan agreements, covering a US$500 million facility and up to US$1.35b of multi currency borrowings, in order to align them with its recently revised credit agreement. Against that backdrop, Realt\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": "O",
+          "company": "Realty Income",
+          "source": "O",
+          "category": "reit",
+          "title": "There Are Only a Handful of S&P 500 Stocks That Yield Over 5%. Here's My Top Pick to Buy in September.",
+          "link": "https://www.fool.com/investing/2026/09/05/there-are-only-a-handful-of-sp-500-stocks-that-yie/?.tsrc=rss",
+          "published": "Sat, 05 Sep 2026 14:45:00 +0000",
+          "summary": "This is an excellent dividend stock at any time.",
           "is_signal": true
         },
         {
@@ -8644,21 +8655,21 @@
           "company": "Realty Income",
           "source": "O",
           "category": "reit",
-          "title": "Realty Income's $10B Investment Plan: Can Deployment Stay Strong?",
-          "link": "https://finance.yahoo.com/real-estate/articles/realty-incomes-10b-investment-plan-130000132.html?.tsrc=rss",
-          "published": "Thu, 03 Sep 2026 13:00:00 +0000",
-          "summary": "Realty Income's $10B investment plan is backed by strong sourcing, industrial exposure, data-center expansion and ample liquidity.",
+          "title": "Realty Income Is Paying More Dividends Than Ever Before and Yields 5.3%. Here's Why Its High-Yield Monthly Payout Is as Safe as It Gets.",
+          "link": "https://www.fool.com/investing/2026/09/05/realty-income-is-paying-more-dividends-than-ever-b/?.tsrc=rss",
+          "published": "Sat, 05 Sep 2026 11:40:00 +0000",
+          "summary": "Realty Income can easily afford its dividends.",
           "is_signal": true
         },
         {
-          "ticker": "O",
-          "company": "Realty Income",
-          "source": "O",
+          "ticker": "NNN",
+          "company": "NNN REIT",
+          "source": "NNN",
           "category": "reit",
-          "title": "5 Elite Dividend Stocks That Pay You Every Single Month",
-          "link": "https://247wallst.com/investing/2026/09/03/5-elite-dividend-stocks-that-pay-you-every-single-month/?.tsrc=rss",
-          "published": "Thu, 03 Sep 2026 12:00:08 +0000",
-          "summary": "Not every stock that pays you every month is built the same way, and the gap between the safest name on this list and the riskiest one spans a yield difference that should raise serious questions before you buy either.",
+          "title": "An $860,000 Portfolio That Quietly Pays You $5,100 a Month Without Touching Principal",
+          "link": "https://247wallst.com/personal-finance/2026/09/05/an-860000-portfolio-that-quietly-pays-you-5100-a-month-without-touching-principal/?.tsrc=rss",
+          "published": "Sat, 05 Sep 2026 12:43:12 +0000",
+          "summary": "Three household income names blended into a single portfolio promise a quiet monthly paycheck, but one just cut its distribution, another carries a tax trap most investors miss, and the principal you think you are protecting may already be moving.",
           "is_signal": true
         },
         {
@@ -8695,15 +8706,26 @@
           "is_signal": true
         },
         {
-          "ticker": "NNN",
-          "company": "NNN REIT",
-          "source": "NNN",
+          "ticker": "ADC",
+          "company": "Agree Realty",
+          "source": "ADC",
           "category": "reit",
-          "title": "How a 78-Year-Old Collects $5,300 a Month From Just Three Tickers: SCHD, HTGC, and NNN",
-          "link": "https://247wallst.com/personal-finance/2026/08/29/how-a-78-year-old-collects-5300-a-month-from-just-three-tickers-schd-htgc-and-nnn/?.tsrc=rss",
-          "published": "Sat, 29 Aug 2026 22:38:54 +0000",
-          "summary": "Three tickers, three wildly different capital requirements, and one retiree pulling a five-figure monthly income without touching principal. Which one demands nearly four times the nest egg of the others, and what does that tradeoff actually cost you over a decade?",
+          "title": "Agree Realty Director Rakolta Buys 20,136 Shares for $1.5 Million",
+          "link": "https://www.fool.com/coverage/filings/2026/09/05/agree-realty-director-rakolta-buys-20136-shares-for-15-million/?.tsrc=rss",
+          "published": "Sun, 06 Sep 2026 03:15:01 +0000",
+          "summary": "Rakolta's purchase increases his direct holdings to over 622,000 shares.",
           "is_signal": false
+        },
+        {
+          "ticker": "ADC",
+          "company": "Agree Realty",
+          "source": "ADC",
+          "category": "reit",
+          "title": "Agree Realty (ADC) Stock Looks Fully Valued After 37% Gains And Rich Earnings",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/agree-realty-adc-stock-looks-230558158.html?.tsrc=rss",
+          "published": "Sat, 05 Sep 2026 23:05:58 +0000",
+          "summary": "Agree Realty has delivered a strong 37.5% share price gain over the past three years, yet the current valuation checks suggest the stock leans expensive rather than a clear bargain. Recent short term softness sits alongside that longer track record, which puts more focus on whether the current price\u2026",
+          "is_signal": true
         },
         {
           "ticker": "ADC",
@@ -8725,28 +8747,6 @@
           "link": "https://247wallst.com/investing/2026/08/20/this-safe-monthly-dividend-income-portfolio-may-have-baby-boomers-retiring-early/?.tsrc=rss",
           "published": "Thu, 20 Aug 2026 12:16:00 +0000",
           "summary": "Social Security alone leaves most retirees scrambling to cover basic expenses, but a carefully constructed portfolio of five monthly dividend payers could change that equation entirely for Baby Boomers sitting on investable savings.",
-          "is_signal": true
-        },
-        {
-          "ticker": "ADC",
-          "company": "Agree Realty",
-          "source": "ADC",
-          "category": "reit",
-          "title": "Is Agree Realty (ADC) Trading At A Premium To Fair Value?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/agree-realty-adc-trading-premium-031617589.html?.tsrc=rss",
-          "published": "Sun, 16 Aug 2026 03:16:17 +0000",
-          "summary": "Agree Realty stock has delivered a solid 39.2% gain over the past three years, yet its current checks lean on the expensive side rather than flagging an obvious bargain. Agree Realty's 39.2% return over three years suggests the stock has already rewarded patient shareholders, which raises the bar fo\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": "ADC",
-          "company": "Agree Realty",
-          "source": "ADC",
-          "category": "reit",
-          "title": "Agree Realty (ADC) Affirms Monthly Dividend, Is The 11% Undervaluation Case Convincing?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/agree-realty-adc-affirms-monthly-150826160.html?.tsrc=rss",
-          "published": "Sat, 15 Aug 2026 15:08:26 +0000",
-          "summary": "Dividend announcement and what it means for Agree Realty investors Agree Realty (ADC) has affirmed a monthly dividend of US$0.2670 per share, payable on September 15, 2026. The ex dividend and record dates are both set for August 31, 2026. This latest dividend decision keeps the focus on income for \u2026",
           "is_signal": true
         },
         {
@@ -8798,6 +8798,17 @@
           "company": "Getty Realty",
           "source": "GTY",
           "category": "reit",
+          "title": "DRH or GTY: Which Is the Better Value Stock Right Now?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/drh-gty-better-value-stock-154004932.html?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 15:40:04 +0000",
+          "summary": "DRH vs. GTY: Which Stock Is the Better Value Option?",
+          "is_signal": false
+        },
+        {
+          "ticker": "GTY",
+          "company": "Getty Realty",
+          "source": "GTY",
+          "category": "reit",
           "title": "Is Getty Realty (GTY) Undervalued On Its Zacks Upgrade?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/getty-realty-gty-undervalued-zacks-071359400.html?.tsrc=rss",
           "published": "Sat, 22 Aug 2026 07:13:59 +0000",
@@ -8814,17 +8825,6 @@
           "published": "Fri, 21 Aug 2026 16:00:03 +0000",
           "summary": "Getty Realty (GTY) has been upgraded to a Zacks Rank #2 (Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
           "is_signal": true
-        },
-        {
-          "ticker": "GTY",
-          "company": "Getty Realty",
-          "source": "GTY",
-          "category": "reit",
-          "title": "DRH or GTY: Which Is the Better Value Stock Right Now?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/drh-gty-better-value-stock-154002607.html?.tsrc=rss",
-          "published": "Thu, 20 Aug 2026 15:40:02 +0000",
-          "summary": "DRH vs. GTY: Which Stock Is the Better Value Option?",
-          "is_signal": false
         },
         {
           "ticker": "GTY",
@@ -8930,6 +8930,17 @@
           "company": "VICI Properties",
           "source": "VICI",
           "category": "reit",
+          "title": "This Stock Has the Highest Dividend Yield in the S&P 500. It Just Raised Its Dividend Again.",
+          "link": "https://www.fool.com/investing/2026/09/06/this-stock-has-the-highest-dividend-yield-in-the-s/?.tsrc=rss",
+          "published": "Sun, 06 Sep 2026 11:35:00 +0000",
+          "summary": "Vici Properties continues to hand more cash to shareholders.",
+          "is_signal": true
+        },
+        {
+          "ticker": "VICI",
+          "company": "VICI Properties",
+          "source": "VICI",
+          "category": "reit",
           "title": "VICI Properties Inc. Increases Regular Quarterly Dividend",
           "link": "https://finance.yahoo.com/markets/stocks/articles/vici-properties-inc-increases-regular-201500012.html?.tsrc=rss",
           "published": "Thu, 03 Sep 2026 20:15:00 +0000",
@@ -8956,17 +8967,6 @@
           "link": "https://www.fool.com/investing/2026/09/03/70-of-this-high-yield-dividend-stocks-income-comes/?.tsrc=rss",
           "published": "Thu, 03 Sep 2026 12:20:00 +0000",
           "summary": "Vici Properties doesn't own commodity real estate leased to weak tenants.",
-          "is_signal": true
-        },
-        {
-          "ticker": "VICI",
-          "company": "VICI Properties",
-          "source": "VICI",
-          "category": "reit",
-          "title": "VICI Properties (VICI) Stock May Still Look Cheap As Rental Growth Holds",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/vici-properties-vici-stock-may-030817378.html?.tsrc=rss",
-          "published": "Sat, 29 Aug 2026 03:08:17 +0000",
-          "summary": "VICI Properties stock has retreated over the past year, yet the broader valuation checks still suggest the shares lean cheap compared with the fundamentals that the market is currently pricing in. The share price is down about 18.5% over the past year, which raises the question of whether recent wea\u2026",
           "is_signal": true
         },
         {
@@ -9018,6 +9018,17 @@
           "company": null,
           "source": "Connect CRE",
           "category": "netlease",
+          "title": "Global Holdings Lands $382M Refi for Midtown Tower",
+          "link": "https://www.connectcre.com/stories/global-holdings-lands-382m-refi-for-midtown-tower/",
+          "published": "Fri, 04 Sep 2026 22:57:19 +0000",
+          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2025/12/NY-120-Park-Avenue-Manhattan-Global-Holdings.jpg\" /></p>\n<p>Private equity firm Global Holdings has secured a $382.4 million refinancing loan for its Midtown Manhattan office tower at 120 Park Ave., with Wells Fargo and German bank L\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Connect CRE",
+          "category": "netlease",
           "title": "NYC Plans 215-Unit Bronx Apartment Building",
           "link": "https://www.connectcre.com/stories/nyc-plans-215-unit-bronx-apartment-building/",
           "published": "Fri, 04 Sep 2026 22:12:05 +0000",
@@ -9055,17 +9066,6 @@
           "link": "https://www.connectcre.com/stories/tishman-speyer-trades-mountain-view-office-building-for-121-5m/",
           "published": "Fri, 04 Sep 2026 20:30:10 +0000",
           "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/09/400-Castro.png\" /></p>\n<p>Tishman Speyer\u00a0sold\u00a0400 Castro Street, a 100 percent leased, Class A office building in downtown Mountain View, California. Spear Street Capital was the buyer in the $121.5 million transaction.\u00a0\u00a0 Tishman Spe\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Connect CRE",
-          "category": "netlease",
-          "title": "Sudberry Properties Inks $81.6M Refi on Growing Chula Vista Business Park",
-          "link": "https://www.connectcre.com/stories/sudberry-properties-inks-81-6m-refi-on-growing-chula-vista-business-park/",
-          "published": "Fri, 04 Sep 2026 20:09:02 +0000",
-          "summary": "<p><img src=\"https://www.connectcre.com/wp-content/uploads/2026/09/2970-Faivre-St.png\" /></p>\n<p>JLL\u00a0Capital Markets arranged $81.6 million in financing for Otay River Business Park, a 369,803-square-foot industrial and retail business park located at 2925-2945 Main St. and 2775-2970 Faivre St. in C\u2026",
           "is_signal": true
         },
         {
@@ -9819,7 +9819,7 @@
           "prev_close": 191.52,
           "pct_change": -1.09,
           "market_cap": 20097331200,
-          "dividend_yield": 2.61,
+          "dividend_yield": 2.64,
           "fifty_two_week_high": 224.46,
           "fifty_two_week_low": 162.41,
           "next_earnings": "2026-11-02"
@@ -9831,8 +9831,8 @@
           "prev_close": 177.75,
           "pct_change": -1.07,
           "market_cap": 81939079168,
-          "dividend_yield": 3.93,
-          "fifty_two_week_high": 199.4,
+          "dividend_yield": 3.97,
+          "fifty_two_week_high": 199.13,
           "fifty_two_week_low": 160.06,
           "next_earnings": "2026-10-27"
         },
@@ -9842,8 +9842,8 @@
           "price": 75.83,
           "prev_close": 77.26,
           "pct_change": -1.85,
-          "market_cap": 32262285312,
-          "dividend_yield": 5.5,
+          "market_cap": 33137711104,
+          "dividend_yield": 5.6,
           "fifty_two_week_high": 100.5,
           "fifty_two_week_low": 69.72,
           "next_earnings": "2026-10-21"
@@ -9862,6 +9862,17 @@
         }
       },
       "news": [
+        {
+          "ticker": "SBAC",
+          "company": "SBA Communications",
+          "source": "SBAC",
+          "category": "reit",
+          "title": "SBA Communications (SBAC) Wins Investment Grade While Profits Slide",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sba-communications-sbac-wins-investment-055132448.html?.tsrc=rss",
+          "published": "Mon, 07 Sep 2026 05:51:32 +0000",
+          "summary": "On August 3, SBA Communications (NASDAQ:SBAC) reported second-quarter results that told two very different stories at once. The tower operator earned its first-ever investment-grade credit rating from S&amp;P, upgrading to BBB, in the same quarter that net income attributable to the company fell 12.\u2026",
+          "is_signal": true
+        },
         {
           "ticker": "SBAC",
           "company": "SBA Communications",
@@ -9894,17 +9905,6 @@
           "published": "Wed, 02 Sep 2026 15:30:10 +0000",
           "summary": "SBA Communications (SBAC) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
           "is_signal": true
-        },
-        {
-          "ticker": "SBAC",
-          "company": "SBA Communications",
-          "source": "SBAC",
-          "category": "reit",
-          "title": "SBA Communications Corporation to Speak at Citi\u2019s 2026 Global TMT Conference and the BofA Securities 2026 Media, Communications and Entertainment Conference",
-          "link": "https://finance.yahoo.com/real-estate/articles/sba-communications-corporation-speak-citi-141800818.html?.tsrc=rss",
-          "published": "Wed, 26 Aug 2026 14:18:00 +0000",
-          "summary": "BOCA RATON, Fla., August 26, 2026--SBA Communications Corporation (NASDAQ: SBAC) (\"SBA\") announces that Marc Montagner, Chief Financial Officer, is scheduled to speak at Citi\u2019s 2026 Global TMT Conference, Wednesday, September 9, 2026, at 10:10 AM ET. The conference will be held at The New York Hilto\u2026",
-          "is_signal": false
         },
         {
           "ticker": "AMT",
@@ -10043,6 +10043,17 @@
           "company": null,
           "source": "Fierce Wireless",
           "category": "towers",
+          "title": "<a href=\"https://www.fierce-network.com/sponsored/how-ai-reshaping-data-center-fiber-networks\" hreflang=\"en\">How AI Is Reshaping Data Center Fiber Networks</a>",
+          "link": "https://www.fierce-network.com/sponsored/how-ai-reshaping-data-center-fiber-networks",
+          "published": "Aug 27, 2026 5:31pm",
+          "summary": "AI is putting new demands on data center networks. See how multicore, hollow-core and G.654.E fiber technologies can deliver the capacity, density and low latency needed for the next generation of infrastructure.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Fierce Wireless",
+          "category": "towers",
           "title": "<a href=\"https://www.fierce-network.com/broadband/broadcom-predicts-ai-chip-revenue-double-2027\" hreflang=\"en\">Broadcom predicts AI chip revenue to double in 2027</a>",
           "link": "https://www.fierce-network.com/broadband/broadcom-predicts-ai-chip-revenue-double-2027",
           "published": "Sep 4, 2026 1:22pm",
@@ -10080,17 +10091,6 @@
           "link": "https://www.fierce-network.com/wireless/ai-agents-expose-5g-core-security-risks-telecom-operators",
           "published": "Sep 3, 2026 6:12pm",
           "summary": "AI agents found dozens of previously unknown flaws in 4G and 5G cores, underscoring why telecom operators and vendors can no longer treat internal network interfaces as automatically trusted.",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Fierce Wireless",
-          "category": "towers",
-          "title": "<a href=\"https://www.fierce-network.com/wireless/t-mobile-names-jessica-uhl-next-cfo\" hreflang=\"en\">T-Mobile taps former Shell CFO Jessica Uhl to help steer next phase of AI and enterprise growth</a>",
-          "link": "https://www.fierce-network.com/wireless/t-mobile-names-jessica-uhl-next-cfo",
-          "published": "Sep 3, 2026 5:44pm",
-          "summary": "Uhl's background in large-scale infrastructure investments, corporate development and AI initiatives could prove valuable as T-Mobile pursues opportunities across enterprise and emerging AI-driven services.",
           "is_signal": true
         },
         {
@@ -10153,6 +10153,39 @@
           "company": null,
           "source": "Light Reading",
           "category": "towers",
+          "title": "Telstra's fault: review blames timer failure for Aussie outage",
+          "link": "https://www.lightreading.com/wireless/telstra-s-fault-review-blames-timer-failure-for-aussie-outage",
+          "published": "Mon, 07 Sep 2026 13:47:20 GMT",
+          "summary": "Telstra outage is the latest in a series of major IP network crashes, with a review now confirming it was caused by timer failure, as well as years' worth of oversights.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "ASC cable break disrupts key Australia-Singapore route",
+          "link": "https://www.lightreading.com/cable-technology/asc-cable-break-disrupts-key-australia-singapore-route",
+          "published": "Mon, 07 Sep 2026 12:05:40 GMT",
+          "summary": "Vocus' Australia-Singapore Cable (ASC) suffered a cable break in Indonesian waters with Internet traffic rerouted via alternative paths.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "Eurobites: Vodafone starts offering Quality on Demand API in Germany",
+          "link": "https://www.lightreading.com/wireless/eurobites-vodafone-starts-offering-quality-on-demand-api-in-germany",
+          "published": "Mon, 07 Sep 2026 11:48:01 GMT",
+          "summary": "Also in today's regional roundup: TIM management sheds its shares; O2 Business launches satellite service; Greece's Cosmote becomes Telekom.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
           "title": "T-Mobile hands CFO reins to ex-Shell exec Jessica Uhl, as Osvaldik retires",
           "link": "https://www.lightreading.com/business-transformation/t-mobile-hands-cfo-reins-to-ex-shell-exec-jessica-uhl-as-osvaldik-retires",
           "published": "Fri, 04 Sep 2026 16:12:14 GMT",
@@ -10168,39 +10201,6 @@
           "link": "https://www.lightreading.com/finance/ciena-expects-supply-issues-will-push-backlog-past-10b-by-year-s-end",
           "published": "Fri, 04 Sep 2026 13:03:24 GMT",
           "summary": "As Ciena's revenues continue to rise rapidly on a wave of AI-related networking spend, its ability to meet demand is constrained by supply chain issues, while stock markets continue to frown upon its shares.",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Light Reading",
-          "category": "towers",
-          "title": "Philippine telcos set $2.2B for infrastructure investment in 2026",
-          "link": "https://www.lightreading.com/regulatory-politics/philippine-telcos-set-2-2b-for-infrastructure-investment-in-2026",
-          "published": "Fri, 04 Sep 2026 12:43:23 GMT",
-          "summary": "The Philippine Department of Information and Communications Technology noted that the substantial investment is a vote of confidence in the country's digital transformation.",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Light Reading",
-          "category": "towers",
-          "title": "The Buildout: Louisiana targets 15K BEAD locations by early 2027",
-          "link": "https://www.lightreading.com/broadband/the-buildout-louisiana-targets-15k-bead-locations-by-early-2027",
-          "published": "Fri, 04 Sep 2026 12:00:00 GMT",
-          "summary": "This week in broadband builds: BEAD work underway in Louisiana by Cajun Broadband, Nextlink, others; Comcast hits construction milestone in Michigan; Ziply expands services in Oregon, Washington \u2013 and more.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Light Reading",
-          "category": "towers",
-          "title": "T-Mobile sets CFO transition",
-          "link": "https://www.lightreading.com/finance/t-mobile-sets-cfo-transition",
-          "published": "Thu, 03 Sep 2026 20:49:33 GMT",
-          "summary": "T-Mobile said Jessica Uhl, a former CFO of Shell, will succeed Peter Osvaldik as the service provider's CFO in February 2027. Osvaldik will become a strategic advisor until his planned July 1, 2027, retirement. #pressrelease",
           "is_signal": true
         },
         {
@@ -10904,7 +10904,7 @@
           "prev_close": 68.23,
           "pct_change": -0.79,
           "market_cap": 12243593216,
-          "dividend_yield": 4.1,
+          "dividend_yield": 4.14,
           "fifty_two_week_high": 79.33,
           "fifty_two_week_low": 49.72,
           "next_earnings": "2026-10-27"
@@ -10915,8 +10915,8 @@
           "price": 3.12,
           "prev_close": 3.05,
           "pct_change": 2.3,
-          "market_cap": 538982656,
-          "dividend_yield": 10.49,
+          "market_cap": 538873536,
+          "dividend_yield": 10.26,
           "fifty_two_week_high": 4.63,
           "fifty_two_week_low": 2.47,
           "next_earnings": "2026-10-21"
@@ -10928,7 +10928,7 @@
           "prev_close": 35.3,
           "pct_change": -0.4,
           "market_cap": 4073091072,
-          "dividend_yield": 3.63,
+          "dividend_yield": 3.64,
           "fifty_two_week_high": 38.9,
           "fifty_two_week_low": 27.06,
           "next_earnings": "2026-10-29"
@@ -10964,8 +10964,8 @@
           "prev_close": 4.42,
           "pct_change": 2.71,
           "market_cap": 1390810112,
-          "dividend_yield": 3.17,
-          "fifty_two_week_high": 8.07,
+          "dividend_yield": 3.08,
+          "fifty_two_week_high": 8.04,
           "fifty_two_week_low": 4.36,
           "next_earnings": "2026-11-04"
         },
@@ -10974,7 +10974,7 @@
           "ticker": "FSP",
           "price": 0.4,
           "prev_close": 0.4,
-          "pct_change": 1.07,
+          "pct_change": 0.0,
           "market_cap": 42051936,
           "dividend_yield": 5.56,
           "fifty_two_week_high": 1.73,
@@ -10987,8 +10987,8 @@
           "price": 31.19,
           "prev_close": 31.01,
           "pct_change": 0.58,
-          "market_cap": 3503159552,
-          "dividend_yield": 6.45,
+          "market_cap": 3503368704,
+          "dividend_yield": 6.41,
           "fifty_two_week_high": 35.44,
           "fifty_two_week_low": 20.45,
           "next_earnings": "2026-10-27"
@@ -11012,7 +11012,7 @@
           "prev_close": 36.96,
           "pct_change": 0.49,
           "market_cap": 4361816064,
-          "dividend_yield": 5.84,
+          "dividend_yield": 5.82,
           "fifty_two_week_high": 45.03,
           "fifty_two_week_low": 27.36,
           "next_earnings": "2026-10-26"
@@ -11024,7 +11024,7 @@
           "prev_close": 2.69,
           "pct_change": 0.74,
           "market_cap": 154591168,
-          "dividend_yield": 2.97,
+          "dividend_yield": 2.95,
           "fifty_two_week_high": 3.05,
           "fifty_two_week_low": 1.89,
           "next_earnings": "2026-11-05"
@@ -11048,7 +11048,7 @@
           "prev_close": 54.91,
           "pct_change": 1.18,
           "market_cap": 4263020288,
-          "dividend_yield": 4.5,
+          "dividend_yield": 4.45,
           "fifty_two_week_high": 66.29,
           "fifty_two_week_low": 34.77,
           "next_earnings": "2026-10-21"
@@ -11632,10 +11632,10 @@
           "company": null,
           "source": "Bisnow CRE",
           "category": "office",
-          "title": "MBK Sells Anaheim Apartments To TA Realty For $147M",
-          "link": "https://www.bisnow.com/news/los-angeles/multifamily/mbk-sells-anaheim-apartments-to-ta-realty",
-          "published": "Fri, 04 Sep 2026 17:31:32 -0400",
-          "summary": "The sale price works out to more than $468K per unit.",
+          "title": "Future White Sox Owner Advances Push To Build New Riverside Stadium",
+          "link": "https://www.bisnow.com/news/chicago/economic-development/future-white-sox-owner-advances-push-to-build-new-riverside-stadium",
+          "published": "Mon, 07 Sep 2026 14:07:11 -0400",
+          "summary": "A company owned by minority owner Justin Ishbia unveiled renderings for a mixed-use development called The Railyards on the site of Amtrak's 47-acre rail yard.",
           "is_signal": false
         },
         {
@@ -11643,10 +11643,21 @@
           "company": null,
           "source": "Bisnow CRE",
           "category": "office",
-          "title": "Live Local Act Projects Struggle To Get Fannie, Freddie, HUD On Board",
-          "link": "https://www.bisnow.com/news/south-florida/multifamily/live-local-act-projects-struggle-to-get-fannie-freddie-hud-on-board",
-          "published": "Fri, 04 Sep 2026 17:24:13 -0400",
-          "summary": "Fannie Mae, Freddie Mac and HUD have been cautious about funding affordable housing under the Live Local Act.",
+          "title": "Summer Broke The Script. Here's What CRE Is Walking Back Into",
+          "link": "https://www.bisnow.com/news/national/capital-markets/summer-broke-the-script-here-s-what-cre-is-walking-back-into",
+          "published": "Mon, 07 Sep 2026 12:39:06 -0400",
+          "summary": "From the threat of interest rates to new legislation, here is what CRE is wading through as it comes into the busy fall and winter deal season.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow CRE",
+          "category": "office",
+          "title": "IRES Set To Step Up Acquisition Pace With \u20ac115M-Plus BTR Deal",
+          "link": "https://www.bisnow.com/news/dublin/build-to-rent/ires-set-to-step-up-acquisition-pace-with-euro115m-btr-deal",
+          "published": "Mon, 07 Sep 2026 11:19:12 -0400",
+          "summary": "IRES acquires 282-unit Dublin BTR scheme, enhancing portfolio by 8%.",
           "is_signal": true
         },
         {
@@ -11654,33 +11665,22 @@
           "company": null,
           "source": "Bisnow CRE",
           "category": "office",
-          "title": "Landmark Properties Opens Student Housing Project: The Los Angeles Deal Sheet",
-          "link": "https://www.bisnow.com/news/los-angeles/deal-sheet/landmark-properties-usc-student-housing-los-angeles-deal-sheet",
-          "published": "Fri, 04 Sep 2026 17:02:15 -0400",
-          "summary": "Landmark Properties opens a 1,261-bed complex near USC, featuring studios to five-bedroom units.",
-          "is_signal": false
+          "title": "'We Aren't Competitive': Power, Taxes Keep Colorado On The Data Center Sidelines",
+          "link": "https://www.bisnow.com/news/national/data-center-development/-we-aren-t-competitive-power-taxes-keep-colorado-on-the-data-center-sidelines",
+          "published": "Sun, 06 Sep 2026 15:38:01 -0400",
+          "summary": "Colorado has sat out the AI data center boom despite being home to several industry headquarters. Industry leaders blame taxes and power problems.",
+          "is_signal": true
         },
         {
           "ticker": null,
           "company": null,
           "source": "Bisnow CRE",
           "category": "office",
-          "title": "Why DivcoWest Is Advancing A New 19-Story Lab Development In Somerville",
-          "link": "https://www.bisnow.com/news/boston/life-sciences/why-divcowest-is-still-advancing-a-new-19-story-lab-development-in-somerville",
-          "published": "Fri, 04 Sep 2026 16:50:08 -0400",
-          "summary": "DivcoWest received planning approval for a 19-story lab in Somerville despite a still-sluggish Greater Boston life sciences market.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Bisnow CRE",
-          "category": "office",
-          "title": "Angels Sale To Stan Kroenke Reopens Land Deal Possibilities With City Of Anaheim",
-          "link": "https://www.bisnow.com/news/los-angeles/development/anaheim-angels-stan-kroenke-land-deal",
-          "published": "Fri, 04 Sep 2026 16:37:44 -0400",
-          "summary": "Kroenke's Angels deal could trigger major redevelopment around Angel Stadium in Anaheim.",
-          "is_signal": false
+          "title": "\u00a31B Property Group To Buy Huge Chunk Of Collapsed NCP Car Park Empire",
+          "link": "https://www.bisnow.com/news/london/commercial-real-estate/pound1b-property-group-to-buy-huge-chunk-of-collapsed-ncp-car-park-empire",
+          "published": "Sun, 06 Sep 2026 15:14:42 -0400",
+          "summary": "Martin Property Group to acquire 100 NCP car park leases amid declining driving habits.",
+          "is_signal": true
         },
         {
           "ticker": null,
@@ -12231,7 +12231,7 @@
           "prev_close": 39.61,
           "pct_change": -1.51,
           "market_cap": 9217797120,
-          "dividend_yield": 3.94,
+          "dividend_yield": 4.0,
           "fifty_two_week_high": 43.62,
           "fifty_two_week_low": 32.79,
           "next_earnings": "2026-11-09"
@@ -12243,7 +12243,7 @@
           "prev_close": 241.12,
           "pct_change": -2.05,
           "market_cap": 170177495040,
-          "dividend_yield": 1.41,
+          "dividend_yield": 1.44,
           "fifty_two_week_high": 255.2,
           "fifty_two_week_low": 163.75,
           "next_earnings": "2026-10-26"
@@ -12255,9 +12255,9 @@
           "prev_close": 92.11,
           "pct_change": -2.0,
           "market_cap": 46303666176,
-          "dividend_yield": 2.26,
+          "dividend_yield": 2.3,
           "fifty_two_week_high": 101.6,
-          "fifty_two_week_low": 66.38,
+          "fifty_two_week_low": 66.54,
           "next_earnings": "2026-10-28"
         },
         "DOC": {
@@ -12267,7 +12267,7 @@
           "prev_close": 21.03,
           "pct_change": -1.81,
           "market_cap": 14639760384,
-          "dividend_yield": 5.8,
+          "dividend_yield": 5.91,
           "fifty_two_week_high": 22.95,
           "fifty_two_week_low": 15.7,
           "next_earnings": "2026-10-22"
@@ -12279,7 +12279,7 @@
           "prev_close": 55.76,
           "pct_change": -1.87,
           "market_cap": 11928892416,
-          "dividend_yield": 1.79,
+          "dividend_yield": 1.83,
           "fifty_two_week_high": 58.7,
           "fifty_two_week_low": 40.0,
           "next_earnings": "2026-11-05"
@@ -12302,8 +12302,8 @@
           "price": 19.12,
           "prev_close": 19.27,
           "pct_change": -0.78,
-          "market_cap": 6706378752,
-          "dividend_yield": 4.98,
+          "market_cap": 6634597888,
+          "dividend_yield": 5.02,
           "fifty_two_week_high": 22.04,
           "fifty_two_week_low": 16.31,
           "next_earnings": "2026-10-29"
@@ -12315,7 +12315,7 @@
           "prev_close": 20.93,
           "pct_change": -0.72,
           "market_cap": 5308516352,
-          "dividend_yield": 5.73,
+          "dividend_yield": 5.78,
           "fifty_two_week_high": 22.77,
           "fifty_two_week_low": 17.17,
           "next_earnings": "2026-11-04"
@@ -12327,7 +12327,7 @@
           "prev_close": 71.91,
           "pct_change": -1.43,
           "market_cap": 3480947200,
-          "dividend_yield": 5.23,
+          "dividend_yield": 5.3,
           "fifty_two_week_high": 91.38,
           "fifty_two_week_low": 67.94,
           "next_earnings": "2026-11-05"
@@ -12338,8 +12338,8 @@
           "price": 46.38,
           "prev_close": 47.04,
           "pct_change": -1.4,
-          "market_cap": 14628032512,
-          "dividend_yield": 5.78,
+          "market_cap": 14809008128,
+          "dividend_yield": 5.86,
           "fifty_two_week_high": 52.39,
           "fifty_two_week_low": 39.26,
           "next_earnings": "2026-10-29"
@@ -12351,7 +12351,7 @@
           "prev_close": 41.9,
           "pct_change": -1.65,
           "market_cap": 2221448192,
-          "dividend_yield": 5.44,
+          "dividend_yield": 5.53,
           "fifty_two_week_high": 43.0,
           "fifty_two_week_low": 33.64,
           "next_earnings": "2026-11-03"
@@ -12365,7 +12365,7 @@
           "market_cap": 1818388736,
           "dividend_yield": 30,
           "fifty_two_week_high": 9.66,
-          "fifty_two_week_low": 3.82,
+          "fifty_two_week_low": 3.92,
           "next_earnings": "2026-11-02"
         },
         "CHCT": {
@@ -12374,7 +12374,7 @@
           "price": 15.0,
           "prev_close": 14.9,
           "pct_change": 0.67,
-          "market_cap": 428576896,
+          "market_cap": 429807616,
           "dividend_yield": 11.83,
           "fifty_two_week_high": 19.165,
           "fifty_two_week_low": 13.23,
@@ -12387,7 +12387,7 @@
           "prev_close": 41.16,
           "pct_change": -0.8,
           "market_cap": 567483264,
-          "dividend_yield": 7.26,
+          "dividend_yield": 7.35,
           "fifty_two_week_high": 46.3,
           "fifty_two_week_low": 35.26,
           "next_earnings": "2026-10-26"
@@ -12399,7 +12399,7 @@
           "prev_close": 13.7,
           "pct_change": -0.58,
           "market_cap": 769794176,
-          "dividend_yield": 4.96,
+          "dividend_yield": 4.99,
           "fifty_two_week_high": 14.75,
           "fifty_two_week_low": 11.11,
           "next_earnings": "2026-11-05"
@@ -12422,7 +12422,7 @@
           "price": 278.61,
           "prev_close": 278.65,
           "pct_change": -0.01,
-          "market_cap": 19203524608,
+          "market_cap": 19205390336,
           "dividend_yield": 3.72,
           "fifty_two_week_high": 303.35,
           "fifty_two_week_low": 238.46,
@@ -12434,9 +12434,9 @@
           "price": 128.32,
           "prev_close": 128.56,
           "pct_change": -0.19,
-          "market_cap": 15311994880,
-          "dividend_yield": 4.76,
-          "fifty_two_week_high": 146.41,
+          "market_cap": 15265434624,
+          "dividend_yield": 4.77,
+          "fifty_two_week_high": 145.8,
           "fifty_two_week_low": 120.3,
           "next_earnings": "2026-10-28"
         },
@@ -12446,7 +12446,7 @@
           "price": 36.38,
           "prev_close": 36.37,
           "pct_change": 0.03,
-          "market_cap": 13479359488,
+          "market_cap": 13364710400,
           "dividend_yield": 4.76,
           "fifty_two_week_high": 42.0,
           "fifty_two_week_low": 32.94,
@@ -12458,8 +12458,8 @@
           "price": 105.69,
           "prev_close": 105.6,
           "pct_change": 0.09,
-          "market_cap": 10626003968,
-          "dividend_yield": 4.02,
+          "market_cap": 12231776256,
+          "dividend_yield": 4.01,
           "fifty_two_week_high": 119.81,
           "fifty_two_week_low": 96.53,
           "next_earnings": "2026-11-05"
@@ -12470,9 +12470,9 @@
           "price": 16.09,
           "prev_close": 16.13,
           "pct_change": -0.25,
-          "market_cap": 3888250112,
-          "dividend_yield": 4.28,
-          "fifty_two_week_high": 18.18,
+          "market_cap": 3888731136,
+          "dividend_yield": 4.29,
+          "fifty_two_week_high": 17.99,
           "fifty_two_week_low": 14.6,
           "next_earnings": "2026-10-28"
         },
@@ -12495,9 +12495,9 @@
           "prev_close": 52.39,
           "pct_change": 0.97,
           "market_cap": 936073536,
-          "dividend_yield": 5.88,
+          "dividend_yield": 5.82,
           "fifty_two_week_high": 69.61,
-          "fifty_two_week_low": 52.01,
+          "fifty_two_week_low": 52.0,
           "next_earnings": "2026-11-02"
         },
         "AIV": {
@@ -12519,8 +12519,8 @@
           "prev_close": 23.7,
           "pct_change": 0.34,
           "market_cap": 1227138432,
-          "dividend_yield": 8.95,
-          "fifty_two_week_high": 34.87,
+          "dividend_yield": 8.92,
+          "fifty_two_week_high": 34.68,
           "fifty_two_week_low": 23.1,
           "next_earnings": "2026-10-27"
         },
@@ -12531,7 +12531,7 @@
           "prev_close": 32.71,
           "pct_change": -0.73,
           "market_cap": 13311141888,
-          "dividend_yield": 4.04,
+          "dividend_yield": 4.07,
           "fifty_two_week_high": 35.07,
           "fifty_two_week_low": 27.22,
           "next_earnings": "2026-10-28"
@@ -12543,7 +12543,7 @@
           "prev_close": 28.45,
           "pct_change": -0.21,
           "market_cap": 16864851968,
-          "dividend_yield": 4.22,
+          "dividend_yield": 4.23,
           "fifty_two_week_high": 30.893,
           "fifty_two_week_low": 24.25,
           "next_earnings": "2026-10-28"
@@ -12554,8 +12554,8 @@
           "price": 119.44,
           "prev_close": 119.85,
           "pct_change": -0.34,
-          "market_cap": 15271695360,
-          "dividend_yield": 3.74,
+          "market_cap": 15091566592,
+          "dividend_yield": 3.75,
           "fifty_two_week_high": 137.85,
           "fifty_two_week_low": 115.9,
           "next_earnings": "2026-10-28"
@@ -12566,8 +12566,8 @@
           "price": 62.42,
           "prev_close": 62.61,
           "pct_change": -0.3,
-          "market_cap": 12507960320,
-          "dividend_yield": 3.47,
+          "market_cap": 12515891200,
+          "dividend_yield": 3.48,
           "fifty_two_week_high": 69.0,
           "fifty_two_week_low": 58.72,
           "next_earnings": "2026-10-21"
@@ -12578,7 +12578,7 @@
           "price": 15.95,
           "prev_close": 15.95,
           "pct_change": 0.0,
-          "market_cap": 1361900288,
+          "market_cap": 1358400768,
           "dividend_yield": 5.64,
           "fifty_two_week_high": 16.77,
           "fifty_two_week_low": 13.93,
@@ -12591,8 +12591,8 @@
           "prev_close": 84.45,
           "pct_change": -1.03,
           "market_cap": 20134014976,
-          "dividend_yield": 2.37,
-          "fifty_two_week_high": 144.24,
+          "dividend_yield": 2.39,
+          "fifty_two_week_high": 142.61,
           "fifty_two_week_low": 79.83,
           "next_earnings": "2026-09-16"
         },
@@ -12627,7 +12627,7 @@
           "prev_close": 138.35,
           "pct_change": -0.73,
           "market_cap": 133507031040,
-          "dividend_yield": 3.09,
+          "dividend_yield": 3.12,
           "fifty_two_week_high": 153.35,
           "fifty_two_week_low": 110.6,
           "next_earnings": "2026-10-15"
@@ -12639,7 +12639,7 @@
           "prev_close": 198.47,
           "pct_change": 0.08,
           "market_cap": 10680456192,
-          "dividend_yield": 3.53,
+          "dividend_yield": 3.52,
           "fifty_two_week_high": 226.71,
           "fifty_two_week_low": 163.1,
           "next_earnings": "2026-10-22"
@@ -12650,7 +12650,7 @@
           "price": 36.79,
           "prev_close": 37.01,
           "pct_change": -0.59,
-          "market_cap": 8411496448,
+          "market_cap": 8411462144,
           "dividend_yield": 4.7,
           "fifty_two_week_high": 44.38,
           "fifty_two_week_low": 32.14,
@@ -12662,8 +12662,8 @@
           "price": 38.17,
           "prev_close": 38.33,
           "pct_change": -0.42,
-          "market_cap": 9494390784,
-          "dividend_yield": 5.56,
+          "market_cap": 9571045376,
+          "dividend_yield": 5.58,
           "fifty_two_week_high": 45.75,
           "fifty_two_week_low": 31.33,
           "next_earnings": "2026-11-11"
@@ -12674,8 +12674,8 @@
           "price": 61.85,
           "prev_close": 61.71,
           "pct_change": 0.23,
-          "market_cap": 8474467328,
-          "dividend_yield": 3.24,
+          "market_cap": 8474623488,
+          "dividend_yield": 3.23,
           "fifty_two_week_high": 69.88,
           "fifty_two_week_low": 50.24,
           "next_earnings": "2026-10-21"
@@ -12686,7 +12686,7 @@
           "price": 37.68,
           "prev_close": 37.7,
           "pct_change": -0.05,
-          "market_cap": 7415522816,
+          "market_cap": 7415713280,
           "dividend_yield": 4.11,
           "fifty_two_week_high": 42.61,
           "fifty_two_week_low": 34.4,
@@ -12699,7 +12699,7 @@
           "prev_close": 14.11,
           "pct_change": 0.78,
           "market_cap": 4078962688,
-          "dividend_yield": 6.52,
+          "dividend_yield": 6.47,
           "fifty_two_week_high": 16.88,
           "fifty_two_week_low": 10.1,
           "next_earnings": "2026-11-05"
@@ -12723,7 +12723,7 @@
           "prev_close": 56.8,
           "pct_change": 0.7,
           "market_cap": 1577081088,
-          "dividend_yield": 13.38,
+          "dividend_yield": 13.29,
           "fifty_two_week_high": 65.38,
           "fifty_two_week_low": 44.58,
           "next_earnings": "2026-11-02"
@@ -12735,7 +12735,7 @@
           "prev_close": 8.24,
           "pct_change": -0.12,
           "market_cap": 549318592,
-          "dividend_yield": 3.03,
+          "dividend_yield": 3.04,
           "fifty_two_week_high": 9.43,
           "fifty_two_week_low": 4.92,
           "next_earnings": "2026-10-27"
@@ -12747,7 +12747,7 @@
           "prev_close": 23.06,
           "pct_change": 0.78,
           "market_cap": 6856505856,
-          "dividend_yield": 2.95,
+          "dividend_yield": 2.93,
           "fifty_two_week_high": 26.68,
           "fifty_two_week_low": 16.03,
           "next_earnings": "2026-11-03"
@@ -12759,7 +12759,7 @@
           "prev_close": 211.52,
           "pct_change": -0.98,
           "market_cap": 79508340736,
-          "dividend_yield": 4.21,
+          "dividend_yield": 4.25,
           "fifty_two_week_high": 238.5,
           "fifty_two_week_low": 172.19,
           "next_earnings": "2026-11-02"
@@ -12780,10 +12780,10 @@
           "name": "Kimco Realty",
           "ticker": "KIM",
           "price": 23.6,
-          "prev_close": 23.92,
-          "pct_change": -1.34,
+          "prev_close": 23.64,
+          "pct_change": -0.17,
           "market_cap": 15830629376,
-          "dividend_yield": 4.68,
+          "dividend_yield": 4.75,
           "fifty_two_week_high": 26.65,
           "fifty_two_week_low": 19.76,
           "next_earnings": "2026-10-29"
@@ -12795,7 +12795,7 @@
           "prev_close": 75.92,
           "pct_change": -0.87,
           "market_cap": 14070514688,
-          "dividend_yield": 3.98,
+          "dividend_yield": 4.01,
           "fifty_two_week_high": 83.66,
           "fifty_two_week_low": 66.86,
           "next_earnings": "2026-10-28"
@@ -12806,7 +12806,7 @@
           "price": 117.09,
           "prev_close": 117.16,
           "pct_change": -0.06,
-          "market_cap": 10177274880,
+          "market_cap": 10235812864,
           "dividend_yield": 3.96,
           "fifty_two_week_high": 128.21,
           "fifty_two_week_low": 90.03,
@@ -12819,7 +12819,7 @@
           "prev_close": 29.27,
           "pct_change": -0.41,
           "market_cap": 8945328128,
-          "dividend_yield": 4.2,
+          "dividend_yield": 4.22,
           "fifty_two_week_high": 32.86,
           "fifty_two_week_low": 24.66,
           "next_earnings": "2026-10-26"
@@ -12830,8 +12830,8 @@
           "price": 25.96,
           "prev_close": 26.09,
           "pct_change": -0.5,
-          "market_cap": 5397502976,
-          "dividend_yield": 4.45,
+          "market_cap": 5326901760,
+          "dividend_yield": 4.47,
           "fifty_two_week_high": 29.92,
           "fifty_two_week_low": 21.33,
           "next_earnings": "2026-11-04"
@@ -12842,8 +12842,8 @@
           "price": 38.96,
           "prev_close": 39.18,
           "pct_change": -0.56,
-          "market_cap": 5500042752,
-          "dividend_yield": 3.52,
+          "market_cap": 5510757376,
+          "dividend_yield": 3.54,
           "fifty_two_week_high": 44.375,
           "fifty_two_week_low": 32.98,
           "next_earnings": "2026-10-22"
@@ -12854,8 +12854,8 @@
           "price": 37.33,
           "prev_close": 37.15,
           "pct_change": 0.48,
-          "market_cap": 4462382080,
-          "dividend_yield": 3.36,
+          "market_cap": 4462499328,
+          "dividend_yield": 3.35,
           "fifty_two_week_high": 42.53,
           "fifty_two_week_low": 31.13,
           "next_earnings": "2026-11-04"
@@ -12866,7 +12866,7 @@
           "price": 20.29,
           "prev_close": 20.28,
           "pct_change": 0.05,
-          "market_cap": 2958141952,
+          "market_cap": 2958199296,
           "dividend_yield": 3.94,
           "fifty_two_week_high": 23.03,
           "fifty_two_week_low": 18.61,
@@ -12878,7 +12878,7 @@
           "price": 29.47,
           "prev_close": 29.41,
           "pct_change": 0.2,
-          "market_cap": 3360689408,
+          "market_cap": 3390170368,
           "dividend_yield": 2.31,
           "fifty_two_week_high": 32.15,
           "fifty_two_week_low": 21.93,
@@ -12891,7 +12891,7 @@
           "prev_close": 21.16,
           "pct_change": -0.85,
           "market_cap": 2888676096,
-          "dividend_yield": 3.97,
+          "dividend_yield": 4.0,
           "fifty_two_week_high": 24.11,
           "fifty_two_week_low": 18.46,
           "next_earnings": "2026-10-28"
@@ -12903,7 +12903,7 @@
           "prev_close": 32.55,
           "pct_change": 0.25,
           "market_cap": 2544436224,
-          "dividend_yield": 3.07,
+          "dividend_yield": 3.06,
           "fifty_two_week_high": 37.22,
           "fifty_two_week_low": 26.81,
           "next_earnings": "2026-10-27"
@@ -12915,7 +12915,7 @@
           "prev_close": 18.15,
           "pct_change": -0.99,
           "market_cap": 1777741184,
-          "dividend_yield": 3.09,
+          "dividend_yield": 3.12,
           "fifty_two_week_high": 22.06,
           "fifty_two_week_low": 11.75,
           "next_earnings": "2026-10-30"
@@ -12927,7 +12927,7 @@
           "prev_close": 21.99,
           "pct_change": 0.27,
           "market_cap": 15318718464,
-          "dividend_yield": 3.64,
+          "dividend_yield": 3.63,
           "fifty_two_week_high": 25.71,
           "fifty_two_week_low": 15.61,
           "next_earnings": "2026-11-04"
@@ -12939,7 +12939,7 @@
           "prev_close": 122.25,
           "pct_change": 1.01,
           "market_cap": 8518869504,
-          "dividend_yield": 3.93,
+          "dividend_yield": 3.89,
           "fifty_two_week_high": 137.46,
           "fifty_two_week_low": 83.82,
           "next_earnings": "2026-11-02"
@@ -12951,7 +12951,7 @@
           "prev_close": 15.58,
           "pct_change": 0.13,
           "market_cap": 3682890240,
-          "dividend_yield": 6.16,
+          "dividend_yield": 6.15,
           "fifty_two_week_high": 17.28,
           "fifty_two_week_low": 10.85,
           "next_earnings": "2026-11-02"
@@ -12963,7 +12963,7 @@
           "prev_close": 15.08,
           "pct_change": 1.19,
           "market_cap": 3072423168,
-          "dividend_yield": 6.63,
+          "dividend_yield": 6.55,
           "fifty_two_week_high": 16.2,
           "fifty_two_week_low": 9.84,
           "next_earnings": "2026-11-05"
@@ -12975,7 +12975,7 @@
           "prev_close": 12.06,
           "pct_change": 0.17,
           "market_cap": 2481100288,
-          "dividend_yield": 3.65,
+          "dividend_yield": 3.64,
           "fifty_two_week_high": 13.79,
           "fifty_two_week_low": 7.48,
           "next_earnings": "2026-11-05"
@@ -12987,7 +12987,7 @@
           "prev_close": 11.01,
           "pct_change": 0.45,
           "market_cap": 2056540032,
-          "dividend_yield": 3.27,
+          "dividend_yield": 3.25,
           "fifty_two_week_high": 12.07,
           "fifty_two_week_low": 8.69,
           "next_earnings": "2026-11-05"
@@ -12998,8 +12998,8 @@
           "price": 18.03,
           "prev_close": 17.73,
           "pct_change": 1.69,
-          "market_cap": 2027506816,
-          "dividend_yield": 23.0,
+          "market_cap": 2034554368,
+          "dividend_yield": 22.0,
           "fifty_two_week_high": 19.93,
           "fifty_two_week_low": 9.99,
           "next_earnings": "2026-11-04"
@@ -13011,7 +13011,7 @@
           "prev_close": 10.89,
           "pct_change": 0.37,
           "market_cap": 1673894528,
-          "dividend_yield": 5.51,
+          "dividend_yield": 5.49,
           "fifty_two_week_high": 12.89,
           "fifty_two_week_low": 6.54,
           "next_earnings": "2026-11-05"
@@ -13023,7 +13023,7 @@
           "prev_close": 5.72,
           "pct_change": 1.22,
           "market_cap": 624471552,
-          "dividend_yield": 5.59,
+          "dividend_yield": 5.53,
           "fifty_two_week_high": 7.17,
           "fifty_two_week_low": 3.98,
           "next_earnings": "2026-11-04"
@@ -13034,8 +13034,8 @@
           "price": 13.04,
           "prev_close": 12.99,
           "pct_change": 0.38,
-          "market_cap": 640006656,
-          "dividend_yield": 3.08,
+          "market_cap": 638499136,
+          "dividend_yield": 3.07,
           "fifty_two_week_high": 13.89,
           "fifty_two_week_low": 6.08,
           "next_earnings": "2026-11-04"
@@ -13046,7 +13046,7 @@
           "price": 29.64,
           "prev_close": 29.7,
           "pct_change": -0.2,
-          "market_cap": 6426507264,
+          "market_cap": 6427309056,
           "dividend_yield": 4.31,
           "fifty_two_week_high": 34.73,
           "fifty_two_week_low": 28.95,
@@ -13059,7 +13059,7 @@
           "prev_close": 61.74,
           "pct_change": -0.79,
           "market_cap": 57955856384,
-          "dividend_yield": 5.27,
+          "dividend_yield": 5.31,
           "fifty_two_week_high": 67.94,
           "fifty_two_week_low": 55.86,
           "next_earnings": "2026-11-02"
@@ -13070,8 +13070,8 @@
           "price": 44.63,
           "prev_close": 45.18,
           "pct_change": -1.22,
-          "market_cap": 8565898240,
-          "dividend_yield": 5.49,
+          "market_cap": 8490776064,
+          "dividend_yield": 5.56,
           "fifty_two_week_high": 50.0,
           "fifty_two_week_low": 38.9,
           "next_earnings": "2026-11-03"
@@ -13082,7 +13082,7 @@
           "price": 72.62,
           "prev_close": 72.73,
           "pct_change": -0.15,
-          "market_cap": 9057808384,
+          "market_cap": 9057670144,
           "dividend_yield": 4.41,
           "fifty_two_week_high": 82.08,
           "fifty_two_week_low": 69.56,
@@ -13094,8 +13094,8 @@
           "price": 24.93,
           "prev_close": 24.91,
           "pct_change": 0.08,
-          "market_cap": 2736047616,
-          "dividend_yield": 5.89,
+          "market_cap": 2736227328,
+          "dividend_yield": 5.88,
           "fifty_two_week_high": 26.86,
           "fifty_two_week_low": 22.78,
           "next_earnings": "2026-10-28"
@@ -13107,7 +13107,7 @@
           "prev_close": 32.65,
           "pct_change": -0.37,
           "market_cap": 2014670592,
-          "dividend_yield": 5.94,
+          "dividend_yield": 5.96,
           "fifty_two_week_high": 36.83,
           "fifty_two_week_low": 25.39,
           "next_earnings": "2026-10-21"
@@ -13118,8 +13118,8 @@
           "price": 20.09,
           "prev_close": 20.43,
           "pct_change": -1.66,
-          "market_cap": 1962245632,
-          "dividend_yield": 4.41,
+          "market_cap": 2047777280,
+          "dividend_yield": 4.48,
           "fifty_two_week_high": 22.47,
           "fifty_two_week_low": 17.02,
           "next_earnings": "2026-10-26"
@@ -13131,7 +13131,7 @@
           "prev_close": 70.27,
           "pct_change": 0.16,
           "market_cap": 16033073152,
-          "dividend_yield": 5.33,
+          "dividend_yield": 5.34,
           "fifty_two_week_high": 77.22,
           "fifty_two_week_low": 63.08,
           "next_earnings": "2026-10-27"
@@ -13143,8 +13143,8 @@
           "prev_close": 25.65,
           "pct_change": -0.9,
           "market_cap": 27989389312,
-          "dividend_yield": 7.02,
-          "fifty_two_week_high": 33.82,
+          "dividend_yield": 7.24,
+          "fifty_two_week_high": 33.65,
           "fifty_two_week_low": 25.34,
           "next_earnings": "2026-10-29"
         },
@@ -13154,7 +13154,7 @@
           "price": 41.92,
           "prev_close": 42.36,
           "pct_change": -1.04,
-          "market_cap": 12555059200,
+          "market_cap": 12555089920,
           "dividend_yield": 7.74,
           "fifty_two_week_high": 49.95,
           "fifty_two_week_low": 41.17,
@@ -13167,7 +13167,7 @@
           "prev_close": 191.52,
           "pct_change": -1.09,
           "market_cap": 20097331200,
-          "dividend_yield": 2.61,
+          "dividend_yield": 2.64,
           "fifty_two_week_high": 224.46,
           "fifty_two_week_low": 162.41,
           "next_earnings": "2026-11-02"
@@ -13179,8 +13179,8 @@
           "prev_close": 177.75,
           "pct_change": -1.07,
           "market_cap": 81939079168,
-          "dividend_yield": 3.93,
-          "fifty_two_week_high": 199.4,
+          "dividend_yield": 3.97,
+          "fifty_two_week_high": 199.13,
           "fifty_two_week_low": 160.06,
           "next_earnings": "2026-10-27"
         },
@@ -13190,8 +13190,8 @@
           "price": 75.83,
           "prev_close": 77.26,
           "pct_change": -1.85,
-          "market_cap": 32262285312,
-          "dividend_yield": 5.5,
+          "market_cap": 33137711104,
+          "dividend_yield": 5.6,
           "fifty_two_week_high": 100.5,
           "fifty_two_week_low": 69.72,
           "next_earnings": "2026-10-21"
@@ -13215,7 +13215,7 @@
           "prev_close": 68.23,
           "pct_change": -0.79,
           "market_cap": 12243593216,
-          "dividend_yield": 4.1,
+          "dividend_yield": 4.14,
           "fifty_two_week_high": 79.33,
           "fifty_two_week_low": 49.72,
           "next_earnings": "2026-10-27"
@@ -13226,8 +13226,8 @@
           "price": 3.12,
           "prev_close": 3.05,
           "pct_change": 2.3,
-          "market_cap": 538982656,
-          "dividend_yield": 10.49,
+          "market_cap": 538873536,
+          "dividend_yield": 10.26,
           "fifty_two_week_high": 4.63,
           "fifty_two_week_low": 2.47,
           "next_earnings": "2026-10-21"
@@ -13239,7 +13239,7 @@
           "prev_close": 35.3,
           "pct_change": -0.4,
           "market_cap": 4073091072,
-          "dividend_yield": 3.63,
+          "dividend_yield": 3.64,
           "fifty_two_week_high": 38.9,
           "fifty_two_week_low": 27.06,
           "next_earnings": "2026-10-29"
@@ -13275,8 +13275,8 @@
           "prev_close": 4.42,
           "pct_change": 2.71,
           "market_cap": 1390810112,
-          "dividend_yield": 3.17,
-          "fifty_two_week_high": 8.07,
+          "dividend_yield": 3.08,
+          "fifty_two_week_high": 8.04,
           "fifty_two_week_low": 4.36,
           "next_earnings": "2026-11-04"
         },
@@ -13285,7 +13285,7 @@
           "ticker": "FSP",
           "price": 0.4,
           "prev_close": 0.4,
-          "pct_change": 1.07,
+          "pct_change": 0.0,
           "market_cap": 42051936,
           "dividend_yield": 5.56,
           "fifty_two_week_high": 1.73,
@@ -13298,8 +13298,8 @@
           "price": 31.19,
           "prev_close": 31.01,
           "pct_change": 0.58,
-          "market_cap": 3503159552,
-          "dividend_yield": 6.45,
+          "market_cap": 3503368704,
+          "dividend_yield": 6.41,
           "fifty_two_week_high": 35.44,
           "fifty_two_week_low": 20.45,
           "next_earnings": "2026-10-27"
@@ -13323,7 +13323,7 @@
           "prev_close": 36.96,
           "pct_change": 0.49,
           "market_cap": 4361816064,
-          "dividend_yield": 5.84,
+          "dividend_yield": 5.82,
           "fifty_two_week_high": 45.03,
           "fifty_two_week_low": 27.36,
           "next_earnings": "2026-10-26"
@@ -13335,7 +13335,7 @@
           "prev_close": 2.69,
           "pct_change": 0.74,
           "market_cap": 154591168,
-          "dividend_yield": 2.97,
+          "dividend_yield": 2.95,
           "fifty_two_week_high": 3.05,
           "fifty_two_week_low": 1.89,
           "next_earnings": "2026-11-05"
@@ -13359,7 +13359,7 @@
           "prev_close": 54.91,
           "pct_change": 1.18,
           "market_cap": 4263020288,
-          "dividend_yield": 4.5,
+          "dividend_yield": 4.45,
           "fifty_two_week_high": 66.29,
           "fifty_two_week_low": 34.77,
           "next_earnings": "2026-10-21"
@@ -13515,14 +13515,14 @@
           "count": 11
         },
         "retail": {
-          "avg_change": -0.26,
+          "avg_change": -0.18,
           "best": {
             "ticker": "MAC",
             "pct": 0.78
           },
           "worst": {
-            "ticker": "KIM",
-            "pct": -1.34
+            "ticker": "SPG",
+            "pct": -0.98
           },
           "count": 14
         },
@@ -13563,7 +13563,7 @@
           "count": 4
         },
         "office": {
-          "avg_change": 0.48,
+          "avg_change": 0.4,
           "best": {
             "ticker": "ESRT",
             "pct": 2.71
@@ -13583,8 +13583,8 @@
           "prev_close": 4.42,
           "pct_change": 2.71,
           "market_cap": 1390810112,
-          "dividend_yield": 3.17,
-          "fifty_two_week_high": 8.07,
+          "dividend_yield": 3.08,
+          "fifty_two_week_high": 8.04,
           "fifty_two_week_low": 4.36,
           "next_earnings": "2026-11-04"
         },
@@ -13594,8 +13594,8 @@
           "price": 3.12,
           "prev_close": 3.05,
           "pct_change": 2.3,
-          "market_cap": 538982656,
-          "dividend_yield": 10.49,
+          "market_cap": 538873536,
+          "dividend_yield": 10.26,
           "fifty_two_week_high": 4.63,
           "fifty_two_week_low": 2.47,
           "next_earnings": "2026-10-21"
@@ -13606,8 +13606,8 @@
           "price": 18.03,
           "prev_close": 17.73,
           "pct_change": 1.69,
-          "market_cap": 2027506816,
-          "dividend_yield": 23.0,
+          "market_cap": 2034554368,
+          "dividend_yield": 22.0,
           "fifty_two_week_high": 19.93,
           "fifty_two_week_low": 9.99,
           "next_earnings": "2026-11-04"
@@ -13619,7 +13619,7 @@
           "prev_close": 5.72,
           "pct_change": 1.22,
           "market_cap": 624471552,
-          "dividend_yield": 5.59,
+          "dividend_yield": 5.53,
           "fifty_two_week_high": 7.17,
           "fifty_two_week_low": 3.98,
           "next_earnings": "2026-11-04"
@@ -13631,7 +13631,7 @@
           "prev_close": 15.08,
           "pct_change": 1.19,
           "market_cap": 3072423168,
-          "dividend_yield": 6.63,
+          "dividend_yield": 6.55,
           "fifty_two_week_high": 16.2,
           "fifty_two_week_low": 9.84,
           "next_earnings": "2026-11-05"
@@ -13647,7 +13647,7 @@
           "market_cap": 1818388736,
           "dividend_yield": 30,
           "fifty_two_week_high": 9.66,
-          "fifty_two_week_low": 3.82,
+          "fifty_two_week_low": 3.92,
           "next_earnings": "2026-11-02"
         },
         {
@@ -13657,7 +13657,7 @@
           "prev_close": 241.12,
           "pct_change": -2.05,
           "market_cap": 170177495040,
-          "dividend_yield": 1.41,
+          "dividend_yield": 1.44,
           "fifty_two_week_high": 255.2,
           "fifty_two_week_low": 163.75,
           "next_earnings": "2026-10-26"
@@ -13669,9 +13669,9 @@
           "prev_close": 92.11,
           "pct_change": -2.0,
           "market_cap": 46303666176,
-          "dividend_yield": 2.26,
+          "dividend_yield": 2.3,
           "fifty_two_week_high": 101.6,
-          "fifty_two_week_low": 66.38,
+          "fifty_two_week_low": 66.54,
           "next_earnings": "2026-10-28"
         },
         {
@@ -13681,7 +13681,7 @@
           "prev_close": 55.76,
           "pct_change": -1.87,
           "market_cap": 11928892416,
-          "dividend_yield": 1.79,
+          "dividend_yield": 1.83,
           "fifty_two_week_high": 58.7,
           "fifty_two_week_low": 40.0,
           "next_earnings": "2026-11-05"
@@ -13692,8 +13692,8 @@
           "price": 75.83,
           "prev_close": 77.26,
           "pct_change": -1.85,
-          "market_cap": 32262285312,
-          "dividend_yield": 5.5,
+          "market_cap": 33137711104,
+          "dividend_yield": 5.6,
           "fifty_two_week_high": 100.5,
           "fifty_two_week_low": 69.72,
           "next_earnings": "2026-10-21"
