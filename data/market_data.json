@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-26T03:00:10.921591+00:00",
-  "market_date": "November 26, 2026",
+  "last_updated": "2026-11-27T03:06:58.108741+00:00",
+  "market_date": "November 27, 2026",
   "sectors": {
     "healthcare": {
       "focus_ticker": "CTRE",
@@ -12,7 +12,7 @@
           "prev_close": 38.35,
           "pct_change": 0.5,
           "market_cap": 9930137600,
-          "dividend_yield": 4.07,
+          "dividend_yield": 4.05,
           "fifty_two_week_high": 43.62,
           "fifty_two_week_low": 34.74,
           "next_earnings": "2027-02-18"
@@ -24,7 +24,7 @@
           "prev_close": 245.14,
           "pct_change": 0.42,
           "market_cap": 180600061952,
-          "dividend_yield": 1.39,
+          "dividend_yield": 1.38,
           "fifty_two_week_high": 255.2,
           "fifty_two_week_low": 181.47,
           "next_earnings": "2027-02-09"
@@ -36,7 +36,7 @@
           "prev_close": 87.17,
           "pct_change": 0.22,
           "market_cap": 46197714944,
-          "dividend_yield": 2.39,
+          "dividend_yield": 2.38,
           "fifty_two_week_high": 101.6,
           "fifty_two_week_low": 73.82,
           "next_earnings": "2027-02-03"
@@ -48,7 +48,7 @@
           "prev_close": 20.37,
           "pct_change": 1.67,
           "market_cap": 15035847680,
-          "dividend_yield": 5.99,
+          "dividend_yield": 5.89,
           "fifty_two_week_high": 22.95,
           "fifty_two_week_low": 15.7,
           "next_earnings": "2027-02-01"
@@ -60,7 +60,7 @@
           "prev_close": 59.75,
           "pct_change": 0.82,
           "market_cap": 13979802624,
-          "dividend_yield": 1.67,
+          "dividend_yield": 1.66,
           "fifty_two_week_high": 60.69,
           "fifty_two_week_low": 44.81,
           "next_earnings": "2026-11-05"
@@ -72,7 +72,7 @@
           "prev_close": 42.0,
           "pct_change": 2.6,
           "market_cap": 7504582144,
-          "dividend_yield": 6.86,
+          "dividend_yield": 6.68,
           "fifty_two_week_high": 59.76,
           "fifty_two_week_low": 38.34,
           "next_earnings": "2027-01-25"
@@ -84,7 +84,7 @@
           "prev_close": 20.17,
           "pct_change": 1.39,
           "market_cap": 7097796608,
-          "dividend_yield": 4.76,
+          "dividend_yield": 4.69,
           "fifty_two_week_high": 22.04,
           "fifty_two_week_low": 16.31,
           "next_earnings": "2027-02-11"
@@ -96,7 +96,7 @@
           "prev_close": 21.03,
           "pct_change": 0.62,
           "market_cap": 5543104512,
-          "dividend_yield": 5.71,
+          "dividend_yield": 5.67,
           "fifty_two_week_high": 22.77,
           "fifty_two_week_low": 17.54,
           "next_earnings": "2027-02-11"
@@ -108,7 +108,7 @@
           "prev_close": 62.9,
           "pct_change": 0.89,
           "market_cap": 3116548096,
-          "dividend_yield": 5.98,
+          "dividend_yield": 5.93,
           "fifty_two_week_high": 91.38,
           "fifty_two_week_low": 59.05,
           "next_earnings": "2026-11-09"
@@ -120,7 +120,7 @@
           "prev_close": 47.06,
           "pct_change": 0.62,
           "market_cap": 15068268544,
-          "dividend_yield": 5.78,
+          "dividend_yield": 5.74,
           "fifty_two_week_high": 52.39,
           "fifty_two_week_low": 42.18,
           "next_earnings": "2027-02-03"
@@ -132,7 +132,7 @@
           "prev_close": 43.66,
           "pct_change": -0.76,
           "market_cap": 2434785024,
-          "dividend_yield": 5.22,
+          "dividend_yield": 5.26,
           "fifty_two_week_high": 46.92,
           "fifty_two_week_low": 33.64,
           "next_earnings": "2027-02-23"
@@ -156,7 +156,7 @@
           "prev_close": 14.61,
           "pct_change": 0.14,
           "market_cap": 420457184,
-          "dividend_yield": 11.07,
+          "dividend_yield": 11.06,
           "fifty_two_week_high": 19.165,
           "fifty_two_week_low": 12.58,
           "next_earnings": "2027-02-16"
@@ -168,7 +168,7 @@
           "prev_close": 38.6,
           "pct_change": 0.16,
           "market_cap": 537361984,
-          "dividend_yield": 7.77,
+          "dividend_yield": 7.76,
           "fifty_two_week_high": 46.3,
           "fifty_two_week_low": 36.07,
           "next_earnings": "2026-10-27"
@@ -180,13 +180,24 @@
           "prev_close": 12.41,
           "pct_change": 2.18,
           "market_cap": 716665984,
-          "dividend_yield": 5.48,
+          "dividend_yield": 5.36,
           "fifty_two_week_high": 14.75,
           "fifty_two_week_low": 11.65,
           "next_earnings": "2027-02-18"
         }
       },
       "news": [
+        {
+          "ticker": "CTRE",
+          "company": "CareTrust REIT",
+          "source": "CTRE",
+          "category": "reit",
+          "title": "Kimco Realty vs. CareTrust REIT: Which Dividend Stock Pays You More in 10 Years?",
+          "link": "https://www.tikr.com/blog/kimco-realty-vs-caretrust-reit-which-dividend-stock-pays-you-more-in-10-years?ref=yahoofinancedividend&tlnk=yf-261126-g74frpx6&.tsrc=rss",
+          "published": "Mon, 23 Nov 2026 22:26:36 +0000",
+          "summary": "Key TakeawaysKimco Realty and CareTrust REIT both yield 4. 5%, and both raised their 2026 guidance with their third-quarter results.",
+          "is_signal": true
+        },
         {
           "ticker": "CTRE",
           "company": "CareTrust REIT",
@@ -221,14 +232,36 @@
           "is_signal": true
         },
         {
-          "ticker": "CTRE",
-          "company": "CareTrust REIT",
-          "source": "CTRE",
+          "ticker": "WELL",
+          "company": "Welltower",
+          "source": "WELL",
           "category": "reit",
-          "title": "CareTrust REIT stock falls on 17 million share offering",
-          "link": "https://finance.yahoo.com/real-estate/articles/caretrust-reit-stock-falls-17-222920277.html?.tsrc=rss",
-          "published": "Wed, 11 Nov 2026 22:29:20 +0000",
-          "summary": "Investing.com -- CareTrust REIT, Inc (NYSE:CTRE) shares fell 2.1% in after-hours trading Wednesday following the announcement of an underwritten public offering of 17 million shares of common stock.",
+          "title": "Welltower (WELL) Stock May Be 8% Overvalued On Nursing Home Deal",
+          "link": "https://finance.yahoo.com/real-estate/articles/welltower-well-stock-may-8-181452776.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 18:14:52 +0000",
+          "summary": "Welltower has been a powerful real estate play in recent years, which naturally raises a sharper question for you today. Is the current share price supported by the cash flows that the company is expected to generate, or has sentiment moved ahead of the underlying money coming in the door? Over the \u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "WELL",
+          "company": "Welltower",
+          "source": "WELL",
+          "category": "reit",
+          "title": "How Earnings Beat At Welltower (WELL) Has Changed Its Investment Story",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-beat-welltower-well-changed-081313444.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 08:13:13 +0000",
+          "summary": "Welltower reported third quarter 2026 normalized FFO of $1.67 per share, ahead of estimates. The company raised its full year normalized FFO guidance and highlighted seniors housing operations and recent acquisitions as key contributors. The update underscored how seniors housing occupancy, revenue \u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "WELL",
+          "company": "Welltower",
+          "source": "WELL",
+          "category": "reit",
+          "title": "Welltower (WELL), What Is Behind The Fresh Attention?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/welltower-well-behind-fresh-attention-071058448.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 07:10:58 +0000",
+          "summary": "Welltower (WELL) moved back into focus after reporting third quarter 2026 normalized FFO of $1.67 per share, beating estimates and prompting management to lift full year guidance for this key cash flow metric. The guidance lift has arrived alongside strong share price momentum, with Welltower\u2019s stoc\u2026",
           "is_signal": true
         },
         {
@@ -243,36 +276,14 @@
           "is_signal": true
         },
         {
-          "ticker": "WELL",
-          "company": "Welltower",
-          "source": "WELL",
+          "ticker": "VTR",
+          "company": "Ventas",
+          "source": "VTR",
           "category": "reit",
-          "title": "Welltower, Stock Of The Day, Flashes A Bullish Signal, Offers Defensive Growth",
-          "link": "https://finance.yahoo.com/m/548ee0bb-be37-3fb3-93d9-c4498dde87c0/welltower%2C-stock-of-the-day%2C.html?.tsrc=rss",
-          "published": "Fri, 20 Nov 2026 21:20:05 +0000",
-          "summary": "The S&amp;P 500 healthcare REIT Welltower targets a major demographic trend.",
-          "is_signal": true
-        },
-        {
-          "ticker": "WELL",
-          "company": "Welltower",
-          "source": "WELL",
-          "category": "reit",
-          "title": "3 Healthcare REITs Raised Their 2026 Outlooks as Senior Housing Demand Grows",
-          "link": "https://247wallst.com/investing/2026/11/20/3-healthcare-reits-raised-their-2026-outlooks-as-senior-housing-demand-grows/?.tsrc=rss",
-          "published": "Fri, 20 Nov 2026 16:47:01 +0000",
-          "summary": "Baby boomers are turning 80, and three healthcare REITs just raised their 2026 guidance to capture the demand. Yet each dividend carries a cut in its past and a different risk, so which payout can retirees actually trust?",
-          "is_signal": true
-        },
-        {
-          "ticker": "WELL",
-          "company": "Welltower",
-          "source": "WELL",
-          "category": "reit",
-          "title": "Welltower Stock: Is Wall Street Bullish or Bearish?",
-          "link": "https://www.barchart.com/story/news/8817789/welltower-stock-is-wall-street-bullish-or-bearish?.tsrc=rss",
-          "published": "Fri, 13 Nov 2026 11:01:16 +0000",
-          "summary": "As Welltower has outperformed relative to the broader market over the past year, Wall Street analysts remain strongly optimistic about the stock\u2019s prospects.",
+          "title": "Why Is Ventas (VTR) Up 7.8% Since Last Earnings Report?",
+          "link": "https://finance.yahoo.com/real-estate/articles/why-ventas-vtr-7-8-153019581.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 15:30:19 +0000",
+          "summary": "Ventas (VTR) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
           "is_signal": true
         },
         {
@@ -309,14 +320,14 @@
           "is_signal": true
         },
         {
-          "ticker": "VTR",
-          "company": "Ventas",
-          "source": "VTR",
+          "ticker": "DOC",
+          "company": "Healthpeak Properties",
+          "source": "DOC",
           "category": "reit",
-          "title": "Senior Housing Demand Is Rising. Can These 4 REITs Turn It Into Bigger Dividends?",
-          "link": "https://247wallst.com/investing/2026/10/31/senior-housing-demand-is-rising-can-these-4-reits-turn-it-into-bigger-dividends/?.tsrc=rss",
-          "published": "Sat, 31 Oct 2026 12:17:50 +0000",
-          "summary": "Baby boomers are turning 80 while builders put up almost no new senior housing, a setup that pushes rents and occupancy higher. But operator costs and government reimbursement decide how much profit actually reaches shareholders, and these four REITs handle that risk very differently.",
+          "title": "An $850,000 Portfolio in Park Hotels & Resorts, Healthpeak and Verizon Pays $51,477 a Year in Dividends. Here\u2019s What Happens if One Cuts",
+          "link": "https://www.tikr.com/blog/an-850000-portfolio-in-park-hotels-resorts-healthpeak-and-verizon-pays-52056-a-year-in-dividends-heres-what-happens-if-one-cuts?ref=yahoofinancedividend&tlnk=yf-261126-rg7ghxjj&.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 18:20:24 +0000",
+          "summary": "Key TakeawaysA $850,000 portfolio split evenly across Park Hotels & Resorts, Healthpeak Properties and Verizon pays about $4,290 a month in dividends at today\u2019s prices. Each dividend is covered on its own measure: 51% of AFFO at Park, 72% of AFFO at Healthpeak, and 52% of free cash flow at Verizon.",
           "is_signal": true
         },
         {
@@ -353,15 +364,48 @@
           "is_signal": false
         },
         {
-          "ticker": "DOC",
-          "company": "Healthpeak Properties",
-          "source": "DOC",
+          "ticker": "AHR",
+          "company": "American Healthcare REIT",
+          "source": "AHR",
           "category": "reit",
-          "title": "Healthpeak: 3 Key Takeaways for Long-Term Investors",
-          "link": "https://www.fool.com/earnings/takeaways/2026/11/04/healthpeak-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
-          "published": "Wed, 04 Nov 2026 11:42:54 +0000",
-          "summary": "Lab buildings bought near existing campuses are targeted to climb from 41% occupancy toward a 9% to 10% stabilized yield, a plan that hinges on local scale.",
+          "title": "Is American Healthcare REIT, Inc. (AHR) Stock Outpacing Its Finance Peers This Year?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/american-healthcare-reit-inc-ahr-134002649.html?.tsrc=rss",
+          "published": "Fri, 20 Nov 2026 13:40:02 +0000",
+          "summary": "Here is how American Healthcare REIT (AHR) and Brixmor Property (BRX) have performed compared to their sector so far this year.",
+          "is_signal": false
+        },
+        {
+          "ticker": "AHR",
+          "company": "American Healthcare REIT",
+          "source": "AHR",
+          "category": "reit",
+          "title": "Zacks Investment Ideas feature highlights: American Healthcare REIT, RenaissanceRe and Cheniere Energy",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-065300177.html?.tsrc=rss",
+          "published": "Fri, 13 Nov 2026 06:53:00 +0000",
+          "summary": "If the AI boom stalls, AHR, RNR and LNG offer investors defensive diversification through healthcare, insurance and energy, backed by improving earnings estimates.",
           "is_signal": true
+        },
+        {
+          "ticker": "AHR",
+          "company": "American Healthcare REIT",
+          "source": "AHR",
+          "category": "reit",
+          "title": "American Healthcare REIT (AHR) Upgraded to Strong Buy: Here's Why",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/american-healthcare-reit-ahr-upgraded-160002243.html?.tsrc=rss",
+          "published": "Thu, 12 Nov 2026 16:00:02 +0000",
+          "summary": "American Healthcare REIT (AHR) has been upgraded to a Zacks Rank #1 (Strong Buy), reflecting growing optimism about the company's earnings prospects. This might drive the stock higher in the near term.",
+          "is_signal": true
+        },
+        {
+          "ticker": "AHR",
+          "company": "American Healthcare REIT",
+          "source": "AHR",
+          "category": "reit",
+          "title": "American Healthcare REIT (AHR) Is Up 8.20% in One Week: What You Should Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/american-healthcare-reit-ahr-8-160002482.html?.tsrc=rss",
+          "published": "Wed, 11 Nov 2026 16:00:02 +0000",
+          "summary": "Does American Healthcare REIT (AHR) have what it takes to be a top stock pick for momentum investors? Let's find out.",
+          "is_signal": false
         },
         {
           "ticker": "ARE",
@@ -907,6 +951,28 @@
           "company": null,
           "source": "STAT News",
           "category": "healthcare",
+          "title": "In a fertility advance, engineered molecular glue stabilizes chromosomes in aging eggs",
+          "link": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/?utm_campaign=rss",
+          "published": "Thu, 26 Nov 2026 19:00:00 +0000",
+          "summary": "Researchers engineered a protein system capable of restoring normal chromosome connections in aging mouse eggs, raising hopes of one day improving IVF outcomes",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
+          "title": "STAT+: The grueling struggle to find a primary care doctor in the \u2018medical capital\u2019 of America",
+          "link": "https://www.statnews.com/2026/11/26/primary-care-appointment-times-doctor-shortage/?utm_campaign=rss",
+          "published": "Thu, 26 Nov 2026 12:00:00 +0000",
+          "summary": "Boston is supposed to be the medical capital of America. Yet many don\u2019t have primary care access, hurting their ability to get treatments, screenings, and medical advice.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "STAT News",
+          "category": "healthcare",
           "title": "Why Medicare\u2019s 2027 physician pay changes worry some specialists",
           "link": "https://www.statnews.com/2026/11/25/medicare-physician-fee-schedule-change-worry-some-specialists/?utm_campaign=rss",
           "published": "Wed, 25 Nov 2026 21:28:53 +0000",
@@ -933,28 +999,6 @@
           "link": "https://www.statnews.com/pharmalot/2026/11/25/biontech-founders-oncology-startup-gsk-egpa-drug-exdensur/?utm_campaign=rss",
           "published": "Wed, 25 Nov 2026 13:55:58 +0000",
           "summary": "The cofounders of BioNTech are in talks to raise about $1 billion for a new oncology company",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "STAT News",
-          "category": "healthcare",
-          "title": "RFK Jr. weighs in on plan to detonate toxic material in Iowa",
-          "link": "https://www.statnews.com/2026/11/25/health-news-rfk-jr-weighs-in-on-plan-to-detonate-toxic-material-in-iowa/?utm_campaign=rss",
-          "published": "Wed, 25 Nov 2026 13:03:56 +0000",
-          "summary": "This morning, the Army plans to detonate a cache of \u201cdangerously degraded\u201d toxic material in Iowa, with experts warning of dangerous health consequences:",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "STAT News",
-          "category": "healthcare",
-          "title": "Opinion: Washington and Beijing are building walls around biotechnology. That\u2019s the wrong approach",
-          "link": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
-          "published": "Wed, 25 Nov 2026 09:30:00 +0000",
-          "summary": "\u201cData show that the U.S.-China contest in biotechnology is not one race but several,\u201d writes Michael S. Kinch.",
           "is_signal": false
         },
         {
@@ -1083,6 +1127,17 @@
           "company": null,
           "source": "Hipersonica.com",
           "category": "broad",
+          "title": "Adi\u00f3s a Delano Smith, no te pegues por Big Thief, el western de Spielberg y PTA...",
+          "link": "https://www.hipersonica.com/p/adios-a-delano-smith-no-te-pegues",
+          "published": "2026-11-25T05:21:22Z",
+          "summary": "...y otras noticias con las que ponerse al d\u00eda",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Hipersonica.com",
+          "category": "broad",
           "title": "La resurrecci\u00f3n de Bradford Cox (a trav\u00e9s de la muerte), el retorno de Carolina Durante, el gesto de Portishead...",
           "link": "https://www.hipersonica.com/p/la-resurreccion-de-bradford-cox-a",
           "published": "2026-11-23T05:01:24Z",
@@ -1175,17 +1230,6 @@
           "link": "https://pypi.org/project/blastingpy/",
           "published": "2026-11-16T04:35:57Z",
           "summary": "Blast vibration, airblast, flyrock and near-field analysis for mining. C++ core, Python API",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Gadgeteer",
-          "category": "broad",
-          "title": "125 Nm in a drop-bar bike is a different kind of fast",
-          "link": "https://the-gadgeteer.com/2026/11/13/125-nm-in-a-drop-bar-bike-is-a-different-kind-of-fast/",
-          "published": "2026-11-14T03:03:03Z",
-          "summary": "Berria builds the Mistral Essential Apex around DJI\u2019s Avinox M2 drive, the system family behind a new wave of electric mountain bikes, and sells it in road and gravel versions at \u20ac3,499 each. The motor numbers lead the story here.\u2026",
           "is_signal": false
         },
         {
@@ -1688,56 +1732,54 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "November 20, 2026",
-        "generated_at": "2026-11-20T01:52:36.993348+00:00",
-        "advancing": 6,
-        "declining": 9,
+        "week_ending": "November 27, 2026",
+        "generated_at": "2026-11-27T03:06:51.503709+00:00",
+        "advancing": 15,
+        "declining": 0,
         "total": 15,
-        "avg_weekly_pct": -0.75,
+        "avg_weekly_pct": 3.68,
         "top_gainers": [
           {
-            "ticker": "AHR",
-            "name": "American Healthcare REIT",
-            "price": 58.55,
-            "weekly_pct": 1.33
+            "ticker": "DOC",
+            "name": "Healthpeak Properties",
+            "price": 20.71,
+            "weekly_pct": 7.92
           },
           {
-            "ticker": "WELL",
-            "name": "Welltower",
-            "price": 247.25,
-            "weekly_pct": 1.14
+            "ticker": "HR",
+            "name": "Healthcare Realty Trust",
+            "price": 20.45,
+            "weekly_pct": 5.63
           },
           {
-            "ticker": "SBRA",
-            "name": "Sabra Health Care REIT",
-            "price": 20.62,
-            "weekly_pct": 0.88
+            "ticker": "STRW",
+            "name": "Strawberry Fields REIT",
+            "price": 12.68,
+            "weekly_pct": 5.14
           }
         ],
         "top_losers": [
           {
-            "ticker": "LTC",
-            "name": "LTC Properties",
-            "price": 41.71,
-            "weekly_pct": -3.63
+            "ticker": "VTR",
+            "name": "Ventas",
+            "price": 87.36,
+            "weekly_pct": 0.41
           },
           {
-            "ticker": "ARE",
-            "name": "Alexandria Real Estate Equities",
-            "price": 42.37,
-            "weekly_pct": -3.35
+            "ticker": "WELL",
+            "name": "Welltower",
+            "price": 246.18,
+            "weekly_pct": 1.23
           },
           {
-            "ticker": "DOC",
-            "name": "Healthpeak Properties",
-            "price": 19.34,
-            "weekly_pct": -3.2
+            "ticker": "CHCT",
+            "name": "Community Healthcare Trust",
+            "price": 14.63,
+            "weekly_pct": 2.38
           }
         ],
         "key_signals": [],
-        "broad_highlights": [
-          "Outrage as pets are given far more time to spend with mall's Santa than autistic children"
-        ]
+        "broad_highlights": []
       }
     },
     "housing": {
@@ -1750,7 +1792,7 @@
           "prev_close": 25.58,
           "pct_change": 1.95,
           "market_cap": 4330529792,
-          "dividend_yield": 12.35,
+          "dividend_yield": 12.12,
           "fifty_two_week_high": 32.595,
           "fifty_two_week_low": 21.07,
           "next_earnings": "2026-10-27"
@@ -1762,7 +1804,7 @@
           "prev_close": 275.58,
           "pct_change": 1.32,
           "market_cap": 19266035712,
-          "dividend_yield": 3.76,
+          "dividend_yield": 3.71,
           "fifty_two_week_high": 303.35,
           "fifty_two_week_low": 238.46,
           "next_earnings": "2027-02-03"
@@ -1774,7 +1816,7 @@
           "prev_close": 115.84,
           "pct_change": 1.52,
           "market_cap": 13985369088,
-          "dividend_yield": 5.28,
+          "dividend_yield": 5.2,
           "fifty_two_week_high": 144.41,
           "fifty_two_week_low": 111.71,
           "next_earnings": "2027-02-03"
@@ -1786,7 +1828,7 @@
           "prev_close": 36.17,
           "pct_change": 1.38,
           "market_cap": 13310797824,
-          "dividend_yield": 4.81,
+          "dividend_yield": 4.75,
           "fifty_two_week_high": 42.0,
           "fifty_two_week_low": 33.1,
           "next_earnings": "2027-02-10"
@@ -1798,7 +1840,7 @@
           "prev_close": 97.84,
           "pct_change": 1.44,
           "market_cap": 9931915264,
-          "dividend_yield": 4.33,
+          "dividend_yield": 4.27,
           "fifty_two_week_high": 119.81,
           "fifty_two_week_low": 94.9,
           "next_earnings": "2027-02-04"
@@ -1810,7 +1852,7 @@
           "prev_close": 14.84,
           "pct_change": 0.88,
           "market_cap": 3619916288,
-          "dividend_yield": 4.85,
+          "dividend_yield": 4.81,
           "fifty_two_week_high": 17.79,
           "fifty_two_week_low": 14.33,
           "next_earnings": "2027-02-10"
@@ -1822,7 +1864,7 @@
           "prev_close": 56.21,
           "pct_change": 1.19,
           "market_cap": 1962418304,
-          "dividend_yield": 5.48,
+          "dividend_yield": 5.41,
           "fifty_two_week_high": 69.61,
           "fifty_two_week_low": 52.0,
           "next_earnings": "2027-02-16"
@@ -1846,8 +1888,8 @@
           "prev_close": 14.99,
           "pct_change": 3.6,
           "market_cap": 801406976,
-          "dividend_yield": 14.14,
-          "fifty_two_week_high": 32.36,
+          "dividend_yield": 13.65,
+          "fifty_two_week_high": 31.985,
           "fifty_two_week_low": 14.14,
           "next_earnings": "2027-02-23"
         },
@@ -1858,7 +1900,7 @@
           "prev_close": 32.8,
           "pct_change": 1.8,
           "market_cap": 13610864640,
-          "dividend_yield": 4.02,
+          "dividend_yield": 3.95,
           "fifty_two_week_high": 35.07,
           "fifty_two_week_low": 27.22,
           "next_earnings": "2027-02-18"
@@ -1870,7 +1912,7 @@
           "prev_close": 27.24,
           "pct_change": 2.13,
           "market_cap": 16089728000,
-          "dividend_yield": 4.41,
+          "dividend_yield": 4.31,
           "fifty_two_week_high": 30.893,
           "fifty_two_week_low": 24.25,
           "next_earnings": "2027-02-17"
@@ -1882,7 +1924,7 @@
           "prev_close": 117.62,
           "pct_change": 0.61,
           "market_cap": 14685730816,
-          "dividend_yield": 3.81,
+          "dividend_yield": 3.79,
           "fifty_two_week_high": 137.85,
           "fifty_two_week_low": 109.77,
           "next_earnings": "2027-02-23"
@@ -1894,7 +1936,7 @@
           "prev_close": 62.39,
           "pct_change": 1.31,
           "market_cap": 12719869952,
-          "dividend_yield": 3.48,
+          "dividend_yield": 3.43,
           "fifty_two_week_high": 69.0,
           "fifty_two_week_low": 57.46,
           "next_earnings": "2027-01-27"
@@ -1906,7 +1948,7 @@
           "prev_close": 14.37,
           "pct_change": 0.49,
           "market_cap": 1237939584,
-          "dividend_yield": 6.26,
+          "dividend_yield": 6.23,
           "fifty_two_week_high": 16.77,
           "fifty_two_week_low": 13.81,
           "next_earnings": "2026-11-02"
@@ -1918,7 +1960,7 @@
           "prev_close": 85.0,
           "pct_change": 2.11,
           "market_cap": 20647362560,
-          "dividend_yield": 2.35,
+          "dividend_yield": 2.3,
           "fifty_two_week_high": 133.76,
           "fifty_two_week_low": 71.78,
           "next_earnings": "2026-12-15"
@@ -1931,7 +1973,7 @@
           "pct_change": -0.87,
           "market_cap": 675060416,
           "dividend_yield": 0,
-          "fifty_two_week_high": 6.246,
+          "fifty_two_week_high": 6.24,
           "fifty_two_week_low": 4.02,
           "next_earnings": "2027-01-28"
         }
@@ -1986,10 +2028,10 @@
           "company": "Equity Residential",
           "source": "EQR",
           "category": "reit",
-          "title": "Apartment Supply Is Finally Tightening. These 4 REITs Could Reward Investors",
-          "link": "https://247wallst.com/investing/2026/10/09/apartment-supply-is-finally-tightening-these-4-reits-could-reward-investors/?.tsrc=rss",
-          "published": "Fri, 09 Oct 2026 16:45:56 +0000",
-          "summary": "The three-year supply glut that crushed apartment rents is finally fading, but not every landlord stands to benefit equally. Four REITs are positioned differently by geography, leverage, and dividend room as the tide turns.",
+          "title": "Vivmark Residential Stock: Is Wall Street Bullish or Bearish?",
+          "link": "https://www.barchart.com/story/news/9016705/vivmark-residential-stock-is-wall-street-bullish-or-bearish?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 10:55:55 +0000",
+          "summary": "Vivmark Residential has outperformed the broader market over the past year, while Wall Street analysts remain cautiously optimistic about the stock\u2019s outlook.",
           "is_signal": true
         },
         {
@@ -2074,6 +2116,28 @@
           "company": "Essex Property Trust",
           "source": "ESS",
           "category": "reit",
+          "title": "Essex Property Trust (ESS) Stock Looks Like A Discount To Fair Value",
+          "link": "https://finance.yahoo.com/real-estate/articles/essex-property-trust-ess-stock-161334446.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 16:13:34 +0000",
+          "summary": "Essex Property Trust has quietly built a solid track record for holders in recent years, which naturally raises a simple question for anyone looking at the ticker today. Is the current share price of about US$279 supported by the cash flows that the real estate investment trust is expected to genera\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "ESS",
+          "company": "Essex Property Trust",
+          "source": "ESS",
+          "category": "reit",
+          "title": "Essex Property Trust (ESS) Up 6.8% Since Last Earnings Report: Can It Continue?",
+          "link": "https://finance.yahoo.com/real-estate/articles/essex-property-trust-ess-6-153010293.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 15:30:10 +0000",
+          "summary": "Essex Property Trust (ESS) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+          "is_signal": true
+        },
+        {
+          "ticker": "ESS",
+          "company": "Essex Property Trust",
+          "source": "ESS",
+          "category": "reit",
           "title": "American Tower or Essex Property Trust: The One Dividend Stock I\u2019d Hold for the Next 10 Years",
           "link": "https://www.tikr.com/blog/american-tower-or-essex-property-trust-the-one-dividend-stock-id-hold-for-the-next-10-years?ref=yahoofinancedividend&tlnk=yf-261125-ffg8r965&.tsrc=rss",
           "published": "Mon, 23 Nov 2026 22:26:10 +0000",
@@ -2089,28 +2153,6 @@
           "link": "https://finance.yahoo.com/real-estate/articles/zacks-industry-outlook-highlights-invitation-101400263.html?.tsrc=rss",
           "published": "Wed, 18 Nov 2026 10:14:00 +0000",
           "summary": "Invitation Homes, Essex Property and Equity LifeStyle have been highlighted in this Industry Outlook article.",
-          "is_signal": true
-        },
-        {
-          "ticker": "ESS",
-          "company": "Essex Property Trust",
-          "source": "ESS",
-          "category": "reit",
-          "title": "Essex Property: 3 Key Takeaways for Long-Term Investors",
-          "link": "https://www.fool.com/earnings/takeaways/2026/11/17/essex-property-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
-          "published": "Tue, 17 Nov 2026 22:05:02 +0000",
-          "summary": "A fortress balance sheet and constrained housing supply could provide Essex Property with insulation from rate volatility.",
-          "is_signal": false
-        },
-        {
-          "ticker": "ESS",
-          "company": "Essex Property Trust",
-          "source": "ESS",
-          "category": "reit",
-          "title": "4 Apartment REITs Ranked by Dividend Coverage as Rental Markets Tighten",
-          "link": "https://247wallst.com/investing/2026/10/30/4-apartment-reits-ranked-by-dividend-coverage-as-rental-markets-tighten/?.tsrc=rss",
-          "published": "Fri, 30 Oct 2026 11:17:17 +0000",
-          "summary": "Fewer new apartments are hitting the market just as tenants stop moving out, but not every landlord enters 2027 with the same cushion between its rental cash flow and its dividend obligation.",
           "is_signal": true
         },
         {
@@ -2382,10 +2424,10 @@
           "company": "Apartment Investment and Management",
           "source": "AIV",
           "category": "reit",
-          "title": "Aimco Provides Update on Liquidation Activities",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/aimco-provides-liquidation-activities-203000795.html?.tsrc=rss",
-          "published": "Mon, 30 Mar 2026 20:30:00 +0000",
-          "summary": "Apartment Investment and Management Company (\"Aimco\" or the \"Company\") today provided an update regarding the status of ongoing liquidation activities under the Company's Plan of Sale and Liquidation approved by Aimco stockholders on February 6, 2026.",
+          "title": "Aimco Declares a $1.30 per Share Partial Liquidating Distribution",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/aimco-declares-1-30-per-201500967.html?.tsrc=rss",
+          "published": "Thu, 30 Apr 2026 20:15:00 +0000",
+          "summary": "Apartment Investment and Management Company (\"Aimco\" or the \"Company\") (NYSE: AIV) announced today that Aimco's Board of Directors (the \"Board\") declared a $1.30 per share liquidating distribution to be paid on June 3, 2026, to stockholders of record as of May 15, 2026.",
           "is_signal": true
         },
         {
@@ -2393,10 +2435,10 @@
           "company": "Apartment Investment and Management",
           "source": "AIV",
           "category": "reit",
-          "title": "Aimco Declares a $1.30 per Share Partial Liquidating Distribution",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/aimco-declares-1-30-per-201500967.html?.tsrc=rss",
-          "published": "Thu, 30 Apr 2026 20:15:00 +0000",
-          "summary": "Apartment Investment and Management Company (\"Aimco\" or the \"Company\") (NYSE: AIV) announced today that Aimco's Board of Directors (the \"Board\") declared a $1.30 per share liquidating distribution to be paid on June 3, 2026, to stockholders of record as of May 15, 2026.",
+          "title": "Aimco Provides Update on Liquidation Activities",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/aimco-provides-liquidation-activities-203000795.html?.tsrc=rss",
+          "published": "Mon, 30 Mar 2026 20:30:00 +0000",
+          "summary": "Apartment Investment and Management Company (\"Aimco\" or the \"Company\") today provided an update regarding the status of ongoing liquidation activities under the Company's Plan of Sale and Liquidation approved by Aimco stockholders on February 6, 2026.",
           "is_signal": true
         },
         {
@@ -2569,6 +2611,17 @@
           "company": "Sun Communities",
           "source": "SUI",
           "category": "reit",
+          "title": "Gaming and Leisure Properties vs. Sun Communities: Which Dividend Stock Pays You More in 10 Years?",
+          "link": "https://www.tikr.com/blog/gaming-and-leisure-properties-vs-sun-communities-which-dividend-stock-pays-you-more-in-10-years?ref=yahoofinancedividend&tlnk=yf-261126-9phq84v9&.tsrc=rss",
+          "published": "Mon, 23 Nov 2026 22:26:55 +0000",
+          "summary": "Key TakeawaysGaming and Leisure Properties yields 8. 8% and Sun Communities 4.",
+          "is_signal": true
+        },
+        {
+          "ticker": "SUI",
+          "company": "Sun Communities",
+          "source": "SUI",
+          "category": "reit",
           "title": "Housing Costs Keep Buyers Renting, and $90,000 Across These 3 Housing REITs Pays $3,522 a Year",
           "link": "https://247wallst.com/investing/2026/11/15/housing-costs-keep-buyers-renting-and-90000-across-these-3-housing-reits-pays-3522-a-year/?.tsrc=rss",
           "published": "Sun, 15 Nov 2026 17:01:01 +0000",
@@ -2584,17 +2637,6 @@
           "link": "https://www.fool.com/earnings/takeaways/2026/11/05/sun-communities-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
           "published": "Thu, 05 Nov 2026 16:20:02 +0000",
           "summary": "Streamlining to a pure-play North American focus gives management the financial flexibility to prioritize shareholder returns over acquisitions.",
-          "is_signal": true
-        },
-        {
-          "ticker": "SUI",
-          "company": "Sun Communities",
-          "source": "SUI",
-          "category": "reit",
-          "title": "Sun Communities (SUI) Q3 2026 Earnings Call Transcript",
-          "link": "https://www.fool.com/earnings/call-transcripts/2026/10/27/sun-communities-sui-q3-2026-earnings-call-transcript/?.tsrc=rss",
-          "published": "Tue, 27 Oct 2026 19:16:46 +0000",
-          "summary": "UK sale complete; MH rents rising 5.4% in 2027 as company refocuses on North America.",
           "is_signal": true
         },
         {
@@ -3009,6 +3051,17 @@
           "company": null,
           "source": "Hipersonica.com",
           "category": "broad",
+          "title": "Adi\u00f3s a Delano Smith, no te pegues por Big Thief, el western de Spielberg y PTA...",
+          "link": "https://www.hipersonica.com/p/adios-a-delano-smith-no-te-pegues",
+          "published": "2026-11-25T05:21:22Z",
+          "summary": "...y otras noticias con las que ponerse al d\u00eda",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Hipersonica.com",
+          "category": "broad",
           "title": "La resurrecci\u00f3n de Bradford Cox (a trav\u00e9s de la muerte), el retorno de Carolina Durante, el gesto de Portishead...",
           "link": "https://www.hipersonica.com/p/la-resurreccion-de-bradford-cox-a",
           "published": "2026-11-23T05:01:24Z",
@@ -3101,17 +3154,6 @@
           "link": "https://pypi.org/project/blastingpy/",
           "published": "2026-11-16T04:35:57Z",
           "summary": "Blast vibration, airblast, flyrock and near-field analysis for mining. C++ core, Python API",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Gadgeteer",
-          "category": "broad",
-          "title": "125 Nm in a drop-bar bike is a different kind of fast",
-          "link": "https://the-gadgeteer.com/2026/11/13/125-nm-in-a-drop-bar-bike-is-a-different-kind-of-fast/",
-          "published": "2026-11-14T03:03:03Z",
-          "summary": "Berria builds the Mistral Essential Apex around DJI\u2019s Avinox M2 drive, the system family behind a new wave of electric mountain bikes, and sells it in road and gravel versions at \u20ac3,499 each. The motor numbers lead the story here.\u2026",
           "is_signal": false
         },
         {
@@ -3555,56 +3597,54 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "November 20, 2026",
-        "generated_at": "2026-11-20T01:52:38.539946+00:00",
-        "advancing": 1,
-        "declining": 15,
+        "week_ending": "November 27, 2026",
+        "generated_at": "2026-11-27T03:06:52.786571+00:00",
+        "advancing": 16,
+        "declining": 0,
         "total": 16,
-        "avg_weekly_pct": -1.77,
+        "avg_weekly_pct": 4.28,
         "top_gainers": [
           {
-            "ticker": "ESS",
-            "name": "Essex Property Trust",
-            "price": 273.86,
-            "weekly_pct": 0.2
+            "ticker": "LEN",
+            "name": "Lennar",
+            "price": 86.79,
+            "weekly_pct": 8.58
           },
           {
-            "ticker": "UDR",
-            "name": "UDR Inc",
-            "price": 36.08,
-            "weekly_pct": -0.59
+            "ticker": "NXRT",
+            "name": "NexPoint Residential Trust",
+            "price": 15.53,
+            "weekly_pct": 7.7
           },
           {
-            "ticker": "ELS",
-            "name": "Equity LifeStyle Properties",
-            "price": 61.68,
-            "weekly_pct": -0.71
+            "ticker": "INVH",
+            "name": "Invitation Homes",
+            "price": 27.82,
+            "weekly_pct": 6.63
           }
         ],
         "top_losers": [
           {
-            "ticker": "NXRT",
-            "name": "NexPoint Residential Trust",
-            "price": 14.82,
-            "weekly_pct": -4.33
-          },
-          {
             "ticker": "AIV",
             "name": "Apartment Investment and Management",
-            "price": 1.4,
-            "weekly_pct": -3.45
+            "price": 1.46,
+            "weekly_pct": 1.39
           },
           {
-            "ticker": "FPH",
-            "name": "Five Point Holdings",
-            "price": 4.33,
-            "weekly_pct": -3.35
+            "ticker": "UMH",
+            "name": "UMH Properties",
+            "price": 14.44,
+            "weekly_pct": 1.69
+          },
+          {
+            "ticker": "SUI",
+            "name": "Sun Communities",
+            "price": 118.34,
+            "weekly_pct": 3.07
           }
         ],
         "key_signals": [],
-        "broad_highlights": [
-          "Outrage as pets are given far more time to spend with mall's Santa than autistic children"
-        ]
+        "broad_highlights": []
       }
     },
     "industrial": {
@@ -3617,7 +3657,7 @@
           "prev_close": 67.37,
           "pct_change": -0.45,
           "market_cap": 7360730112,
-          "dividend_yield": 3.38,
+          "dividend_yield": 3.4,
           "fifty_two_week_high": 78.94,
           "fifty_two_week_low": 57.95,
           "next_earnings": "2027-02-03"
@@ -3629,7 +3669,7 @@
           "prev_close": 127.32,
           "pct_change": -0.23,
           "market_cap": 123507580928,
-          "dividend_yield": 3.36,
+          "dividend_yield": 3.37,
           "fifty_two_week_high": 153.35,
           "fifty_two_week_low": 122.18,
           "next_earnings": "2027-01-20"
@@ -3641,7 +3681,7 @@
           "prev_close": 200.56,
           "pct_change": 0.19,
           "market_cap": 10805477376,
-          "dividend_yield": 3.49,
+          "dividend_yield": 3.48,
           "fifty_two_week_high": 226.71,
           "fifty_two_week_low": 176.7,
           "next_earnings": "2027-02-03"
@@ -3654,7 +3694,7 @@
           "pct_change": -0.16,
           "market_cap": 8004901376,
           "dividend_yield": 4.73,
-          "fifty_two_week_high": 42.06,
+          "fifty_two_week_high": 41.96,
           "fifty_two_week_low": 32.14,
           "next_earnings": "2027-02-03"
         },
@@ -3665,7 +3705,7 @@
           "prev_close": 32.66,
           "pct_change": -0.29,
           "market_cap": 8101520896,
-          "dividend_yield": 6.53,
+          "dividend_yield": 6.54,
           "fifty_two_week_high": 45.75,
           "fifty_two_week_low": 30.88,
           "next_earnings": "2026-11-09"
@@ -3677,7 +3717,7 @@
           "prev_close": 55.15,
           "pct_change": 0.92,
           "market_cap": 7626744320,
-          "dividend_yield": 3.63,
+          "dividend_yield": 3.59,
           "fifty_two_week_high": 69.88,
           "fifty_two_week_low": 53.0,
           "next_earnings": "2027-02-10"
@@ -3689,7 +3729,7 @@
           "prev_close": 37.6,
           "pct_change": 0.93,
           "market_cap": 7467213824,
-          "dividend_yield": 4.12,
+          "dividend_yield": 4.08,
           "fifty_two_week_high": 42.61,
           "fifty_two_week_low": 35.14,
           "next_earnings": "2027-02-10"
@@ -3701,9 +3741,9 @@
           "prev_close": 16.09,
           "pct_change": 0.68,
           "market_cap": 4647753728,
-          "dividend_yield": 5.72,
+          "dividend_yield": 5.68,
           "fifty_two_week_high": 16.92,
-          "fifty_two_week_low": 10.49,
+          "fifty_two_week_low": 10.51,
           "next_earnings": "2027-02-18"
         },
         "IIPR": {
@@ -3713,7 +3753,7 @@
           "prev_close": 47.62,
           "pct_change": -0.42,
           "market_cap": 1307410176,
-          "dividend_yield": 15.96,
+          "dividend_yield": 16.03,
           "fifty_two_week_high": 65.38,
           "fifty_two_week_low": 44.853,
           "next_earnings": "2027-02-22"
@@ -3725,7 +3765,7 @@
           "prev_close": 5.71,
           "pct_change": 0.88,
           "market_cap": 385821120,
-          "dividend_yield": 5.25,
+          "dividend_yield": 5.21,
           "fifty_two_week_high": 9.43,
           "fifty_two_week_low": 5.13,
           "next_earnings": "2027-02-17"
@@ -3782,9 +3822,9 @@
           "source": "PLD",
           "category": "reit",
           "title": "Form 8.3 Prologis, Inc",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/form-8-3-prologis-inc-155400900.html?.tsrc=rss",
-          "published": "Wed, 25 Nov 2026 15:54:00 +0000",
-          "summary": "LONDON, November 25, 2026-- FORM 8.3",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/form-8-3-prologis-inc-134000853.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 13:40:00 +0000",
+          "summary": "LONDON, November 26, 2026-- FORM 8.3",
           "is_signal": false
         },
         {
@@ -3793,9 +3833,9 @@
           "source": "PLD",
           "category": "reit",
           "title": "Form 8.3",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/form-8-3-121100999.html?.tsrc=rss",
-          "published": "Wed, 25 Nov 2026 12:11:00 +0000",
-          "summary": "LONDON, November 25, 2026-- FORM 8.3",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/form-8-3-115000679.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 11:50:00 +0000",
+          "summary": "LONDON, November 26, 2026-- FORM 8.3",
           "is_signal": false
         },
         {
@@ -3804,8 +3844,8 @@
           "source": "PLD",
           "category": "reit",
           "title": "Dimensional Fund Advisors Ltd. : Form 8.3 - PROLOGIS INC - Ordinary Shares",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/dimensional-fund-advisors-ltd-form-094400836.html?.tsrc=rss",
-          "published": "Wed, 25 Nov 2026 09:44:00 +0000",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/dimensional-fund-advisors-ltd-form-094800973.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 09:48:00 +0000",
           "summary": "FORM 8.3 PUBLIC OPENING POSITION DISCLOSURE/DEALING DISCLOSURE BYA PERSON WITH INTERESTS IN RELEVANT SECURITIES REPRESENTING 1% OR MORERule 8.3 of the Takeover Code (the \u201cCode\u201d) 1.KEY INFORMATION (a)Full name of discloser:Dimensional Fund Advisors Ltd. whose parent is Dimensional Fund Advisors LP, a\u2026",
           "is_signal": false
         },
@@ -3818,6 +3858,17 @@
           "link": "https://finance.yahoo.com/real-estate/articles/chiron-real-estate-appoints-philip-212100738.html?.tsrc=rss",
           "published": "Tue, 24 Nov 2026 21:21:00 +0000",
           "summary": "BETHESDA, Md., November 24, 2026--Chiron Real Estate Inc. (NYSE: XRN) (the \"Company\" or \"Chiron\") announced today the appointment of Philip L. Hawkins to its Board of Directors (the \"Board\"), effective immediately. Mr. Hawkins will serve as a member of the Board\u2019s Audit and Compensation Committees.",
+          "is_signal": false
+        },
+        {
+          "ticker": "EGP",
+          "company": "EastGroup Properties",
+          "source": "EGP",
+          "category": "reit",
+          "title": "SHO or EGP: Which Is the Better Value Stock Right Now?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sho-egp-better-value-stock-154003953.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 15:40:03 +0000",
+          "summary": "SHO vs. EGP: Which Stock Is the Better Value Option?",
           "is_signal": false
         },
         {
@@ -3851,17 +3902,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/pine-vs-egp-stock-better-154003901.html?.tsrc=rss",
           "published": "Mon, 09 Nov 2026 15:40:03 +0000",
           "summary": "PINE vs. EGP: Which Stock Is the Better Value Option?",
-          "is_signal": false
-        },
-        {
-          "ticker": "EGP",
-          "company": "EastGroup Properties",
-          "source": "EGP",
-          "category": "reit",
-          "title": "EastGroup Properties: 3 Key Takeaways for Long-Term Investors",
-          "link": "https://www.fool.com/earnings/takeaways/2026/10/30/eastgroup-properties-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
-          "published": "Fri, 30 Oct 2026 15:20:02 +0000",
-          "summary": "While competitors struggle with capital constraints, EastGroup's financial strength is reshaping its competitive position.",
           "is_signal": false
         },
         {
@@ -4430,10 +4470,21 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "APM Terminals plans 1.4m teu expansion at Rotterdam\u2019s Maasvlakte II",
-          "link": "https://theloadstar.com/apm-terminals-plans-1-4m-teu-expansion-at-rotterdams-maasvlakte-ii/",
-          "published": "Wed, 25 Nov 2026 12:43:26 +0000",
-          "summary": "<p>APM Terminals and the port of Rotterdam have unveiled plans to add a further 1.4m teu of capacity to the operator\u2019s flagship Maasvlakte II facility in the Dutch hub.<br />\nWith the terminal\u2019s first phase of expansion recently completed, the new second phase will see a further 711 metres of quay b\u2026",
+          "title": "Green shipping needs global, rather than costlier regional, rules",
+          "link": "https://theloadstar.com/green-shipping-needs-global-rather-than-costlier-regional-rules/",
+          "published": "Thu, 26 Nov 2026 13:15:58 +0000",
+          "summary": "<p>Surrendering the governance of maritime decarbonisation to fragmented and regional regulations could ultimately prove more expensive for the industry than a globally agreed framework, according to US Federal Maritime Commission chair Laura Di Bella.<br />\nSpeaking to The Loadstar on the sidelines\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "The Loadstar",
+          "category": "industrial",
+          "title": "Nvidia halts server shipments to Asian markets as new US export rules bite",
+          "link": "https://theloadstar.com/nvidia-halts-server-shipments-to-asian-markets-as-new-us-export-rules-bite/",
+          "published": "Thu, 26 Nov 2026 12:56:46 +0000",
+          "summary": "<p>Is it the beginning of the end for airfreight\u2019s new best friend? Following new US export controls, Nvidia has reportedly told its manufacturing partners to stop shipping servers containing its chips to Malaysia, Singapore, Thailand, and Indonesia.</p>\n<p>According to the UK Financial Times today,\u2026",
           "is_signal": false
         },
         {
@@ -4441,10 +4492,10 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "Maersk warns of UK logistics bottlenecks as port congestion persists globally",
-          "link": "https://theloadstar.com/maersk-warns-of-uk-logistics-bottlenecks-as-port-congestion-persists-globally/",
-          "published": "Wed, 25 Nov 2026 12:41:59 +0000",
-          "summary": "<p>Maersk has warned customers of continued disruption across its UK and Ireland logistics network, as high import volumes and a combination of port and inland transport bottlenecks hamper efforts to clear cargo backlogs.<br />\nIn a customer advisory yesterday, the Danish carrier said sustained high\u2026",
+          "title": "Cargo crime gangs are patient, and they \u2018plan around the calendar\u2019",
+          "link": "https://theloadstar.com/cargo-crime-gangs-are-patient-and-they-plan-around-the-calendar/",
+          "published": "Thu, 26 Nov 2026 12:30:04 +0000",
+          "summary": "<p>Criminals posing as truck drivers and dispatchers are infiltrating US haulage firms to steal shipments, with data centre hardware and metals among the most sought-after commodities this year.<br />\nIn its Thanksgiving cargo theft warning, Verisk CargoNet said criminals were exploiting staff short\u2026",
           "is_signal": true
         },
         {
@@ -4452,10 +4503,10 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "Cargo owners will foot the bill for IMO net-zero framework, warns FMC chair",
-          "link": "https://theloadstar.com/cargo-owners-will-foot-the-bill-for-imo-net-zero-framework-warns-fmc-chair/",
-          "published": "Wed, 25 Nov 2026 12:34:29 +0000",
-          "summary": "<p>Maritime decarbonisation costs will ultimately be passed on to cargo owners under the present structuring of the proposed IMO Net-Zero Framework, according to the Federal Maritime Commission\u2019s (FMC) chair Laura Di Bella.<br />\nWith industry leaders backing her assessment, Ms Di Bella said the com\u2026",
+          "title": "\u2018Aramex + Noatum\u2019 \u2013 what I thought I knew and then I didn\u2019t",
+          "link": "https://theloadstar.com/aramex-noatum-what-i-thought-i-knew-and-then-i-didnt/",
+          "published": "Thu, 26 Nov 2026 12:26:14 +0000",
+          "summary": "<p>What one M&#38;A hunter cannot buy, it builds.<br />\nWell, kind of.<br />\nThere&#8217;s a hybrid inbound M&#38;A playbook worth looking at, too, these days.<br />\nTake Abu Dhabi Developmental Holding Company (ADQ), the state-owned sovereign investment vehicle that earlier this year was consolidat\u2026",
           "is_signal": true
         },
         {
@@ -4463,21 +4514,10 @@
           "company": null,
           "source": "The Loadstar",
           "category": "industrial",
-          "title": "Smaller forwarders struggle to secure alternative terms under IATA air waybill rules",
-          "link": "https://theloadstar.com/smaller-forwarders-struggle-to-secure-alternative-terms-under-iata-air-waybill-rules/",
-          "published": "Wed, 25 Nov 2026 12:30:50 +0000",
-          "summary": "<p>Some airlines are agreeing alternative liability terms with larger freight forwarders under IATA\u2019s revised direct air waybill (DAWB) framework, but smaller firms have little leverage to secure similar arrangements, the Airforwarders Association (AfA) has warned.\u00a0<br />\n\u201cIf an airline says no, the\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Loadstar",
-          "category": "industrial",
-          "title": "The \u2018Bollor\u00e9isation\u2019 of Ceva Logistics is finally underway",
-          "link": "https://theloadstar.com/the-bolloreisation-of-ceva-logistics-is-finally-underway/",
-          "published": "Wed, 25 Nov 2026 12:14:04 +0000",
-          "summary": "<p>The message is loud and clear: Ceva Logistics has embarked on another comprehensive corporate restructuring that looks &#8220;in essence, more Teutonic than Nordic&#8221;, sources say.<br />\n(By way of background: I guess you recall &#8216;No stone will be left unturned&#8216; coverage published \u2026",
+          "title": "Cosco looks forward to fleet expansion as revenue and profits rise",
+          "link": "https://theloadstar.com/cosco-looks-forward-to-fleet-expansion-as-revenue-and-profits-rise/",
+          "published": "Thu, 26 Nov 2026 12:07:47 +0000",
+          "summary": "<p>Cosco Shipping Lines is pushing ahead with one of the industry&#8217;s largest newbuilding programmes, seemingly unperturbed by overcapacity concerns.<br />\nCurrently, Cosco and subsidiary OOCL have ordered 100 vessels, for around 1.46m teu of new capacity, as well as leases for vessels under con\u2026",
           "is_signal": true
         },
         {
@@ -4606,6 +4646,17 @@
           "company": null,
           "source": "Hipersonica.com",
           "category": "broad",
+          "title": "Adi\u00f3s a Delano Smith, no te pegues por Big Thief, el western de Spielberg y PTA...",
+          "link": "https://www.hipersonica.com/p/adios-a-delano-smith-no-te-pegues",
+          "published": "2026-11-25T05:21:22Z",
+          "summary": "...y otras noticias con las que ponerse al d\u00eda",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Hipersonica.com",
+          "category": "broad",
           "title": "La resurrecci\u00f3n de Bradford Cox (a trav\u00e9s de la muerte), el retorno de Carolina Durante, el gesto de Portishead...",
           "link": "https://www.hipersonica.com/p/la-resurreccion-de-bradford-cox-a",
           "published": "2026-11-23T05:01:24Z",
@@ -4698,17 +4749,6 @@
           "link": "https://pypi.org/project/blastingpy/",
           "published": "2026-11-16T04:35:57Z",
           "summary": "Blast vibration, airblast, flyrock and near-field analysis for mining. C++ core, Python API",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Gadgeteer",
-          "category": "broad",
-          "title": "125 Nm in a drop-bar bike is a different kind of fast",
-          "link": "https://the-gadgeteer.com/2026/11/13/125-nm-in-a-drop-bar-bike-is-a-different-kind-of-fast/",
-          "published": "2026-11-14T03:03:03Z",
-          "summary": "Berria builds the Mistral Essential Apex around DJI\u2019s Avinox M2 drive, the system family behind a new wave of electric mountain bikes, and sells it in road and gravel versions at \u20ac3,499 each. The motor numbers lead the story here.\u2026",
           "is_signal": false
         },
         {
@@ -4968,56 +5008,54 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "November 20, 2026",
-        "generated_at": "2026-11-20T01:52:39.408518+00:00",
-        "advancing": 0,
-        "declining": 10,
+        "week_ending": "November 27, 2026",
+        "generated_at": "2026-11-27T03:06:53.533348+00:00",
+        "advancing": 8,
+        "declining": 2,
         "total": 10,
-        "avg_weekly_pct": -2.21,
+        "avg_weekly_pct": 1.95,
         "top_gainers": [
           {
-            "ticker": "COLD",
-            "name": "Americold Realty Trust",
-            "price": 16.58,
-            "weekly_pct": -0.66
+            "ticker": "STAG",
+            "name": "STAG Industrial",
+            "price": 37.95,
+            "weekly_pct": 4.95
           },
           {
             "ticker": "EGP",
             "name": "EastGroup Properties",
-            "price": 196.16,
-            "weekly_pct": -0.74
+            "price": 200.94,
+            "weekly_pct": 4.18
           },
           {
-            "ticker": "STAG",
-            "name": "STAG Industrial",
-            "price": 36.68,
-            "weekly_pct": -0.78
+            "ticker": "TRNO",
+            "name": "Terreno Realty",
+            "price": 67.07,
+            "weekly_pct": 3.68
           }
         ],
         "top_losers": [
           {
             "ticker": "IIPR",
             "name": "Innovative Industrial Properties",
-            "price": 50.6,
-            "weekly_pct": -4.56
+            "price": 47.42,
+            "weekly_pct": -3.11
           },
           {
-            "ticker": "LINE",
-            "name": "Lineage Inc",
-            "price": 33.79,
-            "weekly_pct": -4.3
+            "ticker": "COLD",
+            "name": "Americold Realty Trust",
+            "price": 16.2,
+            "weekly_pct": -0.86
           },
           {
-            "ticker": "REXR",
-            "name": "Rexford Industrial",
-            "price": 36.14,
-            "weekly_pct": -3.75
+            "ticker": "ILPT",
+            "name": "Industrial Logistics Properties Trust",
+            "price": 5.76,
+            "weekly_pct": 0.35
           }
         ],
         "key_signals": [],
-        "broad_highlights": [
-          "Outrage as pets are given far more time to spend with mall's Santa than autistic children"
-        ]
+        "broad_highlights": []
       }
     },
     "retail": {
@@ -5030,9 +5068,9 @@
           "prev_close": 24.1,
           "pct_change": 0.87,
           "market_cap": 7172845568,
-          "dividend_yield": 2.82,
+          "dividend_yield": 2.8,
           "fifty_two_week_high": 26.68,
-          "fifty_two_week_low": 16.88,
+          "fifty_two_week_low": 17.0,
           "next_earnings": "2027-02-18"
         },
         "SPG": {
@@ -5042,7 +5080,7 @@
           "prev_close": 229.83,
           "pct_change": 1.81,
           "market_cap": 88569421824,
-          "dividend_yield": 4.0,
+          "dividend_yield": 3.93,
           "fifty_two_week_high": 238.5,
           "fifty_two_week_low": 177.88,
           "next_earnings": "2027-02-01"
@@ -5054,9 +5092,9 @@
           "prev_close": 50.05,
           "pct_change": 1.02,
           "market_cap": 1564366336,
-          "dividend_yield": 5.0,
+          "dividend_yield": 4.94,
           "fifty_two_week_high": 60.4,
-          "fifty_two_week_low": 33.03,
+          "fifty_two_week_low": 33.22,
           "next_earnings": "2027-02-11"
         },
         "KIM": {
@@ -5066,7 +5104,7 @@
           "prev_close": 25.79,
           "pct_change": 1.01,
           "market_cap": 17309929472,
-          "dividend_yield": 4.34,
+          "dividend_yield": 4.3,
           "fifty_two_week_high": 26.65,
           "fifty_two_week_low": 19.76,
           "next_earnings": "2027-02-11"
@@ -5078,7 +5116,7 @@
           "prev_close": 74.94,
           "pct_change": 0.77,
           "market_cap": 14119464960,
-          "dividend_yield": 4.27,
+          "dividend_yield": 4.24,
           "fifty_two_week_high": 83.66,
           "fifty_two_week_low": 66.86,
           "next_earnings": "2027-02-04"
@@ -5090,7 +5128,7 @@
           "prev_close": 112.55,
           "pct_change": 1.51,
           "market_cap": 9888105472,
-          "dividend_yield": 4.12,
+          "dividend_yield": 4.06,
           "fifty_two_week_high": 128.21,
           "fifty_two_week_low": 95.44,
           "next_earnings": "2027-02-11"
@@ -5102,7 +5140,7 @@
           "prev_close": 30.85,
           "pct_change": 0.91,
           "market_cap": 9552934912,
-          "dividend_yield": 4.28,
+          "dividend_yield": 4.24,
           "fifty_two_week_high": 32.86,
           "fifty_two_week_low": 24.66,
           "next_earnings": "2027-02-03"
@@ -5114,7 +5152,7 @@
           "prev_close": 25.18,
           "pct_change": 1.55,
           "market_cap": 5197727744,
-          "dividend_yield": 4.61,
+          "dividend_yield": 4.54,
           "fifty_two_week_high": 29.92,
           "fifty_two_week_low": 22.1,
           "next_earnings": "2027-02-16"
@@ -5126,7 +5164,7 @@
           "prev_close": 40.97,
           "pct_change": 0.49,
           "market_cap": 5821437952,
-          "dividend_yield": 3.37,
+          "dividend_yield": 3.35,
           "fifty_two_week_high": 44.375,
           "fifty_two_week_low": 34.485,
           "next_earnings": "2027-02-04"
@@ -5138,7 +5176,7 @@
           "prev_close": 38.94,
           "pct_change": 0.41,
           "market_cap": 4673946112,
-          "dividend_yield": 3.21,
+          "dividend_yield": 3.2,
           "fifty_two_week_high": 42.53,
           "fifty_two_week_low": 31.13,
           "next_earnings": "2026-11-04"
@@ -5150,7 +5188,7 @@
           "prev_close": 20.72,
           "pct_change": 1.11,
           "market_cap": 3071432704,
-          "dividend_yield": 3.86,
+          "dividend_yield": 3.82,
           "fifty_two_week_high": 23.03,
           "fifty_two_week_low": 17.96,
           "next_earnings": "2027-02-09"
@@ -5162,7 +5200,7 @@
           "prev_close": 29.17,
           "pct_change": 0.55,
           "market_cap": 3561371648,
-          "dividend_yield": 2.33,
+          "dividend_yield": 2.32,
           "fifty_two_week_high": 32.15,
           "fifty_two_week_low": 22.33,
           "next_earnings": "2027-02-08"
@@ -5174,7 +5212,7 @@
           "prev_close": 20.97,
           "pct_change": 0.1,
           "market_cap": 2889938432,
-          "dividend_yield": 4.01,
+          "dividend_yield": 4.0,
           "fifty_two_week_high": 24.11,
           "fifty_two_week_low": 18.495,
           "next_earnings": "2027-02-10"
@@ -5186,7 +5224,7 @@
           "prev_close": 31.92,
           "pct_change": 0.34,
           "market_cap": 2497649152,
-          "dividend_yield": 3.13,
+          "dividend_yield": 3.12,
           "fifty_two_week_high": 37.22,
           "fifty_two_week_low": 27.69,
           "next_earnings": "2027-02-09"
@@ -5253,6 +5291,17 @@
           "company": "Simon Property Group",
           "source": "SPG",
           "category": "reit",
+          "title": "Better High-Yield Dividend Stock: Simon Property vs. Lamar Advertising",
+          "link": "https://www.tikr.com/blog/better-high-yield-dividend-stock-simon-property-vs-lamar-advertising?ref=yahoofinancedividend&tlnk=yf-261126-3gcvvmhg&.tsrc=rss",
+          "published": "Mon, 23 Nov 2026 22:26:39 +0000",
+          "summary": "Key TakeawaysSimon Property Group raised its quarterly dividend to $2. 30 a share on Nov.",
+          "is_signal": true
+        },
+        {
+          "ticker": "SPG",
+          "company": "Simon Property Group",
+          "source": "SPG",
+          "category": "reit",
           "title": "Better Dividend Stock: Simon Property vs. American Homes 4 Rent",
           "link": "https://www.tikr.com/blog/better-dividend-stock-simon-property-vs-american-homes-4-rent?ref=yahoofinancedividend&tlnk=yf-261125-pv2r6jjw&.tsrc=rss",
           "published": "Mon, 23 Nov 2026 22:26:19 +0000",
@@ -5268,17 +5317,6 @@
           "link": "https://finance.yahoo.com/real-estate/articles/simon-property-group-sells-1-214700690.html?.tsrc=rss",
           "published": "Mon, 23 Nov 2026 21:47:00 +0000",
           "summary": "Simon\u00ae, a real estate investment trust engaged in the ownership of premier shopping, dining, entertainment and mixed-use destinations, announced today that its majority-owned operating partnership subsidiary, Simon Property Group, L.P. (the \"Operating Partnership\"), has agreed to sell:",
-          "is_signal": true
-        },
-        {
-          "ticker": "SPG",
-          "company": "Simon Property Group",
-          "source": "SPG",
-          "category": "reit",
-          "title": "How Many Shares of Realty Income, Simon Property or NNN REIT Pay $1,000 a Month in Dividends?",
-          "link": "https://www.tikr.com/blog/how-many-shares-of-realty-income-simon-property-or-nnn-reit-pay-1000-a-month-in-dividends?ref=yahoofinancedividend&tlnk=yf-261121-gg8cxxr6&.tsrc=rss",
-          "published": "Sat, 21 Nov 2026 11:50:35 +0000",
-          "summary": "Key TakeawaysAt today\u2019s prices, $1,000 a month in dividends takes about $195,000 of NNN REIT, $213,600 of Realty Income or $292,800 of Simon Property Group. NNN REIT\u2019s dividend is both the cheapest to fund and the best covered, which makes it my pick for a retiree.",
           "is_signal": true
         },
         {
@@ -5330,6 +5368,17 @@
           "company": "Kimco Realty",
           "source": "KIM",
           "category": "reit",
+          "title": "Kimco Realty vs. CareTrust REIT: Which Dividend Stock Pays You More in 10 Years?",
+          "link": "https://www.tikr.com/blog/kimco-realty-vs-caretrust-reit-which-dividend-stock-pays-you-more-in-10-years?ref=yahoofinancedividend&tlnk=yf-261126-g74frpx6&.tsrc=rss",
+          "published": "Mon, 23 Nov 2026 22:26:36 +0000",
+          "summary": "Key TakeawaysKimco Realty and CareTrust REIT both yield 4. 5%, and both raised their 2026 guidance with their third-quarter results.",
+          "is_signal": true
+        },
+        {
+          "ticker": "KIM",
+          "company": "Kimco Realty",
+          "source": "KIM",
+          "category": "reit",
           "title": "Better Dividend Stock for Retirees: Kimco Realty vs. STAG Industrial",
           "link": "https://www.tikr.com/blog/better-dividend-stock-for-retirees-kimco-realty-vs-stag-industrial?ref=yahoofinancedividend&tlnk=yf-261125-937h32fh&.tsrc=rss",
           "published": "Mon, 23 Nov 2026 22:26:07 +0000",
@@ -5359,17 +5408,6 @@
           "is_signal": true
         },
         {
-          "ticker": "KIM",
-          "company": "Kimco Realty",
-          "source": "KIM",
-          "category": "reit",
-          "title": "What Kimco Realty (KIM)'s Raised Guidance Means For Shareholders",
-          "link": "https://finance.yahoo.com/real-estate/articles/kimco-realty-kim-raised-guidance-031456527.html?.tsrc=rss",
-          "published": "Sun, 08 Nov 2026 03:14:56 +0000",
-          "summary": "Kimco Realty reported third quarter 2026 revenue of US$546.15 million and net income of US$279.07 million, raised full year earnings guidance, increased its quarterly common dividend to US$0.28 per share, advanced its buyback program and acquired two large grocery anchored centers in Louisville for \u2026",
-          "is_signal": true
-        },
-        {
           "ticker": "REG",
           "company": "Regency Centers",
           "source": "REG",
@@ -5378,6 +5416,17 @@
           "link": "https://finance.yahoo.com/real-estate/articles/realty-income-vs-regency-centers-151700336.html?.tsrc=rss",
           "published": "Tue, 24 Nov 2026 15:17:00 +0000",
           "summary": "Realty Income and Regency Centers offer resilient rental income and dividend growth, but differences in valuation, leasing and expansion give one REIT an edge.",
+          "is_signal": true
+        },
+        {
+          "ticker": "REG",
+          "company": "Regency Centers",
+          "source": "REG",
+          "category": "reit",
+          "title": "American Tower or Regency Centers: I Can Only Pick One Dividend Stock for the Next 10 Years. Here\u2019s Mine",
+          "link": "https://www.tikr.com/blog/american-tower-or-regency-centers-i-can-only-pick-one-dividend-stock-for-the-next-10-years-heres-mine?ref=yahoofinancedividend&tlnk=yf-261126-qg4m3p87&.tsrc=rss",
+          "published": "Mon, 23 Nov 2026 22:26:22 +0000",
+          "summary": "Key TakeawaysRegency Centers raised its quarterly dividend 6% on Nov. 3, and American Tower\u2019s third-quarter dividend was up 5% from a year earlier.",
           "is_signal": true
         },
         {
@@ -5400,17 +5449,6 @@
           "link": "https://finance.yahoo.com/real-estate/articles/regency-centers-expands-credit-facilities-212100095.html?.tsrc=rss",
           "published": "Tue, 10 Nov 2026 21:21:00 +0000",
           "summary": "JACKSONVILLE, Fla., Nov. 10, 2026 (GLOBE NEWSWIRE) -- Regency Centers Corporation (\u201cRegency,\u201d \u201cRegency Centers,\u201d or the \u201cCompany\u201d) (Nasdaq: REG) announced today that the Company and its operating partnership, Regency Centers, L.P. (the \u201cOperating Partnership\u201d), entered into an amended and restated c\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": "REG",
-          "company": "Regency Centers",
-          "source": "REG",
-          "category": "reit",
-          "title": "Record Leasing Could Be A Game Changer For Regency Centers Stock (REG)",
-          "link": "https://finance.yahoo.com/real-estate/articles/record-leasing-could-game-changer-021138023.html?.tsrc=rss",
-          "published": "Sun, 08 Nov 2026 02:11:38 +0000",
-          "summary": "Regency Centers reported third quarter 2026 results with US$419.06 million in revenue, quarterly FFO of US$1.23 per share that exceeded estimates, record 97% leased occupancy, and a 6% increase in its common dividend to US$0.80 per share. The real estate owner also lifted its full year same property\u2026",
           "is_signal": true
         },
         {
@@ -5990,6 +6028,17 @@
           "company": null,
           "source": "Hipersonica.com",
           "category": "broad",
+          "title": "Adi\u00f3s a Delano Smith, no te pegues por Big Thief, el western de Spielberg y PTA...",
+          "link": "https://www.hipersonica.com/p/adios-a-delano-smith-no-te-pegues",
+          "published": "2026-11-25T05:21:22Z",
+          "summary": "...y otras noticias con las que ponerse al d\u00eda",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Hipersonica.com",
+          "category": "broad",
           "title": "La resurrecci\u00f3n de Bradford Cox (a trav\u00e9s de la muerte), el retorno de Carolina Durante, el gesto de Portishead...",
           "link": "https://www.hipersonica.com/p/la-resurreccion-de-bradford-cox-a",
           "published": "2026-11-23T05:01:24Z",
@@ -6082,17 +6131,6 @@
           "link": "https://pypi.org/project/blastingpy/",
           "published": "2026-11-16T04:35:57Z",
           "summary": "Blast vibration, airblast, flyrock and near-field analysis for mining. C++ core, Python API",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Gadgeteer",
-          "category": "broad",
-          "title": "125 Nm in a drop-bar bike is a different kind of fast",
-          "link": "https://the-gadgeteer.com/2026/11/13/125-nm-in-a-drop-bar-bike-is-a-different-kind-of-fast/",
-          "published": "2026-11-14T03:03:03Z",
-          "summary": "Berria builds the Mistral Essential Apex around DJI\u2019s Avinox M2 drive, the system family behind a new wave of electric mountain bikes, and sells it in road and gravel versions at \u20ac3,499 each. The motor numbers lead the story here.\u2026",
           "is_signal": false
         },
         {
@@ -6544,56 +6582,54 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "November 20, 2026",
-        "generated_at": "2026-11-20T01:52:40.653427+00:00",
-        "advancing": 6,
-        "declining": 8,
+        "week_ending": "November 27, 2026",
+        "generated_at": "2026-11-27T03:06:54.628941+00:00",
+        "advancing": 14,
+        "declining": 0,
         "total": 14,
-        "avg_weekly_pct": -0.58,
+        "avg_weekly_pct": 2.83,
         "top_gainers": [
           {
-            "ticker": "AKR",
-            "name": "Acadia Realty Trust",
-            "price": 20.63,
-            "weekly_pct": 2.08
+            "ticker": "SPG",
+            "name": "Simon Property Group",
+            "price": 233.98,
+            "weekly_pct": 3.89
           },
           {
-            "ticker": "BRX",
-            "name": "Brixmor Property Group",
-            "price": 30.68,
-            "weekly_pct": 1.25
+            "ticker": "CBL",
+            "name": "CBL Properties",
+            "price": 50.56,
+            "weekly_pct": 3.48
           },
           {
-            "ticker": "KIM",
-            "name": "Kimco Realty",
-            "price": 25.66,
-            "weekly_pct": 0.43
+            "ticker": "FRT",
+            "name": "Federal Realty Investment Trust",
+            "price": 114.25,
+            "weekly_pct": 3.46
           }
         ],
         "top_losers": [
           {
-            "ticker": "CBL",
-            "name": "CBL Properties",
-            "price": 51.39,
-            "weekly_pct": -5.9
+            "ticker": "SKT",
+            "name": "Tanger Inc",
+            "price": 39.1,
+            "weekly_pct": 1.66
           },
           {
-            "ticker": "MAC",
-            "name": "Macerich",
-            "price": 24.47,
-            "weekly_pct": -2.39
+            "ticker": "PECO",
+            "name": "Phillips Edison & Company",
+            "price": 41.17,
+            "weekly_pct": 1.93
           },
           {
             "ticker": "REG",
             "name": "Regency Centers",
-            "price": 75.18,
-            "weekly_pct": -1.22
+            "price": 75.52,
+            "weekly_pct": 2.0
           }
         ],
         "key_signals": [],
-        "broad_highlights": [
-          "Outrage as pets are given far more time to spend with mall's Santa than autistic children"
-        ]
+        "broad_highlights": []
       }
     },
     "hospitality": {
@@ -6606,7 +6642,7 @@
           "prev_close": 21.72,
           "pct_change": -0.28,
           "market_cap": 2143711104,
-          "dividend_yield": 2.58,
+          "dividend_yield": 2.59,
           "fifty_two_week_high": 22.61,
           "fifty_two_week_low": 13.42,
           "next_earnings": "2027-02-23"
@@ -6618,7 +6654,7 @@
           "prev_close": 24.86,
           "pct_change": 0.08,
           "market_cap": 17280497664,
-          "dividend_yield": 3.22,
+          "dividend_yield": 3.21,
           "fifty_two_week_high": 26.19,
           "fifty_two_week_low": 17.04,
           "next_earnings": "2027-02-17"
@@ -6630,7 +6666,7 @@
           "prev_close": 136.38,
           "pct_change": -0.3,
           "market_cap": 9380544512,
-          "dividend_yield": 3.52,
+          "dividend_yield": 3.53,
           "fifty_two_week_high": 139.73,
           "fifty_two_week_low": 89.6,
           "next_earnings": "2027-02-22"
@@ -6642,7 +6678,7 @@
           "prev_close": 19.53,
           "pct_change": 0.26,
           "market_cap": 4622889472,
-          "dividend_yield": 4.92,
+          "dividend_yield": 4.9,
           "fifty_two_week_high": 20.25,
           "fifty_two_week_low": 11.355,
           "next_earnings": "2027-02-22"
@@ -6654,7 +6690,7 @@
           "prev_close": 16.02,
           "pct_change": -0.81,
           "market_cap": 3211085056,
-          "dividend_yield": 6.24,
+          "dividend_yield": 6.29,
           "fifty_two_week_high": 17.14,
           "fifty_two_week_low": 10.14,
           "next_earnings": "2026-11-04"
@@ -6666,7 +6702,7 @@
           "prev_close": 14.3,
           "pct_change": 0.28,
           "market_cap": 2944577280,
-          "dividend_yield": 3.08,
+          "dividend_yield": 3.07,
           "fifty_two_week_high": 14.85,
           "fifty_two_week_low": 8.6,
           "next_earnings": "2026-11-03"
@@ -6678,7 +6714,7 @@
           "prev_close": 12.92,
           "pct_change": -0.46,
           "market_cap": 2270755072,
-          "dividend_yield": 2.79,
+          "dividend_yield": 2.8,
           "fifty_two_week_high": 13.22,
           "fifty_two_week_low": 8.69,
           "next_earnings": "2026-11-06"
@@ -6702,7 +6738,7 @@
           "prev_close": 12.62,
           "pct_change": -0.71,
           "market_cap": 1918438144,
-          "dividend_yield": 4.75,
+          "dividend_yield": 4.79,
           "fifty_two_week_high": 13.4,
           "fifty_two_week_low": 7.15,
           "next_earnings": "2026-11-04"
@@ -6714,7 +6750,7 @@
           "prev_close": 7.34,
           "pct_change": -1.63,
           "market_cap": 872621248,
-          "dividend_yield": 4.36,
+          "dividend_yield": 4.43,
           "fifty_two_week_high": 7.53,
           "fifty_two_week_low": 3.98,
           "next_earnings": "2026-11-03"
@@ -6726,13 +6762,24 @@
           "prev_close": 15.85,
           "pct_change": -0.82,
           "market_cap": 769812736,
-          "dividend_yield": 2.52,
+          "dividend_yield": 2.54,
           "fifty_two_week_high": 16.61,
           "fifty_two_week_low": 6.41,
           "next_earnings": "2026-11-05"
         }
       },
       "news": [
+        {
+          "ticker": "XHR",
+          "company": "Xenia Hotels & Resorts",
+          "source": "XHR",
+          "category": "reit",
+          "title": "What Xenia Hotels & Resorts Holders Bought Into",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/xenia-hotels-resorts-holders-bought-121217100.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 12:12:17 +0000",
+          "summary": "If you had paused on 25 November 2025 and asked whether upgraded amenities and exposure to tech hubs were enough to outweigh softer leisure trends and climate concerns at Xenia Hotels & Resorts, the answer was anything but clear. Holding Xenia Hotels & Resorts over the past year would have returned \u2026",
+          "is_signal": true
+        },
         {
           "ticker": "XHR",
           "company": "Xenia Hotels & Resorts",
@@ -6764,17 +6811,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/xenia-hotels-resorts-inc-xhr-050724373.html?.tsrc=rss",
           "published": "Wed, 04 Nov 2026 05:07:24 +0000",
           "summary": "Xenia Hotels & Resorts Inc (XHR) posted a nearly 300 basis point EBITDA margin expansion, lifted full-year 2026 guidance, and signaled a more favorable environment for playing offense on acquisitions.",
-          "is_signal": true
-        },
-        {
-          "ticker": "XHR",
-          "company": "Xenia Hotels & Resorts",
-          "source": "XHR",
-          "category": "reit",
-          "title": "Xenia Hotels & Resorts, Inc. Q3 2026 Earnings Call Summary",
-          "link": "https://app.moby.co/home/research/tools/earningsCalendar/earnings-xenia-hotels-resorts-inc-q3-2026-earnings-call-summary?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
-          "published": "Tue, 03 Nov 2026 22:25:50 +0000",
-          "summary": "Moby summary of Xenia Hotels & Resorts, Inc.'s Q3 2026 earnings call",
           "is_signal": true
         },
         {
@@ -6914,6 +6950,17 @@
           "company": "Park Hotels & Resorts",
           "source": "PK",
           "category": "reit",
+          "title": "An $850,000 Portfolio in Park Hotels & Resorts, Healthpeak and Verizon Pays $51,477 a Year in Dividends. Here\u2019s What Happens if One Cuts",
+          "link": "https://www.tikr.com/blog/an-850000-portfolio-in-park-hotels-resorts-healthpeak-and-verizon-pays-52056-a-year-in-dividends-heres-what-happens-if-one-cuts?ref=yahoofinancedividend&tlnk=yf-261126-rg7ghxjj&.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 18:20:24 +0000",
+          "summary": "Key TakeawaysA $850,000 portfolio split evenly across Park Hotels & Resorts, Healthpeak Properties and Verizon pays about $4,290 a month in dividends at today\u2019s prices. Each dividend is covered on its own measure: 51% of AFFO at Park, 72% of AFFO at Healthpeak, and 52% of free cash flow at Verizon.",
+          "is_signal": true
+        },
+        {
+          "ticker": "PK",
+          "company": "Park Hotels & Resorts",
+          "source": "PK",
+          "category": "reit",
           "title": "Should Value Investors Buy Park Hotels & Resorts (PK) Stock?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/value-investors-buy-park-hotels-134004040.html?.tsrc=rss",
           "published": "Fri, 13 Nov 2026 13:40:04 +0000",
@@ -6940,17 +6987,6 @@
           "link": "https://www.fool.com/earnings/call-transcripts/2026/11/05/park-hotels-resorts-pk-q3-2026-earnings-call-transcript/?.tsrc=rss",
           "published": "Thu, 05 Nov 2026 22:32:58 +0000",
           "summary": "Full-year guidance rose as the reopened Royal Palm South Beach ramps up.",
-          "is_signal": true
-        },
-        {
-          "ticker": "PK",
-          "company": "Park Hotels & Resorts",
-          "source": "PK",
-          "category": "reit",
-          "title": "Compared to Estimates, Park Hotels & Resorts (PK) Q3 Earnings: A Look at Key Metrics",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/compared-estimates-park-hotels-resorts-230002701.html?.tsrc=rss",
-          "published": "Wed, 04 Nov 2026 23:00:02 +0000",
-          "summary": "While the top- and bottom-line numbers for Park Hotels & Resorts (PK) give a sense of how the business performed in the quarter ended September 2026, it could be worth looking at how some of its key metrics compare to Wall Street estimates and year-ago values.",
           "is_signal": true
         },
         {
@@ -7002,6 +7038,17 @@
           "company": "Sunstone Hotel Investors",
           "source": "SHO",
           "category": "reit",
+          "title": "SHO or EGP: Which Is the Better Value Stock Right Now?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/sho-egp-better-value-stock-154003953.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 15:40:03 +0000",
+          "summary": "SHO vs. EGP: Which Stock Is the Better Value Option?",
+          "is_signal": false
+        },
+        {
+          "ticker": "SHO",
+          "company": "Sunstone Hotel Investors",
+          "source": "SHO",
+          "category": "reit",
           "title": "SHO vs. EGP: Which Stock Is the Better Value Option?",
           "link": "https://finance.yahoo.com/markets/stocks/articles/sho-vs-egp-stock-better-193809062.html?.tsrc=rss",
           "published": "Tue, 10 Nov 2026 19:38:09 +0000",
@@ -7028,17 +7075,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/raised-2026-outlook-sunstone-hotel-080930651.html?.tsrc=rss",
           "published": "Tue, 10 Nov 2026 08:09:30 +0000",
           "summary": "Sunstone Hotel Investors reported third quarter 2026 revenue of US$233.72 million and net income of US$40.89 million, and then raised full year net income guidance to a range of US$92 million to US$97 million, alongside higher expected earnings per diluted share. The board reaffirmed a US$0.09 quart\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": "SHO",
-          "company": "Sunstone Hotel Investors",
-          "source": "SHO",
-          "category": "reit",
-          "title": "Is Sunstone Hotel Investors (SHO) Cheap Following Its Earnings Beat And Raised Outlook?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sunstone-hotel-investors-sho-cheap-070702108.html?.tsrc=rss",
-          "published": "Tue, 10 Nov 2026 07:07:02 +0000",
-          "summary": "Sunstone Hotel Investors (SHO) is back in focus after reporting sharply higher third quarter net income and lifting its full year earnings outlook, while also keeping common and preferred dividends in place. That earnings beat and guidance hike have come alongside a 30 day share price return of 11.9\u2026",
           "is_signal": true
         },
         {
@@ -7220,45 +7256,56 @@
         {
           "ticker": null,
           "company": null,
-          "source": "Skift",
+          "source": "Hotel Management",
           "category": "hospitality",
-          "title": "Accor Warns Thailand: A Vietnamese Island Is Coming for Your Tourists",
-          "link": "https://skift.com/2026/11/25/accor-warns-thailand-a-vietnamese-island-is-coming-for-your-tourists/",
-          "published": "Thu, 26 Nov 2026 02:00:00 +0000",
-          "summary": "Accor&apos;s Asia development chief says Vietnam&apos;s fast-growing tourism island could win over price-conscious tour groups that now go to Thailand. It means Thailand needs to rethink how it sells itself. Accor has a stake in both outcomes: 85 hotels in Thailand, and a deal for more than 1,400 ro\u2026",
+          "title": "Voice of the GM Survey: Costs Climb As Guests Demand More",
+          "link": "https://www.hotelmanagement.net/resource/voice-gm-survey-costs-climb-guests-demand-more",
+          "published": "Tue, 24 Nov 2026 17:36:41 +0000",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Voice of the GM Survey: Costs Climb As Guests Demand More</span>\n\n            <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Just 28% of GMs expe\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Hotel Management",
+          "category": "hospitality",
+          "title": "ALL-SUITE HOTEL IN DYNAMIC SE GEORGIA MARKET",
+          "link": "https://www.hotelmanagement.net/resource/all-suite-hotel-dynamic-se-georgia-market",
+          "published": "Mon, 09 Nov 2026 16:53:02 +0000",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">ALL-SUITE HOTEL IN DYNAMIC SE GEORGIA MARKET</span>\n\n            <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><ul><li>Nationally branded economy e\u2026",
           "is_signal": true
         },
         {
           "ticker": null,
           "company": null,
-          "source": "Skift",
+          "source": "Hotel Management",
           "category": "hospitality",
-          "title": "Middle East Tourism Has Split. Which Demand Gets Capital?",
-          "link": "https://skift.com/2026/11/25/middle-east-tourism-gulf-capital-2027/",
-          "published": "Wed, 25 Nov 2026 18:05:54 +0000",
-          "summary": "Gulf travel now runs at two speeds. Pilgrimage and resort demand held through 2026, while long-haul and corporate travel fell away. Every 2027 capital and capacity plan for the region depends on which market an operator underwrites.",
+          "title": "Balancing the Plate: Four Pillars of Hotel F&B Success",
+          "link": "https://www.hotelmanagement.net/resource/balancing-plate-four-pillars-hotel-fb-success",
+          "published": "Fri, 30 Oct 2026 20:33:10 +0000",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Balancing the Plate: Four Pillars of Hotel F&amp;B Success</span>\n\n            <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Explore four key st\u2026",
           "is_signal": true
         },
         {
           "ticker": null,
           "company": null,
-          "source": "Skift",
+          "source": "Hotel Management",
           "category": "hospitality",
-          "title": "Clarins Family Takes Full Ownership of Luxury Hotel Group Evok",
-          "link": "https://skift.com/2026/11/25/clarins-family-takes-full-ownership-of-luxury-hotel-group-evok/",
-          "published": "Wed, 25 Nov 2026 18:03:57 +0000",
-          "summary": "The Courtin family behind the Clarins skincare empire  is combining what the hotel industry usually splits apart: the buildings, the brands, and the operations of a luxury hotel group, under one owner.",
-          "is_signal": true
+          "title": "Power Where You Need It. Style Where You Want It.",
+          "link": "https://www.hotelmanagement.net/resource/power-where-you-need-it-style-where-you-want-it",
+          "published": "Fri, 30 Oct 2026 13:42:57 +0000",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">Power Where You Need It. Style Where You Want It.</span>\n\n            <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Power up without compromisin\u2026",
+          "is_signal": false
         },
         {
           "ticker": null,
           "company": null,
-          "source": "Skift",
+          "source": "Hotel Management",
           "category": "hospitality",
-          "title": "Skift Aviation Forum 2026: Your Questions Answered",
-          "link": "https://skift.com/2026/11/25/skift-aviation-forum-2026-your-questions-answered/",
-          "published": "Wed, 25 Nov 2026 17:55:00 +0000",
-          "summary": "Skift Intelligence responded to 41 unanswered audience questions from Skift Aviation Forum, based on what speakers actually said on the stage and further contextualized by insights from the complete Skift database.",
+          "title": "The New Growth Playbook: Why Conversions Are Winning Over Owners",
+          "link": "https://www.hotelmanagement.net/resource/new-growth-playbook-why-conversions-are-winning-over-owners",
+          "published": "Wed, 28 Oct 2026 19:19:32 +0000",
+          "summary": "<span class=\"field field--name-title field--type-string field--label-hidden\">The New Growth Playbook: Why Conversions Are Winning Over Owners</span>\n\n            <div class=\"clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item\"><p>Explore why h\u2026",
           "is_signal": false
         },
         {
@@ -7266,11 +7313,55 @@
           "company": null,
           "source": "Skift",
           "category": "hospitality",
-          "title": "Wanted: A Strategy Chief to Bring Air India\u2019s Two Airlines Closer",
-          "link": "https://skift.com/2026/11/25/wanted-a-strategy-chief-to-bring-air-indias-two-airlines-closer/",
-          "published": "Wed, 25 Nov 2026 15:45:26 +0000",
-          "summary": "IndiGo hired Air India Express&apos; former chief as its strategy officer in March. Now Air India is creating a strategy role of its own. It looks like both airlines agree the job is worth having.",
+          "title": "Travelodge\u2019s New CEO Inherits Safety Reckoning, Rising Costs and Looming Debt",
+          "link": "https://skift.com/2026/11/26/travelodges-new-ceo-inherits-safety-reckoning-rising-costs-and-looming-debt/",
+          "published": "Thu, 26 Nov 2026 17:34:03 +0000",
+          "summary": "Travelodge has a new chief executive, 38 safety recommendations to implement, and debt to refinance. Peter Krueger starts Tuesday.",
           "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "In Praise of Kiwi.com",
+          "link": "https://skift.com/2026/11/26/in-praise-of-kiwi-com/",
+          "published": "Thu, 26 Nov 2026 16:21:08 +0000",
+          "summary": "Kiwi pioneered a better way to find flights, but the economics of selling and servicing them proved harder.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "Norse Atlantic Suspends Flights as Bankruptcy Looms",
+          "link": "https://skift.com/2026/11/26/norse-atlantic-suspends-flights-as-bankruptcy-looms/",
+          "published": "Thu, 26 Nov 2026 15:22:55 +0000",
+          "summary": "Norse\u2019s cash crisis extends far beyond its own operations, forcing international airline and cruise partners to reassess their flying plans.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "Heathrow\u2019s Third Runway Has a $25 Billion Problem Before It Gets to Emissions",
+          "link": "https://skift.com/2026/11/26/heathrows-third-runway-has-a-25-billion-problem-before-it-gets-to-emissions/",
+          "published": "Thu, 26 Nov 2026 14:19:19 +0000",
+          "summary": "The fight over Heathrow&apos;s third runway has been about whether it fits net zero. Lawmakers have now added a more basic question: who pays, and how much ends up in fares? Until ministers can answer that, and price in the cost of cutting emissions, the plan is stalled.",
+          "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Skift",
+          "category": "hospitality",
+          "title": "Houthi Attacks Gut Riyadh\u2019s Peak Season",
+          "link": "https://skift.com/2026/11/26/houthi-attacks-gut-riyadhs-peak-season/",
+          "published": "Thu, 26 Nov 2026 12:14:10 +0000",
+          "summary": "Riyadh\u2019s fourth quarter runs on international corporate and event demand that flies in, and the missile strikes hit that badly. Domestic demand can\u2019t fill the gap, so hotels will trade rate for occupancy in the quarter that in normal times supports their strongest pricing.",
+          "is_signal": true
         },
         {
           "ticker": null,
@@ -7398,6 +7489,17 @@
           "company": null,
           "source": "Hipersonica.com",
           "category": "broad",
+          "title": "Adi\u00f3s a Delano Smith, no te pegues por Big Thief, el western de Spielberg y PTA...",
+          "link": "https://www.hipersonica.com/p/adios-a-delano-smith-no-te-pegues",
+          "published": "2026-11-25T05:21:22Z",
+          "summary": "...y otras noticias con las que ponerse al d\u00eda",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Hipersonica.com",
+          "category": "broad",
           "title": "La resurrecci\u00f3n de Bradford Cox (a trav\u00e9s de la muerte), el retorno de Carolina Durante, el gesto de Portishead...",
           "link": "https://www.hipersonica.com/p/la-resurreccion-de-bradford-cox-a",
           "published": "2026-11-23T05:01:24Z",
@@ -7490,17 +7592,6 @@
           "link": "https://pypi.org/project/blastingpy/",
           "published": "2026-11-16T04:35:57Z",
           "summary": "Blast vibration, airblast, flyrock and near-field analysis for mining. C++ core, Python API",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Gadgeteer",
-          "category": "broad",
-          "title": "125 Nm in a drop-bar bike is a different kind of fast",
-          "link": "https://the-gadgeteer.com/2026/11/13/125-nm-in-a-drop-bar-bike-is-a-different-kind-of-fast/",
-          "published": "2026-11-14T03:03:03Z",
-          "summary": "Berria builds the Mistral Essential Apex around DJI\u2019s Avinox M2 drive, the system family behind a new wave of electric mountain bikes, and sells it in road and gravel versions at \u20ac3,499 each. The motor numbers lead the story here.\u2026",
           "is_signal": false
         },
         {
@@ -7848,56 +7939,54 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "November 20, 2026",
-        "generated_at": "2026-11-20T01:52:41.602292+00:00",
-        "advancing": 6,
-        "declining": 5,
+        "week_ending": "November 27, 2026",
+        "generated_at": "2026-11-27T03:06:55.514019+00:00",
+        "advancing": 8,
+        "declining": 2,
         "total": 11,
-        "avg_weekly_pct": 0.45,
+        "avg_weekly_pct": 0.85,
         "top_gainers": [
           {
-            "ticker": "SHO",
-            "name": "Sunstone Hotel Investors",
-            "price": 13.17,
-            "weekly_pct": 2.97
+            "ticker": "APLE",
+            "name": "Apple Hospitality REIT",
+            "price": 19.58,
+            "weekly_pct": 2.67
           },
           {
-            "ticker": "INN",
-            "name": "Summit Hotel Properties",
-            "price": 7.29,
-            "weekly_pct": 1.67
-          },
-          {
-            "ticker": "XHR",
-            "name": "Xenia Hotels & Resorts",
-            "price": 22.14,
-            "weekly_pct": 1.42
-          }
-        ],
-        "top_losers": [
-          {
-            "ticker": "CLDT",
-            "name": "Chatham Lodging Trust",
-            "price": 15.92,
-            "weekly_pct": -2.09
+            "ticker": "RHP",
+            "name": "Ryman Hospitality Properties",
+            "price": 135.97,
+            "weekly_pct": 1.9
           },
           {
             "ticker": "HST",
             "name": "Host Hotels & Resorts",
-            "price": 25.35,
-            "weekly_pct": -0.59
+            "price": 24.88,
+            "weekly_pct": 1.59
+          }
+        ],
+        "top_losers": [
+          {
+            "ticker": "XHR",
+            "name": "Xenia Hotels & Resorts",
+            "price": 21.66,
+            "weekly_pct": -0.51
           },
           {
             "ticker": "RLJ",
             "name": "RLJ Lodging Trust",
-            "price": 12.9,
-            "weekly_pct": -0.31
+            "price": 12.53,
+            "weekly_pct": -0.4
+          },
+          {
+            "ticker": "PEB",
+            "name": "Pebblebrook Hotel Trust",
+            "price": 21.27,
+            "weekly_pct": 0.0
           }
         ],
         "key_signals": [],
-        "broad_highlights": [
-          "Outrage as pets are given far more time to spend with mall's Santa than autistic children"
-        ]
+        "broad_highlights": []
       }
     },
     "netlease": {
@@ -7910,7 +7999,7 @@
           "prev_close": 28.96,
           "pct_change": 2.45,
           "market_cap": 6552558592,
-          "dividend_yield": 4.42,
+          "dividend_yield": 4.31,
           "fifty_two_week_high": 34.73,
           "fifty_two_week_low": 24.62,
           "next_earnings": "2027-02-10"
@@ -7922,7 +8011,7 @@
           "prev_close": 59.55,
           "pct_change": 1.18,
           "market_cap": 57459150848,
-          "dividend_yield": 5.52,
+          "dividend_yield": 5.46,
           "fifty_two_week_high": 67.94,
           "fifty_two_week_low": 53.15,
           "next_earnings": "2027-02-23"
@@ -7934,7 +8023,7 @@
           "prev_close": 41.88,
           "pct_change": 0.26,
           "market_cap": 8143958016,
-          "dividend_yield": 5.92,
+          "dividend_yield": 5.91,
           "fifty_two_week_high": 50.0,
           "fifty_two_week_low": 38.9,
           "next_earnings": "2027-02-11"
@@ -7946,7 +8035,7 @@
           "prev_close": 72.49,
           "pct_change": 1.14,
           "market_cap": 9564494848,
-          "dividend_yield": 4.49,
+          "dividend_yield": 4.44,
           "fifty_two_week_high": 82.08,
           "fifty_two_week_low": 64.34,
           "next_earnings": "2027-02-09"
@@ -7958,7 +8047,7 @@
           "prev_close": 23.42,
           "pct_change": 0.3,
           "market_cap": 2580869120,
-          "dividend_yield": 6.48,
+          "dividend_yield": 6.46,
           "fifty_two_week_high": 26.86,
           "fifty_two_week_low": 20.86,
           "next_earnings": "2027-02-10"
@@ -7970,7 +8059,7 @@
           "prev_close": 29.07,
           "pct_change": 0.17,
           "market_cap": 1954642560,
-          "dividend_yield": 6.88,
+          "dividend_yield": 6.87,
           "fifty_two_week_high": 36.83,
           "fifty_two_week_low": 27.08,
           "next_earnings": "2027-02-10"
@@ -7982,7 +8071,7 @@
           "prev_close": 19.23,
           "pct_change": 1.35,
           "market_cap": 2456434176,
-          "dividend_yield": 4.68,
+          "dividend_yield": 4.62,
           "fifty_two_week_high": 22.47,
           "fifty_two_week_low": 16.18,
           "next_earnings": "2027-02-09"
@@ -7994,7 +8083,7 @@
           "prev_close": 66.39,
           "pct_change": 0.66,
           "market_cap": 15378819072,
-          "dividend_yield": 5.72,
+          "dividend_yield": 5.69,
           "fifty_two_week_high": 77.22,
           "fifty_two_week_low": 62.19,
           "next_earnings": "2027-02-09"
@@ -8006,7 +8095,7 @@
           "prev_close": 24.77,
           "pct_change": 1.41,
           "market_cap": 27659270144,
-          "dividend_yield": 7.43,
+          "dividend_yield": 7.32,
           "fifty_two_week_high": 30.485,
           "fifty_two_week_low": 22.425,
           "next_earnings": "2026-10-28"
@@ -8018,7 +8107,7 @@
           "prev_close": 38.63,
           "pct_change": 0.98,
           "market_cap": 11679453184,
-          "dividend_yield": 8.49,
+          "dividend_yield": 8.41,
           "fifty_two_week_high": 49.95,
           "fifty_two_week_low": 37.33,
           "next_earnings": "2027-02-18"
@@ -8074,10 +8163,10 @@
           "company": "Realty Income",
           "source": "O",
           "category": "reit",
-          "title": "Turn $100,000 Into Lifetime Paychecks With These \u201cForever\u201d Passive Income Dividend Stocks",
-          "link": "https://247wallst.com/investing/2026/11/25/turn-100000-into-lifetime-paychecks-with-these-forever-passive-income-dividend-stocks/?.tsrc=rss",
-          "published": "Wed, 25 Nov 2026 15:02:41 +0000",
-          "summary": "Four blue-chip dividend payers, from a drugmaker to an oil giant, promise income that grows while you never add a dollar. One of them yields more than double the others, and the reason behind that gap might surprise you.",
+          "title": "A $400,000 Portfolio in Albertsons Companies, Edison International and Realty Income Pays $21,624 a Year in Dividends. Here\u2019s What Happens if One Cuts",
+          "link": "https://www.tikr.com/blog/a-400000-portfolio-in-albertsons-companies-edison-international-and-realty-income-pays-22494-a-year-in-dividends-heres-what-happens-if-one-cuts?ref=yahoofinancedividend&tlnk=yf-261126-gvg55xwg&.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 17:20:25 +0000",
+          "summary": "Key TakeawaysA hypothetical $400,000 portfolio split evenly across Albertsons Companies, Edison International and Realty Income pays about $21,600 a year in dividends, or about $1,800 a month. Realty Income\u2019s dividend has the least room on its own measure, at 75% of AFFO, but that\u2019s near the low end\u2026",
           "is_signal": true
         },
         {
@@ -8085,10 +8174,10 @@
           "company": "Realty Income",
           "source": "O",
           "category": "reit",
-          "title": "Realty Income Has Paid 677 Consecutive Monthly Dividends. Here's Why I'd Buy It in December.",
-          "link": "https://www.fool.com/investing/2026/11/25/realty-income-has-paid-677-consecutive-monthly-dividends-heres-why-id-buy-it-in-december/?.tsrc=rss",
-          "published": "Wed, 25 Nov 2026 10:35:02 +0000",
-          "summary": "Realty Income offers generous, rising cash returns to income investors.",
+          "title": "Investing $500 a Month in Coca-Cola, Realty Income, and Altria Could Generate Over $1,000 in Monthly Dividend Income by 2046",
+          "link": "https://www.fool.com/investing/2026/11/26/investing-usd500-a-month-in-coca-cola-realty-income-and-altria-could-generate-over-usd1-000-in-monthly-dividend-income-by-2046/?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 14:51:02 +0000",
+          "summary": "As the old adage goes, slow and steady wins the race. And as another adage reminds us, quality pays for itself.",
           "is_signal": true
         },
         {
@@ -8096,10 +8185,10 @@
           "company": "Realty Income",
           "source": "O",
           "category": "reit",
-          "title": "Realty Income (O) Raises Dividend And 2026 Guidance, Is The Upside Already Priced In?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/realty-income-o-raises-dividend-232728653.html?.tsrc=rss",
-          "published": "Tue, 24 Nov 2026 23:27:28 +0000",
-          "summary": "Realty Income (O) just paired a fresh dividend increase with higher 2026 guidance, a combination that matters for anyone treating this REIT as a core income holding. Realty Income\u2019s recent signals are landing against a backdrop of steady share price momentum, with a 7 day share price return of 2.6% \u2026",
+          "title": "Investors 50 and Older Can Put $8,600 Into a Roth IRA in 2026 to Build Tax-Free Dividend Income",
+          "link": "https://247wallst.com/investing/2026/11/26/investors-50-and-older-can-put-8600-into-a-roth-ira-in-2026-to-build-tax-free-dividend-income/?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 13:07:40 +0000",
+          "summary": "Four household-name dividend stocks can quietly hand the IRS a four-figure bill every year, and one of them does most of the damage. Investors over 50 hold a special tool to fight back, but income limits can shut some couples out.",
           "is_signal": true
         },
         {
@@ -8107,10 +8196,10 @@
           "company": "Realty Income",
           "source": "O",
           "category": "reit",
-          "title": "Here\u2019s How Many Shares of Realty Income You\u2019d Need for $100 in Monthly Dividends",
-          "link": "https://www.fool.com/investing/2026/11/24/heres-how-shares-realty-income-youd-need-100-monthly-dividends/?.tsrc=rss",
-          "published": "Tue, 24 Nov 2026 17:13:02 +0000",
-          "summary": "Realty Income's latest dividend raise lowered the bar for a $100 monthly check. Here's how many shares it takes now.",
+          "title": "Big Yields Are Easy to Find. These 4 Dividend Stocks Cover Theirs With Cash to Spare",
+          "link": "https://247wallst.com/investing/2026/11/26/big-yields-are-easy-to-find-these-4-dividend-stocks-cover-theirs-with-cash-to-spare/?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 13:03:11 +0000",
+          "summary": "A fat yield means little if the cash behind it runs thin. Four dividend payers, from a pipeline giant to a burger empire, pass a stricter test, though each carries one risk that could squeeze its next raise.",
           "is_signal": true
         },
         {
@@ -8206,6 +8295,17 @@
           "company": "Four Corners Property Trust",
           "source": "FCPT",
           "category": "reit",
+          "title": "A 70-Year-Old With $1,000,000 in RLI, Four Corners Property Trust and Fidelity National Information Services Collects $5,405 a Month in Dividends. How Safe Is Each Check?",
+          "link": "https://www.tikr.com/blog/a-70-year-old-with-1000000-in-rli-four-corners-property-trust-and-fidelity-national-information-services-collects-5508-a-month-in-dividends-how-safe-is-each-check?ref=yahoofinancedividend&tlnk=yf-261126-933rw7gf&.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 12:21:20 +0000",
+          "summary": "Key TakeawaysA hypothetical $1,000,000 split evenly across RLI, Four Corners Property Trust and Fidelity National Information Services pays about $64,900 a year in dividends at today\u2019s prices. Most of RLI\u2019s 6.",
+          "is_signal": true
+        },
+        {
+          "ticker": "FCPT",
+          "company": "Four Corners Property Trust",
+          "source": "FCPT",
+          "category": "reit",
           "title": "FCPT Announces Acquisition of a Vive Collision Property for $3.9 Million",
           "link": "https://finance.yahoo.com/real-estate/articles/fcpt-announces-acquisition-vive-collision-221600775.html?.tsrc=rss",
           "published": "Fri, 20 Nov 2026 22:16:00 +0000",
@@ -8232,17 +8332,6 @@
           "link": "https://www.marketbeat.com/instant-alerts/transcript-what-four-corners-property-trust-fcpt-said-on-its-q3-earnings-call-2026-10-30/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",
           "published": "Fri, 30 Oct 2026 13:14:38 +0000",
           "summary": "Four Corners Property Trust (NYSE:FCPT) reported record investment activity through the first nine months of 2026, while management said it is shifting capital-allocation priorities toward share repurchases as acquisition spreads have narrowed. President and CEO Bill Lenehan said the company acquir",
-          "is_signal": true
-        },
-        {
-          "ticker": "FCPT",
-          "company": "Four Corners Property Trust",
-          "source": "FCPT",
-          "category": "reit",
-          "title": "Four Corners Property Trust (FCPT) Q3 2026 Earnings Call Transcript",
-          "link": "https://www.fool.com/earnings/call-transcripts/2026/10/29/four-corners-property-trust-fcpt-q3-2026-earnings-call-transcript/?.tsrc=rss",
-          "published": "Thu, 29 Oct 2026 20:30:33 +0000",
-          "summary": "Record acquisition volume masks rising cap rate pressures as management pivots to buybacks.",
           "is_signal": true
         },
         {
@@ -8437,6 +8526,17 @@
           "company": "Gaming and Leisure Properties",
           "source": "GLPI",
           "category": "reit",
+          "title": "Gaming and Leisure Properties vs. Sun Communities: Which Dividend Stock Pays You More in 10 Years?",
+          "link": "https://www.tikr.com/blog/gaming-and-leisure-properties-vs-sun-communities-which-dividend-stock-pays-you-more-in-10-years?ref=yahoofinancedividend&tlnk=yf-261126-9phq84v9&.tsrc=rss",
+          "published": "Mon, 23 Nov 2026 22:26:55 +0000",
+          "summary": "Key TakeawaysGaming and Leisure Properties yields 8. 8% and Sun Communities 4.",
+          "is_signal": true
+        },
+        {
+          "ticker": "GLPI",
+          "company": "Gaming and Leisure Properties",
+          "source": "GLPI",
+          "category": "reit",
           "title": "Better Dividend Stock: Gaming and Leisure Properties vs. Equity LifeStyle Properties",
           "link": "https://www.tikr.com/blog/better-dividend-stock-gaming-and-leisure-properties-vs-equity-lifestyle-properties?ref=yahoofinancedividend&tlnk=yf-261125-4pv2w3r4&.tsrc=rss",
           "published": "Mon, 23 Nov 2026 22:25:55 +0000",
@@ -8452,17 +8552,6 @@
           "link": "https://www.tikr.com/blog/better-dividend-stock-for-retirees-gaming-and-leisure-properties-vs-camden-property-trust?ref=yahoofinancedividend&tlnk=yf-261124-6m2f9xmh&.tsrc=rss",
           "published": "Mon, 23 Nov 2026 22:25:42 +0000",
           "summary": "Key TakeawaysGaming and Leisure Properties yields 8. 8% at today\u2019s prices, nearly twice Camden Property Trust\u2019s 4.",
-          "is_signal": true
-        },
-        {
-          "ticker": "GLPI",
-          "company": "Gaming and Leisure Properties",
-          "source": "GLPI",
-          "category": "reit",
-          "title": "Gaming and Leisure Properties Announces Pricing of $600,000,000 of 6.250% Senior Notes Due 2031",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/gaming-leisure-properties-announces-pricing-231200697.html?.tsrc=rss",
-          "published": "Thu, 19 Nov 2026 23:12:00 +0000",
-          "summary": "WYOMISSING, Pa., Nov. 19, 2026 (GLOBE NEWSWIRE) -- Gaming and Leisure Properties, Inc. (\u201cGLPI\u201d) (NASDAQ: GLPI) today announced the pricing of a public offering of $600,000,000 aggregate principal amount of senior notes due 2031 (the \u201cNotes\u201d), to be issued by its operating partnership, GLP Capital, L\u2026",
           "is_signal": true
         },
         {
@@ -8646,6 +8735,17 @@
           "company": null,
           "source": "Hipersonica.com",
           "category": "broad",
+          "title": "Adi\u00f3s a Delano Smith, no te pegues por Big Thief, el western de Spielberg y PTA...",
+          "link": "https://www.hipersonica.com/p/adios-a-delano-smith-no-te-pegues",
+          "published": "2026-11-25T05:21:22Z",
+          "summary": "...y otras noticias con las que ponerse al d\u00eda",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Hipersonica.com",
+          "category": "broad",
           "title": "La resurrecci\u00f3n de Bradford Cox (a trav\u00e9s de la muerte), el retorno de Carolina Durante, el gesto de Portishead...",
           "link": "https://www.hipersonica.com/p/la-resurreccion-de-bradford-cox-a",
           "published": "2026-11-23T05:01:24Z",
@@ -8738,17 +8838,6 @@
           "link": "https://pypi.org/project/blastingpy/",
           "published": "2026-11-16T04:35:57Z",
           "summary": "Blast vibration, airblast, flyrock and near-field analysis for mining. C++ core, Python API",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Gadgeteer",
-          "category": "broad",
-          "title": "125 Nm in a drop-bar bike is a different kind of fast",
-          "link": "https://the-gadgeteer.com/2026/11/13/125-nm-in-a-drop-bar-bike-is-a-different-kind-of-fast/",
-          "published": "2026-11-14T03:03:03Z",
-          "summary": "Berria builds the Mistral Essential Apex around DJI\u2019s Avinox M2 drive, the system family behind a new wave of electric mountain bikes, and sells it in road and gravel versions at \u20ac3,499 each. The motor numbers lead the story here.\u2026",
           "is_signal": false
         },
         {
@@ -9136,56 +9225,54 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "November 20, 2026",
-        "generated_at": "2026-11-20T01:52:42.435338+00:00",
-        "advancing": 4,
-        "declining": 6,
+        "week_ending": "November 27, 2026",
+        "generated_at": "2026-11-27T03:06:56.303322+00:00",
+        "advancing": 10,
+        "declining": 0,
         "total": 10,
-        "avg_weekly_pct": -0.7,
+        "avg_weekly_pct": 4.07,
         "top_gainers": [
-          {
-            "ticker": "ADC",
-            "name": "Agree Realty",
-            "price": 70.16,
-            "weekly_pct": 1.14
-          },
           {
             "ticker": "EPRT",
             "name": "Essential Properties Realty Trust",
-            "price": 28.07,
-            "weekly_pct": 1.04
+            "price": 29.67,
+            "weekly_pct": 6.8
           },
           {
-            "ticker": "WPC",
-            "name": "W. P. Carey",
-            "price": 66.04,
-            "weekly_pct": 0.56
+            "ticker": "NTST",
+            "name": "NETSTREIT Corp",
+            "price": 19.49,
+            "weekly_pct": 5.41
+          },
+          {
+            "ticker": "O",
+            "name": "Realty Income",
+            "price": 60.25,
+            "weekly_pct": 4.49
           }
         ],
         "top_losers": [
           {
-            "ticker": "VICI",
-            "name": "VICI Properties",
-            "price": 24.39,
-            "weekly_pct": -2.48
-          },
-          {
-            "ticker": "GLPI",
-            "name": "Gaming and Leisure Properties",
-            "price": 38.43,
-            "weekly_pct": -2.31
+            "ticker": "WPC",
+            "name": "W. P. Carey",
+            "price": 66.83,
+            "weekly_pct": 2.56
           },
           {
             "ticker": "FCPT",
             "name": "Four Corners Property Trust",
-            "price": 22.79,
-            "weekly_pct": -2.27
+            "price": 23.49,
+            "weekly_pct": 2.85
+          },
+          {
+            "ticker": "GTY",
+            "name": "Getty Realty",
+            "price": 29.12,
+            "weekly_pct": 2.9
           }
         ],
         "key_signals": [],
-        "broad_highlights": [
-          "Outrage as pets are given far more time to spend with mall's Santa than autistic children"
-        ]
+        "broad_highlights": []
       }
     },
     "tower": {
@@ -9198,7 +9285,7 @@
           "prev_close": 172.57,
           "pct_change": 1.25,
           "market_cap": 18246703104,
-          "dividend_yield": 2.9,
+          "dividend_yield": 2.86,
           "fifty_two_week_high": 224.46,
           "fifty_two_week_low": 156.6,
           "next_earnings": "2026-11-02"
@@ -9210,7 +9297,7 @@
           "prev_close": 182.83,
           "pct_change": 0.96,
           "market_cap": 85606113280,
-          "dividend_yield": 3.92,
+          "dividend_yield": 3.88,
           "fifty_two_week_high": 202.5,
           "fifty_two_week_low": 160.06,
           "next_earnings": "2027-02-23"
@@ -9222,7 +9309,7 @@
           "prev_close": 82.71,
           "pct_change": 1.11,
           "market_cap": 35582988288,
-          "dividend_yield": 5.14,
+          "dividend_yield": 5.08,
           "fifty_two_week_high": 95.07,
           "fifty_two_week_low": 65.32,
           "next_earnings": "2027-02-03"
@@ -9290,6 +9377,17 @@
           "company": "American Tower",
           "source": "AMT",
           "category": "reit",
+          "title": "American Tower (AMT) Up 0.5% Since Last Earnings Report: Can It Continue?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/american-tower-amt-0-5-153006806.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 15:30:06 +0000",
+          "summary": "American Tower (AMT) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+          "is_signal": true
+        },
+        {
+          "ticker": "AMT",
+          "company": "American Tower",
+          "source": "AMT",
+          "category": "reit",
           "title": "American Tower (AMT) Stock Could Be Undervalued Following Its 18% Five Year Slide",
           "link": "https://finance.yahoo.com/markets/stocks/articles/american-tower-amt-stock-could-151618211.html?.tsrc=rss",
           "published": "Wed, 25 Nov 2026 15:16:18 +0000",
@@ -9312,21 +9410,10 @@
           "company": "American Tower",
           "source": "AMT",
           "category": "reit",
-          "title": "American Tower or Essex Property Trust: The One Dividend Stock I\u2019d Hold for the Next 10 Years",
-          "link": "https://www.tikr.com/blog/american-tower-or-essex-property-trust-the-one-dividend-stock-id-hold-for-the-next-10-years?ref=yahoofinancedividend&tlnk=yf-261125-ffg8r965&.tsrc=rss",
-          "published": "Mon, 23 Nov 2026 22:26:10 +0000",
-          "summary": "Key TakeawaysAmerican Tower yields 4. 1% and Essex Property Trust yields 3.",
-          "is_signal": true
-        },
-        {
-          "ticker": "AMT",
-          "company": "American Tower",
-          "source": "AMT",
-          "category": "reit",
-          "title": "Better Dividend Stock for Retirees: American Tower vs. UDR",
-          "link": "https://www.tikr.com/blog/better-dividend-stock-for-retirees-american-tower-vs-udr?ref=yahoofinancedividend&tlnk=yf-261124-mg54j864&.tsrc=rss",
-          "published": "Mon, 23 Nov 2026 22:25:48 +0000",
-          "summary": "Key TakeawaysAmerican Tower yields 4. 1% and UDR yields 5.",
+          "title": "American Tower or Regency Centers: I Can Only Pick One Dividend Stock for the Next 10 Years. Here\u2019s Mine",
+          "link": "https://www.tikr.com/blog/american-tower-or-regency-centers-i-can-only-pick-one-dividend-stock-for-the-next-10-years-heres-mine?ref=yahoofinancedividend&tlnk=yf-261126-qg4m3p87&.tsrc=rss",
+          "published": "Mon, 23 Nov 2026 22:26:22 +0000",
+          "summary": "Key TakeawaysRegency Centers raised its quarterly dividend 6% on Nov. 3, and American Tower\u2019s third-quarter dividend was up 5% from a year earlier.",
           "is_signal": true
         },
         {
@@ -9378,6 +9465,17 @@
           "company": "Uniti Group",
           "source": "UNIT",
           "category": "reit",
+          "title": "Uniti Group (UNIT) Stock Fair Value Falls As Analysts Weigh Fiber Gains And Leverage",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/uniti-group-unit-stock-fair-021329882.html?.tsrc=rss",
+          "published": "Fri, 27 Nov 2026 02:13:29 +0000",
+          "summary": "Uniti Group now faces a lower assessed fair value, with the price target moving from US$9.66 to US$7.97, a cut of about 17%. This shift lines up with recent analyst commentary that highlights both improving fiber momentum and ongoing questions around leverage, free cash flow, and execution. As you r\u2026",
+          "is_signal": true
+        },
+        {
+          "ticker": "UNIT",
+          "company": "Uniti Group",
+          "source": "UNIT",
+          "category": "reit",
           "title": "Uniti Group Inc. to Present at the BofA Securities 2026 Leveraged Finance Conference",
           "link": "https://finance.yahoo.com/markets/stocks/articles/uniti-group-inc-present-bofa-211500394.html?.tsrc=rss",
           "published": "Tue, 24 Nov 2026 21:15:00 +0000",
@@ -9407,15 +9505,70 @@
           "is_signal": true
         },
         {
-          "ticker": "UNIT",
-          "company": "Uniti Group",
-          "source": "UNIT",
-          "category": "reit",
-          "title": "Uniti Group (UNIT) Suddenly Gets Hammered \u2014 Here\u2019s Why",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/uniti-group-unit-suddenly-gets-055749269.html?.tsrc=rss",
-          "published": "Wed, 18 Nov 2026 05:57:49 +0000",
-          "summary": "Uniti Group Inc. (NASDAQ:UNIT) is one of the 10 Stocks Investors Are Fleeing. Uniti Group saw its share price fall by 10.86 percent on Tuesday to finish at $4.27 apiece, as investors disposed of its shares amid the lack of fresh catalysts to support buying appetite. Last week, Uniti Group Inc. (NASD\u2026",
+          "ticker": null,
+          "company": null,
+          "source": "Fierce Wireless",
+          "category": "towers",
+          "title": "<a href=\"https://www.fierce-network.com/broadband/hyperscalers-lead-charge-400g-wavelength-services-adoption-says-omdia\" hreflang=\"en\">Hyperscalers lead the charge in 400G wavelength services adoption, says new research</a>",
+          "link": "https://www.fierce-network.com/broadband/hyperscalers-lead-charge-400g-wavelength-services-adoption-says-omdia",
+          "published": "Nov 24, 2026 5:14pm",
+          "summary": "Service providers expect hyperscalers to lead the charge in 400G wavelength services adoption, given that they led the coherent 400G adoption wave.",
           "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Fierce Wireless",
+          "category": "towers",
+          "title": "<a href=\"https://www.fierce-network.com/cloud/cujo-ai-takes-bite-out-fraudulent-web-shops\" hreflang=\"en\">Cujo AI aims to take a bite out of fraudulent web shops</a>",
+          "link": "https://www.fierce-network.com/cloud/cujo-ai-takes-bite-out-fraudulent-web-shops",
+          "published": "Nov 19, 2026 8:25pm",
+          "summary": "A JV between Comcast and Charter, Cujo AI is touting its shopping-scam protection that it claimed blocked about 2.1 million fake-shop threats between Aug. 7, when the service went live, and Oct. 31.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Fierce Wireless",
+          "category": "towers",
+          "title": "<a href=\"https://www.fierce-network.com/wireless/opinion-huawei-trial-verdict-us-scores-pyrrhic-victory\" hreflang=\"en\">Opinion: In the Huawei trial verdict, the US scores a Pyrrhic victory</a>",
+          "link": "https://www.fierce-network.com/wireless/opinion-huawei-trial-verdict-us-scores-pyrrhic-victory",
+          "published": "Nov 24, 2026 5:59pm",
+          "summary": "In a humiliating verdict, the U.S. government secured 10 convictions but failed to prove its defining allegation against Huawei: that the Chinese technology giant operated as a criminal racketeering enterprise.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Fierce Wireless",
+          "category": "towers",
+          "title": "<a href=\"https://www.fierce-network.com/cloud/lasers-steal-show-aois-second-hyperscaler-win\" hreflang=\"en\">Lasers steal the show in AOI's second hyperscaler win</a>",
+          "link": "https://www.fierce-network.com/cloud/lasers-steal-show-aois-second-hyperscaler-win",
+          "published": "Nov 24, 2026 3:50pm",
+          "summary": "A $1.5B transceiver deal grabbed the headlines, but AOI's laser diode supply is the bigger story for co-packaged optics.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Fierce Wireless",
+          "category": "towers",
+          "title": "<a href=\"https://www.fierce-network.com/broadband/spacex-declines-bead-awards-putting-state-broadband-offices-pickle\" hreflang=\"en\">SpaceX declines BEAD awards, putting state broadband offices in a pickle</a>",
+          "link": "https://www.fierce-network.com/broadband/spacex-declines-bead-awards-putting-state-broadband-offices-pickle",
+          "published": "Nov 24, 2026 1:10pm",
+          "summary": "By allowing SpaceX to remain in the BEAD program with a $0 award, other broadband competitors are prevented from bidding in those eligible locations.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "RCR Wireless",
+          "category": "towers",
+          "title": "ISAC, and the (5G version of the) 6G trick to make networks see",
+          "link": "https://rcrwireless.com/20261126/6g/isac-and-the-5g-version-of-the-6g-trick-to-make-networks-see",
+          "published": "Thu, 26 Nov 2026 13:18:44 +0000",
+          "summary": "ISAC is interesting for two reasons: it gives late-era 5G something genuinely new, rather than simply making existing networks faster; and it offers a route to develop and commercialize a&#8230;",
+          "is_signal": true
         },
         {
           "ticker": null,
@@ -9464,13 +9617,35 @@
         {
           "ticker": null,
           "company": null,
-          "source": "RCR Wireless",
+          "source": "Light Reading",
           "category": "towers",
-          "title": "Physical AI \u2013 and the (opposite) downlink problem (Telco Diary)",
-          "link": "https://rcrwireless.com/20261125/opinion/physical-ai-and-the-opposite-downlink-problem-telco-diary",
-          "published": "Wed, 25 Nov 2026 07:47:49 +0000",
-          "summary": "From the newsletter (November 24, sign-up or follow if you want it sooner): News today about Nokia\u2019s AI-RAN, StarHub\u2019s M&#38;A, Myriota\u2019s Series C, and Turkcell\u2019s 5G-A \u2013 but there&#8217;s discussion,&#8230;",
+          "title": "Eurobites: BT taps Anthropic and friends to offer cyber training to SMEs",
+          "link": "https://www.lightreading.com/security/eurobites-bt-taps-anthropic-and-friends-to-offer-cyber-training-to-smes",
+          "published": "Thu, 26 Nov 2026 12:20:50 GMT",
+          "summary": "Also in today's EMEA regional roundup: DE-CIX offers 'simplified' access to Oracle's EU Sovereign Cloud; Orange proposes closing BeTV platform; Ethio Telecom seeks Japanese collaboration.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "EE and Ericsson enhance London 5G by putting AI in the RAN",
+          "link": "https://www.lightreading.com/5g/ee-and-ericsson-enhance-london-5g-by-putting-ai-in-the-ran",
+          "published": "Thu, 26 Nov 2026 12:02:57 GMT",
+          "summary": "BT Group and its mobile brand EE have increased average download speed by 26% and spectral efficiency by over 13% with an AI software upgrade from Ericsson.",
           "is_signal": true
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Light Reading",
+          "category": "towers",
+          "title": "Donald Trump's misconduct hurts any US case against Huawei",
+          "link": "https://www.lightreading.com/regulatory-politics/donald-trump-s-misconduct-hurts-any-us-case-against-huawei",
+          "published": "Thu, 26 Nov 2026 08:30:00 GMT",
+          "summary": "Trump's intervention to reinstate Nvidia boss Jensen Huang undermines the campaign against Huawei, which was found guilty this week in the US of criminal charges.",
+          "is_signal": false
         },
         {
           "ticker": null,
@@ -9493,39 +9668,6 @@
           "published": "Wed, 25 Nov 2026 16:58:07 GMT",
           "summary": "The FCC has authorized for SpaceX to deploy up to 1 million 'Starmind' AI satellites, holding that the plan will meet the agency's orbital debris rules. #pressrelease",
           "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Light Reading",
-          "category": "towers",
-          "title": "Comcast's bill in WhereverTV patent case grows to $334M",
-          "link": "https://www.lightreading.com/cable-technology/comcast-s-bill-in-wherevertv-patent-case-grows-to-334m",
-          "published": "Wed, 25 Nov 2026 15:00:00 GMT",
-          "summary": "Comcast's financial exposure in the WhereverTV patent case rose to $334.31 million following the addition of interest and other costs. The cable operator said it intended to appeal when the original verdict was handed down in October.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Light Reading",
-          "category": "towers",
-          "title": "T-Mobile goes all-in to connect Las Vegas Grand Prix",
-          "link": "https://www.lightreading.com/5g/t-mobile-goes-all-in-to-connect-las-vegas-grand-prix",
-          "published": "Wed, 25 Nov 2026 14:00:00 GMT",
-          "summary": "T-Mobile's 5G network underpins nearly everything at the Las Vegas Grand Prix \u2013 from the live TV feed to ticketing, security, crowd monitoring and transportation \u2013 via a mix of network slicing and private and public connections.",
-          "is_signal": true
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Light Reading",
-          "category": "towers",
-          "title": "Eurobites: Openreach sounds ISDN warning as migration deadline nears",
-          "link": "https://www.lightreading.com/regulatory-politics/eurobites-openreach-sounds-isdn-warning-as-migration-deadline-nears",
-          "published": "Wed, 25 Nov 2026 12:55:29 GMT",
-          "summary": "Also in today's EMEA regional roundup: Swisscom reckons consumers will spend big on AI; Atos turns to Microsoft for 'sovereign' assist; young Brits have the hots for chatbots.",
-          "is_signal": false
         },
         {
           "ticker": null,
@@ -9653,6 +9795,17 @@
           "company": null,
           "source": "Hipersonica.com",
           "category": "broad",
+          "title": "Adi\u00f3s a Delano Smith, no te pegues por Big Thief, el western de Spielberg y PTA...",
+          "link": "https://www.hipersonica.com/p/adios-a-delano-smith-no-te-pegues",
+          "published": "2026-11-25T05:21:22Z",
+          "summary": "...y otras noticias con las que ponerse al d\u00eda",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Hipersonica.com",
+          "category": "broad",
           "title": "La resurrecci\u00f3n de Bradford Cox (a trav\u00e9s de la muerte), el retorno de Carolina Durante, el gesto de Portishead...",
           "link": "https://www.hipersonica.com/p/la-resurreccion-de-bradford-cox-a",
           "published": "2026-11-23T05:01:24Z",
@@ -9745,17 +9898,6 @@
           "link": "https://pypi.org/project/blastingpy/",
           "published": "2026-11-16T04:35:57Z",
           "summary": "Blast vibration, airblast, flyrock and near-field analysis for mining. C++ core, Python API",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Gadgeteer",
-          "category": "broad",
-          "title": "125 Nm in a drop-bar bike is a different kind of fast",
-          "link": "https://the-gadgeteer.com/2026/11/13/125-nm-in-a-drop-bar-bike-is-a-different-kind-of-fast/",
-          "published": "2026-11-14T03:03:03Z",
-          "summary": "Berria builds the Mistral Essential Apex around DJI\u2019s Avinox M2 drive, the system family behind a new wave of electric mountain bikes, and sells it in road and gravel versions at \u20ac3,499 each. The motor numbers lead the story here.\u2026",
           "is_signal": false
         },
         {
@@ -10080,56 +10222,54 @@
         ]
       },
       "weekly_report": {
-        "week_ending": "November 20, 2026",
-        "generated_at": "2026-11-20T01:52:42.766073+00:00",
-        "advancing": 0,
-        "declining": 4,
+        "week_ending": "November 27, 2026",
+        "generated_at": "2026-11-27T03:06:56.619727+00:00",
+        "advancing": 4,
+        "declining": 0,
         "total": 4,
-        "avg_weekly_pct": -10.22,
+        "avg_weekly_pct": 2.49,
         "top_gainers": [
           {
-            "ticker": "AMT",
-            "name": "American Tower",
-            "price": 184.82,
-            "weekly_pct": -3.56
+            "ticker": "SBAC",
+            "name": "SBA Communications",
+            "price": 174.73,
+            "weekly_pct": 2.99
+          },
+          {
+            "ticker": "UNIT",
+            "name": "Uniti Group",
+            "price": 3.99,
+            "weekly_pct": 2.97
           },
           {
             "ticker": "CCI",
             "name": "Crown Castle",
-            "price": 83.94,
-            "weekly_pct": -7.59
-          },
-          {
-            "ticker": "SBAC",
-            "name": "SBA Communications",
-            "price": 173.41,
-            "weekly_pct": -8.42
+            "price": 83.63,
+            "weekly_pct": 2.09
           }
         ],
         "top_losers": [
           {
-            "ticker": "UNIT",
-            "name": "Uniti Group",
-            "price": 3.84,
-            "weekly_pct": -21.31
-          },
-          {
-            "ticker": "SBAC",
-            "name": "SBA Communications",
-            "price": 173.41,
-            "weekly_pct": -8.42
+            "ticker": "AMT",
+            "name": "American Tower",
+            "price": 184.59,
+            "weekly_pct": 1.9
           },
           {
             "ticker": "CCI",
             "name": "Crown Castle",
-            "price": 83.94,
-            "weekly_pct": -7.59
+            "price": 83.63,
+            "weekly_pct": 2.09
+          },
+          {
+            "ticker": "UNIT",
+            "name": "Uniti Group",
+            "price": 3.99,
+            "weekly_pct": 2.97
           }
         ],
         "key_signals": [],
-        "broad_highlights": [
-          "Outrage as pets are given far more time to spend with mall's Santa than autistic children"
-        ]
+        "broad_highlights": []
       }
     },
     "office": {
@@ -10142,7 +10282,7 @@
           "prev_close": 62.68,
           "pct_change": 2.14,
           "market_cap": 11564646400,
-          "dividend_yield": 4.47,
+          "dividend_yield": 4.37,
           "fifty_two_week_high": 74.94,
           "fifty_two_week_low": 49.72,
           "next_earnings": "2027-01-26"
@@ -10154,7 +10294,7 @@
           "prev_close": 2.91,
           "pct_change": -0.34,
           "market_cap": 494627456,
-          "dividend_yield": 11.0,
+          "dividend_yield": 11.03,
           "fifty_two_week_high": 3.46,
           "fifty_two_week_low": 2.47,
           "next_earnings": "2027-02-02"
@@ -10166,7 +10306,7 @@
           "prev_close": 32.24,
           "pct_change": -0.59,
           "market_cap": 3713081344,
-          "dividend_yield": 3.97,
+          "dividend_yield": 3.99,
           "fifty_two_week_high": 38.9,
           "fifty_two_week_low": 27.06,
           "next_earnings": "2027-02-04"
@@ -10178,7 +10318,7 @@
           "prev_close": 29.78,
           "pct_change": 1.88,
           "market_cap": 4994742272,
-          "dividend_yield": 4.3,
+          "dividend_yield": 4.22,
           "fifty_two_week_high": 32.95,
           "fifty_two_week_low": 21.03,
           "next_earnings": "2027-02-04"
@@ -10190,7 +10330,7 @@
           "prev_close": 22.0,
           "pct_change": 0.09,
           "market_cap": 1079107968,
-          "dividend_yield": 8.18,
+          "dividend_yield": 8.17,
           "fifty_two_week_high": 25.96,
           "fifty_two_week_low": 20.95,
           "next_earnings": "2027-02-22"
@@ -10202,7 +10342,7 @@
           "prev_close": 5.17,
           "pct_change": 2.13,
           "market_cap": 1533359360,
-          "dividend_yield": 2.71,
+          "dividend_yield": 2.65,
           "fifty_two_week_high": 7.13,
           "fifty_two_week_low": 3.93,
           "next_earnings": "2027-02-23"
@@ -10226,7 +10366,7 @@
           "prev_close": 30.53,
           "pct_change": 0.59,
           "market_cap": 3449733120,
-          "dividend_yield": 6.55,
+          "dividend_yield": 6.51,
           "fifty_two_week_high": 35.44,
           "fifty_two_week_low": 20.45,
           "next_earnings": "2027-02-09"
@@ -10250,8 +10390,8 @@
           "prev_close": 35.09,
           "pct_change": 1.88,
           "market_cap": 4198571264,
-          "dividend_yield": 6.16,
-          "fifty_two_week_high": 43.58,
+          "dividend_yield": 6.04,
+          "fifty_two_week_high": 43.19,
           "fifty_two_week_low": 27.36,
           "next_earnings": "2027-02-08"
         },
@@ -10262,7 +10402,7 @@
           "prev_close": 2.23,
           "pct_change": 1.35,
           "market_cap": 128921048,
-          "dividend_yield": 3.59,
+          "dividend_yield": 3.54,
           "fifty_two_week_high": 3.05,
           "fifty_two_week_low": 1.89,
           "next_earnings": "2026-11-05"
@@ -10286,13 +10426,35 @@
           "prev_close": 47.3,
           "pct_change": 3.13,
           "market_cap": 3747203328,
-          "dividend_yield": 5.22,
+          "dividend_yield": 5.06,
           "fifty_two_week_high": 60.09,
           "fifty_two_week_low": 34.77,
           "next_earnings": "2027-01-27"
         }
       },
       "news": [
+        {
+          "ticker": "BXP",
+          "company": "BXP",
+          "source": "BXP",
+          "category": "reit",
+          "title": "Boston Properties (BXP) Stock May Be Below Fair Value On Cash Flow",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boston-properties-bxp-stock-may-181300449.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 18:13:00 +0000",
+          "summary": "Boston Properties, Inc. (BXP) has delivered a 31.2% share price gain over the past three years, yet the real question for you today is whether that market price lines up with the cash the business is expected to generate. With the stock last closing at US$64.02, the focus turns to what its cash flow\u2026",
+          "is_signal": false
+        },
+        {
+          "ticker": "BXP",
+          "company": "BXP",
+          "source": "BXP",
+          "category": "reit",
+          "title": "Boston Properties (BXP) Up 4.1% Since Last Earnings Report: Can It Continue?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/boston-properties-bxp-4-1-153007182.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 15:30:07 +0000",
+          "summary": "Boston Properties (BXP) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+          "is_signal": true
+        },
         {
           "ticker": "BXP",
           "company": "BXP",
@@ -10313,28 +10475,6 @@
           "link": "https://www.fool.com/earnings/takeaways/2026/11/13/bxp-3-key-takeaways-for-long-term-investors/?.tsrc=rss",
           "published": "Fri, 13 Nov 2026 18:05:02 +0000",
           "summary": "Pricing power is returning to premier office markets as limited new supply allows BXP raise rents on expiring leases.",
-          "is_signal": true
-        },
-        {
-          "ticker": "BXP",
-          "company": "BXP",
-          "source": "BXP",
-          "category": "reit",
-          "title": "4 Office REITs Paying Dividends Despite the Slump. Which Are Safest?",
-          "link": "https://247wallst.com/investing/2026/11/07/4-office-reits-paying-dividends-despite-the-slump-which-are-safest/?.tsrc=rss",
-          "published": "Sat, 07 Nov 2026 12:17:19 +0000",
-          "summary": "Remote work, looming lease expirations, and costly refinancing hang over office landlords, yet some still pay out yields up to 6%. We tested four dividends against cash earnings to see where the cushion is thick and where one thin payout rests on Manhattan leasing.",
-          "is_signal": true
-        },
-        {
-          "ticker": "BXP",
-          "company": "BXP",
-          "source": "BXP",
-          "category": "reit",
-          "title": "BXP Doubles Down on Development as It Sells Off Assets",
-          "link": "https://www.credaily.com/briefs/bxp-doubles-down-on-development-as-it-sells-off-assets/?.tsrc=rss",
-          "published": "Thu, 29 Oct 2026 16:25:14 +0000",
-          "summary": "BXP says new offices beat acquisitions on returns, with yields near 8% in New York and above 9% in D.C., funded by asset sales.",
           "is_signal": true
         },
         {
@@ -10474,6 +10614,17 @@
           "company": "Easterly Government Properties",
           "source": "DEA",
           "category": "reit",
+          "title": "Are Investors Undervaluing Easterly Government Properties (DEA) Right Now?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/investors-undervaluing-easterly-government-properties-134005355.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 13:40:05 +0000",
+          "summary": "Here at Zacks, our focus is on the proven Zacks Rank system, which emphasizes earnings estimates and estimate revisions to find great stocks. Nevertheless, we are always paying attention to the latest value, growth, and momentum trends to underscore strong picks.",
+          "is_signal": true
+        },
+        {
+          "ticker": "DEA",
+          "company": "Easterly Government Properties",
+          "source": "DEA",
+          "category": "reit",
           "title": "Easterly Government Properties (DEA) Upgraded to Buy: Here's Why",
           "link": "https://finance.yahoo.com/markets/stocks/articles/easterly-government-properties-dea-upgraded-160002222.html?.tsrc=rss",
           "published": "Wed, 25 Nov 2026 16:00:02 +0000",
@@ -10500,17 +10651,6 @@
           "link": "https://finance.yahoo.com/real-estate/articles/easterly-government-properties-participate-nareit-113000256.html?.tsrc=rss",
           "published": "Mon, 16 Nov 2026 11:30:00 +0000",
           "summary": "WASHINGTON, November 16, 2026--Easterly Government Properties, Inc. (NYSE: DEA) (the \"Company\" or \"Easterly\"), a fully integrated real estate investment trust focused primarily on the acquisition, development and management of Class A commercial properties leased to the U.S. Government and its adjac\u2026",
-          "is_signal": true
-        },
-        {
-          "ticker": "DEA",
-          "company": "Easterly Government Properties",
-          "source": "DEA",
-          "category": "reit",
-          "title": "Earnings Guidance Update Could Be A Game Changer For Easterly Government Properties (DEA)",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/earnings-guidance-could-game-changer-071218914.html?.tsrc=rss",
-          "published": "Sat, 07 Nov 2026 07:12:18 +0000",
-          "summary": "Easterly Government Properties reported third quarter 2026 basic and diluted earnings per share from continuing operations of US$0.11, with nine month earnings per share of US$0.20 compared with US$0.18 in the same period a year earlier. The company paired these results with fresh net income guidanc\u2026",
           "is_signal": true
         },
         {
@@ -10606,6 +10746,17 @@
           "company": "Highwoods Properties",
           "source": "HIW",
           "category": "reit",
+          "title": "Why Is Highwoods Properties (HIW) Up 5.1% Since Last Earnings Report?",
+          "link": "https://finance.yahoo.com/real-estate/articles/why-highwoods-properties-hiw-5-153012011.html?.tsrc=rss",
+          "published": "Thu, 26 Nov 2026 15:30:12 +0000",
+          "summary": "Highwoods Properties (HIW) reported earnings 30 days ago. What's next for the stock? We take a look at earnings estimates for some clues.",
+          "is_signal": true
+        },
+        {
+          "ticker": "HIW",
+          "company": "Highwoods Properties",
+          "source": "HIW",
+          "category": "reit",
           "title": "Highwoods Properties (HIW) Stock Seems Modestly Undervalued Despite A 111% 3 Year Run",
           "link": "https://finance.yahoo.com/real-estate/articles/highwoods-properties-hiw-stock-seems-110932013.html?.tsrc=rss",
           "published": "Thu, 19 Nov 2026 11:09:32 +0000",
@@ -10632,17 +10783,6 @@
           "link": "https://www.fool.com/earnings/call-transcripts/2026/10/28/highwoods-properties-hiw-q3-2026-earnings-call-transcript/?.tsrc=rss",
           "published": "Wed, 28 Oct 2026 19:43:57 +0000",
           "summary": "Sun Belt office REIT reports 87.5% occupancy and 29% GAAP rent growth amid limited supply.",
-          "is_signal": true
-        },
-        {
-          "ticker": "HIW",
-          "company": "Highwoods Properties",
-          "source": "HIW",
-          "category": "reit",
-          "title": "Highwoods Properties: Q3 Earnings Snapshot",
-          "link": "https://finance.yahoo.com/real-estate/articles/highwoods-properties-q3-earnings-snapshot-183422189.html?.tsrc=rss",
-          "published": "Wed, 28 Oct 2026 18:34:22 +0000",
-          "summary": "(AP) \u2014 Highwoods Properties Inc. (HIW) on Tuesday reported a key measure of profitability in its third quarter.",
           "is_signal": true
         },
         {
@@ -10870,6 +11010,17 @@
           "company": null,
           "source": "Bisnow CRE",
           "category": "office",
+          "title": "Google Buys King's Cross HQ For \u00a3500M: The London Deal Sheet",
+          "link": "https://www.bisnow.com/news/london/deal-sheet/google-buys-king-s-cross-hq-for-pound500m-the-london-deal-sheet",
+          "published": "Thu, 26 Nov 2026 14:15:41 -0500",
+          "summary": "Google buys 6 Pancras Square in King's Cross for \u00a3500M, plus major London housing, planning, funding and people moves.",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Bisnow CRE",
+          "category": "office",
           "title": "Florida Slashed Homestead Taxes. Commercial Real Estate Could Pay The Price",
           "link": "https://www.bisnow.com/news/south-florida/economy/florida-amendment-3-property-taxes-commercial-real-estate-impact",
           "published": "Wed, 25 Nov 2026 18:47:22 -0500",
@@ -10907,17 +11058,6 @@
           "link": "https://www.bisnow.com/news/denver/multifamily/legislation-negatively-impacts-denver-s-multifamily-market",
           "published": "Wed, 25 Nov 2026 16:58:40 -0500",
           "summary": "Denver\u2019s multifamily market faces oversupply, weak job growth and regulation, pushing investors and capital to more business-friendly states.",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "Bisnow CRE",
-          "category": "office",
-          "title": "Challenge To Mamdani's Rent Freeze Thrown Out By Judge",
-          "link": "https://www.bisnow.com/news/new-york/affordable-housing/challenge-to-mamdani-rent-freeze-thrown-out-by-judge",
-          "published": "Wed, 25 Nov 2026 16:31:34 -0500",
-          "summary": "Landlords\u2019 lawsuit seeking to overturn the freeze was tossed, keeping the freeze for over 1 million NYC rent-stabilized apartments in place.",
           "is_signal": false
         },
         {
@@ -11046,6 +11186,17 @@
           "company": null,
           "source": "Hipersonica.com",
           "category": "broad",
+          "title": "Adi\u00f3s a Delano Smith, no te pegues por Big Thief, el western de Spielberg y PTA...",
+          "link": "https://www.hipersonica.com/p/adios-a-delano-smith-no-te-pegues",
+          "published": "2026-11-25T05:21:22Z",
+          "summary": "...y otras noticias con las que ponerse al d\u00eda",
+          "is_signal": false
+        },
+        {
+          "ticker": null,
+          "company": null,
+          "source": "Hipersonica.com",
+          "category": "broad",
           "title": "La resurrecci\u00f3n de Bradford Cox (a trav\u00e9s de la muerte), el retorno de Carolina Durante, el gesto de Portishead...",
           "link": "https://www.hipersonica.com/p/la-resurreccion-de-bradford-cox-a",
           "published": "2026-11-23T05:01:24Z",
@@ -11138,17 +11289,6 @@
           "link": "https://pypi.org/project/blastingpy/",
           "published": "2026-11-16T04:35:57Z",
           "summary": "Blast vibration, airblast, flyrock and near-field analysis for mining. C++ core, Python API",
-          "is_signal": false
-        },
-        {
-          "ticker": null,
-          "company": null,
-          "source": "The Gadgeteer",
-          "category": "broad",
-          "title": "125 Nm in a drop-bar bike is a different kind of fast",
-          "link": "https://the-gadgeteer.com/2026/11/13/125-nm-in-a-drop-bar-bike-is-a-different-kind-of-fast/",
-          "published": "2026-11-14T03:03:03Z",
-          "summary": "Berria builds the Mistral Essential Apex around DJI\u2019s Avinox M2 drive, the system family behind a new wave of electric mountain bikes, and sells it in road and gravel versions at \u20ac3,499 each. The motor numbers lead the story here.\u2026",
           "is_signal": false
         },
         {
@@ -11308,56 +11448,54 @@
       ],
       "focus_details": {},
       "weekly_report": {
-        "week_ending": "November 20, 2026",
-        "generated_at": "2026-11-20T01:52:43.954145+00:00",
-        "advancing": 5,
-        "declining": 8,
+        "week_ending": "November 27, 2026",
+        "generated_at": "2026-11-27T03:06:57.741040+00:00",
+        "advancing": 8,
+        "declining": 4,
         "total": 13,
-        "avg_weekly_pct": -0.97,
+        "avg_weekly_pct": 1.84,
         "top_gainers": [
-          {
-            "ticker": "ESRT",
-            "name": "Empire State Realty Trust",
-            "price": 5.55,
-            "weekly_pct": 4.72
-          },
-          {
-            "ticker": "KRC",
-            "name": "Kilroy Realty Corporation",
-            "price": 36.74,
-            "weekly_pct": 1.94
-          },
-          {
-            "ticker": "PDM",
-            "name": "Piedmont Realty Trust",
-            "price": 10.11,
-            "weekly_pct": 1.1
-          }
-        ],
-        "top_losers": [
-          {
-            "ticker": "ONL",
-            "name": "Orion Properties Inc.",
-            "price": 2.39,
-            "weekly_pct": -8.43
-          },
           {
             "ticker": "HPP",
             "name": "Hudson Pacific Properties",
-            "price": 8.53,
-            "weekly_pct": -3.72
+            "price": 8.51,
+            "weekly_pct": 7.72
           },
           {
             "ticker": "SLG",
             "name": "SL Green Realty Corp.",
-            "price": 47.77,
-            "weekly_pct": -2.51
+            "price": 48.78,
+            "weekly_pct": 6.16
+          },
+          {
+            "ticker": "CUZ",
+            "name": "Cousins Properties",
+            "price": 30.34,
+            "weekly_pct": 5.2
+          }
+        ],
+        "top_losers": [
+          {
+            "ticker": "ESRT",
+            "name": "Empire State Realty Trust",
+            "price": 5.28,
+            "weekly_pct": -2.04
+          },
+          {
+            "ticker": "CDP",
+            "name": "COPT Defense Properties",
+            "price": 32.05,
+            "weekly_pct": -1.11
+          },
+          {
+            "ticker": "BDN",
+            "name": "Brandywine Realty Trust",
+            "price": 2.9,
+            "weekly_pct": -0.68
           }
         ],
         "key_signals": [],
-        "broad_highlights": [
-          "Outrage as pets are given far more time to spend with mall's Santa than autistic children"
-        ]
+        "broad_highlights": []
       }
     },
     "overview": {
@@ -11370,7 +11508,7 @@
           "prev_close": 38.35,
           "pct_change": 0.5,
           "market_cap": 9930137600,
-          "dividend_yield": 4.07,
+          "dividend_yield": 4.05,
           "fifty_two_week_high": 43.62,
           "fifty_two_week_low": 34.74,
           "next_earnings": "2027-02-18"
@@ -11382,7 +11520,7 @@
           "prev_close": 245.14,
           "pct_change": 0.42,
           "market_cap": 180600061952,
-          "dividend_yield": 1.39,
+          "dividend_yield": 1.38,
           "fifty_two_week_high": 255.2,
           "fifty_two_week_low": 181.47,
           "next_earnings": "2027-02-09"
@@ -11394,7 +11532,7 @@
           "prev_close": 87.17,
           "pct_change": 0.22,
           "market_cap": 46197714944,
-          "dividend_yield": 2.39,
+          "dividend_yield": 2.38,
           "fifty_two_week_high": 101.6,
           "fifty_two_week_low": 73.82,
           "next_earnings": "2027-02-03"
@@ -11406,7 +11544,7 @@
           "prev_close": 20.37,
           "pct_change": 1.67,
           "market_cap": 15035847680,
-          "dividend_yield": 5.99,
+          "dividend_yield": 5.89,
           "fifty_two_week_high": 22.95,
           "fifty_two_week_low": 15.7,
           "next_earnings": "2027-02-01"
@@ -11418,7 +11556,7 @@
           "prev_close": 59.75,
           "pct_change": 0.82,
           "market_cap": 13979802624,
-          "dividend_yield": 1.67,
+          "dividend_yield": 1.66,
           "fifty_two_week_high": 60.69,
           "fifty_two_week_low": 44.81,
           "next_earnings": "2026-11-05"
@@ -11430,7 +11568,7 @@
           "prev_close": 42.0,
           "pct_change": 2.6,
           "market_cap": 7504582144,
-          "dividend_yield": 6.86,
+          "dividend_yield": 6.68,
           "fifty_two_week_high": 59.76,
           "fifty_two_week_low": 38.34,
           "next_earnings": "2027-01-25"
@@ -11442,7 +11580,7 @@
           "prev_close": 20.17,
           "pct_change": 1.39,
           "market_cap": 7097796608,
-          "dividend_yield": 4.76,
+          "dividend_yield": 4.69,
           "fifty_two_week_high": 22.04,
           "fifty_two_week_low": 16.31,
           "next_earnings": "2027-02-11"
@@ -11454,7 +11592,7 @@
           "prev_close": 21.03,
           "pct_change": 0.62,
           "market_cap": 5543104512,
-          "dividend_yield": 5.71,
+          "dividend_yield": 5.67,
           "fifty_two_week_high": 22.77,
           "fifty_two_week_low": 17.54,
           "next_earnings": "2027-02-11"
@@ -11466,7 +11604,7 @@
           "prev_close": 62.9,
           "pct_change": 0.89,
           "market_cap": 3116548096,
-          "dividend_yield": 5.98,
+          "dividend_yield": 5.93,
           "fifty_two_week_high": 91.38,
           "fifty_two_week_low": 59.05,
           "next_earnings": "2026-11-09"
@@ -11478,7 +11616,7 @@
           "prev_close": 47.06,
           "pct_change": 0.62,
           "market_cap": 15068268544,
-          "dividend_yield": 5.78,
+          "dividend_yield": 5.74,
           "fifty_two_week_high": 52.39,
           "fifty_two_week_low": 42.18,
           "next_earnings": "2027-02-03"
@@ -11490,7 +11628,7 @@
           "prev_close": 43.66,
           "pct_change": -0.76,
           "market_cap": 2434785024,
-          "dividend_yield": 5.22,
+          "dividend_yield": 5.26,
           "fifty_two_week_high": 46.92,
           "fifty_two_week_low": 33.64,
           "next_earnings": "2027-02-23"
@@ -11514,7 +11652,7 @@
           "prev_close": 14.61,
           "pct_change": 0.14,
           "market_cap": 420457184,
-          "dividend_yield": 11.07,
+          "dividend_yield": 11.06,
           "fifty_two_week_high": 19.165,
           "fifty_two_week_low": 12.58,
           "next_earnings": "2027-02-16"
@@ -11526,7 +11664,7 @@
           "prev_close": 38.6,
           "pct_change": 0.16,
           "market_cap": 537361984,
-          "dividend_yield": 7.77,
+          "dividend_yield": 7.76,
           "fifty_two_week_high": 46.3,
           "fifty_two_week_low": 36.07,
           "next_earnings": "2026-10-27"
@@ -11538,7 +11676,7 @@
           "prev_close": 12.41,
           "pct_change": 2.18,
           "market_cap": 716665984,
-          "dividend_yield": 5.48,
+          "dividend_yield": 5.36,
           "fifty_two_week_high": 14.75,
           "fifty_two_week_low": 11.65,
           "next_earnings": "2027-02-18"
@@ -11550,7 +11688,7 @@
           "prev_close": 25.58,
           "pct_change": 1.95,
           "market_cap": 4330529792,
-          "dividend_yield": 12.35,
+          "dividend_yield": 12.12,
           "fifty_two_week_high": 32.595,
           "fifty_two_week_low": 21.07,
           "next_earnings": "2026-10-27"
@@ -11562,7 +11700,7 @@
           "prev_close": 275.58,
           "pct_change": 1.32,
           "market_cap": 19266035712,
-          "dividend_yield": 3.76,
+          "dividend_yield": 3.71,
           "fifty_two_week_high": 303.35,
           "fifty_two_week_low": 238.46,
           "next_earnings": "2027-02-03"
@@ -11574,7 +11712,7 @@
           "prev_close": 115.84,
           "pct_change": 1.52,
           "market_cap": 13985369088,
-          "dividend_yield": 5.28,
+          "dividend_yield": 5.2,
           "fifty_two_week_high": 144.41,
           "fifty_two_week_low": 111.71,
           "next_earnings": "2027-02-03"
@@ -11586,7 +11724,7 @@
           "prev_close": 36.17,
           "pct_change": 1.38,
           "market_cap": 13310797824,
-          "dividend_yield": 4.81,
+          "dividend_yield": 4.75,
           "fifty_two_week_high": 42.0,
           "fifty_two_week_low": 33.1,
           "next_earnings": "2027-02-10"
@@ -11598,7 +11736,7 @@
           "prev_close": 97.84,
           "pct_change": 1.44,
           "market_cap": 9931915264,
-          "dividend_yield": 4.33,
+          "dividend_yield": 4.27,
           "fifty_two_week_high": 119.81,
           "fifty_two_week_low": 94.9,
           "next_earnings": "2027-02-04"
@@ -11610,7 +11748,7 @@
           "prev_close": 14.84,
           "pct_change": 0.88,
           "market_cap": 3619916288,
-          "dividend_yield": 4.85,
+          "dividend_yield": 4.81,
           "fifty_two_week_high": 17.79,
           "fifty_two_week_low": 14.33,
           "next_earnings": "2027-02-10"
@@ -11622,7 +11760,7 @@
           "prev_close": 56.21,
           "pct_change": 1.19,
           "market_cap": 1962418304,
-          "dividend_yield": 5.48,
+          "dividend_yield": 5.41,
           "fifty_two_week_high": 69.61,
           "fifty_two_week_low": 52.0,
           "next_earnings": "2027-02-16"
@@ -11646,8 +11784,8 @@
           "prev_close": 14.99,
           "pct_change": 3.6,
           "market_cap": 801406976,
-          "dividend_yield": 14.14,
-          "fifty_two_week_high": 32.36,
+          "dividend_yield": 13.65,
+          "fifty_two_week_high": 31.985,
           "fifty_two_week_low": 14.14,
           "next_earnings": "2027-02-23"
         },
@@ -11658,7 +11796,7 @@
           "prev_close": 32.8,
           "pct_change": 1.8,
           "market_cap": 13610864640,
-          "dividend_yield": 4.02,
+          "dividend_yield": 3.95,
           "fifty_two_week_high": 35.07,
           "fifty_two_week_low": 27.22,
           "next_earnings": "2027-02-18"
@@ -11670,7 +11808,7 @@
           "prev_close": 27.24,
           "pct_change": 2.13,
           "market_cap": 16089728000,
-          "dividend_yield": 4.41,
+          "dividend_yield": 4.31,
           "fifty_two_week_high": 30.893,
           "fifty_two_week_low": 24.25,
           "next_earnings": "2027-02-17"
@@ -11682,7 +11820,7 @@
           "prev_close": 117.62,
           "pct_change": 0.61,
           "market_cap": 14685730816,
-          "dividend_yield": 3.81,
+          "dividend_yield": 3.79,
           "fifty_two_week_high": 137.85,
           "fifty_two_week_low": 109.77,
           "next_earnings": "2027-02-23"
@@ -11694,7 +11832,7 @@
           "prev_close": 62.39,
           "pct_change": 1.31,
           "market_cap": 12719869952,
-          "dividend_yield": 3.48,
+          "dividend_yield": 3.43,
           "fifty_two_week_high": 69.0,
           "fifty_two_week_low": 57.46,
           "next_earnings": "2027-01-27"
@@ -11706,7 +11844,7 @@
           "prev_close": 14.37,
           "pct_change": 0.49,
           "market_cap": 1237939584,
-          "dividend_yield": 6.26,
+          "dividend_yield": 6.23,
           "fifty_two_week_high": 16.77,
           "fifty_two_week_low": 13.81,
           "next_earnings": "2026-11-02"
@@ -11718,7 +11856,7 @@
           "prev_close": 85.0,
           "pct_change": 2.11,
           "market_cap": 20647362560,
-          "dividend_yield": 2.35,
+          "dividend_yield": 2.3,
           "fifty_two_week_high": 133.76,
           "fifty_two_week_low": 71.78,
           "next_earnings": "2026-12-15"
@@ -11731,7 +11869,7 @@
           "pct_change": -0.87,
           "market_cap": 675060416,
           "dividend_yield": 0,
-          "fifty_two_week_high": 6.246,
+          "fifty_two_week_high": 6.24,
           "fifty_two_week_low": 4.02,
           "next_earnings": "2027-01-28"
         },
@@ -11742,7 +11880,7 @@
           "prev_close": 67.37,
           "pct_change": -0.45,
           "market_cap": 7360730112,
-          "dividend_yield": 3.38,
+          "dividend_yield": 3.4,
           "fifty_two_week_high": 78.94,
           "fifty_two_week_low": 57.95,
           "next_earnings": "2027-02-03"
@@ -11754,7 +11892,7 @@
           "prev_close": 127.32,
           "pct_change": -0.23,
           "market_cap": 123507580928,
-          "dividend_yield": 3.36,
+          "dividend_yield": 3.37,
           "fifty_two_week_high": 153.35,
           "fifty_two_week_low": 122.18,
           "next_earnings": "2027-01-20"
@@ -11766,7 +11904,7 @@
           "prev_close": 200.56,
           "pct_change": 0.19,
           "market_cap": 10805477376,
-          "dividend_yield": 3.49,
+          "dividend_yield": 3.48,
           "fifty_two_week_high": 226.71,
           "fifty_two_week_low": 176.7,
           "next_earnings": "2027-02-03"
@@ -11779,7 +11917,7 @@
           "pct_change": -0.16,
           "market_cap": 8004901376,
           "dividend_yield": 4.73,
-          "fifty_two_week_high": 42.06,
+          "fifty_two_week_high": 41.96,
           "fifty_two_week_low": 32.14,
           "next_earnings": "2027-02-03"
         },
@@ -11790,7 +11928,7 @@
           "prev_close": 32.66,
           "pct_change": -0.29,
           "market_cap": 8101520896,
-          "dividend_yield": 6.53,
+          "dividend_yield": 6.54,
           "fifty_two_week_high": 45.75,
           "fifty_two_week_low": 30.88,
           "next_earnings": "2026-11-09"
@@ -11802,7 +11940,7 @@
           "prev_close": 55.15,
           "pct_change": 0.92,
           "market_cap": 7626744320,
-          "dividend_yield": 3.63,
+          "dividend_yield": 3.59,
           "fifty_two_week_high": 69.88,
           "fifty_two_week_low": 53.0,
           "next_earnings": "2027-02-10"
@@ -11814,7 +11952,7 @@
           "prev_close": 37.6,
           "pct_change": 0.93,
           "market_cap": 7467213824,
-          "dividend_yield": 4.12,
+          "dividend_yield": 4.08,
           "fifty_two_week_high": 42.61,
           "fifty_two_week_low": 35.14,
           "next_earnings": "2027-02-10"
@@ -11826,9 +11964,9 @@
           "prev_close": 16.09,
           "pct_change": 0.68,
           "market_cap": 4647753728,
-          "dividend_yield": 5.72,
+          "dividend_yield": 5.68,
           "fifty_two_week_high": 16.92,
-          "fifty_two_week_low": 10.49,
+          "fifty_two_week_low": 10.51,
           "next_earnings": "2027-02-18"
         },
         "IIPR": {
@@ -11838,7 +11976,7 @@
           "prev_close": 47.62,
           "pct_change": -0.42,
           "market_cap": 1307410176,
-          "dividend_yield": 15.96,
+          "dividend_yield": 16.03,
           "fifty_two_week_high": 65.38,
           "fifty_two_week_low": 44.853,
           "next_earnings": "2027-02-22"
@@ -11850,7 +11988,7 @@
           "prev_close": 5.71,
           "pct_change": 0.88,
           "market_cap": 385821120,
-          "dividend_yield": 5.25,
+          "dividend_yield": 5.21,
           "fifty_two_week_high": 9.43,
           "fifty_two_week_low": 5.13,
           "next_earnings": "2027-02-17"
@@ -11862,9 +12000,9 @@
           "prev_close": 24.1,
           "pct_change": 0.87,
           "market_cap": 7172845568,
-          "dividend_yield": 2.82,
+          "dividend_yield": 2.8,
           "fifty_two_week_high": 26.68,
-          "fifty_two_week_low": 16.88,
+          "fifty_two_week_low": 17.0,
           "next_earnings": "2027-02-18"
         },
         "SPG": {
@@ -11874,7 +12012,7 @@
           "prev_close": 229.83,
           "pct_change": 1.81,
           "market_cap": 88569421824,
-          "dividend_yield": 4.0,
+          "dividend_yield": 3.93,
           "fifty_two_week_high": 238.5,
           "fifty_two_week_low": 177.88,
           "next_earnings": "2027-02-01"
@@ -11886,9 +12024,9 @@
           "prev_close": 50.05,
           "pct_change": 1.02,
           "market_cap": 1564366336,
-          "dividend_yield": 5.0,
+          "dividend_yield": 4.94,
           "fifty_two_week_high": 60.4,
-          "fifty_two_week_low": 33.03,
+          "fifty_two_week_low": 33.22,
           "next_earnings": "2027-02-11"
         },
         "KIM": {
@@ -11898,7 +12036,7 @@
           "prev_close": 25.79,
           "pct_change": 1.01,
           "market_cap": 17309929472,
-          "dividend_yield": 4.34,
+          "dividend_yield": 4.3,
           "fifty_two_week_high": 26.65,
           "fifty_two_week_low": 19.76,
           "next_earnings": "2027-02-11"
@@ -11910,7 +12048,7 @@
           "prev_close": 74.94,
           "pct_change": 0.77,
           "market_cap": 14119464960,
-          "dividend_yield": 4.27,
+          "dividend_yield": 4.24,
           "fifty_two_week_high": 83.66,
           "fifty_two_week_low": 66.86,
           "next_earnings": "2027-02-04"
@@ -11922,7 +12060,7 @@
           "prev_close": 112.55,
           "pct_change": 1.51,
           "market_cap": 9888105472,
-          "dividend_yield": 4.12,
+          "dividend_yield": 4.06,
           "fifty_two_week_high": 128.21,
           "fifty_two_week_low": 95.44,
           "next_earnings": "2027-02-11"
@@ -11934,7 +12072,7 @@
           "prev_close": 30.85,
           "pct_change": 0.91,
           "market_cap": 9552934912,
-          "dividend_yield": 4.28,
+          "dividend_yield": 4.24,
           "fifty_two_week_high": 32.86,
           "fifty_two_week_low": 24.66,
           "next_earnings": "2027-02-03"
@@ -11946,7 +12084,7 @@
           "prev_close": 25.18,
           "pct_change": 1.55,
           "market_cap": 5197727744,
-          "dividend_yield": 4.61,
+          "dividend_yield": 4.54,
           "fifty_two_week_high": 29.92,
           "fifty_two_week_low": 22.1,
           "next_earnings": "2027-02-16"
@@ -11958,7 +12096,7 @@
           "prev_close": 40.97,
           "pct_change": 0.49,
           "market_cap": 5821437952,
-          "dividend_yield": 3.37,
+          "dividend_yield": 3.35,
           "fifty_two_week_high": 44.375,
           "fifty_two_week_low": 34.485,
           "next_earnings": "2027-02-04"
@@ -11970,7 +12108,7 @@
           "prev_close": 38.94,
           "pct_change": 0.41,
           "market_cap": 4673946112,
-          "dividend_yield": 3.21,
+          "dividend_yield": 3.2,
           "fifty_two_week_high": 42.53,
           "fifty_two_week_low": 31.13,
           "next_earnings": "2026-11-04"
@@ -11982,7 +12120,7 @@
           "prev_close": 20.72,
           "pct_change": 1.11,
           "market_cap": 3071432704,
-          "dividend_yield": 3.86,
+          "dividend_yield": 3.82,
           "fifty_two_week_high": 23.03,
           "fifty_two_week_low": 17.96,
           "next_earnings": "2027-02-09"
@@ -11994,7 +12132,7 @@
           "prev_close": 29.17,
           "pct_change": 0.55,
           "market_cap": 3561371648,
-          "dividend_yield": 2.33,
+          "dividend_yield": 2.32,
           "fifty_two_week_high": 32.15,
           "fifty_two_week_low": 22.33,
           "next_earnings": "2027-02-08"
@@ -12006,7 +12144,7 @@
           "prev_close": 20.97,
           "pct_change": 0.1,
           "market_cap": 2889938432,
-          "dividend_yield": 4.01,
+          "dividend_yield": 4.0,
           "fifty_two_week_high": 24.11,
           "fifty_two_week_low": 18.495,
           "next_earnings": "2027-02-10"
@@ -12018,7 +12156,7 @@
           "prev_close": 31.92,
           "pct_change": 0.34,
           "market_cap": 2497649152,
-          "dividend_yield": 3.13,
+          "dividend_yield": 3.12,
           "fifty_two_week_high": 37.22,
           "fifty_two_week_low": 27.69,
           "next_earnings": "2027-02-09"
@@ -12030,7 +12168,7 @@
           "prev_close": 21.72,
           "pct_change": -0.28,
           "market_cap": 2143711104,
-          "dividend_yield": 2.58,
+          "dividend_yield": 2.59,
           "fifty_two_week_high": 22.61,
           "fifty_two_week_low": 13.42,
           "next_earnings": "2027-02-23"
@@ -12042,7 +12180,7 @@
           "prev_close": 24.86,
           "pct_change": 0.08,
           "market_cap": 17280497664,
-          "dividend_yield": 3.22,
+          "dividend_yield": 3.21,
           "fifty_two_week_high": 26.19,
           "fifty_two_week_low": 17.04,
           "next_earnings": "2027-02-17"
@@ -12054,7 +12192,7 @@
           "prev_close": 136.38,
           "pct_change": -0.3,
           "market_cap": 9380544512,
-          "dividend_yield": 3.52,
+          "dividend_yield": 3.53,
           "fifty_two_week_high": 139.73,
           "fifty_two_week_low": 89.6,
           "next_earnings": "2027-02-22"
@@ -12066,7 +12204,7 @@
           "prev_close": 19.53,
           "pct_change": 0.26,
           "market_cap": 4622889472,
-          "dividend_yield": 4.92,
+          "dividend_yield": 4.9,
           "fifty_two_week_high": 20.25,
           "fifty_two_week_low": 11.355,
           "next_earnings": "2027-02-22"
@@ -12078,7 +12216,7 @@
           "prev_close": 16.02,
           "pct_change": -0.81,
           "market_cap": 3211085056,
-          "dividend_yield": 6.24,
+          "dividend_yield": 6.29,
           "fifty_two_week_high": 17.14,
           "fifty_two_week_low": 10.14,
           "next_earnings": "2026-11-04"
@@ -12090,7 +12228,7 @@
           "prev_close": 14.3,
           "pct_change": 0.28,
           "market_cap": 2944577280,
-          "dividend_yield": 3.08,
+          "dividend_yield": 3.07,
           "fifty_two_week_high": 14.85,
           "fifty_two_week_low": 8.6,
           "next_earnings": "2026-11-03"
@@ -12102,7 +12240,7 @@
           "prev_close": 12.92,
           "pct_change": -0.46,
           "market_cap": 2270755072,
-          "dividend_yield": 2.79,
+          "dividend_yield": 2.8,
           "fifty_two_week_high": 13.22,
           "fifty_two_week_low": 8.69,
           "next_earnings": "2026-11-06"
@@ -12126,7 +12264,7 @@
           "prev_close": 12.62,
           "pct_change": -0.71,
           "market_cap": 1918438144,
-          "dividend_yield": 4.75,
+          "dividend_yield": 4.79,
           "fifty_two_week_high": 13.4,
           "fifty_two_week_low": 7.15,
           "next_earnings": "2026-11-04"
@@ -12138,7 +12276,7 @@
           "prev_close": 7.34,
           "pct_change": -1.63,
           "market_cap": 872621248,
-          "dividend_yield": 4.36,
+          "dividend_yield": 4.43,
           "fifty_two_week_high": 7.53,
           "fifty_two_week_low": 3.98,
           "next_earnings": "2026-11-03"
@@ -12150,7 +12288,7 @@
           "prev_close": 15.85,
           "pct_change": -0.82,
           "market_cap": 769812736,
-          "dividend_yield": 2.52,
+          "dividend_yield": 2.54,
           "fifty_two_week_high": 16.61,
           "fifty_two_week_low": 6.41,
           "next_earnings": "2026-11-05"
@@ -12162,7 +12300,7 @@
           "prev_close": 28.96,
           "pct_change": 2.45,
           "market_cap": 6552558592,
-          "dividend_yield": 4.42,
+          "dividend_yield": 4.31,
           "fifty_two_week_high": 34.73,
           "fifty_two_week_low": 24.62,
           "next_earnings": "2027-02-10"
@@ -12174,7 +12312,7 @@
           "prev_close": 59.55,
           "pct_change": 1.18,
           "market_cap": 57459150848,
-          "dividend_yield": 5.52,
+          "dividend_yield": 5.46,
           "fifty_two_week_high": 67.94,
           "fifty_two_week_low": 53.15,
           "next_earnings": "2027-02-23"
@@ -12186,7 +12324,7 @@
           "prev_close": 41.88,
           "pct_change": 0.26,
           "market_cap": 8143958016,
-          "dividend_yield": 5.92,
+          "dividend_yield": 5.91,
           "fifty_two_week_high": 50.0,
           "fifty_two_week_low": 38.9,
           "next_earnings": "2027-02-11"
@@ -12198,7 +12336,7 @@
           "prev_close": 72.49,
           "pct_change": 1.14,
           "market_cap": 9564494848,
-          "dividend_yield": 4.49,
+          "dividend_yield": 4.44,
           "fifty_two_week_high": 82.08,
           "fifty_two_week_low": 64.34,
           "next_earnings": "2027-02-09"
@@ -12210,7 +12348,7 @@
           "prev_close": 23.42,
           "pct_change": 0.3,
           "market_cap": 2580869120,
-          "dividend_yield": 6.48,
+          "dividend_yield": 6.46,
           "fifty_two_week_high": 26.86,
           "fifty_two_week_low": 20.86,
           "next_earnings": "2027-02-10"
@@ -12222,7 +12360,7 @@
           "prev_close": 29.07,
           "pct_change": 0.17,
           "market_cap": 1954642560,
-          "dividend_yield": 6.88,
+          "dividend_yield": 6.87,
           "fifty_two_week_high": 36.83,
           "fifty_two_week_low": 27.08,
           "next_earnings": "2027-02-10"
@@ -12234,7 +12372,7 @@
           "prev_close": 19.23,
           "pct_change": 1.35,
           "market_cap": 2456434176,
-          "dividend_yield": 4.68,
+          "dividend_yield": 4.62,
           "fifty_two_week_high": 22.47,
           "fifty_two_week_low": 16.18,
           "next_earnings": "2027-02-09"
@@ -12246,7 +12384,7 @@
           "prev_close": 66.39,
           "pct_change": 0.66,
           "market_cap": 15378819072,
-          "dividend_yield": 5.72,
+          "dividend_yield": 5.69,
           "fifty_two_week_high": 77.22,
           "fifty_two_week_low": 62.19,
           "next_earnings": "2027-02-09"
@@ -12258,7 +12396,7 @@
           "prev_close": 24.77,
           "pct_change": 1.41,
           "market_cap": 27659270144,
-          "dividend_yield": 7.43,
+          "dividend_yield": 7.32,
           "fifty_two_week_high": 30.485,
           "fifty_two_week_low": 22.425,
           "next_earnings": "2026-10-28"
@@ -12270,7 +12408,7 @@
           "prev_close": 38.63,
           "pct_change": 0.98,
           "market_cap": 11679453184,
-          "dividend_yield": 8.49,
+          "dividend_yield": 8.41,
           "fifty_two_week_high": 49.95,
           "fifty_two_week_low": 37.33,
           "next_earnings": "2027-02-18"
@@ -12282,7 +12420,7 @@
           "prev_close": 172.57,
           "pct_change": 1.25,
           "market_cap": 18246703104,
-          "dividend_yield": 2.9,
+          "dividend_yield": 2.86,
           "fifty_two_week_high": 224.46,
           "fifty_two_week_low": 156.6,
           "next_earnings": "2026-11-02"
@@ -12294,7 +12432,7 @@
           "prev_close": 182.83,
           "pct_change": 0.96,
           "market_cap": 85606113280,
-          "dividend_yield": 3.92,
+          "dividend_yield": 3.88,
           "fifty_two_week_high": 202.5,
           "fifty_two_week_low": 160.06,
           "next_earnings": "2027-02-23"
@@ -12306,7 +12444,7 @@
           "prev_close": 82.71,
           "pct_change": 1.11,
           "market_cap": 35582988288,
-          "dividend_yield": 5.14,
+          "dividend_yield": 5.08,
           "fifty_two_week_high": 95.07,
           "fifty_two_week_low": 65.32,
           "next_earnings": "2027-02-03"
@@ -12330,7 +12468,7 @@
           "prev_close": 62.68,
           "pct_change": 2.14,
           "market_cap": 11564646400,
-          "dividend_yield": 4.47,
+          "dividend_yield": 4.37,
           "fifty_two_week_high": 74.94,
           "fifty_two_week_low": 49.72,
           "next_earnings": "2027-01-26"
@@ -12342,7 +12480,7 @@
           "prev_close": 2.91,
           "pct_change": -0.34,
           "market_cap": 494627456,
-          "dividend_yield": 11.0,
+          "dividend_yield": 11.03,
           "fifty_two_week_high": 3.46,
           "fifty_two_week_low": 2.47,
           "next_earnings": "2027-02-02"
@@ -12354,7 +12492,7 @@
           "prev_close": 32.24,
           "pct_change": -0.59,
           "market_cap": 3713081344,
-          "dividend_yield": 3.97,
+          "dividend_yield": 3.99,
           "fifty_two_week_high": 38.9,
           "fifty_two_week_low": 27.06,
           "next_earnings": "2027-02-04"
@@ -12366,7 +12504,7 @@
           "prev_close": 29.78,
           "pct_change": 1.88,
           "market_cap": 4994742272,
-          "dividend_yield": 4.3,
+          "dividend_yield": 4.22,
           "fifty_two_week_high": 32.95,
           "fifty_two_week_low": 21.03,
           "next_earnings": "2027-02-04"
@@ -12378,7 +12516,7 @@
           "prev_close": 22.0,
           "pct_change": 0.09,
           "market_cap": 1079107968,
-          "dividend_yield": 8.18,
+          "dividend_yield": 8.17,
           "fifty_two_week_high": 25.96,
           "fifty_two_week_low": 20.95,
           "next_earnings": "2027-02-22"
@@ -12390,7 +12528,7 @@
           "prev_close": 5.17,
           "pct_change": 2.13,
           "market_cap": 1533359360,
-          "dividend_yield": 2.71,
+          "dividend_yield": 2.65,
           "fifty_two_week_high": 7.13,
           "fifty_two_week_low": 3.93,
           "next_earnings": "2027-02-23"
@@ -12414,7 +12552,7 @@
           "prev_close": 30.53,
           "pct_change": 0.59,
           "market_cap": 3449733120,
-          "dividend_yield": 6.55,
+          "dividend_yield": 6.51,
           "fifty_two_week_high": 35.44,
           "fifty_two_week_low": 20.45,
           "next_earnings": "2027-02-09"
@@ -12438,8 +12576,8 @@
           "prev_close": 35.09,
           "pct_change": 1.88,
           "market_cap": 4198571264,
-          "dividend_yield": 6.16,
-          "fifty_two_week_high": 43.58,
+          "dividend_yield": 6.04,
+          "fifty_two_week_high": 43.19,
           "fifty_two_week_low": 27.36,
           "next_earnings": "2027-02-08"
         },
@@ -12450,7 +12588,7 @@
           "prev_close": 2.23,
           "pct_change": 1.35,
           "market_cap": 128921048,
-          "dividend_yield": 3.59,
+          "dividend_yield": 3.54,
           "fifty_two_week_high": 3.05,
           "fifty_two_week_low": 1.89,
           "next_earnings": "2026-11-05"
@@ -12474,7 +12612,7 @@
           "prev_close": 47.3,
           "pct_change": 3.13,
           "market_cap": 3747203328,
-          "dividend_yield": 5.22,
+          "dividend_yield": 5.06,
           "fifty_two_week_high": 60.09,
           "fifty_two_week_low": 34.77,
           "next_earnings": "2027-01-27"
@@ -12710,8 +12848,8 @@
           "prev_close": 14.99,
           "pct_change": 3.6,
           "market_cap": 801406976,
-          "dividend_yield": 14.14,
-          "fifty_two_week_high": 32.36,
+          "dividend_yield": 13.65,
+          "fifty_two_week_high": 31.985,
           "fifty_two_week_low": 14.14,
           "next_earnings": "2027-02-23"
         },
@@ -12722,7 +12860,7 @@
           "prev_close": 47.3,
           "pct_change": 3.13,
           "market_cap": 3747203328,
-          "dividend_yield": 5.22,
+          "dividend_yield": 5.06,
           "fifty_two_week_high": 60.09,
           "fifty_two_week_low": 34.77,
           "next_earnings": "2027-01-27"
@@ -12734,7 +12872,7 @@
           "prev_close": 42.0,
           "pct_change": 2.6,
           "market_cap": 7504582144,
-          "dividend_yield": 6.86,
+          "dividend_yield": 6.68,
           "fifty_two_week_high": 59.76,
           "fifty_two_week_low": 38.34,
           "next_earnings": "2027-01-25"
@@ -12746,7 +12884,7 @@
           "prev_close": 28.96,
           "pct_change": 2.45,
           "market_cap": 6552558592,
-          "dividend_yield": 4.42,
+          "dividend_yield": 4.31,
           "fifty_two_week_high": 34.73,
           "fifty_two_week_low": 24.62,
           "next_earnings": "2027-02-10"
@@ -12760,7 +12898,7 @@
           "prev_close": 7.34,
           "pct_change": -1.63,
           "market_cap": 872621248,
-          "dividend_yield": 4.36,
+          "dividend_yield": 4.43,
           "fifty_two_week_high": 7.53,
           "fifty_two_week_low": 3.98,
           "next_earnings": "2026-11-03"
@@ -12773,7 +12911,7 @@
           "pct_change": -0.87,
           "market_cap": 675060416,
           "dividend_yield": 0,
-          "fifty_two_week_high": 6.246,
+          "fifty_two_week_high": 6.24,
           "fifty_two_week_low": 4.02,
           "next_earnings": "2027-01-28"
         },
@@ -12784,7 +12922,7 @@
           "prev_close": 15.85,
           "pct_change": -0.82,
           "market_cap": 769812736,
-          "dividend_yield": 2.52,
+          "dividend_yield": 2.54,
           "fifty_two_week_high": 16.61,
           "fifty_two_week_low": 6.41,
           "next_earnings": "2026-11-05"
@@ -12796,7 +12934,7 @@
           "prev_close": 16.02,
           "pct_change": -0.81,
           "market_cap": 3211085056,
-          "dividend_yield": 6.24,
+          "dividend_yield": 6.29,
           "fifty_two_week_high": 17.14,
           "fifty_two_week_low": 10.14,
           "next_earnings": "2026-11-04"
@@ -12808,7 +12946,7 @@
           "prev_close": 43.66,
           "pct_change": -0.76,
           "market_cap": 2434785024,
-          "dividend_yield": 5.22,
+          "dividend_yield": 5.26,
           "fifty_two_week_high": 46.92,
           "fifty_two_week_low": 33.64,
           "next_earnings": "2027-02-23"
